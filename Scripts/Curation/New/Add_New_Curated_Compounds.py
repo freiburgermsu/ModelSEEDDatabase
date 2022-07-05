@@ -132,6 +132,7 @@ with open(args.compounds_file) as fh:
 
         cpd=dict()
         array=line.split('\t',len(Headers))
+        print(Headers, array)
         for i in range(len(Headers)):
             cpd[Headers[i].lower()]=array[i]
 
