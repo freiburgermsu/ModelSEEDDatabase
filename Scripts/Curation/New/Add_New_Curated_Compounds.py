@@ -24,9 +24,8 @@ if("message" in r and r["message"] == "Not Found"):
     print ("Github user "+curation_source+" does not exist.")
     sys.exit()
 
-sys.path.append('../../Libs/Python')
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../../Libs/Python'))
 from BiochemPy import Reactions, Compounds, InChIs
-
 compounds_helper = Compounds()
 compounds_dict = compounds_helper.loadCompounds()
 
@@ -132,6 +131,7 @@ with open(args.compounds_file) as fh:
 
         cpd=dict()
         array=line.split('\t',len(Headers))
+        print(len(Headers), len(array))
         for i in range(len(Headers)):
             cpd[Headers[i].lower()]=array[i]
 
