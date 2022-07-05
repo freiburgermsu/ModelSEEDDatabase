@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os, sys, re, copy
 import argparse, requests
-from csv import DictReader
+from csv import DictReader  # !!! import never used
 from collections import OrderedDict
 
 parser = argparse.ArgumentParser()
@@ -25,7 +25,8 @@ if("message" in r and r["message"] == "Not Found"):
     sys.exit()
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../../../Libs/Python'))
-from BiochemPy import Reactions, Compounds, InChIs
+from BiochemPy import Compounds
+
 compounds_helper = Compounds()
 compounds_dict = compounds_helper.loadCompounds()
 
@@ -131,15 +132,13 @@ with open(args.compounds_file) as fh:
 
         cpd=dict()
         array=line.split('\t',len(Headers))
-        print(len(Headers), len(array))
         for i in range(len(Headers)):
             cpd[Headers[i].lower()]=array[i]
 
         (matched_cpd,matched_src)=(None,None)
 
         #Check that the Structure doesn't already exist, first as InChI, then as SMILE
-        if(matched_cpd is None and 'inchi' in cpd and cpd['inchi'] in all_inchis):
-
+        if(matched_cpd is None and cpd['inchi'] and cpd['inchi'] in all_inchis):
             msids = dict()
             for alias in all_inchis[cpd['inchi']]:
 
@@ -155,8 +154,7 @@ with open(args.compounds_file) as fh:
                 matched_cpd=msids[0]
                 matched_src='InChI'
 
-        elif(matched_cpd is None and 'smile' in cpd and cpd['smile'] in all_smiles):
-
+        elif(matched_cpd is None and cpd['smile'] and cpd['smile'] in all_smiles):
             msids = dict()
             for alias in all_smiles[cpd['smile']]:
                 #The structures are taken from their sources and the corresponding alias may not yet be registered

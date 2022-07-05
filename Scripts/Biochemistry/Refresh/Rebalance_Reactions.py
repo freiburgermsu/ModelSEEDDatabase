@@ -3,7 +3,15 @@ import os, sys
 temp=list();
 header=1;
 
-sys.path.append('../../Libs/Python')
+dry_run = True
+if("save" in sys.argv):
+    dry_run = False
+
+print_charges = False
+if("print" in sys.argv):
+    print_charges = True
+
+sys.path.append('../../../Libs/Python')
 from BiochemPy import Reactions
 
 ReactionsHelper = Reactions()
@@ -15,7 +23,7 @@ for rxn in sorted(Reactions_Dict.keys()):
     if(Reactions_Dict[rxn]["status"] == "EMPTY"):
         continue
 
-    Rxn_Cpds_Array=ReactionsHelper.parseStoich(Reactions_Dict[rxn]["stoichiometry"])
+    Rxn_Cpds_Array=Reactions_Dict[rxn]["stoichiometry"]
     new_status = ReactionsHelper.balanceReaction(Rxn_Cpds_Array)
     old_status=Reactions_Dict[rxn]["status"]
 
@@ -29,8 +37,13 @@ for rxn in sorted(Reactions_Dict.keys()):
         status_file.write(rxn+"\t"+old_status+"\t"+new_status+"\n")
         Reactions_Dict[rxn]["status"]=new_status
         Update_Reactions+=1
+        if(print_charges is True):
+            for entry in Rxn_Cpds_Array:
+                print("\t".join(["\t",entry['compound'],str(entry['coefficient']), \
+                                     str(entry['charge']),entry['name']]))
 
 if(Update_Reactions>0):
-    print("Saving updated statuses for "+str(Update_Reactions)+" reactions")
-    ReactionsHelper.saveReactions(Reactions_Dict)
+    print("Updating statuses for "+str(Update_Reactions)+" reactions")
+    if(dry_run is False):
+        ReactionsHelper.saveReactions(Reactions_Dict)
 status_file.close()
