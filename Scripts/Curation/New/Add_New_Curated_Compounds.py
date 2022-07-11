@@ -125,7 +125,7 @@ Matched_Cpd_Count=dict()
 Headers=list()
 with open(args.compounds_file) as fh:
     for line in fh.readlines():
-        line=line.strip()
+        line=line.strip('\r')
         if(len(Headers)==0):
             Headers=line.split('\t')
             continue
