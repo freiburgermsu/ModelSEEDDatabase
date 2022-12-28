@@ -1158,7 +1158,7 @@
         "pka": "",
         "pkb": "",
         "smiles": "",
-        "source": "Orphan"
+        "source": "Primary Database"
     },
     {
         "abbreviation": "(+)-Bornyl-diphosphate",
@@ -9849,7 +9849,7 @@
         "pka": "",
         "pkb": "",
         "smiles": "",
-        "source": "Orphan"
+        "source": "Primary Database"
     },
     {
         "abbreviation": "Glycosyl-N-acylsphingosine",

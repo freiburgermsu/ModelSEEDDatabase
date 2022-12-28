@@ -1704,7 +1704,7 @@
         "pka": "",
         "pkb": "",
         "smiles": "",
-        "source": "Orphan"
+        "source": "Primary Database"
     },
     {
         "abbreviation": "L-Pro-L-boroPro",
@@ -20030,7 +20030,7 @@
         "pka": "",
         "pkb": "",
         "smiles": "",
-        "source": "Orphan"
+        "source": "Primary Database"
     },
     {
         "abbreviation": "Copachrome",
@@ -23743,7 +23743,7 @@
         "pka": "",
         "pkb": "",
         "smiles": "",
-        "source": "Orphan"
+        "source": "Primary Database"
     },
     {
         "abbreviation": "L-Selenocysteinyl-tRNA",
