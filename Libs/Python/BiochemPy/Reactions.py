@@ -231,8 +231,6 @@ class Reactions:
     def generateCodes(self, rxns_dict,check_obsolete=True):
         codes_dict=dict()
         for rxn in rxns_dict:
-            if(rxns_dict[rxn]['status']=="EMPTY"):
-                continue
             if(check_obsolete is False and rxns_dict[rxn]['is_obsolete']==1):
                 continue
             rxn_cpds_array = rxns_dict[rxn]['stoichiometry']
@@ -315,7 +313,7 @@ class Reactions:
 
         return new_rgts_array
 
-    def balanceReaction(self, rgts_array):
+    def balanceReaction(self, rgts_array, all_structures=False):
         if (len(rgts_array) == 0):
             return "EMPTY"
 
@@ -333,7 +331,7 @@ class Reactions:
             rgts_dict[rgt_str] += 1
 
         for rgt in rgts_dict.keys():
-            if (rgts_dict[rgt] > 1):
+            if (rgts_dict[rgt] > 1 and all_structures is False):
                 return "Duplicate reagents"
 
         ########################################
@@ -413,18 +411,18 @@ class Reactions:
             if (rxn_net_mass[atom] == 0):
                 continue
 
-            rxn_net_mass[atom] = "{0:.2f}".format(rxn_net_mass[atom])
+            rxn_net_mass[atom] = "{0:.3f}".format(rxn_net_mass[atom])
 
-            # Correct for redundant ".00" in floats
-            if (rxn_net_mass[atom][-3:] == ".00"):
+            # Correct for redundant ".000" in floats
+            if (rxn_net_mass[atom][-4:] == ".000"):
                 rxn_net_mass[atom] = str(int(float(rxn_net_mass[atom])))
     
             imbalanced_atoms_array.append(atom + ":" + rxn_net_mass[atom])
 
-        rxn_net_charge = "{0:.2f}".format(rxn_net_charge)
+        rxn_net_charge = "{0:.3f}".format(rxn_net_charge)
 
-        # Correct for redundant ".00" in floats
-        if (rxn_net_charge[-3:] == ".00"):
+        # Correct for redundant ".000" in floats
+        if (rxn_net_charge[-4:] == ".000"):
             rxn_net_charge = str(int(float(rxn_net_charge)))
 
         status = ""
