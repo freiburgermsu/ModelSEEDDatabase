@@ -1,0 +1,71 @@
+name: Alias (add)
+description: Add cross-references between a ModelSEED compound and external database IDs
+title: "[alias_add] "
+labels: ["manifest:alias_add"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Aliases drive nearly every downstream lookup (pKa, ΔG,
+        structure consolidation). Use this form to add one or two
+        new aliases for an existing ModelSEED compound.
+
+  - type: input
+    id: modelseed_id
+    attributes:
+      label: ModelSEED compound ID
+      placeholder: cpd00567
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source1
+    attributes:
+      label: First source
+      options:
+        - KEGG
+        - MetaCyc
+        - ChEBI
+        - Rhea
+        - BiGG
+        - metanetx.chemical
+    validations:
+      required: true
+
+  - type: input
+    id: external_id1
+    attributes:
+      label: First external ID
+      placeholder: "12345"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source2
+    attributes:
+      label: Second source (optional)
+      options:
+        - ""
+        - KEGG
+        - MetaCyc
+        - ChEBI
+        - Rhea
+        - BiGG
+        - metanetx.chemical
+    validations:
+      required: false
+
+  - type: input
+    id: external_id2
+    attributes:
+      label: Second external ID (optional)
+      placeholder: "GENERIC:67890"
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+    validations:
+      required: true

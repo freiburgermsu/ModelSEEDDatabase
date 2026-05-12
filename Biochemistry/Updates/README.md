@@ -22,25 +22,47 @@ artifact. A manifest:
   applied, so curation history is queryable without `git log`
   archaeology.
 
-## Workflow
+## Two paths in
+
+### Path A — Issue Form (no setup, no YAML, recommended for occasional edits)
+
+Open a new issue and pick the form that matches your change:
+
+- **Structure update** — fix a compound's InChI / SMILES / InChIKey
+- **ACP override (add)** — pin a formula/charge for an abstract compound
+- **Alias (add)** — add cross-references for an existing compound
+- **Ignore a source structure** — exclude a source's structure from
+  the cross-source picker
+
+Each form asks a handful of fields and adds a `manifest:<type>` label.
+A GitHub Action (`.github/workflows/manifest-from-issue.yml`) reads
+the issue body, turns it into a manifest YAML, opens a PR with that
+manifest, and posts the dry-run cascade plan in the PR description.
+A reviewer merges; the curator then runs the cascade locally (see
+Path B step 4).
+
+This path requires no local installation and produces the same
+canonical manifest a power user would write by hand.
+
+### Path B — Hand-written manifest (for power users / bulk edits)
 
 ```
-1. Curator writes <manifest>.yaml in this directory                            
-2. Curator runs:                                                                  
-    python Scripts/Updates/Apply_Manifest.py <manifest>.yaml [--dry-run]      
-3. Apply_Manifest reads the manifest, dispatches to the right handler,        
-   edits the right per-source/Curation files, and prints the list of         
-   pipeline stages that need to re-run                                       
-4. Curator runs:                                                              
-    python Scripts/Updates/Refresh_Pipeline.py --since=<manifest>.yaml       
-   to cascade the edit through Print -> List -> Update_Compound_*           
-   -> Reprint -> provenance -> FAISS-validator                              
-5. On success, Apply_Manifest moves the manifest into applied/ with a       
-   YYYY-MM-DD prefix; the curator commits the lot as one PR.                
+1. Curator writes <manifest>.yaml in this directory
+2. Curator runs:
+    python Scripts/Updates/Apply_Manifest.py <manifest>.yaml [--dry-run]
+3. Apply_Manifest reads the manifest, dispatches to the right handler,
+   edits the right per-source/Curation files, and prints the list of
+   pipeline stages that need to re-run
+4. Curator runs:
+    python Scripts/Updates/Refresh_Pipeline.py --type <manifest_type>
+   to cascade the edit through Print -> List -> Update_Compound_*
+   -> Reprint -> provenance -> FAISS-validator
+5. On success, Apply_Manifest moves the manifest into applied/ with a
+   YYYY-MM-DD prefix; the curator commits the lot as one PR.
 ```
 
 Use `--dry-run` to preview which files would change without writing
-anything.
+anything. `--cascade` runs steps 2 and 4 in one shot.
 
 ## Manifest types (currently handled)
 

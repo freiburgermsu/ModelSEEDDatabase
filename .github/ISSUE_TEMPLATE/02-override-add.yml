@@ -1,0 +1,53 @@
+name: ACP override (add)
+description: Add a manual formula/charge entry for an acyl-carrier protein or similar abstract compound
+title: "[override_add] "
+labels: ["manifest:override_add"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ACPs and similar abstract compounds have no fixed structure,
+        so we pin their formula and charge manually in
+        `Biochemistry/Curation/overrides/acps_formula_charge.tsv`. Use
+        this form to add a new compound to that override table.
+
+  - type: input
+    id: compound_id
+    attributes:
+      label: ModelSEED compound ID
+      placeholder: cpd49500
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Compound name
+      placeholder: oleoyl-ACP
+    validations:
+      required: true
+
+  - type: input
+    id: formula
+    attributes:
+      label: Formula
+      description: Use 'R' for the protein chain placeholder.
+      placeholder: C29H50N2O8PRS
+    validations:
+      required: true
+
+  - type: input
+    id: charge
+    attributes:
+      label: Charge
+      placeholder: "-2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Cite the pathway / mass-balance context.
+    validations:
+      required: true

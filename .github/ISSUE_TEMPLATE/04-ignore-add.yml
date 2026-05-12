@@ -1,0 +1,60 @@
+name: Ignore a source structure
+description: Flag a source-database structure to skip during cross-source consolidation
+title: "[ignore_add] "
+labels: ["manifest:ignore_add"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        `List_ModelSEED_Structures.py` reads every file under
+        `Biochemistry/Curation/ignores/`. An external ID listed there
+        is excluded from the picker — use this for cases where a
+        source's structure is malformed, mislabeled, or otherwise
+        worse than alternative sources.
+
+  - type: input
+    id: ignore_file
+    attributes:
+      label: Ignore file
+      description: |
+        Path relative to `Biochemistry/`. Use an existing file when one
+        applies, or propose a new one (the bot will create it).
+      placeholder: Curation/ignores/ignored_structures_marvin240_2026.txt
+    validations:
+      required: true
+
+  - type: input
+    id: external_id
+    attributes:
+      label: External ID to ignore
+      placeholder: CPD-NEW-CONFLICT
+    validations:
+      required: true
+
+  - type: input
+    id: accepted
+    attributes:
+      label: Replacement structure ID (or 'None')
+      description: |
+        If a different source has the correct structure, give its
+        external ID here. Use 'None' to trigger the R/0 fallback
+        (no structure → empty inchikey, formula 'R', charge 0).
+      placeholder: None
+      value: None
+    validations:
+      required: true
+
+  - type: input
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: MetaCyc release 2026-Q2 added two-R-group structure
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+    validations:
+      required: true

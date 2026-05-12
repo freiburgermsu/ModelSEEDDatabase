@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How modular updates work
+    url: https://github.com/ModelSEED/ModelSEEDDatabase/blob/master/Biochemistry/Updates/README.md
+    about: Background on the manifest system that these forms produce.
+  - name: General questions
+    url: https://github.com/ModelSEED/ModelSEEDDatabase/discussions
+    about: For broader questions about the database that aren't a single edit.

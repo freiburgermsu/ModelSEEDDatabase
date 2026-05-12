@@ -1,0 +1,140 @@
+name: Manifest from issue
+
+# When an issue is opened with a manifest:* label (auto-added by the
+# Issue Forms in .github/ISSUE_TEMPLATE/), this workflow turns the
+# form answers into a manifest YAML and opens a PR. The PR contains
+# only the manifest itself — a reviewer reads it for sanity, then
+# either merges and runs the cascade locally, or triggers the
+# `manifest-apply.yml` workflow (TODO; not yet provided) to run the
+# cascade in CI.
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  generate-manifest:
+    if: |
+      contains(join(github.event.issue.labels.*.name, ','), 'manifest:')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pick manifest type from labels
+        id: type
+        run: |
+          set -eu
+          for label in $(echo '${{ toJson(github.event.issue.labels.*.name) }}' | jq -r '.[]'); do
+            case "$label" in
+              manifest:*)
+                t="${label#manifest:}"
+                echo "type=$t" >> "$GITHUB_OUTPUT"
+                echo "Found manifest type: $t"
+                exit 0
+                ;;
+            esac
+          done
+          echo "ERROR: no manifest:* label found" >&2
+          exit 1
+
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      - name: Write issue body to file
+        env:
+          BODY: ${{ github.event.issue.body }}
+        run: |
+          mkdir -p /tmp/manifest
+          printf '%s\n' "$BODY" > /tmp/manifest/issue_body.md
+          echo "Issue body:"
+          cat /tmp/manifest/issue_body.md
+
+      - name: Generate manifest YAML
+        id: gen
+        env:
+          AUTHOR: ${{ github.event.issue.user.login }}
+          MTYPE:  ${{ steps.type.outputs.type }}
+          ISSUE:  ${{ github.event.issue.number }}
+        run: |
+          set -eu
+          slug=$(echo "$MTYPE-issue-$ISSUE" | tr '[:upper:]' '[:lower:]' | tr -c 'a-z0-9-' '-')
+          fname="Biochemistry/Updates/${slug}.yaml"
+          python3 Scripts/Updates/Issue_To_Manifest.py \
+            --type   "$MTYPE" \
+            --body   /tmp/manifest/issue_body.md \
+            --author "$AUTHOR" \
+            --output "$fname"
+          echo "path=$fname" >> "$GITHUB_OUTPUT"
+          echo "slug=$slug"  >> "$GITHUB_OUTPUT"
+          echo "Generated:"
+          cat "$fname"
+
+      - name: Dry-run Apply_Manifest to compute cascade
+        id: cascade
+        run: |
+          set +e
+          out=$(python3 Scripts/Updates/Apply_Manifest.py "${{ steps.gen.outputs.path }}" --dry-run 2>&1)
+          rc=$?
+          echo "$out"
+          {
+            echo 'cascade<<DRYRUN_EOF'
+            echo "$out"
+            echo 'DRYRUN_EOF'
+          } >> "$GITHUB_OUTPUT"
+          exit $rc
+
+      - name: Open PR with the manifest
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -eu
+          branch="bot/manifest-${{ steps.gen.outputs.slug }}"
+          git config user.name  "modelseed-bot"
+          git config user.email "modelseed-bot@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add "${{ steps.gen.outputs.path }}"
+          git commit -m "Manifest from issue #${{ github.event.issue.number }} (${{ steps.type.outputs.type }})"
+          git push -u origin "$branch"
+          body=$(cat <<EOF
+          Closes #${{ github.event.issue.number }}
+
+          This PR was generated automatically from the Issue Form
+          submitted in #${{ github.event.issue.number }}. It contains
+          only the manifest YAML; merge to land the manifest, then run
+          the cascade locally:
+
+          \`\`\`
+          python Scripts/Updates/Apply_Manifest.py \\
+                 ${{ steps.gen.outputs.path }} --cascade
+          \`\`\`
+
+          ## Dry-run preview
+
+          \`\`\`
+          ${{ steps.cascade.outputs.cascade }}
+          \`\`\`
+          EOF
+          )
+          gh pr create \
+            --base    master \
+            --head    "$branch" \
+            --title   "Manifest: ${{ steps.type.outputs.type }} (issue #${{ github.event.issue.number }})" \
+            --body    "$body"
+
+      - name: Comment on the issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} \
+            --body "Manifest generated and PR opened. The cascade plan is in the PR description."
