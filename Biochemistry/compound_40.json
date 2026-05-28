@@ -10240,8 +10240,8 @@
         "mass": 10000000.0,
         "name": "(9Z)-octadecen-1-ol",
         "notes": [],
-        "pka": "1:19:16.84",
-        "pkb": "1:19:-1.99",
+        "pka": "1:19:13.87",
+        "pkb": "",
         "smiles": "CCCCCCCC/C=C\\CCCCCCCCO",
         "source": "Primary Database",
         "thermodynamics": null
@@ -21838,8 +21838,8 @@
         "mass": 10000000.0,
         "name": "17,18-epoxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate",
         "notes": [],
-        "pka": "1:21:4.82",
-        "pkb": "1:23:-4.20",
+        "pka": "1:21:4.76",
+        "pkb": "",
         "smiles": "CCC1OC1C/C=C\\C/C=C\\C/C=C\\C/C=C\\CCCC(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -21867,8 +21867,8 @@
         "mass": 10000000.0,
         "name": "(17S,18R)-epoxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate",
         "notes": [],
-        "pka": "1:21:4.82",
-        "pkb": "1:23:-4.20",
+        "pka": "1:21:4.76",
+        "pkb": "",
         "smiles": "CC[C@H]1O[C@H]1C/C=C\\C/C=C\\C/C=C\\C/C=C\\CCCC(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null

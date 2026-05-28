@@ -28,6 +28,23 @@ for (db, ext_id), entry in per_source_pkas.items():
     for kind, value in entry.items():
         cpd_pKab_dict[ext_id][kind] = value
 
+# OPAM2 / MolGpKa pKas are a ModelSEED-compound-level source (keyed by cpd id,
+# not by per-source external id) and take precedence over Marvin: where OPAM2
+# has a prediction it OVERRIDES the Marvin value applied below; Marvin is
+# retained for compounds OPAM2 does not cover. OPAM2 predicts pKa values only
+# (no protonation/structure), so formula/charge are untouched. Built from the
+# OPAM2 benchmark (Marvin-matched atom subset) by Scripts/Updates helpers.
+OPAM2_PKA_FILE = os.path.dirname(__file__)+"/../../Biochemistry/Structures/ModelSEED/pkas/opam2_molgpka.tsv"
+opam2_pkas = dict()  # cpd -> {'pKa':str, 'pKb':str}
+if(os.path.exists(OPAM2_PKA_FILE)):
+    with open(OPAM2_PKA_FILE) as fh:
+        next(fh, None)
+        for line in fh:
+            cols = line.rstrip("\n").split("\t")
+            if(len(cols) < 3):
+                continue
+            opam2_pkas.setdefault(cols[0], dict())[cols[1]] = cols[2]
+
 # We're removing all pKa and pKb before loading new ones
 for cpd in compounds_dict:
     compounds_dict[cpd]['pka']=""
@@ -58,6 +75,18 @@ for cpd in structures_dict:
                 # and so only need to process once
                 found=True
                 break
+
+# OPAM2 override (primary pKa source). Applied only to compounds with an
+# accepted unique structure, matching the Marvin gating above. A compound for
+# which OPAM2 found only acidic (or only basic) atoms gets the complementary
+# field cleared, reflecting the OPAM2 prediction rather than mixing tools.
+opam2_applied=0
+for cpd in structures_dict:
+    if(cpd in opam2_pkas and cpd in compounds_dict):
+        compounds_dict[cpd]['pka']=opam2_pkas[cpd].get('pKa',"")
+        compounds_dict[cpd]['pkb']=opam2_pkas[cpd].get('pKb',"")
+        opam2_applied+=1
+print("Applied OPAM2 pKa overrides to "+str(opam2_applied)+" compounds")
 
 print("Saving compounds")
 compounds_helper.saveCompounds(compounds_dict)

@@ -11,7 +11,7 @@ cpd29008
 cpd29009										
 cpd29010										
 cpd29011										
-cpd29012	MetaCyc:CPD-16540@Charged;MetaCyc:CPDQT-373@Charged;ChEBI:72649@Charged	MetaCyc:CPD-16540@Charged;MetaCyc:CPDQT-373@Charged;ChEBI:72649@Charged	MetaCyc:CPD-16540@Charged;MetaCyc:CPDQT-373@Charged;ChEBI:72649@Charged	MetaCyc:CPD-16540@Charged;MetaCyc:CPDQT-373@Charged;ChEBI:72649@Charged	MetaCyc:CPD-16540	MetaCyc:CPD-16540	GC	MetaCyc:CPD-16540@Charged	MetaCyc:CPD-16540@Charged	
+cpd29012	MetaCyc:CPD-16540@Charged;MetaCyc:CPDQT-373@Charged;ChEBI:72649@Charged	MetaCyc:CPD-16540@Charged;MetaCyc:CPDQT-373@Charged;ChEBI:72649@Charged	MetaCyc:CPD-16540@Charged;MetaCyc:CPDQT-373@Charged;ChEBI:72649@Charged	MetaCyc:CPD-16540@Charged;MetaCyc:CPDQT-373@Charged;ChEBI:72649@Charged	OPAM2:MolGpKa		GC	MetaCyc:CPD-16540@Charged	MetaCyc:CPD-16540@Charged	
 cpd29013										
 cpd29014										
 cpd29015										
@@ -71,7 +71,7 @@ cpd29068
 cpd29069	ChEBI:84341	ChEBI:84341	ChEBI:84341	ChEBI:84341		ChEBI:84341				
 cpd29070										
 cpd29071										
-cpd29072	MetaCyc:CPDQT-50	MetaCyc:CPDQT-50	MetaCyc:CPDQT-50	MetaCyc:CPDQT-50	MetaCyc:CPDQT-50	MetaCyc:CPDQT-50	GC	MetaCyc:CPDQT-50@Charged	MetaCyc:CPDQT-50@Charged	
+cpd29072	MetaCyc:CPDQT-50	MetaCyc:CPDQT-50	MetaCyc:CPDQT-50	MetaCyc:CPDQT-50	OPAM2:MolGpKa		GC	MetaCyc:CPDQT-50@Charged	MetaCyc:CPDQT-50@Charged	
 cpd29073										
 cpd29074										
 cpd29075										
@@ -295,7 +295,7 @@ cpd29293
 cpd29294										
 cpd29295										
 cpd29296										
-cpd29297	MetaCyc:Glucuronides	MetaCyc:Glucuronides		MetaCyc:Glucuronides	MetaCyc:Glucuronides	MetaCyc:Glucuronides	GC	MetaCyc:Glucuronides@Charged	MetaCyc:Glucuronides@Charged	
+cpd29297	MetaCyc:Glucuronides	MetaCyc:Glucuronides		MetaCyc:Glucuronides	OPAM2:MolGpKa		GC	MetaCyc:Glucuronides@Charged	MetaCyc:Glucuronides@Charged	
 cpd29298										
 cpd29299										
 cpd29300										
@@ -328,7 +328,7 @@ cpd29326
 cpd29327										
 cpd29328										
 cpd29329										
-cpd29330	MetaCyc:Long-Chain-Acyl-CoAs	MetaCyc:Long-Chain-Acyl-CoAs		MetaCyc:Long-Chain-Acyl-CoAs	MetaCyc:Long-Chain-Acyl-CoAs	MetaCyc:Long-Chain-Acyl-CoAs	GC	MetaCyc:Long-Chain-Acyl-CoAs@Charged	MetaCyc:Long-Chain-Acyl-CoAs@Charged	
+cpd29330	MetaCyc:Long-Chain-Acyl-CoAs	MetaCyc:Long-Chain-Acyl-CoAs		MetaCyc:Long-Chain-Acyl-CoAs	OPAM2:MolGpKa	OPAM2:MolGpKa	GC	MetaCyc:Long-Chain-Acyl-CoAs@Charged	MetaCyc:Long-Chain-Acyl-CoAs@Charged	
 cpd29331										
 cpd29332										
 cpd29333										
@@ -531,7 +531,7 @@ cpd29529
 cpd29530										
 cpd29531										
 cpd29532	MetaCyc:PTSH-MONOMER@Charged	MetaCyc:PTSH-MONOMER@Charged		MetaCyc:PTSH-MONOMER@Charged	MetaCyc:PTSH-MONOMER	MetaCyc:PTSH-MONOMER	GC	MetaCyc:PTSH-MONOMER@Charged	MetaCyc:PTSH-MONOMER@Charged	
-cpd29533	MetaCyc:Hpr-pi-phospho-L-histidines@Charged;MetaCyc:PTS-I-pi-phospho-L-histidines@Charged;MetaCyc:PTSH-PHOSPHORYLATED@Charged;MetaCyc:Protein-pi-phospho-L-histidines@Charged;ChEBI:64837@Charged	MetaCyc:Hpr-pi-phospho-L-histidines@Charged;MetaCyc:PTS-I-pi-phospho-L-histidines@Charged;MetaCyc:PTSH-PHOSPHORYLATED@Charged;MetaCyc:Protein-pi-phospho-L-histidines@Charged;ChEBI:64837@Charged		MetaCyc:Hpr-pi-phospho-L-histidines@Charged;MetaCyc:PTS-I-pi-phospho-L-histidines@Charged;MetaCyc:PTSH-PHOSPHORYLATED@Charged;MetaCyc:Protein-pi-phospho-L-histidines@Charged;ChEBI:64837@Charged	MetaCyc:Hpr-pi-phospho-L-histidines	MetaCyc:Hpr-pi-phospho-L-histidines	GC	MetaCyc:Hpr-pi-phospho-L-histidines@Charged	MetaCyc:Hpr-pi-phospho-L-histidines@Charged	
+cpd29533	MetaCyc:Hpr-pi-phospho-L-histidines@Charged;MetaCyc:PTS-I-pi-phospho-L-histidines@Charged;MetaCyc:PTSH-PHOSPHORYLATED@Charged;MetaCyc:Protein-pi-phospho-L-histidines@Charged;ChEBI:64837@Charged	MetaCyc:Hpr-pi-phospho-L-histidines@Charged;MetaCyc:PTS-I-pi-phospho-L-histidines@Charged;MetaCyc:PTSH-PHOSPHORYLATED@Charged;MetaCyc:Protein-pi-phospho-L-histidines@Charged;ChEBI:64837@Charged		MetaCyc:Hpr-pi-phospho-L-histidines@Charged;MetaCyc:PTS-I-pi-phospho-L-histidines@Charged;MetaCyc:PTSH-PHOSPHORYLATED@Charged;MetaCyc:Protein-pi-phospho-L-histidines@Charged;ChEBI:64837@Charged	OPAM2:MolGpKa	OPAM2:MolGpKa	GC	MetaCyc:Hpr-pi-phospho-L-histidines@Charged	MetaCyc:Hpr-pi-phospho-L-histidines@Charged	
 cpd29534										
 cpd29535										
 cpd29536										
@@ -549,7 +549,7 @@ cpd29547
 cpd29548										
 cpd29549										
 cpd29550										
-cpd29551	MetaCyc:Proteins-With-N-Terminal-Asp;ChEBI:64720	MetaCyc:Proteins-With-N-Terminal-Asp;ChEBI:64720		MetaCyc:Proteins-With-N-Terminal-Asp;ChEBI:64720	MetaCyc:Proteins-With-N-Terminal-Asp	MetaCyc:Proteins-With-N-Terminal-Asp	GC	MetaCyc:Proteins-With-N-Terminal-Asp@Charged	MetaCyc:Proteins-With-N-Terminal-Asp@Charged	
+cpd29551	MetaCyc:Proteins-With-N-Terminal-Asp;ChEBI:64720	MetaCyc:Proteins-With-N-Terminal-Asp;ChEBI:64720		MetaCyc:Proteins-With-N-Terminal-Asp;ChEBI:64720	OPAM2:MolGpKa	OPAM2:MolGpKa	GC	MetaCyc:Proteins-With-N-Terminal-Asp@Charged	MetaCyc:Proteins-With-N-Terminal-Asp@Charged	
 cpd29552										
 cpd29553										
 cpd29554										

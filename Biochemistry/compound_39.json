@@ -5567,8 +5567,8 @@
         "mass": 10000000.0,
         "name": "1-hydroxy-5alpha-androstan-3,17-dione",
         "notes": [],
-        "pka": "1:22:14.51",
-        "pkb": "1:20:-7.14;1:21:-7.74;1:22:-3.01",
+        "pka": "1:22:13.79",
+        "pkb": "",
         "smiles": "C[C@]12C(O)CC(=O)C[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8680,8 +8680,8 @@
         "mass": 10000000.0,
         "name": "5-hydroxyanthranilate",
         "notes": [],
-        "pka": "1:9:10.41;1:11:2.14",
-        "pkb": "1:8:5.10;1:9:-6.35",
+        "pka": "1:9:9.31;1:11:3.65",
+        "pkb": "",
         "smiles": "Nc1ccc(O)cc1C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13210,8 +13210,8 @@
         "mass": 10000000.0,
         "name": "(6Z)-nerolidol",
         "notes": [],
-        "pka": "1:16:18.46",
-        "pkb": "1:16:-1.29",
+        "pka": "1:16:13.87",
+        "pkb": "",
         "smiles": "C=CC(C)(O)CC/C=C(/C)CCC=C(C)C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -19682,8 +19682,8 @@
         "mass": 10000000.0,
         "name": "a (22S)-22-hydroxy C27-steroid",
         "notes": [],
-        "pka": "1:28:19.48",
-        "pkb": "1:28:-0.84",
+        "pka": "1:28:13.98",
+        "pkb": "",
         "smiles": "CC(C)CC[C@H](O)C(C)C1CCC2C3CCC4CCCCC4(C)C3CCC21C",
         "source": "Primary Database",
         "thermodynamics": null

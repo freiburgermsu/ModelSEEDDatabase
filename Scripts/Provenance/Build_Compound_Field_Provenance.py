@@ -257,6 +257,18 @@ def main():
     print(f'  pKa files present: {pka_sources_seen}')
     print(f'  pKa replay sources (matching production): {PKA_REPLAY_SOURCES}')
 
+    # OPAM2/MolGpKa pKas (ModelSEED-cpd-level) override Marvin where present.
+    opam2_pka = {}  # cpd -> {'pKa':1, 'pKb':1}
+    opam2_file = os.path.join(STRUCT_ROOT, 'ModelSEED', 'pkas', 'opam2_molgpka.tsv')
+    if os.path.exists(opam2_file):
+        with open(opam2_file) as _fh:
+            next(_fh, None)
+            for _line in _fh:
+                _c = _line.rstrip('\n').split('\t')
+                if len(_c) >= 2:
+                    opam2_pka.setdefault(_c[0], {})[_c[1]] = 1
+    print(f'  OPAM2 pKa overrides: {len(opam2_pka)} compounds')
+
     print('Loading thermodynamics (GC, eQ)...')
     gc_data     = load_gc_data(THERMO_ROOT, GC_REPLAY_SOURCES)
     mnx_by_ikey = load_mnx_map(STRUCT_ROOT)
@@ -310,20 +322,28 @@ def main():
             smi = sorted(structures[cpd]['SMILE'].keys())[0]
             prov['smiles_src'] = evidence_for(all_evidence, cpd, 'SMILE', smi)
 
-        # ---- pKa / pKb: KEGG-then-MetaCyc, first alias with a hit ----
-        for db in PKA_REPLAY_SOURCES:
-            if db not in aliases.get(cpd, {}):
-                continue
-            for ext_id in aliases[cpd][db]:
-                if (db, ext_id) in pka_data:
-                    entry = pka_data[(db, ext_id)]
-                    if 'pKa' in entry and not prov['pka_src']:
-                        prov['pka_src'] = fmt(db, ext_id)
-                    if 'pKb' in entry and not prov['pkb_src']:
-                        prov['pkb_src'] = fmt(db, ext_id)
+        # ---- pKa / pKb ----
+        # OPAM2 (ModelSEED-cpd-level) overrides Marvin where present; otherwise
+        # replay the Marvin cascade: KEGG-then-MetaCyc, first alias with a hit.
+        if cpd in opam2_pka and cpd in structures:
+            if 'pKa' in opam2_pka[cpd]:
+                prov['pka_src'] = 'OPAM2:MolGpKa'
+            if 'pKb' in opam2_pka[cpd]:
+                prov['pkb_src'] = 'OPAM2:MolGpKa'
+        else:
+            for db in PKA_REPLAY_SOURCES:
+                if db not in aliases.get(cpd, {}):
+                    continue
+                for ext_id in aliases[cpd][db]:
+                    if (db, ext_id) in pka_data:
+                        entry = pka_data[(db, ext_id)]
+                        if 'pKa' in entry and not prov['pka_src']:
+                            prov['pka_src'] = fmt(db, ext_id)
+                        if 'pKb' in entry and not prov['pkb_src']:
+                            prov['pkb_src'] = fmt(db, ext_id)
+                        break
+                if prov['pka_src'] or prov['pkb_src']:
                     break
-            if prov['pka_src'] or prov['pkb_src']:
-                break
 
         # ---- GC ΔG: replay alias-filter against picked structure, lowest dg wins ----
         gc_struct_type = None

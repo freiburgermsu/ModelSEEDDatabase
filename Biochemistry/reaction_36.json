@@ -14890,8 +14890,8 @@
         "code": "(1) cpd00006[0] + (1) cpd25452[0] <=> (1) cpd00005[0] + (1) cpd08238[0]",
         "compound_ids": "cpd00005;cpd00006;cpd00067;cpd08238;cpd25452",
         "definition": "(1) NADP[0] + (3) H+[0] + (1) (+)-cis-verbenol[0] <=> (1) NADPH[0] + (1) (S)-(-)-Citronellal[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 5.23,
+        "deltagerr": 0.36,
         "ec_numbers": [
             "1.1.1.71"
         ],
@@ -14903,7 +14903,8 @@
         "name": "alcohol dehydrogenase [NAD(P)+]",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14955,6 +14956,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                5.23,
+                0.36
             ],
             "eQuilibrator": [
                 149.03,
@@ -14972,8 +14977,8 @@
         "code": "(1) cpd00003[0] + (1) cpd25452[0] <=> (1) cpd00004[0] + (1) cpd08238[0]",
         "compound_ids": "cpd00003;cpd00004;cpd00067;cpd08238;cpd25452",
         "definition": "(1) NAD[0] + (3) H+[0] + (1) (+)-cis-verbenol[0] <=> (1) NADH[0] + (1) (S)-(-)-Citronellal[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 5.23,
+        "deltagerr": 0.36,
         "ec_numbers": [
             "1.1.1.71"
         ],
@@ -14985,7 +14990,8 @@
         "name": "alcohol dehydrogenase [NAD(P)+]",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -15038,6 +15044,10 @@
                 10000000.0,
                 10000000.0
             ],
+            "dGPredictor": [
+                5.23,
+                0.36
+            ],
             "eQuilibrator": [
                 149.03,
                 28222.58
@@ -15054,8 +15064,8 @@
         "code": "(1) cpd00006[0] + (1) cpd25453[0] <=> (1) cpd00005[0] + (1) cpd08238[0]",
         "compound_ids": "cpd00005;cpd00006;cpd00067;cpd08238;cpd25453",
         "definition": "(1) NADP[0] + (3) H+[0] + (1) (+)-trans-verbenol[0] <=> (1) NADPH[0] + (1) (S)-(-)-Citronellal[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 5.23,
+        "deltagerr": 0.36,
         "ec_numbers": [
             "1.1.1.71"
         ],
@@ -15067,7 +15077,8 @@
         "name": "alcohol dehydrogenase [NAD(P)+]",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -15120,6 +15131,10 @@
                 10000000.0,
                 10000000.0
             ],
+            "dGPredictor": [
+                5.23,
+                0.36
+            ],
             "eQuilibrator": [
                 149.03,
                 28222.58
@@ -15136,8 +15151,8 @@
         "code": "(1) cpd00003[0] + (1) cpd25453[0] <=> (1) cpd00004[0] + (1) cpd08238[0]",
         "compound_ids": "cpd00003;cpd00004;cpd00067;cpd08238;cpd25453",
         "definition": "(1) NAD[0] + (3) H+[0] + (1) (+)-trans-verbenol[0] <=> (1) NADH[0] + (1) (S)-(-)-Citronellal[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 5.23,
+        "deltagerr": 0.36,
         "ec_numbers": [
             "1.1.1.71"
         ],
@@ -15149,7 +15164,8 @@
         "name": "alcohol dehydrogenase [NAD(P)+]",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -15201,6 +15217,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                5.23,
+                0.36
             ],
             "eQuilibrator": [
                 149.03,
@@ -16214,8 +16234,8 @@
         "code": "(1) cpd00006[0] + (1) cpd25452[0] <=> (1) cpd00005[0] + (1) cpd09079[0]",
         "compound_ids": "cpd00005;cpd00006;cpd00067;cpd09079;cpd25452",
         "definition": "(1) NADP[0] + (5) H+[0] + (1) (+)-cis-verbenol[0] <=> (1) NADPH[0] + (1) Decanal[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 5.23,
+        "deltagerr": 0.36,
         "ec_numbers": [
             "1.1.1.71"
         ],
@@ -16227,7 +16247,8 @@
         "name": "alcohol dehydrogenase [NAD(P)+]",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -16279,6 +16300,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                5.23,
+                0.36
             ],
             "eQuilibrator": [
                 149.96,
@@ -16296,8 +16321,8 @@
         "code": "(1) cpd00003[0] + (1) cpd25452[0] <=> (1) cpd00004[0] + (1) cpd09079[0]",
         "compound_ids": "cpd00003;cpd00004;cpd00067;cpd09079;cpd25452",
         "definition": "(1) NAD[0] + (5) H+[0] + (1) (+)-cis-verbenol[0] <=> (1) NADH[0] + (1) Decanal[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 5.23,
+        "deltagerr": 0.36,
         "ec_numbers": [
             "1.1.1.71"
         ],
@@ -16309,7 +16334,8 @@
         "name": "alcohol dehydrogenase [NAD(P)+]",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -16362,6 +16388,10 @@
                 10000000.0,
                 10000000.0
             ],
+            "dGPredictor": [
+                5.23,
+                0.36
+            ],
             "eQuilibrator": [
                 149.96,
                 28222.58
@@ -16378,8 +16408,8 @@
         "code": "(1) cpd00006[0] + (1) cpd25453[0] <=> (1) cpd00005[0] + (1) cpd09079[0]",
         "compound_ids": "cpd00005;cpd00006;cpd00067;cpd09079;cpd25453",
         "definition": "(1) NADP[0] + (5) H+[0] + (1) (+)-trans-verbenol[0] <=> (1) NADPH[0] + (1) Decanal[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 5.23,
+        "deltagerr": 0.36,
         "ec_numbers": [
             "1.1.1.71"
         ],
@@ -16391,7 +16421,8 @@
         "name": "alcohol dehydrogenase [NAD(P)+]",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -16444,6 +16475,10 @@
                 10000000.0,
                 10000000.0
             ],
+            "dGPredictor": [
+                5.23,
+                0.36
+            ],
             "eQuilibrator": [
                 149.96,
                 28222.58
@@ -16460,8 +16495,8 @@
         "code": "(1) cpd00003[0] + (1) cpd25453[0] <=> (1) cpd00004[0] + (1) cpd09079[0]",
         "compound_ids": "cpd00003;cpd00004;cpd00067;cpd09079;cpd25453",
         "definition": "(1) NAD[0] + (5) H+[0] + (1) (+)-trans-verbenol[0] <=> (1) NADH[0] + (1) Decanal[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 5.23,
+        "deltagerr": 0.36,
         "ec_numbers": [
             "1.1.1.71"
         ],
@@ -16473,7 +16508,8 @@
         "name": "alcohol dehydrogenase [NAD(P)+]",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -16525,6 +16561,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                5.23,
+                0.36
             ],
             "eQuilibrator": [
                 149.96,
@@ -24344,8 +24384,8 @@
         "code": "(1) cpd00006[0] + (1) cpd25452[0] <=> (1) cpd00005[0] + (1) cpd01061[0]",
         "compound_ids": "cpd00005;cpd00006;cpd00067;cpd01061;cpd25452",
         "definition": "(1) NADP[0] + (1) H+[0] + (1) (+)-cis-verbenol[0] <=> (1) NADPH[0] + (1) Geranial[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 5.23,
+        "deltagerr": 0.36,
         "ec_numbers": [
             "1.1.1.71"
         ],
@@ -24357,7 +24397,8 @@
         "name": "alcohol dehydrogenase [NAD(P)+]",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -24409,6 +24450,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                5.23,
+                0.36
             ],
             "eQuilibrator": [
                 147.04,
@@ -24426,8 +24471,8 @@
         "code": "(1) cpd00003[0] + (1) cpd25452[0] <=> (1) cpd00004[0] + (1) cpd01061[0]",
         "compound_ids": "cpd00003;cpd00004;cpd00067;cpd01061;cpd25452",
         "definition": "(1) NAD[0] + (1) H+[0] + (1) (+)-cis-verbenol[0] <=> (1) NADH[0] + (1) Geranial[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 5.23,
+        "deltagerr": 0.36,
         "ec_numbers": [
             "1.1.1.71"
         ],
@@ -24439,7 +24484,8 @@
         "name": "alcohol dehydrogenase [NAD(P)+]",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -24492,6 +24538,10 @@
                 10000000.0,
                 10000000.0
             ],
+            "dGPredictor": [
+                5.23,
+                0.36
+            ],
             "eQuilibrator": [
                 147.04,
                 28222.58
@@ -24508,8 +24558,8 @@
         "code": "(1) cpd00006[0] + (1) cpd25453[0] <=> (1) cpd00005[0] + (1) cpd01061[0]",
         "compound_ids": "cpd00005;cpd00006;cpd00067;cpd01061;cpd25453",
         "definition": "(1) NADP[0] + (1) H+[0] + (1) (+)-trans-verbenol[0] <=> (1) NADPH[0] + (1) Geranial[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 5.23,
+        "deltagerr": 0.36,
         "ec_numbers": [
             "1.1.1.71"
         ],
@@ -24521,7 +24571,8 @@
         "name": "alcohol dehydrogenase [NAD(P)+]",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -24574,6 +24625,10 @@
                 10000000.0,
                 10000000.0
             ],
+            "dGPredictor": [
+                5.23,
+                0.36
+            ],
             "eQuilibrator": [
                 147.04,
                 28222.58
@@ -24590,8 +24645,8 @@
         "code": "(1) cpd00003[0] + (1) cpd25453[0] <=> (1) cpd00004[0] + (1) cpd01061[0]",
         "compound_ids": "cpd00003;cpd00004;cpd00067;cpd01061;cpd25453",
         "definition": "(1) NAD[0] + (1) H+[0] + (1) (+)-trans-verbenol[0] <=> (1) NADH[0] + (1) Geranial[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 5.23,
+        "deltagerr": 0.36,
         "ec_numbers": [
             "1.1.1.71"
         ],
@@ -24603,7 +24658,8 @@
         "name": "alcohol dehydrogenase [NAD(P)+]",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -24655,6 +24711,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                5.23,
+                0.36
             ],
             "eQuilibrator": [
                 147.04,
@@ -72110,8 +72170,8 @@
         "code": "(1) cpd00005[0] + (1) cpd15290[0] <=> (1) cpd00006[0] + (1) cpd11665[0]",
         "compound_ids": "cpd00005;cpd00006;cpd00067;cpd11665;cpd15290",
         "definition": "(1) NADPH[0] + (1) H+[0] + (1) Ubiquinone-6[0] <=> (1) NADP[0] + (1) QH2[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -3.54,
+        "deltagerr": 0.24,
         "ec_numbers": [
             "1.6.5.2"
         ],
@@ -72124,7 +72184,8 @@
         "notes": [
             "EQC",
             "EQU",
-            "GCP"
+            "GCP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -72176,6 +72237,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -3.54,
+                0.24
             ]
         }
     },
@@ -78988,8 +79053,8 @@
         "code": "(1) cpd00005[0] + (1) cpd15290[0] <=> (1) cpd00006[0] + (1) cpd11665[0]",
         "compound_ids": "cpd00005;cpd00006;cpd00067;cpd11665;cpd15290",
         "definition": "(1) NADPH[0] + (1) H+[0] + (1) Ubiquinone-6[0] <=> (1) NADP[0] + (1) QH2[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -12.39,
+        "deltagerr": 0.71,
         "ec_numbers": [
             "1.6.5.2"
         ],
@@ -79002,7 +79067,8 @@
         "notes": [
             "EQC",
             "EQU",
-            "GCP"
+            "GCP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -79054,6 +79120,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -12.39,
+                0.71
             ]
         }
     },
@@ -79151,8 +79221,8 @@
         "code": "(1) cpd00004[0] + (1) cpd15290[0] <=> (1) cpd00003[0] + (1) cpd11665[0]",
         "compound_ids": "cpd00003;cpd00004;cpd00067;cpd11665;cpd15290",
         "definition": "(1) NADH[0] + (1) H+[0] + (1) Ubiquinone-6[0] <=> (1) NAD[0] + (1) QH2[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -12.39,
+        "deltagerr": 0.71,
         "ec_numbers": [
             "1.6.5.2",
             "1.6.5.3"
@@ -79166,7 +79236,8 @@
         "notes": [
             "EQC",
             "EQU",
-            "GCP"
+            "GCP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -79218,6 +79289,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -12.39,
+                0.71
             ]
         }
     },

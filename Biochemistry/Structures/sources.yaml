@@ -122,3 +122,37 @@ sources:
           for every current compound — added to the cascade for
           completeness and for graceful degradation if primary
           sources lose entries in the future.
+
+  # ModelSEED is a compound-level (not per-external-source) pseudo-source:
+  # its files are keyed by ModelSEED cpd id rather than an external db id,
+  # because the data was generated against the consolidated ModelSEED
+  # structures. Only a pKa bundle lives here today.
+  ModelSEED:
+    snapshot: 2026-05-28
+    pkas:
+      - file:    ../ModelSEED/pkas/opam2_molgpka.tsv
+        tool:    MolGpKa
+        version: opam2
+        keyed_by: modelseed_cpd_id
+        consumed_by_production: true   # Update_Compound_pKas.py applies this
+        precedence: |
+          OPAM2/MolGpKa pKas OVERRIDE the Marvin per-source values wherever a
+          compound has an OPAM2 prediction; Marvin is retained for compounds
+          OPAM2 does not cover. OPAM2 predicts pKa VALUES only (no protonation
+          microspecies / structure), so formula and charge stay Marvin-derived
+          — this update touches only the compound pka/pkb columns.
+        coverage: |
+          22,399 compounds (21,991 pKa rows, 7,827 pKb rows). Built from the
+          OPAM2 benchmark output modelseed_comparison.csv, which is the
+          Marvin-matched atom subset (82,171 of MolGpKa's 117,172 predicted
+          atoms). A full MolGpKa re-run would be needed to cover the unmatched
+          atoms. MolGpKa base predictions (type B / pKb) are notably less
+          reliable than acids (benchmark r2 0.24 vs 0.69).
+
+# Thermodynamics sources live under Biochemistry/Thermodynamics/, not here,
+# but are cross-referenced for discoverability:
+#   dGPredictor/json_files/reaction_NN_dG.json  (Wang et al. 2021; kJ/mol)
+#     Reaction-level dG predictions. Consumed by
+#     Scripts/Thermodynamics/Update_Reaction_dGPredictor_Energies.py, which
+#     GAP-FILLS deltag (kJ->kcal /4.184) only for reactions lacking a
+#     Group-Contribution / eQuilibrator estimate, tagging them 'DGP' in notes.

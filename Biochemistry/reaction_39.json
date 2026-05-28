@@ -3156,8 +3156,8 @@
         "code": "(1) cpd00007[0] + (1) cpd22216[0] <=> (1) cpd09439[0] + (1) cpd21803[0]",
         "compound_ids": "cpd00007;cpd09439;cpd21803;cpd22216",
         "definition": "(1) O2[0] + (1) 9-cis-Epoxycarotenoids[0] <=> (1) Xanthoxin[0] + (1) 12-apo-Carotenals[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -113.56,
+        "deltagerr": 0.46,
         "ec_numbers": [
             "1.13.11.51"
         ],
@@ -3169,7 +3169,8 @@
         "name": "RXN-7973.d",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3213,6 +3214,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -113.56,
+                0.46
             ]
         }
     },
@@ -3304,8 +3309,8 @@
         "code": "(1) cpd00266[0] + (1) cpd27690[1] <=> (1) cpd00266[1] + (1) cpd27690[0]",
         "compound_ids": "cpd00266;cpd27690",
         "definition": "(1) Carnitine[0] + (1) O-Acyl-L-Carnitines[1] <=> (1) Carnitine[1] + (1) O-Acyl-L-Carnitines[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(1) cpd00266[0] + (1) cpd27690[1] <=> (1) cpd00266[1] + (1) cpd27690[0]",
         "id": "rxn39042",
@@ -3315,7 +3320,8 @@
         "name": "Transport of L-carnitine and O-acyl-L-carnitine",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3359,6 +3365,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -3375,8 +3385,8 @@
         "code": "(1) cpd00001[0] + (1) cpd15387[0] <=> (1) cpd00117[0] + (1) cpd15386[0]",
         "compound_ids": "cpd00001;cpd00117;cpd15386;cpd15387",
         "definition": "(1) H2O[0] + (1) L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine[0] <=> (1) D-Alanine[0] + (1) L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd15387[0] <=> (1) cpd00117[0] + (1) cpd15386[0]",
         "id": "rxn39043",
@@ -3386,7 +3396,8 @@
         "name": "tetrapeptide L,D-carboxypeptidase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3430,6 +3441,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -3446,8 +3461,8 @@
         "code": "(1) cpd00001[0] + (1) cpd15398[0] <=> (1) cpd15387[0] + (1) cpd15396[0]",
         "compound_ids": "cpd00001;cpd15387;cpd15396;cpd15398",
         "definition": "(1) H2O[0] + (1) N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide[0] <=> (1) L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine[0] + (1) N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd15398[0] <=> (1) cpd15387[0] + (1) cpd15396[0]",
         "id": "rxn39044",
@@ -3457,7 +3472,8 @@
         "name": "N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide amidase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3501,6 +3517,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -3517,8 +3537,8 @@
         "code": "(1) cpd00001[0] + (1) cpd15398[0] <=> (1) cpd00117[0] + (1) cpd15397[0]",
         "compound_ids": "cpd00001;cpd00117;cpd15397;cpd15398",
         "definition": "(1) H2O[0] + (1) N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide[0] <=> (1) D-Alanine[0] + (1) N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd15398[0] <=> (1) cpd00117[0] + (1) cpd15397[0]",
         "id": "rxn39045",
@@ -3528,7 +3548,8 @@
         "name": "N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide L,D-carboxypeptidase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3572,6 +3593,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -3661,8 +3686,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd00058[0] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00058[1]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00058;cpd00067",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) Cu2+[0] <=> (1) ADP[0] + (1) Phosphate[0] + (1) Cu2+[1] + (1) H+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": [
             "3.6.3.-",
             "3.6.3.4",
@@ -3676,7 +3701,8 @@
         "name": "Copper (Cu+2) ABC transporter (periplasm)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3744,6 +3770,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -3761,8 +3791,8 @@
         "code": "(1) cpd30760[0] <=> (1) cpd30760[1]",
         "compound_ids": "cpd30760",
         "definition": "(1) Cu(I)[0] <=> (1) Cu(I)[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(1) cpd30760[0] <=> (1) cpd30760[1]",
         "id": "rxn39048",
@@ -3772,7 +3802,8 @@
         "name": "copper (Cu+1) transport via diffusion (extracellular to periplasm)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3800,6 +3831,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -3988,8 +4023,8 @@
         "code": "(1) cpd00001[0] + (1) cpd15521[0] <=> (1) cpd00009[0] + (1) cpd15306[0]",
         "compound_ids": "cpd00001;cpd00009;cpd00067;cpd15306;cpd15521",
         "definition": "(1) H2O[0] + (1) 1,2-didodecanoyl-sn-glycerol 3-phosphate[0] <=> (1) Phosphate[0] + (1) H+[0] + (1) 1,2-Diacyl-sn-glycerol didodecanoyl[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": [
             "3.1.3.4"
         ],
@@ -4001,7 +4036,8 @@
         "name": "Phosphatidate phosphatase (n-C12:0)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -4053,6 +4089,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -4069,8 +4109,8 @@
         "code": "(1) cpd00001[0] + (1) cpd15523[0] <=> (1) cpd00009[0] + (1) cpd15308[0]",
         "compound_ids": "cpd00001;cpd00009;cpd00067;cpd15308;cpd15523",
         "definition": "(1) H2O[0] + (1) 1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate[0] <=> (1) Phosphate[0] + (1) H+[0] + (1) 1,2-Diacyl-sn-glycerol ditetradec-7-enoyl[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": [
             "3.1.3.4"
         ],
@@ -4082,7 +4122,8 @@
         "name": "Phosphatidate phosphatase (n-C14:1)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -4134,6 +4175,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -4150,8 +4195,8 @@
         "code": "(1) cpd00001[0] + (1) cpd15526[0] <=> (1) cpd00009[0] + (1) cpd15311[0]",
         "compound_ids": "cpd00001;cpd00009;cpd00067;cpd15311;cpd15526",
         "definition": "(1) H2O[0] + (1) 1,2-dioctadecanoyl-sn-glycerol 3-phosphate[0] <=> (1) Phosphate[0] + (1) H+[0] + (1) 1,2-Diacyl-sn-glycerol dioctadecanoyl[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": [
             "3.1.3.4"
         ],
@@ -4163,7 +4208,8 @@
         "name": "Phosphatidate phosphatase (n-C18:0)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -4215,6 +4261,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -4231,8 +4281,8 @@
         "code": "(1) cpd00001[0] + (1) cpd15543[0] <=> (1) cpd00009[0] + (1) cpd15536[0]",
         "compound_ids": "cpd00001;cpd00009;cpd00067;cpd15536;cpd15543",
         "definition": "(1) H2O[0] + (1) Phosphatidylglycerophosphate ditetradecanoyl[0] <=> (1) Phosphate[0] + (1) H+[0] + (1) Phosphatidylglycerol ditetradecanoyl[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": [
             "3.1.3.27"
         ],
@@ -4244,7 +4294,8 @@
         "name": "phosphatidylglycerol phosphate phosphatase (n-C14:0)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -4296,6 +4347,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -4313,8 +4368,8 @@
         "code": "(1) cpd00001[0] + (1) cpd15545[0] <=> (1) cpd00009[0] + (1) cpd15538[0]",
         "compound_ids": "cpd00001;cpd00009;cpd00067;cpd15538;cpd15545",
         "definition": "(1) H2O[0] + (1) Phosphatidylglycerophosphate dihexadecanoyl[0] <=> (1) Phosphate[0] + (1) H+[0] + (1) Phosphatidylglycerol dihexadecanoyl[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": [
             "3.1.3.27"
         ],
@@ -4326,7 +4381,8 @@
         "name": "phosphatidylglycerol phosphate phosphatase (n-C16:0)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -4378,6 +4434,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -4395,8 +4455,8 @@
         "code": "(1) cpd00001[0] + (1) cpd15547[0] <=> (1) cpd00009[0] + (1) cpd15540[0]",
         "compound_ids": "cpd00001;cpd00009;cpd00067;cpd15540;cpd15547",
         "definition": "(1) H2O[0] + (1) Phosphatidylglycerophosphate dioctadecanoyl[0] <=> (1) Phosphate[0] + (1) H+[0] + (1) Phosphatidylglycerol dioctadecanoyl[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": [
             "3.1.3.27"
         ],
@@ -4408,7 +4468,8 @@
         "name": "phosphatidylglycerol phosphate phosphatase (n-C18:0)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -4460,6 +4521,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -4477,8 +4542,8 @@
         "code": "(1) cpd00001[0] + (1) cpd15548[0] <=> (1) cpd00009[0] + (1) cpd15541[0]",
         "compound_ids": "cpd00001;cpd00009;cpd00067;cpd15541;cpd15548",
         "definition": "(1) H2O[0] + (1) Phosphatidylglycerophosphate dioctadec-11-enoyl[0] <=> (1) Phosphate[0] + (1) H+[0] + (1) Phosphatidylglycerol dioctadec-11-enoyl[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": [
             "3.1.3.27"
         ],
@@ -4490,7 +4555,8 @@
         "name": "phosphatidylglycerol phosphate phosphatase (n-C18:1)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -4542,6 +4608,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -4706,8 +4776,8 @@
         "code": "(1) cpd00005[0] + (1) cpd14940[0] <=> (1) cpd00006[0] + (1) cpd12458[0]",
         "compound_ids": "cpd00005;cpd00006;cpd00067;cpd12458;cpd14940",
         "definition": "(1) NADPH[0] + (1) H+[0] + (1) (2E)-Octadecenoyl-[acp][0] <=> (1) NADP[0] + (1) Stearoyl-[acyl-carrier protein][0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(1) cpd00005[0] + (1) cpd00067[0] + (1) cpd14940[0] <=> (1) cpd00006[0] + (1) cpd12458[0]",
         "id": "rxn39060",
@@ -4717,7 +4787,8 @@
         "name": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: Fatty-acid-biosynthesis (Fatty Acid Biosynthesis); Lipid-Biosynthesis (Fatty Acid and Lipid Biosynthesis); PWY3O-355 (stearate biosynthesis III (fungi)); Stearate-Biosynthesis (Stearate Biosynthesis)"
@@ -4771,6 +4842,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -4786,8 +4861,8 @@
         "code": "(1) cpd16853[0] <=> (1) cpd00001[0] + (1) cpd16847[0]",
         "compound_ids": "cpd00001;cpd16847;cpd16853",
         "definition": "(1) 3-hydroxybutanoyl-acp[0] <=> (1) H2O[0] + (1) trans-but-2-enoyl-ACP[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(1) cpd16853[0] <=> (1) cpd00001[0] + (1) cpd16847[0]",
         "id": "rxn39061",
@@ -4797,7 +4872,8 @@
         "name": "3-hydroxyacyl-thioester dehydratase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -4833,6 +4909,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -4848,8 +4928,8 @@
         "code": "(1) cpd16856[0] <=> (1) cpd00001[0] + (1) cpd11473[0]",
         "compound_ids": "cpd00001;cpd11473;cpd16856",
         "definition": "(1) 3-hydroxyhexanoyl-acp[0] <=> (1) H2O[0] + (1) (2E)-Hexenoyl-[acp][0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(1) cpd16856[0] <=> (1) cpd00001[0] + (1) cpd11473[0]",
         "id": "rxn39062",
@@ -4859,7 +4939,8 @@
         "name": "3-hydroxyacyl-thioester dehydratase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -4895,6 +4976,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -4910,8 +4995,8 @@
         "code": "(1) cpd16855[0] <=> (1) cpd00001[0] + (1) cpd11475[0]",
         "compound_ids": "cpd00001;cpd11475;cpd16855",
         "definition": "(1) 3-hydroxydecanoyl-acp[0] <=> (1) H2O[0] + (1) (2E)-Decenoyl-[acp][0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(1) cpd16855[0] <=> (1) cpd00001[0] + (1) cpd11475[0]",
         "id": "rxn39063",
@@ -4921,7 +5006,8 @@
         "name": "3-hydroxyacyl-thioester dehydratase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -4957,6 +5043,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -4972,8 +5062,8 @@
         "code": "(1) cpd00005[0] + (1) cpd11488[0] <=> (1) cpd00006[0] + (1) cpd16853[0]",
         "compound_ids": "cpd00005;cpd00006;cpd00067;cpd11488;cpd16853",
         "definition": "(1) NADPH[0] + (1) H+[0] + (1) Acetoacetyl-ACP[0] <=> (1) NADP[0] + (1) 3-hydroxybutanoyl-acp[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(1) cpd00005[0] + (1) cpd00067[0] + (1) cpd11488[0] <=> (1) cpd00006[0] + (1) cpd16853[0]",
         "id": "rxn39064",
@@ -4983,7 +5073,8 @@
         "name": "Mitochondrial 3-oxoacyl-[acyl-carrier-protein] reductase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5035,6 +5126,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -5050,8 +5145,8 @@
         "code": "(1) cpd00005[0] + (1) cpd11487[0] <=> (1) cpd00006[0] + (1) cpd16855[0]",
         "compound_ids": "cpd00005;cpd00006;cpd00067;cpd11487;cpd16855",
         "definition": "(1) NADPH[0] + (1) H+[0] + (1) 3-oxodecanoyl-acp[0] <=> (1) NADP[0] + (1) 3-hydroxydecanoyl-acp[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(1) cpd00005[0] + (1) cpd00067[0] + (1) cpd11487[0] <=> (1) cpd00006[0] + (1) cpd16855[0]",
         "id": "rxn39065",
@@ -5061,7 +5156,8 @@
         "name": "Mitochondrial 3-oxoacyl-[acyl-carrier-protein] reductase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5113,6 +5209,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -5296,8 +5396,8 @@
         "code": "(1) cpd00002[0] + (1) cpd00023[0] <=> (1) cpd00012[0] + (1) cpd00018[0] + (1) cpd12227[0]",
         "compound_ids": "cpd00002;cpd00012;cpd00018;cpd00023;cpd12227",
         "definition": "(1) ATP[0] + (1) L-Glutamate[0] <=> (1) PPi[0] + (1) AMP[0] + (1) L-Glutamyl-tRNA-Glu[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(1) cpd00002[0] + (1) cpd00023[0] <=> (1) cpd00012[0] + (1) cpd00018[0] + (1) cpd12227[0]",
         "id": "rxn39068",
@@ -5307,7 +5407,8 @@
         "name": "Glutamyl-tRNA synthetase, cytoplasmic",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5359,6 +5460,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -5374,8 +5479,8 @@
         "code": "(7) cpd00113[0] + (1) cpd00350[0] <=> (7) cpd00012[0] + (1) cpd29704[0]",
         "compound_ids": "cpd00012;cpd00067;cpd00113;cpd00350;cpd29704",
         "definition": "(7) Isopentenyldiphosphate[0] + (1) Farnesyldiphosphate[0] <=> (7) PPi[0] + (7) H+[0] + (1) (E,E,E,E,E,E,E,Z,Z) Decaprenyl diphosphate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -71.34,
+        "deltagerr": 1.02,
         "ec_numbers": null,
         "equation": "(7) cpd00113[0] + (1) cpd00350[0] <=> (7) cpd00012[0] + (7) cpd00067[0] + (1) cpd29704[0]",
         "id": "rxn39069",
@@ -5385,7 +5490,8 @@
         "name": "Decaprenyl diphosphate synthase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5437,6 +5543,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -71.34,
+                1.02
             ]
         }
     },
@@ -6892,8 +7002,8 @@
         "code": "(1) cpd00002[0] + (0.01) cpd11715[0] <=> (1) cpd00008[0] + (0.01) cpd15288[0]",
         "compound_ids": "cpd00002;cpd00008;cpd00067;cpd11715;cpd15288",
         "definition": "(1) ATP[0] + (0.01) Phosphatidylinositol[0] <=> (1) ADP[0] + (1) H+[0] + (0.01) phosphatidyl-1D-myo-4-inositol, yeast specific[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd00002[0] + (0.01) cpd11715[0] <=> (1) cpd00008[0] + (1) cpd00067[0] + (0.01) cpd15288[0]",
         "id": "rxn39087",
@@ -6903,7 +7013,8 @@
         "name": "phosphatidylinositol 4-kinase, nuclear, yeast-specifc",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -6955,6 +7066,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -6970,8 +7085,8 @@
         "code": "(0.01) cpd29687[0] <=> (1) cpd00011[0] + (0.01) cpd29688[0]",
         "compound_ids": "cpd00011;cpd00067;cpd29687;cpd29688",
         "definition": "(1) H+[0] + (0.01) ps_BS[0] <=> (1) CO2[0] + (0.01) psetha_BS[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd00067[0] + (0.01) cpd29687[0] <=> (1) cpd00011[0] + (0.01) cpd29688[0]",
         "id": "rxn39088",
@@ -6981,7 +7096,8 @@
         "name": "phosphatidylserine decarboxylase, yeast-specific, vacuolar",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7025,6 +7141,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -7040,8 +7160,8 @@
         "code": "(1) cpd00054[0] + (0.01) cpd29685[0] <=> (1) cpd00046[0] + (0.01) cpd29687[0]",
         "compound_ids": "cpd00046;cpd00054;cpd00067;cpd29685;cpd29687",
         "definition": "(1) L-Serine[0] + (0.01) cdpdag_BS[0] <=> (1) CMP[0] + (1) H+[0] + (0.01) ps_BS[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd00054[0] + (0.01) cpd29685[0] <=> (1) cpd00046[0] + (1) cpd00067[0] + (0.01) cpd29687[0]",
         "id": "rxn39089",
@@ -7051,7 +7171,8 @@
         "name": "phosphatidylserine synthase, yeast-specific, mitochondrial",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7103,6 +7224,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -7120,8 +7245,8 @@
         "code": "(1) cpd00001[0] + (1) cpd15283[0] <=> (1) cpd00009[0] + (1) cpd08926[0]",
         "compound_ids": "cpd00001;cpd00009;cpd00067;cpd08926;cpd15283",
         "definition": "(1) H2O[0] + (1) Phytosphingosine 1-phosphate[0] <=> (1) Phosphate[0] + (1) H+[0] + (1) Phytosphingosine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd15283[0] <=> (1) cpd00009[0] + (1) cpd00067[0] + (1) cpd08926[0]",
         "id": "rxn39090",
@@ -7132,7 +7257,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7184,6 +7310,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -7283,8 +7413,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00081[0] + (2) cpd00109[1] <=> (1) cpd00048[0] + (2) cpd00110[1]",
         "compound_ids": "cpd00001;cpd00048;cpd00067;cpd00081;cpd00109;cpd00110",
         "definition": "(1) H2O[0] + (1) Sulfite[0] + (2) Cytochrome c3+[1] <=> (1) Sulfate[0] + (3) H+[0] + (2) Cytochrome c2+[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": [
             "1.8.2.1"
         ],
@@ -7296,7 +7426,8 @@
         "name": "Sulfite dehydrogenase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7356,6 +7487,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -7605,8 +7740,8 @@
         "code": "(1) cpd00003[0] + (1) cpd28829[0] <=> (1) cpd00004[0] + (1) cpd09441[0]",
         "compound_ids": "cpd00003;cpd00004;cpd00067;cpd09441;cpd28829",
         "definition": "(1) NAD[0] + (1) CPD1F-92[0] <=> (1) NADH[0] + (1) H+[0] + (1) Abscisic aldehyde[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": [
             "1.1.1.288-"
         ],
@@ -7618,7 +7753,8 @@
         "name": "1.1.1.288-RXN",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7670,6 +7806,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -7683,8 +7823,8 @@
         "code": "(1) cpd28787[0] <=> (1) cpd11296[0]",
         "compound_ids": "cpd00067;cpd11296;cpd28787",
         "definition": "(1) CPD-84[0] <=> (2) H+[0] + (1) 2-Hydroxy-3-keto-5-methylthiopentenyl-1-phosphate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd28787[0] <=> (2) cpd00067[0] + (1) cpd11296[0]",
         "id": "rxn39097",
@@ -7694,7 +7834,8 @@
         "name": "R82-RXN",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7730,6 +7871,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -7743,8 +7888,8 @@
         "code": "(1) cpd23795[0] <=> (1) cpd00012[0] + (1) cpd03749[0]",
         "compound_ids": "cpd00012;cpd03749;cpd23795",
         "definition": "(1) (E)-geranyl phosphate[0] <=> (1) PPi[0] + (1) alpha-Pinene[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd23795[0] <=> (1) cpd00012[0] + (1) cpd03749[0]",
         "id": "rxn39098",
@@ -7754,7 +7899,8 @@
         "name": "RXN-5106",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7791,6 +7937,10 @@
                 10000000.0,
                 10000000.0
             ],
+            "dGPredictor": [
+                13.92,
+                0.5
+            ],
             "eQuilibrator": [
                 -354.0,
                 28222.58
@@ -7807,8 +7957,8 @@
         "code": "(1) cpd23795[0] <=> (1) cpd00012[0] + (1) cpd03748[0]",
         "compound_ids": "cpd00012;cpd03748;cpd23795",
         "definition": "(1) (E)-geranyl phosphate[0] <=> (1) PPi[0] + (1) beta-Pinene[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd23795[0] <=> (1) cpd00012[0] + (1) cpd03748[0]",
         "id": "rxn39099",
@@ -7818,7 +7968,8 @@
         "name": "RXN-5107",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7854,6 +8005,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ],
             "eQuilibrator": [
                 -345.59,
@@ -8001,8 +8156,8 @@
         "code": "(1) cpd00007[0] + (1) cpd09433[0] <=> (1) cpd09769[0] + (1) cpd28829[0]",
         "compound_ids": "cpd00007;cpd09433;cpd09769;cpd28829",
         "definition": "(1) O2[0] + (1) 9'-cis-Neoxanthin[0] <=> (1) C25-Allenic-apo-aldehyde[0] + (1) CPD1F-92[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd00007[0] + (1) cpd09433[0] <=> (1) cpd09769[0] + (1) cpd28829[0]",
         "id": "rxn39102",
@@ -8012,7 +8167,8 @@
         "name": "RXN-698",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8056,6 +8212,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8070,8 +8230,8 @@
         "code": "(1) cpd00822[0] + (1) cpd30740[0] <=> (1) cpd00036[0] + (1) cpd00135[0]",
         "compound_ids": "cpd00036;cpd00135;cpd00822;cpd30740",
         "definition": "(1) O-Succinyl-L-homoserine[0] + (1) Thioether[0] <=> (1) Succinate[0] + (1) Homocysteine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd00822[0] + (1) cpd30740[0] <=> (1) cpd00036[0] + (1) cpd00135[0]",
         "id": "rxn39103",
@@ -8081,7 +8241,8 @@
         "name": "R_O4_succinyl_L_homoserine_hydrogen_sulfide_S__3_amino_3_carboxypropyl_transferase;_O_succinyl_L_homoserine_succinate_lyase__adding_hydrogen_sulfide_",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8125,6 +8286,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8212,8 +8377,8 @@
         "code": "(1) cpd30642[0] <=> (1) cpd30642[1]",
         "compound_ids": "cpd30642",
         "definition": "(1) Tetrazolium violet[0] <=> (1) Tetrazolium violet[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30642[0] <=> (1) cpd30642[1]",
         "id": "rxn39105",
@@ -8223,7 +8388,8 @@
         "name": "TrnRxn_cpd30642",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8251,6 +8417,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8263,8 +8433,8 @@
         "code": "(1) cpd30684[0] <=> (1) cpd30684[1]",
         "compound_ids": "cpd30684",
         "definition": "(1) Calcium DL-pantothenate[0] <=> (1) Calcium DL-pantothenate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30684[0] <=> (1) cpd30684[1]",
         "id": "rxn39106",
@@ -8274,7 +8444,8 @@
         "name": "TrnRxn_cpd30684",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8302,6 +8473,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8314,8 +8489,8 @@
         "code": "(1) cpd30636[0] <=> (1) cpd30636[1]",
         "compound_ids": "cpd30636",
         "definition": "(1) iron (III) citrate[0] <=> (1) iron (III) citrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30636[0] <=> (1) cpd30636[1]",
         "id": "rxn39107",
@@ -8325,7 +8500,8 @@
         "name": "TrnRxn_cpd30636",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8353,6 +8529,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8365,8 +8545,8 @@
         "code": "(1) cpd30665[0] <=> (1) cpd30665[1]",
         "compound_ids": "cpd30665",
         "definition": "(1) Crystal Violet[0] <=> (1) Crystal Violet[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30665[0] <=> (1) cpd30665[1]",
         "id": "rxn39108",
@@ -8376,7 +8556,8 @@
         "name": "TrnRxn_cpd30665",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8404,6 +8585,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8416,8 +8601,8 @@
         "code": "(1) cpd23642[0] <=> (1) cpd23642[1]",
         "compound_ids": "cpd23642",
         "definition": "(1) NaNO3[0] <=> (1) NaNO3[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd23642[0] <=> (1) cpd23642[1]",
         "id": "rxn39109",
@@ -8427,7 +8612,8 @@
         "name": "TrnRxn_cpd23642",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8455,6 +8641,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8467,8 +8657,8 @@
         "code": "(1) cpd20785[0] <=> (1) cpd20785[1]",
         "compound_ids": "cpd20785",
         "definition": "(1) Sulfamethazine[0] <=> (1) Sulfamethazine[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd20785[0] <=> (1) cpd20785[1]",
         "id": "rxn39110",
@@ -8478,7 +8668,8 @@
         "name": "TrnRxn_cpd20785",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8506,6 +8697,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8518,8 +8713,8 @@
         "code": "(1) cpd11145[0] <=> (1) cpd11145[1]",
         "compound_ids": "cpd11145",
         "definition": "(1) Sodium molybdate[0] <=> (1) Sodium molybdate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd11145[0] <=> (1) cpd11145[1]",
         "id": "rxn39111",
@@ -8529,7 +8724,8 @@
         "name": "TrnRxn_cpd11145",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8557,6 +8753,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8620,8 +8820,8 @@
         "code": "(1) cpd30641[0] <=> (1) cpd30641[1]",
         "compound_ids": "cpd30641",
         "definition": "(1) 2,5-Diphenyl-3-(1-naphthyl)tetrazolium[0] <=> (1) 2,5-Diphenyl-3-(1-naphthyl)tetrazolium[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30641[0] <=> (1) cpd30641[1]",
         "id": "rxn39113",
@@ -8631,7 +8831,8 @@
         "name": "TrnRxn_cpd30641",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8659,6 +8860,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8671,8 +8876,8 @@
         "code": "(1) cpd30678[0] <=> (1) cpd30678[1]",
         "compound_ids": "cpd30678",
         "definition": "(1) (3,4-dichlorophenyl)methyl carbamimidothioate hydrochloride[0] <=> (1) (3,4-dichlorophenyl)methyl carbamimidothioate hydrochloride[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30678[0] <=> (1) cpd30678[1]",
         "id": "rxn39114",
@@ -8682,7 +8887,8 @@
         "name": "TrnRxn_cpd30678",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8710,6 +8916,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8722,8 +8932,8 @@
         "code": "(1) cpd30657[0] <=> (1) cpd30657[1]",
         "compound_ids": "cpd30657",
         "definition": "(1) copper (II) chloride[0] <=> (1) copper (II) chloride[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30657[0] <=> (1) cpd30657[1]",
         "id": "rxn39115",
@@ -8733,7 +8943,8 @@
         "name": "TrnRxn_cpd30657",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8761,6 +8972,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8773,8 +8988,8 @@
         "code": "(1) cpd30634[0] <=> (1) cpd30634[1]",
         "compound_ids": "cpd30634",
         "definition": "(1) D,L-Malic Acid[0] <=> (1) D,L-Malic Acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30634[0] <=> (1) cpd30634[1]",
         "id": "rxn39116",
@@ -8784,7 +8999,8 @@
         "name": "TrnRxn_cpd30634",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8812,6 +9028,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8824,8 +9044,8 @@
         "code": "(1) cpd30667[0] <=> (1) cpd30667[1]",
         "compound_ids": "cpd30667",
         "definition": "(1) glycerol 2-phosphate disodium salt[0] <=> (1) glycerol 2-phosphate disodium salt[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30667[0] <=> (1) cpd30667[1]",
         "id": "rxn39117",
@@ -8835,7 +9055,8 @@
         "name": "TrnRxn_cpd30667",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8863,6 +9084,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8875,8 +9100,8 @@
         "code": "(1) cpd30727[0] <=> (1) cpd30727[1]",
         "compound_ids": "cpd30727",
         "definition": "(1) L-Rhamnose monohydrate[0] <=> (1) L-Rhamnose monohydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30727[0] <=> (1) cpd30727[1]",
         "id": "rxn39118",
@@ -8886,7 +9111,8 @@
         "name": "TrnRxn_cpd30727",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8914,6 +9140,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8926,8 +9156,8 @@
         "code": "(1) cpd30662[0] <=> (1) cpd30662[1]",
         "compound_ids": "cpd30662",
         "definition": "(1) Copper (II) sulfate pentahydrate[0] <=> (1) Copper (II) sulfate pentahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30662[0] <=> (1) cpd30662[1]",
         "id": "rxn39119",
@@ -8937,7 +9167,8 @@
         "name": "TrnRxn_cpd30662",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8965,6 +9196,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -8977,8 +9212,8 @@
         "code": "(1) cpd22643[0] <=> (1) cpd22643[1]",
         "compound_ids": "cpd22643",
         "definition": "(1) iodonitrotetrazolium[0] <=> (1) iodonitrotetrazolium[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd22643[0] <=> (1) cpd22643[1]",
         "id": "rxn39120",
@@ -8988,7 +9223,8 @@
         "name": "TrnRxn_cpd22643",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9016,6 +9252,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9028,8 +9268,8 @@
         "code": "(1) cpd30707[0] <=> (1) cpd30707[1]",
         "compound_ids": "cpd30707",
         "definition": "(1) propidium iodide[0] <=> (1) propidium iodide[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30707[0] <=> (1) cpd30707[1]",
         "id": "rxn39121",
@@ -9039,7 +9279,8 @@
         "name": "TrnRxn_cpd30707",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9067,6 +9308,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9079,8 +9324,8 @@
         "code": "(1) cpd11451[0] <=> (1) cpd11451[1]",
         "compound_ids": "cpd11451",
         "definition": "(1) mql7[0] <=> (1) mql7[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd11451[0] <=> (1) cpd11451[1]",
         "id": "rxn39122",
@@ -9090,7 +9335,8 @@
         "name": "TrnRxn_cpd11451",
         "notes": [
             "EQC",
-            "GCP"
+            "GCP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9118,6 +9364,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9130,8 +9380,8 @@
         "code": "(1) cpd30666[0] <=> (1) cpd30666[1]",
         "compound_ids": "cpd30666",
         "definition": "(1) Sodium molybdate dihydrate[0] <=> (1) Sodium molybdate dihydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30666[0] <=> (1) cpd30666[1]",
         "id": "rxn39123",
@@ -9141,7 +9391,8 @@
         "name": "TrnRxn_cpd30666",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9169,6 +9420,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9181,8 +9436,8 @@
         "code": "(1) cpd29628[0] <=> (1) cpd29628[1]",
         "compound_ids": "cpd29628",
         "definition": "(1) ZnCl2[0] <=> (1) ZnCl2[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd29628[0] <=> (1) cpd29628[1]",
         "id": "rxn39124",
@@ -9192,7 +9447,8 @@
         "name": "TrnRxn_cpd29628",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9220,6 +9476,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9232,8 +9492,8 @@
         "code": "(1) cpd30709[0] <=> (1) cpd30709[1]",
         "compound_ids": "cpd30709",
         "definition": "(1) PIPES sesquisodium salt[0] <=> (1) PIPES sesquisodium salt[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30709[0] <=> (1) cpd30709[1]",
         "id": "rxn39125",
@@ -9243,7 +9503,8 @@
         "name": "TrnRxn_cpd30709",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9271,6 +9532,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9283,8 +9548,8 @@
         "code": "(1) cpd30705[0] <=> (1) cpd30705[1]",
         "compound_ids": "cpd30705",
         "definition": "(1) Glycyl-D-aspartic Acid[0] <=> (1) Glycyl-D-aspartic Acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30705[0] <=> (1) cpd30705[1]",
         "id": "rxn39126",
@@ -9294,7 +9559,8 @@
         "name": "TrnRxn_cpd30705",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9322,6 +9588,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9334,8 +9604,8 @@
         "code": "(1) cpd30703[0] <=> (1) cpd30703[1]",
         "compound_ids": "cpd30703",
         "definition": "(1) Yeast extract[0] <=> (1) Yeast extract[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30703[0] <=> (1) cpd30703[1]",
         "id": "rxn39127",
@@ -9345,7 +9615,8 @@
         "name": "TrnRxn_cpd30703",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9373,6 +9644,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9385,8 +9660,8 @@
         "code": "(1) cpd30661[0] <=> (1) cpd30661[1]",
         "compound_ids": "cpd30661",
         "definition": "(1) sodium iodoacetate[0] <=> (1) sodium iodoacetate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30661[0] <=> (1) cpd30661[1]",
         "id": "rxn39128",
@@ -9396,7 +9671,8 @@
         "name": "TrnRxn_cpd30661",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9424,6 +9700,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9436,8 +9716,8 @@
         "code": "(1) cpd30687[0] <=> (1) cpd30687[1]",
         "compound_ids": "cpd30687",
         "definition": "(1) Sodium nitrite[0] <=> (1) Sodium nitrite[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30687[0] <=> (1) cpd30687[1]",
         "id": "rxn39129",
@@ -9447,7 +9727,8 @@
         "name": "TrnRxn_cpd30687",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9475,6 +9756,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9487,8 +9772,8 @@
         "code": "(1) cpd30685[0] <=> (1) cpd30685[1]",
         "compound_ids": "cpd30685",
         "definition": "(1) 3-[[(2S)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid[0] <=> (1) 3-[[(2S)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30685[0] <=> (1) cpd30685[1]",
         "id": "rxn39130",
@@ -9498,7 +9783,8 @@
         "name": "TrnRxn_cpd30685",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9526,6 +9812,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9538,8 +9828,8 @@
         "code": "(1) cpd30681[0] <=> (1) cpd30681[1]",
         "compound_ids": "cpd30681",
         "definition": "(1) Manganese (II) sulfate monohydrate[0] <=> (1) Manganese (II) sulfate monohydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30681[0] <=> (1) cpd30681[1]",
         "id": "rxn39131",
@@ -9549,7 +9839,8 @@
         "name": "TrnRxn_cpd30681",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9577,6 +9868,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9589,8 +9884,8 @@
         "code": "(1) cpd30720[0] <=> (1) cpd30720[1]",
         "compound_ids": "cpd30720",
         "definition": "(1) Nickel (II) chloride hexahydrate[0] <=> (1) Nickel (II) chloride hexahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30720[0] <=> (1) cpd30720[1]",
         "id": "rxn39132",
@@ -9600,7 +9895,8 @@
         "name": "TrnRxn_cpd30720",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9628,6 +9924,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9641,8 +9941,8 @@
         "code": "(1) cpd09225[0] <=> (1) cpd09225[1]",
         "compound_ids": "cpd09225",
         "definition": "(1) Boric acid[0] <=> (1) Boric acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd09225[0] <=> (1) cpd09225[1]",
         "id": "rxn39133",
@@ -9652,7 +9952,8 @@
         "name": "TrnRxn_cpd09225",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9680,6 +9981,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9743,8 +10048,8 @@
         "code": "(1) cpd30656[0] <=> (1) cpd30656[1]",
         "compound_ids": "cpd30656",
         "definition": "(1) Cobalt (III) Ethylenediaminetetraacetic acid[0] <=> (1) Cobalt (III) Ethylenediaminetetraacetic acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30656[0] <=> (1) cpd30656[1]",
         "id": "rxn39135",
@@ -9754,7 +10059,8 @@
         "name": "TrnRxn_cpd30656",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9782,6 +10088,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9794,8 +10104,8 @@
         "code": "(1) cpd30686[0] <=> (1) cpd30686[1]",
         "compound_ids": "cpd30686",
         "definition": "(1) Adenine hydrochloride hydrate[0] <=> (1) Adenine hydrochloride hydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30686[0] <=> (1) cpd30686[1]",
         "id": "rxn39136",
@@ -9805,7 +10115,8 @@
         "name": "TrnRxn_cpd30686",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9833,6 +10144,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9845,8 +10160,8 @@
         "code": "(1) cpd30633[0] <=> (1) cpd30633[1]",
         "compound_ids": "cpd30633",
         "definition": "(1) thallium(i) acetate[0] <=> (1) thallium(i) acetate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30633[0] <=> (1) cpd30633[1]",
         "id": "rxn39137",
@@ -9856,7 +10171,8 @@
         "name": "TrnRxn_cpd30633",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9884,6 +10200,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9896,8 +10216,8 @@
         "code": "(1) cpd20945[0] <=> (1) cpd20945[1]",
         "compound_ids": "cpd20945",
         "definition": "(1) Hypochlorous acid[0] <=> (1) Hypochlorous acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd20945[0] <=> (1) cpd20945[1]",
         "id": "rxn39138",
@@ -9907,7 +10227,8 @@
         "name": "TrnRxn_cpd20945",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9935,6 +10256,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9947,8 +10272,8 @@
         "code": "(1) cpd30638[0] <=> (1) cpd30638[1]",
         "compound_ids": "cpd30638",
         "definition": "(1) 2-(N-morpholino)ethanesulfonic acid[0] <=> (1) 2-(N-morpholino)ethanesulfonic acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30638[0] <=> (1) cpd30638[1]",
         "id": "rxn39139",
@@ -9958,7 +10283,8 @@
         "name": "TrnRxn_cpd30638",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9986,6 +10312,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -9998,8 +10328,8 @@
         "code": "(1) cpd26493[0] <=> (1) cpd26493[1]",
         "compound_ids": "cpd26493",
         "definition": "(1) ferrous sulfate heptahydrate[0] <=> (1) ferrous sulfate heptahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd26493[0] <=> (1) cpd26493[1]",
         "id": "rxn39140",
@@ -10009,7 +10339,8 @@
         "name": "TrnRxn_cpd26493",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10037,6 +10368,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10049,8 +10384,8 @@
         "code": "(1) cpd21174[0] <=> (1) cpd21174[1]",
         "compound_ids": "cpd21174",
         "definition": "(1) Azide[0] <=> (1) Azide[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd21174[0] <=> (1) cpd21174[1]",
         "id": "rxn39141",
@@ -10060,7 +10395,8 @@
         "name": "TrnRxn_cpd21174",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10088,6 +10424,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10100,8 +10440,8 @@
         "code": "(1) cpd30716[0] <=> (1) cpd30716[1]",
         "compound_ids": "cpd30716",
         "definition": "(1) D-Raffinose pentahydrate[0] <=> (1) D-Raffinose pentahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30716[0] <=> (1) cpd30716[1]",
         "id": "rxn39142",
@@ -10111,7 +10451,8 @@
         "name": "TrnRxn_cpd30716",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10139,6 +10480,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10151,8 +10496,8 @@
         "code": "(1) cpd30644[0] <=> (1) cpd30644[1]",
         "compound_ids": "cpd30644",
         "definition": "(1) D,L lactate[0] <=> (1) D,L lactate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30644[0] <=> (1) cpd30644[1]",
         "id": "rxn39143",
@@ -10162,7 +10507,8 @@
         "name": "TrnRxn_cpd30644",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10190,6 +10536,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10202,8 +10552,8 @@
         "code": "(1) cpd30643[0] <=> (1) cpd30643[1]",
         "compound_ids": "cpd30643",
         "definition": "(1) furaltadone[0] <=> (1) furaltadone[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30643[0] <=> (1) cpd30643[1]",
         "id": "rxn39144",
@@ -10213,7 +10563,8 @@
         "name": "TrnRxn_cpd30643",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10241,6 +10592,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10253,8 +10608,8 @@
         "code": "(1) cpd30722[0] <=> (1) cpd30722[1]",
         "compound_ids": "cpd30722",
         "definition": "(1) Sodium DL-lactate[0] <=> (1) Sodium DL-lactate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30722[0] <=> (1) cpd30722[1]",
         "id": "rxn39145",
@@ -10264,7 +10619,8 @@
         "name": "TrnRxn_cpd30722",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10292,6 +10648,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10304,8 +10664,8 @@
         "code": "(1) cpd30726[0] <=> (1) cpd30726[1]",
         "compound_ids": "cpd30726",
         "definition": "(1) Calcium chloride dihydrate[0] <=> (1) Calcium chloride dihydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30726[0] <=> (1) cpd30726[1]",
         "id": "rxn39146",
@@ -10315,7 +10675,8 @@
         "name": "TrnRxn_cpd30726",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10343,6 +10704,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10355,8 +10720,8 @@
         "code": "(1) cpd30692[0] <=> (1) cpd30692[1]",
         "compound_ids": "cpd30692",
         "definition": "(1) Potassium alum dodecahydrate[0] <=> (1) Potassium alum dodecahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30692[0] <=> (1) cpd30692[1]",
         "id": "rxn39147",
@@ -10366,7 +10731,8 @@
         "name": "TrnRxn_cpd30692",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10394,6 +10760,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10406,8 +10776,8 @@
         "code": "(1) cpd30725[0] <=> (1) cpd30725[1]",
         "compound_ids": "cpd30725",
         "definition": "(1) Sodium fumarate dibasic[0] <=> (1) Sodium fumarate dibasic[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30725[0] <=> (1) cpd30725[1]",
         "id": "rxn39148",
@@ -10417,7 +10787,8 @@
         "name": "TrnRxn_cpd30725",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10445,6 +10816,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10457,8 +10832,8 @@
         "code": "(1) cpd30651[0] <=> (1) cpd30651[1]",
         "compound_ids": "cpd30651",
         "definition": "(1) Tryptone[0] <=> (1) Tryptone[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30651[0] <=> (1) cpd30651[1]",
         "id": "rxn39149",
@@ -10468,7 +10843,8 @@
         "name": "TrnRxn_cpd30651",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10496,6 +10872,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10508,8 +10888,8 @@
         "code": "(1) cpd30647[0] <=> (1) cpd30647[1]",
         "compound_ids": "cpd30647",
         "definition": "(1) Iron (II) chloride tetrahydrate[0] <=> (1) Iron (II) chloride tetrahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30647[0] <=> (1) cpd30647[1]",
         "id": "rxn39150",
@@ -10519,7 +10899,8 @@
         "name": "TrnRxn_cpd30647",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10547,6 +10928,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10559,8 +10944,8 @@
         "code": "(1) cpd28926[0] <=> (1) cpd28926[1]",
         "compound_ids": "cpd28926",
         "definition": "(1) syringaldehyde[0] <=> (1) syringaldehyde[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd28926[0] <=> (1) cpd28926[1]",
         "id": "rxn39151",
@@ -10570,7 +10955,8 @@
         "name": "TrnRxn_cpd28926",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10598,6 +10984,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10610,8 +11000,8 @@
         "code": "(1) cpd30640[0] <=> (1) cpd30640[1]",
         "compound_ids": "cpd30640",
         "definition": "(1) Magnesium chloride hexahydrate[0] <=> (1) Magnesium chloride hexahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30640[0] <=> (1) cpd30640[1]",
         "id": "rxn39152",
@@ -10621,7 +11011,8 @@
         "name": "TrnRxn_cpd30640",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10649,6 +11040,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10661,8 +11056,8 @@
         "code": "(1) cpd20439[0] <=> (1) cpd20439[1]",
         "compound_ids": "cpd20439",
         "definition": "(1) Methyl methanesulfonate[0] <=> (1) Methyl methanesulfonate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd20439[0] <=> (1) cpd20439[1]",
         "id": "rxn39153",
@@ -10672,7 +11067,8 @@
         "name": "TrnRxn_cpd20439",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10700,6 +11096,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10712,8 +11112,8 @@
         "code": "(1) cpd30683[0] <=> (1) cpd30683[1]",
         "compound_ids": "cpd30683",
         "definition": "(1) L-Malic acid disodium salt monohydrate[0] <=> (1) L-Malic acid disodium salt monohydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30683[0] <=> (1) cpd30683[1]",
         "id": "rxn39154",
@@ -10723,7 +11123,8 @@
         "name": "TrnRxn_cpd30683",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10751,6 +11152,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10763,8 +11168,8 @@
         "code": "(1) cpd30695[0] <=> (1) cpd30695[1]",
         "compound_ids": "cpd30695",
         "definition": "(1) 4-hydroxyphenylpropionic acid[0] <=> (1) 4-hydroxyphenylpropionic acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30695[0] <=> (1) cpd30695[1]",
         "id": "rxn39155",
@@ -10774,7 +11179,8 @@
         "name": "TrnRxn_cpd30695",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10802,6 +11208,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10865,8 +11275,8 @@
         "code": "(1) cpd30704[0] <=> (1) cpd30704[1]",
         "compound_ids": "cpd30704",
         "definition": "(1) colistin[0] <=> (1) colistin[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30704[0] <=> (1) cpd30704[1]",
         "id": "rxn39157",
@@ -10876,7 +11286,8 @@
         "name": "TrnRxn_cpd30704",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10904,6 +11315,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10916,8 +11331,8 @@
         "code": "(1) cpd30679[0] <=> (1) cpd30679[1]",
         "compound_ids": "cpd30679",
         "definition": "(1) 3,5-Dinitrobenzoic acid[0] <=> (1) 3,5-Dinitrobenzoic acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30679[0] <=> (1) cpd30679[1]",
         "id": "rxn39158",
@@ -10927,7 +11342,8 @@
         "name": "TrnRxn_cpd30679",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10955,6 +11371,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -10967,8 +11387,8 @@
         "code": "(1) cpd26500[0] <=> (1) cpd26500[1]",
         "compound_ids": "cpd26500",
         "definition": "(1) monobasic sodium phosphate[0] <=> (1) monobasic sodium phosphate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd26500[0] <=> (1) cpd26500[1]",
         "id": "rxn39159",
@@ -10978,7 +11398,8 @@
         "name": "TrnRxn_cpd26500",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11006,6 +11427,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11018,8 +11443,8 @@
         "code": "(1) cpd30670[0] <=> (1) cpd30670[1]",
         "compound_ids": "cpd30670",
         "definition": "(1) Sodium L-lactate[0] <=> (1) Sodium L-lactate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30670[0] <=> (1) cpd30670[1]",
         "id": "rxn39160",
@@ -11029,7 +11454,8 @@
         "name": "TrnRxn_cpd30670",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11057,6 +11483,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11069,8 +11499,8 @@
         "code": "(1) cpd30730[0] <=> (1) cpd30730[1]",
         "compound_ids": "cpd30730",
         "definition": "(1) 5-ethylphenazine[0] <=> (1) 5-ethylphenazine[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30730[0] <=> (1) cpd30730[1]",
         "id": "rxn39161",
@@ -11080,7 +11510,8 @@
         "name": "TrnRxn_cpd30730",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11108,6 +11539,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11120,8 +11555,8 @@
         "code": "(1) cpd30697[0] <=> (1) cpd30697[1]",
         "compound_ids": "cpd30697",
         "definition": "(1) phleomycin[0] <=> (1) phleomycin[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30697[0] <=> (1) cpd30697[1]",
         "id": "rxn39162",
@@ -11131,7 +11566,8 @@
         "name": "TrnRxn_cpd30697",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11159,6 +11595,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11171,8 +11611,8 @@
         "code": "(1) cpd30713[0] <=> (1) cpd30713[1]",
         "compound_ids": "cpd30713",
         "definition": "(1) Magnesium sulfate hepahydrate[0] <=> (1) Magnesium sulfate hepahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30713[0] <=> (1) cpd30713[1]",
         "id": "rxn39163",
@@ -11182,7 +11622,8 @@
         "name": "TrnRxn_cpd30713",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11210,6 +11651,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11222,8 +11667,8 @@
         "code": "(1) cpd24344[0] <=> (1) cpd24344[1]",
         "compound_ids": "cpd24344",
         "definition": "(1) Al+++[0] <=> (1) Al+++[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd24344[0] <=> (1) cpd24344[1]",
         "id": "rxn39164",
@@ -11233,7 +11678,8 @@
         "name": "TrnRxn_cpd24344",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11261,6 +11707,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11273,8 +11723,8 @@
         "code": "(1) cpd30645[0] <=> (1) cpd30645[1]",
         "compound_ids": "cpd30645",
         "definition": "(1) Pyridoxine-HCl[0] <=> (1) Pyridoxine-HCl[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30645[0] <=> (1) cpd30645[1]",
         "id": "rxn39165",
@@ -11284,7 +11734,8 @@
         "name": "TrnRxn_cpd30645",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11312,6 +11763,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11324,8 +11779,8 @@
         "code": "(1) cpd30639[0] <=> (1) cpd30639[1]",
         "compound_ids": "cpd30639",
         "definition": "(1) Sodium Formate[0] <=> (1) Sodium Formate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30639[0] <=> (1) cpd30639[1]",
         "id": "rxn39166",
@@ -11335,7 +11790,8 @@
         "name": "TrnRxn_cpd30639",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11363,6 +11819,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11375,8 +11835,8 @@
         "code": "(1) cpd30724[0] <=> (1) cpd30724[1]",
         "compound_ids": "cpd30724",
         "definition": "(1) mecillinam[0] <=> (1) mecillinam[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30724[0] <=> (1) cpd30724[1]",
         "id": "rxn39167",
@@ -11386,7 +11846,8 @@
         "name": "TrnRxn_cpd30724",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11414,6 +11875,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11426,8 +11891,8 @@
         "code": "(1) cpd30664[0] <=> (1) cpd30664[1]",
         "compound_ids": "cpd30664",
         "definition": "(1) Sodium octanoate[0] <=> (1) Sodium octanoate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30664[0] <=> (1) cpd30664[1]",
         "id": "rxn39168",
@@ -11437,7 +11902,8 @@
         "name": "TrnRxn_cpd30664",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11465,6 +11931,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11477,8 +11947,8 @@
         "code": "(1) cpd30663[0] <=> (1) cpd30663[1]",
         "compound_ids": "cpd30663",
         "definition": "(1) D-Galacturonic acid monohydrate[0] <=> (1) D-Galacturonic acid monohydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30663[0] <=> (1) cpd30663[1]",
         "id": "rxn39169",
@@ -11488,7 +11958,8 @@
         "name": "TrnRxn_cpd30663",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11516,6 +11987,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11528,8 +12003,8 @@
         "code": "(1) cpd11461[0] <=> (1) cpd11461[1]",
         "compound_ids": "cpd11461",
         "definition": "(1) DNA[0] <=> (1) DNA[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd11461[0] <=> (1) cpd11461[1]",
         "id": "rxn39170",
@@ -11539,7 +12014,8 @@
         "name": "TrnRxn_cpd11461",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11567,6 +12043,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11579,8 +12059,8 @@
         "code": "(1) cpd19649[0] <=> (1) cpd19649[1]",
         "compound_ids": "cpd19649",
         "definition": "(1) Sodium selenite[0] <=> (1) Sodium selenite[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd19649[0] <=> (1) cpd19649[1]",
         "id": "rxn39171",
@@ -11590,7 +12070,8 @@
         "name": "TrnRxn_cpd19649",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11618,6 +12099,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11681,8 +12166,8 @@
         "code": "(1) cpd19148[0] <=> (1) cpd19148[1]",
         "compound_ids": "cpd19148",
         "definition": "(1) Sodium chloride[0] <=> (1) Sodium chloride[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd19148[0] <=> (1) cpd19148[1]",
         "id": "rxn39173",
@@ -11692,7 +12177,8 @@
         "name": "TrnRxn_cpd19148",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11720,6 +12206,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11732,8 +12222,8 @@
         "code": "(1) cpd30706[0] <=> (1) cpd30706[1]",
         "compound_ids": "cpd30706",
         "definition": "(1) cecropin b[0] <=> (1) cecropin b[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30706[0] <=> (1) cpd30706[1]",
         "id": "rxn39174",
@@ -11743,7 +12233,8 @@
         "name": "TrnRxn_cpd30706",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11771,6 +12262,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11834,8 +12329,8 @@
         "code": "(1) cpd26232[0] <=> (1) cpd26232[1]",
         "compound_ids": "cpd26232",
         "definition": "(1) calcium chloride[0] <=> (1) calcium chloride[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd26232[0] <=> (1) cpd26232[1]",
         "id": "rxn39176",
@@ -11845,7 +12340,8 @@
         "name": "TrnRxn_cpd26232",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11873,6 +12369,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11885,8 +12385,8 @@
         "code": "(1) cpd30691[0] <=> (1) cpd30691[1]",
         "compound_ids": "cpd30691",
         "definition": "(1) Ammonium Nitrate[0] <=> (1) Ammonium Nitrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30691[0] <=> (1) cpd30691[1]",
         "id": "rxn39177",
@@ -11896,7 +12396,8 @@
         "name": "TrnRxn_cpd30691",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11924,6 +12425,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11936,8 +12441,8 @@
         "code": "(1) cpd27326[0] <=> (1) cpd27326[1]",
         "compound_ids": "cpd27326",
         "definition": "(1) potassium chloride[0] <=> (1) potassium chloride[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd27326[0] <=> (1) cpd27326[1]",
         "id": "rxn39178",
@@ -11947,7 +12452,8 @@
         "name": "TrnRxn_cpd27326",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11975,6 +12481,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -11987,8 +12497,8 @@
         "code": "(1) cpd30719[0] <=> (1) cpd30719[1]",
         "compound_ids": "cpd30719",
         "definition": "(1) pentasodium tripolyphosphate[0] <=> (1) pentasodium tripolyphosphate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30719[0] <=> (1) cpd30719[1]",
         "id": "rxn39179",
@@ -11998,7 +12508,8 @@
         "name": "TrnRxn_cpd30719",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12026,6 +12537,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12038,8 +12553,8 @@
         "code": "(1) cpd19075[0] <=> (1) cpd19075[1]",
         "compound_ids": "cpd19075",
         "definition": "(1) Nitrofurantoin[0] <=> (1) Nitrofurantoin[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd19075[0] <=> (1) cpd19075[1]",
         "id": "rxn39180",
@@ -12049,7 +12564,8 @@
         "name": "TrnRxn_cpd19075",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12077,6 +12593,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12089,8 +12609,8 @@
         "code": "(1) cpd30655[0] <=> (1) cpd30655[1]",
         "compound_ids": "cpd30655",
         "definition": "(1) Copper (II) chloride dihydrate[0] <=> (1) Copper (II) chloride dihydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30655[0] <=> (1) cpd30655[1]",
         "id": "rxn39181",
@@ -12100,7 +12620,8 @@
         "name": "TrnRxn_cpd30655",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12128,6 +12649,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12192,8 +12717,8 @@
         "code": "(1) cpd30688[0] <=> (1) cpd30688[1]",
         "compound_ids": "cpd30688",
         "definition": "(1) 2,2'-(1,4-Piperazinediyl)diethanesulfonic acid[0] <=> (1) 2,2'-(1,4-Piperazinediyl)diethanesulfonic acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30688[0] <=> (1) cpd30688[1]",
         "id": "rxn39183",
@@ -12203,7 +12728,8 @@
         "name": "TrnRxn_cpd30688",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12231,6 +12757,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12243,8 +12773,8 @@
         "code": "(1) cpd30652[0] <=> (1) cpd30652[1]",
         "compound_ids": "cpd30652",
         "definition": "(1) Sodium succinate dibasic hexahydrate[0] <=> (1) Sodium succinate dibasic hexahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30652[0] <=> (1) cpd30652[1]",
         "id": "rxn39184",
@@ -12254,7 +12784,8 @@
         "name": "TrnRxn_cpd30652",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12282,6 +12813,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12294,8 +12829,8 @@
         "code": "(1) cpd30648[0] <=> (1) cpd30648[1]",
         "compound_ids": "cpd30648",
         "definition": "(1) Calcium Nitrate[0] <=> (1) Calcium Nitrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30648[0] <=> (1) cpd30648[1]",
         "id": "rxn39185",
@@ -12305,7 +12840,8 @@
         "name": "TrnRxn_cpd30648",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12333,6 +12869,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12345,8 +12885,8 @@
         "code": "(1) cpd30675[0] <=> (1) cpd30675[1]",
         "compound_ids": "cpd30675",
         "definition": "(1) L-Cysteine hydrochloride monohydrate[0] <=> (1) L-Cysteine hydrochloride monohydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30675[0] <=> (1) cpd30675[1]",
         "id": "rxn39186",
@@ -12356,7 +12896,8 @@
         "name": "TrnRxn_cpd30675",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12384,6 +12925,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12396,8 +12941,8 @@
         "code": "(1) cpd30673[0] <=> (1) cpd30673[1]",
         "compound_ids": "cpd30673",
         "definition": "(1) sodium bromide[0] <=> (1) sodium bromide[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30673[0] <=> (1) cpd30673[1]",
         "id": "rxn39187",
@@ -12407,7 +12952,8 @@
         "name": "TrnRxn_cpd30673",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12435,6 +12981,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12498,8 +13048,8 @@
         "code": "(1) cpd24444[0] <=> (1) cpd24444[1]",
         "compound_ids": "cpd24444",
         "definition": "(1) phosphorothiolate[0] <=> (1) phosphorothiolate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd24444[0] <=> (1) cpd24444[1]",
         "id": "rxn39189",
@@ -12509,7 +13059,8 @@
         "name": "TrnRxn_cpd24444",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12537,6 +13088,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12549,8 +13104,8 @@
         "code": "(1) cpd30672[0] <=> (1) cpd30672[1]",
         "compound_ids": "cpd30672",
         "definition": "(1) D-Trehalose dihydrate[0] <=> (1) D-Trehalose dihydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30672[0] <=> (1) cpd30672[1]",
         "id": "rxn39190",
@@ -12560,7 +13115,8 @@
         "name": "TrnRxn_cpd30672",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12588,6 +13144,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12600,8 +13160,8 @@
         "code": "(1) cpd30723[0] <=> (1) cpd30723[1]",
         "compound_ids": "cpd30723",
         "definition": "(1) sodium thiophosphate[0] <=> (1) sodium thiophosphate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30723[0] <=> (1) cpd30723[1]",
         "id": "rxn39191",
@@ -12611,7 +13171,8 @@
         "name": "TrnRxn_cpd30723",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12639,6 +13200,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12651,8 +13216,8 @@
         "code": "(1) cpd30796[0] <=> (1) cpd30796[1]",
         "compound_ids": "cpd30796",
         "definition": "(1) Trisodium citrate dihydrate[0] <=> (1) Trisodium citrate dihydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30796[0] <=> (1) cpd30796[1]",
         "id": "rxn39192",
@@ -12662,7 +13227,8 @@
         "name": "TrnRxn_cpd30796",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12690,6 +13256,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12753,8 +13323,8 @@
         "code": "(1) cpd30693[0] <=> (1) cpd30693[1]",
         "compound_ids": "cpd30693",
         "definition": "(1) 3-[[1,3-dihydroxy-2-(hydroxymethyl)propan-2-yl]amino]propane-1-sulfonic acid[0] <=> (1) 3-[[1,3-dihydroxy-2-(hydroxymethyl)propan-2-yl]amino]propane-1-sulfonic acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30693[0] <=> (1) cpd30693[1]",
         "id": "rxn39194",
@@ -12764,7 +13334,8 @@
         "name": "TrnRxn_cpd30693",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12792,6 +13363,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12906,8 +13481,8 @@
         "code": "(1) cpd30715[0] <=> (1) cpd30715[1]",
         "compound_ids": "cpd30715",
         "definition": "(1) Benzethonium[0] <=> (1) Benzethonium[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30715[0] <=> (1) cpd30715[1]",
         "id": "rxn39197",
@@ -12917,7 +13492,8 @@
         "name": "TrnRxn_cpd30715",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12945,6 +13521,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -12957,8 +13537,8 @@
         "code": "(1) cpd30637[0] <=> (1) cpd30637[1]",
         "compound_ids": "cpd30637",
         "definition": "(1) 18-Crown-6[0] <=> (1) 18-Crown-6[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30637[0] <=> (1) cpd30637[1]",
         "id": "rxn39198",
@@ -12968,7 +13548,8 @@
         "name": "TrnRxn_cpd30637",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12996,6 +13577,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13008,8 +13593,8 @@
         "code": "(1) cpd30680[0] <=> (1) cpd30680[1]",
         "compound_ids": "cpd30680",
         "definition": "(1) Thiamine-HCl[0] <=> (1) Thiamine-HCl[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30680[0] <=> (1) cpd30680[1]",
         "id": "rxn39199",
@@ -13019,7 +13604,8 @@
         "name": "TrnRxn_cpd30680",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13047,6 +13633,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13059,8 +13649,8 @@
         "code": "(1) cpd30714[0] <=> (1) cpd30714[1]",
         "compound_ids": "cpd30714",
         "definition": "(1) sodium sulfite[0] <=> (1) sodium sulfite[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30714[0] <=> (1) cpd30714[1]",
         "id": "rxn39200",
@@ -13070,7 +13660,8 @@
         "name": "TrnRxn_cpd30714",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13098,6 +13689,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13110,8 +13705,8 @@
         "code": "(1) cpd30701[0] <=> (1) cpd30701[1]",
         "compound_ids": "cpd30701",
         "definition": "(1) Glycylaspartic acid[0] <=> (1) Glycylaspartic acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30701[0] <=> (1) cpd30701[1]",
         "id": "rxn39201",
@@ -13121,7 +13716,8 @@
         "name": "TrnRxn_cpd30701",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13149,6 +13745,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13213,8 +13813,8 @@
         "code": "(1) cpd30694[0] <=> (1) cpd30694[1]",
         "compound_ids": "cpd30694",
         "definition": "(1) L-Glutamic acid monopotassium salt monohydrate[0] <=> (1) L-Glutamic acid monopotassium salt monohydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30694[0] <=> (1) cpd30694[1]",
         "id": "rxn39203",
@@ -13224,7 +13824,8 @@
         "name": "TrnRxn_cpd30694",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13252,6 +13853,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13264,8 +13869,8 @@
         "code": "(1) cpd30696[0] <=> (1) cpd30696[1]",
         "compound_ids": "cpd30696",
         "definition": "(1) Sodium hypochloride[0] <=> (1) Sodium hypochloride[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30696[0] <=> (1) cpd30696[1]",
         "id": "rxn39204",
@@ -13275,7 +13880,8 @@
         "name": "TrnRxn_cpd30696",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13303,6 +13909,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13315,8 +13925,8 @@
         "code": "(1) cpd26499[0] <=> (1) cpd26499[1]",
         "compound_ids": "cpd26499",
         "definition": "(1) sodium pyruvate[0] <=> (1) sodium pyruvate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd26499[0] <=> (1) cpd26499[1]",
         "id": "rxn39205",
@@ -13326,7 +13936,8 @@
         "name": "TrnRxn_cpd26499",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13354,6 +13965,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13366,8 +13981,8 @@
         "code": "(1) cpd30676[0] <=> (1) cpd30676[1]",
         "compound_ids": "cpd30676",
         "definition": "(1) sodium arsenate[0] <=> (1) sodium arsenate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30676[0] <=> (1) cpd30676[1]",
         "id": "rxn39206",
@@ -13377,7 +13992,8 @@
         "name": "TrnRxn_cpd30676",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13405,6 +14021,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13417,8 +14037,8 @@
         "code": "(1) cpd30698[0] <=> (1) cpd30698[1]",
         "compound_ids": "cpd30698",
         "definition": "(1) Casamino acids[0] <=> (1) Casamino acids[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30698[0] <=> (1) cpd30698[1]",
         "id": "rxn39207",
@@ -13428,7 +14048,8 @@
         "name": "TrnRxn_cpd30698",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13456,6 +14077,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13519,8 +14144,8 @@
         "code": "(1) cpd30653[0] <=> (1) cpd30653[1]",
         "compound_ids": "cpd30653",
         "definition": "(1) Manganese (II) chloride tetrahydrate[0] <=> (1) Manganese (II) chloride tetrahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30653[0] <=> (1) cpd30653[1]",
         "id": "rxn39209",
@@ -13530,7 +14155,8 @@
         "name": "TrnRxn_cpd30653",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13558,6 +14184,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13570,8 +14200,8 @@
         "code": "(1) cpd30671[0] <=> (1) cpd30671[1]",
         "compound_ids": "cpd30671",
         "definition": "(1) Thioridazine[0] <=> (1) Thioridazine[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30671[0] <=> (1) cpd30671[1]",
         "id": "rxn39210",
@@ -13581,7 +14211,8 @@
         "name": "TrnRxn_cpd30671",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13609,6 +14240,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13621,8 +14256,8 @@
         "code": "(1) cpd30710[0] <=> (1) cpd30710[1]",
         "compound_ids": "cpd30710",
         "definition": "(1) Sodium propionate[0] <=> (1) Sodium propionate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30710[0] <=> (1) cpd30710[1]",
         "id": "rxn39211",
@@ -13632,7 +14267,8 @@
         "name": "TrnRxn_cpd30710",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13660,6 +14296,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13672,8 +14312,8 @@
         "code": "(1) cpd30659[0] <=> (1) cpd30659[1]",
         "compound_ids": "cpd30659",
         "definition": "(1) 4-oxopentanoic acid[0] <=> (1) 4-oxopentanoic acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30659[0] <=> (1) cpd30659[1]",
         "id": "rxn39212",
@@ -13683,7 +14323,8 @@
         "name": "TrnRxn_cpd30659",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13711,6 +14352,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13723,8 +14368,8 @@
         "code": "(1) cpd30717[0] <=> (1) cpd30717[1]",
         "compound_ids": "cpd30717",
         "definition": "(1) Cobalt chloride hexahydrate[0] <=> (1) Cobalt chloride hexahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30717[0] <=> (1) cpd30717[1]",
         "id": "rxn39213",
@@ -13734,7 +14379,8 @@
         "name": "TrnRxn_cpd30717",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13762,6 +14408,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13774,8 +14424,8 @@
         "code": "(1) cpd30718[0] <=> (1) cpd30718[1]",
         "compound_ids": "cpd30718",
         "definition": "(1) Carbonyl cyanide 4-(trifluoromethoxy)phenylhydrazone[0] <=> (1) Carbonyl cyanide 4-(trifluoromethoxy)phenylhydrazone[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30718[0] <=> (1) cpd30718[1]",
         "id": "rxn39214",
@@ -13785,7 +14435,8 @@
         "name": "TrnRxn_cpd30718",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13813,6 +14464,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13825,8 +14480,8 @@
         "code": "(1) cpd30635[0] <=> (1) cpd30635[1]",
         "compound_ids": "cpd30635",
         "definition": "(1) L-glutathione[0] <=> (1) L-glutathione[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30635[0] <=> (1) cpd30635[1]",
         "id": "rxn39215",
@@ -13836,7 +14491,8 @@
         "name": "TrnRxn_cpd30635",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13864,6 +14520,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13876,8 +14536,8 @@
         "code": "(1) cpd26290[0] <=> (1) cpd26290[1]",
         "compound_ids": "cpd26290",
         "definition": "(1) FeCl2[0] <=> (1) FeCl2[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd26290[0] <=> (1) cpd26290[1]",
         "id": "rxn39216",
@@ -13887,7 +14547,8 @@
         "name": "TrnRxn_cpd26290",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13915,6 +14576,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13927,8 +14592,8 @@
         "code": "(1) cpd30711[0] <=> (1) cpd30711[1]",
         "compound_ids": "cpd30711",
         "definition": "(1) D-Glucose 6-phosphate sodium salt[0] <=> (1) D-Glucose 6-phosphate sodium salt[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30711[0] <=> (1) cpd30711[1]",
         "id": "rxn39217",
@@ -13938,7 +14603,8 @@
         "name": "TrnRxn_cpd30711",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -13966,6 +14632,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -13978,8 +14648,8 @@
         "code": "(1) cpd30690[0] <=> (1) cpd30690[1]",
         "compound_ids": "cpd30690",
         "definition": "(1) sodium cholate[0] <=> (1) sodium cholate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30690[0] <=> (1) cpd30690[1]",
         "id": "rxn39218",
@@ -13989,7 +14659,8 @@
         "name": "TrnRxn_cpd30690",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14017,6 +14688,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14029,8 +14704,8 @@
         "code": "(1) cpd30712[0] <=> (1) cpd30712[1]",
         "compound_ids": "cpd30712",
         "definition": "(1) L-tyrosine disodium salt[0] <=> (1) L-tyrosine disodium salt[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30712[0] <=> (1) cpd30712[1]",
         "id": "rxn39219",
@@ -14040,7 +14715,8 @@
         "name": "TrnRxn_cpd30712",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14068,6 +14744,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14080,8 +14760,8 @@
         "code": "(1) cpd30689[0] <=> (1) cpd30689[1]",
         "compound_ids": "cpd30689",
         "definition": "(1) D-xylo-Hex-5-ulosonic acid potassium salt[0] <=> (1) D-xylo-Hex-5-ulosonic acid potassium salt[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30689[0] <=> (1) cpd30689[1]",
         "id": "rxn39220",
@@ -14091,7 +14771,8 @@
         "name": "TrnRxn_cpd30689",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14119,6 +14800,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14131,8 +14816,8 @@
         "code": "(1) cpd30649[0] <=> (1) cpd30649[1]",
         "compound_ids": "cpd30649",
         "definition": "(1) sodium butyrate[0] <=> (1) sodium butyrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30649[0] <=> (1) cpd30649[1]",
         "id": "rxn39221",
@@ -14142,7 +14827,8 @@
         "name": "TrnRxn_cpd30649",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14170,6 +14856,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14182,8 +14872,8 @@
         "code": "(1) cpd30646[0] <=> (1) cpd30646[1]",
         "compound_ids": "cpd30646",
         "definition": "(1) D-Gluconic acid sodium salt[0] <=> (1) D-Gluconic acid sodium salt[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30646[0] <=> (1) cpd30646[1]",
         "id": "rxn39222",
@@ -14193,7 +14883,8 @@
         "name": "TrnRxn_cpd30646",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14221,6 +14912,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14233,8 +14928,8 @@
         "code": "(1) cpd30668[0] <=> (1) cpd30668[1]",
         "compound_ids": "cpd30668",
         "definition": "(1) Potassium oxalate monohydrate[0] <=> (1) Potassium oxalate monohydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30668[0] <=> (1) cpd30668[1]",
         "id": "rxn39223",
@@ -14244,7 +14939,8 @@
         "name": "TrnRxn_cpd30668",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14272,6 +14968,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14284,8 +14984,8 @@
         "code": "(1) cpd30650[0] <=> (1) cpd30650[1]",
         "compound_ids": "cpd30650",
         "definition": "(1) Putrescine Dihydrochloride[0] <=> (1) Putrescine Dihydrochloride[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30650[0] <=> (1) cpd30650[1]",
         "id": "rxn39224",
@@ -14295,7 +14995,8 @@
         "name": "TrnRxn_cpd30650",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14323,6 +15024,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14335,8 +15040,8 @@
         "code": "(1) cpd26289[0] <=> (1) cpd26289[1]",
         "compound_ids": "cpd26289",
         "definition": "(1) FeCl3[0] <=> (1) FeCl3[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd26289[0] <=> (1) cpd26289[1]",
         "id": "rxn39225",
@@ -14346,7 +15051,8 @@
         "name": "TrnRxn_cpd26289",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14374,6 +15080,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14386,8 +15096,8 @@
         "code": "(1) cpd30658[0] <=> (1) cpd30658[1]",
         "compound_ids": "cpd30658",
         "definition": "(1) 5-fluoroorotic acid[0] <=> (1) 5-fluoroorotic acid[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30658[0] <=> (1) cpd30658[1]",
         "id": "rxn39226",
@@ -14397,7 +15107,8 @@
         "name": "TrnRxn_cpd30658",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14425,6 +15136,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14437,8 +15152,8 @@
         "code": "(1) cpd26495[0] <=> (1) cpd26495[1]",
         "compound_ids": "cpd26495",
         "definition": "(1) zinc sulfate heptahydrate[0] <=> (1) zinc sulfate heptahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd26495[0] <=> (1) cpd26495[1]",
         "id": "rxn39227",
@@ -14448,7 +15163,8 @@
         "name": "TrnRxn_cpd26495",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14476,6 +15192,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14488,8 +15208,8 @@
         "code": "(1) cpd30669[0] <=> (1) cpd30669[1]",
         "compound_ids": "cpd30669",
         "definition": "(1) Sodium selenite pentahydrate[0] <=> (1) Sodium selenite pentahydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30669[0] <=> (1) cpd30669[1]",
         "id": "rxn39228",
@@ -14499,7 +15219,8 @@
         "name": "TrnRxn_cpd30669",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14527,6 +15248,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14539,8 +15264,8 @@
         "code": "(1) cpd30708[0] <=> (1) cpd30708[1]",
         "compound_ids": "cpd30708",
         "definition": "(1) sodium thiosulfate[0] <=> (1) sodium thiosulfate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30708[0] <=> (1) cpd30708[1]",
         "id": "rxn39229",
@@ -14550,7 +15275,8 @@
         "name": "TrnRxn_cpd30708",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14578,6 +15304,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14590,8 +15320,8 @@
         "code": "(1) cpd27293[0] <=> (1) cpd27293[1]",
         "compound_ids": "cpd27293",
         "definition": "(1) 2-iodoacetate[0] <=> (1) 2-iodoacetate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd27293[0] <=> (1) cpd27293[1]",
         "id": "rxn39230",
@@ -14601,7 +15331,8 @@
         "name": "TrnRxn_cpd27293",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14629,6 +15360,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14641,8 +15376,8 @@
         "code": "(1) cpd26291[0] <=> (1) cpd26291[1]",
         "compound_ids": "cpd26291",
         "definition": "(1) CoCl2[0] <=> (1) CoCl2[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd26291[0] <=> (1) cpd26291[1]",
         "id": "rxn39231",
@@ -14652,7 +15387,8 @@
         "name": "TrnRxn_cpd26291",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14680,6 +15416,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14692,8 +15432,8 @@
         "code": "(1) cpd30700[0] <=> (1) cpd30700[1]",
         "compound_ids": "cpd30700",
         "definition": "(1) a-Ketoglutaric acid disodium salt hydrate[0] <=> (1) a-Ketoglutaric acid disodium salt hydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30700[0] <=> (1) cpd30700[1]",
         "id": "rxn39232",
@@ -14703,7 +15443,8 @@
         "name": "TrnRxn_cpd30700",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14731,6 +15472,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14743,8 +15488,8 @@
         "code": "(1) cpd30721[0] <=> (1) cpd30721[1]",
         "compound_ids": "cpd30721",
         "definition": "(1) 2-(4-Iodophenyl)-3-(4-nitrophenyl)-5-phenyl-2H-tetrazolium[0] <=> (1) 2-(4-Iodophenyl)-3-(4-nitrophenyl)-5-phenyl-2H-tetrazolium[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30721[0] <=> (1) cpd30721[1]",
         "id": "rxn39233",
@@ -14754,7 +15499,8 @@
         "name": "TrnRxn_cpd30721",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14782,6 +15528,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14794,8 +15544,8 @@
         "code": "(1) cpd19118[0] <=> (1) cpd19118[1]",
         "compound_ids": "cpd19118",
         "definition": "(1) Ammonium chloride[0] <=> (1) Ammonium chloride[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd19118[0] <=> (1) cpd19118[1]",
         "id": "rxn39234",
@@ -14805,7 +15555,8 @@
         "name": "TrnRxn_cpd19118",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14833,6 +15584,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14845,8 +15600,8 @@
         "code": "(1) cpd30660[0] <=> (1) cpd30660[1]",
         "compound_ids": "cpd30660",
         "definition": "(1) Carnitine Hydrochloride[0] <=> (1) Carnitine Hydrochloride[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30660[0] <=> (1) cpd30660[1]",
         "id": "rxn39235",
@@ -14856,7 +15611,8 @@
         "name": "TrnRxn_cpd30660",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14884,6 +15640,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14896,8 +15656,8 @@
         "code": "(1) cpd30674[0] <=> (1) cpd30674[1]",
         "compound_ids": "cpd30674",
         "definition": "(1) Sodium azide[0] <=> (1) Sodium azide[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30674[0] <=> (1) cpd30674[1]",
         "id": "rxn39236",
@@ -14907,7 +15667,8 @@
         "name": "TrnRxn_cpd30674",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14935,6 +15696,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14947,8 +15712,8 @@
         "code": "(1) cpd30682[0] <=> (1) cpd30682[1]",
         "compound_ids": "cpd30682",
         "definition": "(1) Propidium[0] <=> (1) Propidium[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30682[0] <=> (1) cpd30682[1]",
         "id": "rxn39237",
@@ -14958,7 +15723,8 @@
         "name": "TrnRxn_cpd30682",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14986,6 +15752,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -14998,8 +15768,8 @@
         "code": "(1) cpd30654[0] <=> (1) cpd30654[1]",
         "compound_ids": "cpd30654",
         "definition": "(1) D-Maltose monohydrate[0] <=> (1) D-Maltose monohydrate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30654[0] <=> (1) cpd30654[1]",
         "id": "rxn39238",
@@ -15009,7 +15779,8 @@
         "name": "TrnRxn_cpd30654",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -15037,6 +15808,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -15049,8 +15824,8 @@
         "code": "(1) cpd30702[0] <=> (1) cpd30702[1]",
         "compound_ids": "cpd30702",
         "definition": "(1) Sodium D-lactate[0] <=> (1) Sodium D-lactate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30702[0] <=> (1) cpd30702[1]",
         "id": "rxn39239",
@@ -15060,7 +15835,8 @@
         "name": "TrnRxn_cpd30702",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -15088,6 +15864,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -15100,8 +15880,8 @@
         "code": "(1) cpd30677[0] <=> (1) cpd30677[1]",
         "compound_ids": "cpd30677",
         "definition": "(1) D-Glucosamine Hydrochloride[0] <=> (1) D-Glucosamine Hydrochloride[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd30677[0] <=> (1) cpd30677[1]",
         "id": "rxn39240",
@@ -15111,7 +15891,8 @@
         "name": "TrnRxn_cpd30677",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -15139,6 +15920,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -15362,8 +16147,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00115[0] + (1) cpd27735[0] <=> (1) cpd00002[0] + (1) cpd28060[0]",
         "compound_ids": "cpd00001;cpd00002;cpd00067;cpd00115;cpd27735;cpd28060",
         "definition": "(1) H2O[0] + (1) dATP[0] + (1) Ox-Thioredoxin[0] <=> (1) ATP[0] + (1) H+[0] + (1) Red-Thioredoxin[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00115[0] + (1) cpd27735[0] <=> (1) cpd00002[0] + (1) cpd00067[0] + (1) cpd28060[0]",
         "id": "rxn39245",
@@ -15374,7 +16159,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -15434,6 +16220,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -15446,8 +16236,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00241[0] + (1) cpd27735[0] <=> (1) cpd00038[0] + (1) cpd28060[0]",
         "compound_ids": "cpd00001;cpd00038;cpd00067;cpd00241;cpd27735;cpd28060",
         "definition": "(1) H2O[0] + (1) dGTP[0] + (1) Ox-Thioredoxin[0] <=> (1) GTP[0] + (1) H+[0] + (1) Red-Thioredoxin[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00241[0] + (1) cpd27735[0] <=> (1) cpd00038[0] + (1) cpd00067[0] + (1) cpd28060[0]",
         "id": "rxn39246",
@@ -15458,7 +16248,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -15518,6 +16309,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -15530,8 +16325,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00356[0] + (1) cpd27735[0] <=> (1) cpd00052[0] + (1) cpd28060[0]",
         "compound_ids": "cpd00001;cpd00052;cpd00067;cpd00356;cpd27735;cpd28060",
         "definition": "(1) H2O[0] + (1) dCTP[0] + (1) Ox-Thioredoxin[0] <=> (1) CTP[0] + (1) H+[0] + (1) Red-Thioredoxin[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00356[0] + (1) cpd27735[0] <=> (1) cpd00052[0] + (1) cpd00067[0] + (1) cpd28060[0]",
         "id": "rxn39247",
@@ -15542,7 +16337,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -15602,6 +16398,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -15614,8 +16414,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00358[0] + (1) cpd27735[0] <=> (1) cpd00062[0] + (1) cpd28060[0]",
         "compound_ids": "cpd00001;cpd00062;cpd00067;cpd00358;cpd27735;cpd28060",
         "definition": "(1) H2O[0] + (1) dUTP[0] + (1) Ox-Thioredoxin[0] <=> (1) UTP[0] + (1) H+[0] + (1) Red-Thioredoxin[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 13.92,
+        "deltagerr": 0.5,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00358[0] + (1) cpd27735[0] <=> (1) cpd00062[0] + (1) cpd00067[0] + (1) cpd28060[0]",
         "id": "rxn39248",
@@ -15626,7 +16426,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -15686,6 +16487,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                13.92,
+                0.5
             ]
         }
     },
@@ -16307,8 +17112,8 @@
         "code": "(2) cpd00001[0] + (1) cpd00150[0] <=> (1) cpd00013[0] + (1) cpd00047[0]",
         "compound_ids": "cpd00001;cpd00013;cpd00047;cpd00150",
         "definition": "(2) H2O[0] + (1) HCN[0] <=> (1) NH3[0] + (1) Formate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -17.52,
+        "deltagerr": 0.04,
         "ec_numbers": [
             "3.5.5.-"
         ],
@@ -16320,7 +17125,8 @@
         "name": "hydrogen cyanide aminohydrolase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00460 (Cyanoamino acid metabolism)"
@@ -16366,6 +17172,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -17.52,
+                0.04
             ]
         }
     },
@@ -26610,8 +27420,8 @@
         "code": "(1) cpd00534[0] + (1) cpd01654[0] <=> (1) cpd00069[0] + (1) cpd00994[0]",
         "compound_ids": "cpd00067;cpd00069;cpd00534;cpd00994;cpd01654",
         "definition": "(1) H+[0] + (1) I-[0] + (1) 3-Iodo-L-tyrosine[0] <=> (1) L-Tyrosine[0] + (1) I2[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -3.54,
+        "deltagerr": 0.65,
         "ec_numbers": null,
         "equation": "(1) cpd00067[0] + (1) cpd00534[0] + (1) cpd01654[0] <=> (1) cpd00069[0] + (1) cpd00994[0]",
         "id": "rxn39404",
@@ -26622,7 +27432,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00350 (Tyrosine metabolism)"
@@ -26676,6 +27487,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -3.54,
+                0.65
             ]
         }
     },
@@ -27175,8 +27990,8 @@
         "code": "(1) cpd00001[0] + (1) cpd19190[0] <=> (1) cpd01120[0]",
         "compound_ids": "cpd00001;cpd00067;cpd01120;cpd19190",
         "definition": "(1) H2O[0] + (1) Limonoate D-ring-lactone[0] <=> (1) H+[0] + (1) Limonoate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -4.39,
+        "deltagerr": 0.2,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd19190[0] <=> (1) cpd00067[0] + (1) cpd01120[0]",
         "id": "rxn39411",
@@ -27187,7 +28002,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -27231,6 +28047,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -4.39,
+                0.2
             ]
         }
     },
@@ -27319,8 +28139,8 @@
         "code": "(1) cpd00007[0] + (1) cpd00024[0] + (1) cpd03685[0] <=> (1) cpd00011[0] + (1) cpd00036[0] + (1) cpd00055[0] + (1) cpd01196[0]",
         "compound_ids": "cpd00007;cpd00011;cpd00024;cpd00036;cpd00055;cpd01196;cpd03685",
         "definition": "(1) O2[0] + (1) 2-Oxoglutarate[0] + (1) Oripavine[0] <=> (1) CO2[0] + (1) Succinate[0] + (1) Formaldehyde[0] + (1) Morphinone[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -94.26,
+        "deltagerr": 0.84,
         "ec_numbers": null,
         "equation": "(1) cpd00007[0] + (1) cpd00024[0] + (1) cpd03685[0] <=> (1) cpd00011[0] + (1) cpd00036[0] + (1) cpd00055[0] + (1) cpd01196[0]",
         "id": "rxn39413",
@@ -27330,7 +28150,8 @@
         "name": "Oripavine,2-oxoglutarate:oxygen oxidoreductase (6-O-demethylating)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: ALKALOIDS-SYN (Alkaloid Biosynthesis); ISOQUINOLINE-ALKALOIDS (Isoquinoline and Benzylisoquinoline Alkaloid Biosynthesis); N-CONTAINING-SECONDARY-CMPD-SYN (Nitrogen-Containing Secondary Compound Biosynthesis); PWY-5270 (morphine biosynthesis); SECONDARY-METABOLITE-BIOSYNTHESIS (Secondary Metabolite Biosynthesis)",
@@ -27401,6 +28222,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -94.26,
+                0.84
             ]
         }
     },
@@ -28184,8 +29009,8 @@
         "code": "(2) cpd00007[0] + (2) cpd00024[0] + (1) cpd01389[0] <=> (1) cpd00001[0] + (3) cpd00011[0] + (2) cpd00036[0] + (1) cpd01390[0]",
         "compound_ids": "cpd00001;cpd00007;cpd00011;cpd00024;cpd00036;cpd00067;cpd01389;cpd01390",
         "definition": "(2) O2[0] + (2) 2-Oxoglutarate[0] + (1) H+[0] + (1) Gibberellin 19[0] <=> (1) H2O[0] + (3) CO2[0] + (2) Succinate[0] + (1) Gibberellin 20[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -231.29,
+        "deltagerr": 0.66,
         "ec_numbers": null,
         "equation": "(2) cpd00007[0] + (2) cpd00024[0] + (1) cpd00067[0] + (1) cpd01389[0] <=> (1) cpd00001[0] + (3) cpd00011[0] + (2) cpd00036[0] + (1) cpd01390[0]",
         "id": "rxn39424",
@@ -28196,7 +29021,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00904 (Diterpenoid biosynthesis)"
@@ -28274,6 +29100,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -231.29,
+                0.66
             ]
         }
     },
@@ -29257,8 +30087,8 @@
         "code": "(1) cpd00534[0] + (1) cpd00779[0] <=> (1) cpd00994[0] + (1) cpd01654[0]",
         "compound_ids": "cpd00067;cpd00534;cpd00779;cpd00994;cpd01654",
         "definition": "(1) H+[0] + (1) I-[0] + (1) L-Diiodotyrosine[0] <=> (1) I2[0] + (1) 3-Iodo-L-tyrosine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -2.59,
+        "deltagerr": 0.64,
         "ec_numbers": null,
         "equation": "(1) cpd00067[0] + (1) cpd00534[0] + (1) cpd00779[0] <=> (1) cpd00994[0] + (1) cpd01654[0]",
         "id": "rxn39438",
@@ -29269,7 +30099,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00350 (Tyrosine metabolism)"
@@ -29323,6 +30154,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -2.59,
+                0.64
             ]
         }
     },
@@ -31846,8 +32681,8 @@
         "code": "(6) cpd00013[0] + (1) cpd03421[0] + (1) cpd19039[0] <=> (7) cpd00001[0] + (1) cpd03422[0]",
         "compound_ids": "cpd00001;cpd00013;cpd00067;cpd03421;cpd03422;cpd19039",
         "definition": "(6) NH3[0] + (1) Cobyrinate[0] + (1) 1-Aminopropan-2-ol[0] <=> (7) H2O[0] + (3) H+[0] + (1) Cobinamide[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 20.5,
+        "deltagerr": 1.0,
         "ec_numbers": null,
         "equation": "(6) cpd00013[0] + (1) cpd03421[0] + (1) cpd19039[0] <=> (7) cpd00001[0] + (3) cpd00067[0] + (1) cpd03422[0]",
         "id": "rxn39476",
@@ -31858,7 +32693,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -31918,6 +32754,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                20.5,
+                1.0
             ]
         }
     },
@@ -32441,8 +33281,8 @@
         "code": "(1) cpd00007[0] + (1) cpd00024[0] + (1) cpd03683[0] <=> (1) cpd00011[0] + (1) cpd00036[0] + (1) cpd00055[0] + (1) cpd03682[0]",
         "compound_ids": "cpd00007;cpd00011;cpd00024;cpd00036;cpd00055;cpd03682;cpd03683",
         "definition": "(1) O2[0] + (1) 2-Oxoglutarate[0] + (1) Thebaine[0] <=> (1) CO2[0] + (1) Succinate[0] + (1) Formaldehyde[0] + (1) Neopinone[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -99.28,
+        "deltagerr": 0.78,
         "ec_numbers": [
             "1.14.11.31"
         ],
@@ -32454,7 +33294,8 @@
         "name": "thebaine,2-oxoglutarate:oxygen oxidoreductase (6-O-demethylating)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: ALKALOIDS-SYN (Alkaloid Biosynthesis); ISOQUINOLINE-ALKALOIDS (Isoquinoline and Benzylisoquinoline Alkaloid Biosynthesis); N-CONTAINING-SECONDARY-CMPD-SYN (Nitrogen-Containing Secondary Compound Biosynthesis); PWY-5270 (morphine biosynthesis); SECONDARY-METABOLITE-BIOSYNTHESIS (Secondary Metabolite Biosynthesis)",
@@ -32525,6 +33366,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -99.28,
+                0.78
             ]
         }
     },
@@ -32538,8 +33383,8 @@
         "code": "(1) cpd00007[0] + (1) cpd00024[0] + (1) cpd03683[0] <=> (1) cpd00011[0] + (1) cpd00036[0] + (1) cpd00055[0] + (1) cpd03685[0]",
         "compound_ids": "cpd00007;cpd00011;cpd00024;cpd00036;cpd00055;cpd03683;cpd03685",
         "definition": "(1) O2[0] + (1) 2-Oxoglutarate[0] + (1) Thebaine[0] <=> (1) CO2[0] + (1) Succinate[0] + (1) Formaldehyde[0] + (1) Oripavine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -77.89,
+        "deltagerr": 0.39,
         "ec_numbers": [
             "1.14.11.32"
         ],
@@ -32551,7 +33396,8 @@
         "name": "thebaine,2-oxoglutarate:oxygen oxidoreductase (3-O-demethylating)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: ALKALOIDS-SYN (Alkaloid Biosynthesis); ISOQUINOLINE-ALKALOIDS (Isoquinoline and Benzylisoquinoline Alkaloid Biosynthesis); N-CONTAINING-SECONDARY-CMPD-SYN (Nitrogen-Containing Secondary Compound Biosynthesis); PWY-5270 (morphine biosynthesis); SECONDARY-METABOLITE-BIOSYNTHESIS (Secondary Metabolite Biosynthesis)",
@@ -32622,6 +33468,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -77.89,
+                0.39
             ]
         }
     },
@@ -33816,8 +34666,8 @@
         "code": "(1) cpd00007[0] + (1) cpd00099[0] + (1) cpd00982[0] + (1) cpd04031[0] <=> (2) cpd00001[0] + (1) cpd00015[0] + (1) cpd04030[0]",
         "compound_ids": "cpd00001;cpd00007;cpd00015;cpd00067;cpd00099;cpd00982;cpd04030;cpd04031",
         "definition": "(1) O2[0] + (1) H+[0] + (1) Cl-[0] + (1) FADH2[0] + (1) 4-Dedimethylamino-4-oxo-anhydrotetracycline[0] <=> (2) H2O[0] + (1) FAD[0] + (1) 4-Dedimethylamine-4-oxo-anhydro-7-Cl-tetracycline[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -107.4,
+        "deltagerr": 0.36,
         "ec_numbers": null,
         "equation": "(1) cpd00007[0] + (1) cpd00067[0] + (1) cpd00099[0] + (1) cpd00982[0] + (1) cpd04031[0] <=> (2) cpd00001[0] + (1) cpd00015[0] + (1) cpd04030[0]",
         "id": "rxn39500",
@@ -33827,7 +34677,8 @@
         "name": "4-keto-anhydrotetracycline:FADH2 oxidoreductase (7-halogenating)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00253 (Tetracycline biosynthesis); rn01057 (Biosynthesis of type II polyketide products); rn01110 (Biosynthesis of secondary metabolites)"
@@ -33905,6 +34756,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -107.4,
+                0.36
             ]
         }
     },
@@ -34807,8 +35662,8 @@
         "code": "(1) cpd00017[0] + (1) cpd08370[0] <=> (1) cpd00019[0] + (1) cpd19177[0]",
         "compound_ids": "cpd00017;cpd00019;cpd00067;cpd08370;cpd19177",
         "definition": "(1) S-Adenosyl-L-methionine[0] + (1) Cobalt-precorrin 4[0] <=> (1) S-Adenosyl-homocysteine[0] + (1) H+[0] + (1) Cobalt-precorrin 5A[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 14.19,
+        "deltagerr": 1.52,
         "ec_numbers": [
             "2.1.1.271"
         ],
@@ -34821,7 +35676,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: Adenosylcobamide-Biosynthesis (Adenosylcobamide Biosynthesis); Cobalamin-Biosynthesis (Cobamide Biosynthesis); Cobamide-De-Novo-Biosynthesis (Cobamide <i>de novo</i> Biosynthesis); Cobyrinate-diamide-Biosynthesis (cob(II)yrinate <i>a,c</i>-diamide biosynthesis); Cofactor-Biosynthesis (Cofactor, Prosthetic Group, Electron Carrier, and Vitamin Biosynthesis); De-Novo-Adenosylcobalamin-Biosynthesis (Adenosylcobalamin <i>de novo</i> Biosynthesis); PWY-5507 (adenosylcobalamin biosynthesis I (anaerobic)); PWY-7377 (cob(II)yrinate <i>a,c</i>-diamide biosynthesis I (early cobalt insertion)); Vitamin-Biosynthesis (Vitamin Biosynthesis)",
@@ -34876,6 +35732,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                14.19,
+                1.52
             ]
         }
     },
@@ -34891,8 +35751,8 @@
         "code": "(1) cpd00004[0] + (1) cpd08372[0] <=> (1) cpd00003[0] + (1) cpd08373[0]",
         "compound_ids": "cpd00003;cpd00004;cpd00067;cpd08372;cpd08373",
         "definition": "(1) NADH[0] + (2) H+[0] + (1) Cobalt-precorrin 6[0] <=> (1) NAD[0] + (1) Cobalt-precorrin 6B[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 9.38,
+        "deltagerr": 0.8,
         "ec_numbers": [
             "1.3.1.106"
         ],
@@ -34905,7 +35765,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: Adenosylcobamide-Biosynthesis (Adenosylcobamide Biosynthesis); Cobalamin-Biosynthesis (Cobamide Biosynthesis); Cobamide-De-Novo-Biosynthesis (Cobamide <i>de novo</i> Biosynthesis); Cobyrinate-diamide-Biosynthesis (cob(II)yrinate <i>a,c</i>-diamide biosynthesis); Cofactor-Biosynthesis (Cofactor, Prosthetic Group, Electron Carrier, and Vitamin Biosynthesis); De-Novo-Adenosylcobalamin-Biosynthesis (Adenosylcobalamin <i>de novo</i> Biosynthesis); PWY-5507 (adenosylcobalamin biosynthesis I (anaerobic)); PWY-7377 (cob(II)yrinate <i>a,c</i>-diamide biosynthesis I (early cobalt insertion)); Vitamin-Biosynthesis (Vitamin Biosynthesis)",
@@ -34960,6 +35821,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                9.38,
+                0.8
             ]
         }
     },
@@ -46765,8 +47630,8 @@
         "code": "(1) cpd00001[0] + (1) cpd08700[0] <=> (1) cpd00012[0] + (1) cpd08688[0]",
         "compound_ids": "cpd00001;cpd00012;cpd00067;cpd08688;cpd08700",
         "definition": "(1) H2O[0] + (1) syn-Copalyl diphosphate[0] <=> (1) PPi[0] + (1) H+[0] + (1) Aphidicolan-16beta-ol[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -13.22,
+        "deltagerr": 1.0,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd08700[0] <=> (1) cpd00012[0] + (1) cpd00067[0] + (1) cpd08688[0]",
         "id": "rxn39686",
@@ -46777,7 +47642,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00904 (Diterpenoid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -46831,6 +47697,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -13.22,
+                1.0
             ]
         }
     },
@@ -49091,8 +49961,8 @@
         "code": "(1) cpd00004[0] + (1) cpd00007[0] + (1) cpd19099[0] <=> (1) cpd00001[0] + (1) cpd00003[0] + (1) cpd01783[0]",
         "compound_ids": "cpd00001;cpd00003;cpd00004;cpd00007;cpd00067;cpd01783;cpd19099",
         "definition": "(1) NADH[0] + (1) O2[0] + (1) H+[0] + (1) alpha-Pinene[0] <=> (1) H2O[0] + (1) NAD[0] + (1) alpha-Pinene-oxide[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -81.2,
+        "deltagerr": 0.81,
         "ec_numbers": null,
         "equation": "(1) cpd00004[0] + (1) cpd00007[0] + (1) cpd00067[0] + (1) cpd19099[0] <=> (1) cpd00001[0] + (1) cpd00003[0] + (1) cpd01783[0]",
         "id": "rxn39713",
@@ -49102,7 +49972,8 @@
         "name": "alpha-Pinene monooxygenase",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00903 (Limonene and pinene degradation)"
@@ -49172,6 +50043,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -81.2,
+                0.81
             ],
             "eQuilibrator": [
                 -129.26,
@@ -50043,8 +50918,8 @@
         "code": "(2) cpd00005[0] + (2) cpd00007[0] + (1) cpd08786[0] <=> (3) cpd00001[0] + (2) cpd00006[0] + (1) cpd08787[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd08786;cpd08787",
         "definition": "(2) NADPH[0] + (2) O2[0] + (2) H+[0] + (1) 8,8a-Deoxyoleandolide[0] <=> (3) H2O[0] + (2) NADP[0] + (1) Oleandolide[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -192.93,
+        "deltagerr": 0.37,
         "ec_numbers": null,
         "equation": "(2) cpd00005[0] + (2) cpd00007[0] + (2) cpd00067[0] + (1) cpd08786[0] <=> (3) cpd00001[0] + (2) cpd00006[0] + (1) cpd08787[0]",
         "id": "rxn39724",
@@ -50054,7 +50929,8 @@
         "name": "",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00522 (Biosynthesis of 12-, 14- and 16-membered macrolides); rn01110 (Biosynthesis of secondary metabolites)"
@@ -50124,6 +51000,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -192.93,
+                0.37
             ],
             "eQuilibrator": [
                 -194.19,
@@ -59945,8 +60825,8 @@
         "code": "(1) cpd00007[0] + (1) cpd14919[0] <=> (1) cpd00127[0] + (1) cpd09225[0]",
         "compound_ids": "cpd00007;cpd00067;cpd00127;cpd09225;cpd14919",
         "definition": "(1) O2[0] + (2) H+[0] + (1) Phenylboronic acid[0] <=> (1) Phenol[0] + (1) Boric acid[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -15.0,
+        "deltagerr": 0.72,
         "ec_numbers": null,
         "equation": "(1) cpd00007[0] + (2) cpd00067[0] + (1) cpd14919[0] <=> (1) cpd00127[0] + (1) cpd09225[0]",
         "id": "rxn39851",
@@ -59957,7 +60837,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00627 (Aminobenzoate degradation)"
@@ -60011,6 +60892,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -15.0,
+                0.72
             ]
         }
     },
@@ -60512,8 +61397,8 @@
         "code": "(1) cpd00001[0] + (1) cpd19177[0] <=> (1) cpd00071[0] + (1) cpd14960[0]",
         "compound_ids": "cpd00001;cpd00067;cpd00071;cpd14960;cpd19177",
         "definition": "(1) H2O[0] + (1) H+[0] + (1) Cobalt-precorrin 5A[0] <=> (1) Acetaldehyde[0] + (1) Cobalt-precorrin 5B[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -6.06,
+        "deltagerr": 1.33,
         "ec_numbers": [
             "3.7.1.12"
         ],
@@ -60526,7 +61411,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: Adenosylcobamide-Biosynthesis (Adenosylcobamide Biosynthesis); Cobalamin-Biosynthesis (Cobamide Biosynthesis); Cobamide-De-Novo-Biosynthesis (Cobamide <i>de novo</i> Biosynthesis); Cobyrinate-diamide-Biosynthesis (cob(II)yrinate <i>a,c</i>-diamide biosynthesis); Cofactor-Biosynthesis (Cofactor, Prosthetic Group, Electron Carrier, and Vitamin Biosynthesis); De-Novo-Adenosylcobalamin-Biosynthesis (Adenosylcobalamin <i>de novo</i> Biosynthesis); PWY-5507 (adenosylcobalamin biosynthesis I (anaerobic)); PWY-7377 (cob(II)yrinate <i>a,c</i>-diamide biosynthesis I (early cobalt insertion)); Vitamin-Biosynthesis (Vitamin Biosynthesis)",
@@ -60581,6 +61467,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -6.06,
+                1.33
             ]
         }
     },
@@ -60595,8 +61485,8 @@
         "code": "(1) cpd00017[0] + (1) cpd08373[0] <=> (1) cpd00011[0] + (1) cpd00019[0] + (1) cpd14961[0]",
         "compound_ids": "cpd00011;cpd00017;cpd00019;cpd00067;cpd08373;cpd14961",
         "definition": "(1) S-Adenosyl-L-methionine[0] + (1) Cobalt-precorrin 6B[0] <=> (1) CO2[0] + (1) S-Adenosyl-homocysteine[0] + (1) H+[0] + (1) Cobalt-precorrin 7[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -70.83,
+        "deltagerr": 0.99,
         "ec_numbers": [
             "2.1.1.196"
         ],
@@ -60609,7 +61499,8 @@
         "notes": [
             "GCP",
             "EQP",
-            "HB"
+            "HB",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: Adenosylcobamide-Biosynthesis (Adenosylcobamide Biosynthesis); Cobalamin-Biosynthesis (Cobamide Biosynthesis); Cobamide-De-Novo-Biosynthesis (Cobamide <i>de novo</i> Biosynthesis); Cobyrinate-diamide-Biosynthesis (cob(II)yrinate <i>a,c</i>-diamide biosynthesis); Cofactor-Biosynthesis (Cofactor, Prosthetic Group, Electron Carrier, and Vitamin Biosynthesis); De-Novo-Adenosylcobalamin-Biosynthesis (Adenosylcobalamin <i>de novo</i> Biosynthesis); PWY-5507 (adenosylcobalamin biosynthesis I (anaerobic)); PWY-7377 (cob(II)yrinate <i>a,c</i>-diamide biosynthesis I (early cobalt insertion)); Vitamin-Biosynthesis (Vitamin Biosynthesis)",
@@ -60672,6 +61563,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -70.83,
+                0.99
             ]
         }
     },
@@ -60685,8 +61580,8 @@
         "code": "(1) cpd00017[0] + (1) cpd14961[0] <=> (1) cpd00019[0] + (1) cpd08375[0]",
         "compound_ids": "cpd00017;cpd00019;cpd08375;cpd14961",
         "definition": "(1) S-Adenosyl-L-methionine[0] + (1) Cobalt-precorrin 7[0] <=> (1) S-Adenosyl-homocysteine[0] + (1) Cobalt-precorrin 8[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 67.62,
+        "deltagerr": 0.95,
         "ec_numbers": [
             "2.1.1.289"
         ],
@@ -60699,7 +61594,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00860 (Porphyrin and chlorophyll metabolism)"
@@ -60745,6 +61641,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                67.62,
+                0.95
             ]
         }
     },
@@ -62684,8 +63584,8 @@
         "code": "(1) cpd16324[0] <=> (1) cpd01212[0] + (1) cpd16425[0]",
         "compound_ids": "cpd00067;cpd01212;cpd16324;cpd16425",
         "definition": "(2) H+[0] + (1) Azathioprine[0] <=> (1) Thiopurine[0] + (1) 1-Methyl-4-nitroimidazole[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 1.09,
+        "deltagerr": 0.93,
         "ec_numbers": null,
         "equation": "(2) cpd00067[0] + (1) cpd16324[0] <=> (1) cpd01212[0] + (1) cpd16425[0]",
         "id": "rxn39889",
@@ -62696,7 +63596,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00983 (Drug metabolism - other enzymes)"
@@ -62742,6 +63643,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                1.09,
+                0.93
             ]
         }
     },
@@ -62754,8 +63659,8 @@
         "code": "(2) cpd00001[0] + (2) cpd00007[0] + (1) cpd01212[0] <=> (2) cpd00025[0] + (1) cpd16417[0]",
         "compound_ids": "cpd00001;cpd00007;cpd00025;cpd00067;cpd01212;cpd16417",
         "definition": "(2) H2O[0] + (2) O2[0] + (1) Thiopurine[0] <=> (2) H2O2[0] + (2) H+[0] + (1) 6-Thiourate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -56.47,
+        "deltagerr": 0.54,
         "ec_numbers": null,
         "equation": "(2) cpd00001[0] + (2) cpd00007[0] + (1) cpd01212[0] <=> (2) cpd00025[0] + (2) cpd00067[0] + (1) cpd16417[0]",
         "id": "rxn39890",
@@ -62766,7 +63671,8 @@
         "notes": [
             "GCP",
             "EQP",
-            "HB"
+            "HB",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00983 (Drug metabolism - other enzymes)"
@@ -62828,6 +63734,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -56.47,
+                0.54
             ]
         }
     },
@@ -64880,8 +65790,8 @@
         "code": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd06735[0] <=> (1) cpd00001[0] + (1) cpd00006[0] + (1) cpd01984[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd01984;cpd06735",
         "definition": "(1) NADPH[0] + (1) O2[0] + (1) H+[0] + (1) 1,8-Cineol[0] <=> (1) H2O[0] + (1) NADP[0] + (1) 6-endo-Hydroxycineole[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -93.88,
+        "deltagerr": 0.09,
         "ec_numbers": [
             "1.14.13.156"
         ],
@@ -64893,7 +65803,8 @@
         "name": "1,8-cineole,NADPH:oxygen oxidoreductase (2-endo-hydroxylating)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00902 (Monoterpenoid biosynthesis)"
@@ -64963,6 +65874,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -93.88,
+                0.09
             ]
         }
     },
@@ -65572,8 +66487,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00004[0] + (1) cpd00007[0] + (1) cpd04167[0] <=> (1) cpd00003[0] + (1) cpd00040[0] + (3) cpd00099[0]",
         "compound_ids": "cpd00001;cpd00003;cpd00004;cpd00007;cpd00040;cpd00067;cpd00099;cpd04167",
         "definition": "(1) H2O[0] + (1) NADH[0] + (1) O2[0] + (1) TCE[0] <=> (1) NAD[0] + (1) Glyoxalate[0] + (3) H+[0] + (3) Cl-[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -100.33,
+        "deltagerr": 0.74,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00004[0] + (1) cpd00007[0] + (1) cpd04167[0] <=> (1) cpd00003[0] + (1) cpd00040[0] + (3) cpd00067[0] + (3) cpd00099[0]",
         "id": "rxn39929",
@@ -65584,7 +66499,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00625 (Chloroalkane and chloroalkene degradation)"
@@ -65662,6 +66578,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -100.33,
+                0.74
             ]
         }
     },
@@ -65675,8 +66595,8 @@
         "code": "(2) cpd00001[0] + (1) cpd00004[0] + (1) cpd00007[0] + (1) cpd04167[0] <=> (1) cpd00003[0] + (2) cpd00047[0] + (3) cpd00099[0]",
         "compound_ids": "cpd00001;cpd00003;cpd00004;cpd00007;cpd00047;cpd00067;cpd00099;cpd04167",
         "definition": "(2) H2O[0] + (1) NADH[0] + (1) O2[0] + (1) TCE[0] <=> (1) NAD[0] + (2) Formate[0] + (4) H+[0] + (3) Cl-[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -107.46,
+        "deltagerr": 0.74,
         "ec_numbers": null,
         "equation": "(2) cpd00001[0] + (1) cpd00004[0] + (1) cpd00007[0] + (1) cpd04167[0] <=> (1) cpd00003[0] + (2) cpd00047[0] + (4) cpd00067[0] + (3) cpd00099[0]",
         "id": "rxn39930",
@@ -65687,7 +66607,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00625 (Chloroalkane and chloroalkene degradation)"
@@ -65765,6 +66686,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -107.46,
+                0.74
             ]
         }
     },
@@ -65960,8 +66885,8 @@
         "code": "(1) cpd06703[0] + (1) cpd12505[0] <=> (1) cpd03763[0] + (1) cpd12576[0]",
         "compound_ids": "cpd03763;cpd06703;cpd12505;cpd12576",
         "definition": "(1) Cyclohex-1-ene-1-carboxyl-CoA[0] + (1) Electron-transferring flavoprotein[0] <=> (1) Cyclohexa-1,5-dienecarbonyl-CoA[0] + (1) Reduced electron-transferring flavoprotein[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 4.45,
+        "deltagerr": 0.17,
         "ec_numbers": [
             "1.3.8.10"
         ],
@@ -65973,7 +66898,8 @@
         "name": "cyclohex-1-ene-1-carbonyl-CoA:electron transfer flavoprotein oxidoreductase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00362 (Benzoate degradation); rn01220 (Degradation of aromatic compounds)"
@@ -66019,6 +66945,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                4.45,
+                0.17
             ]
         }
     },
@@ -68151,8 +69081,8 @@
         "code": "(1) cpd00350[0] <=> (1) cpd00012[0] + (1) cpd31005[0]",
         "compound_ids": "cpd00012;cpd00067;cpd00350;cpd31005",
         "definition": "(1) Farnesyldiphosphate[0] <=> (1) PPi[0] + (1) H+[0] + (1) (+)-Sativene[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -22.72,
+        "deltagerr": 1.33,
         "ec_numbers": [
             "4.2.3.129"
         ],
@@ -68165,7 +69095,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -68209,6 +69140,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -22.72,
+                1.33
             ]
         }
     },
@@ -70329,8 +71264,8 @@
         "code": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd06735[0] <=> (1) cpd00001[0] + (1) cpd00006[0] + (1) cpd31034[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd06735;cpd31034",
         "definition": "(1) NADPH[0] + (1) O2[0] + (1) H+[0] + (1) 1,8-Cineol[0] <=> (1) H2O[0] + (1) NADP[0] + (1) 2-exo-Hydroxy-1,8-cineole[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -93.17,
+        "deltagerr": 0.13,
         "ec_numbers": [
             "1.14.13.157"
         ],
@@ -70342,7 +71277,8 @@
         "name": "1,8-cineole,NADPH:oxygen oxidoreductase (2-exo-hydroxylating)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -70410,6 +71346,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -93.17,
+                0.13
             ]
         }
     },

@@ -277,8 +277,8 @@
         "code": "(3) cpd00001[0] + (1) cpd00239[0] + (6) cpd27757[0] <=> (1) cpd00081[0] + (6) cpd28082[0]",
         "compound_ids": "cpd00001;cpd00067;cpd00081;cpd00239;cpd27757;cpd28082",
         "definition": "(3) H2O[0] + (1) H2S[0] + (6) Oxidized-ferredoxins[0] <=> (6) H+[0] + (1) Sulfite[0] + (6) Reduced-ferredoxins[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -6.19,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "1.8.7.1"
         ],
@@ -290,7 +290,8 @@
         "name": "SULFITE-REDUCTASE-FERREDOXIN-RXN.d",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: Assimilatory-Sulfate-Reduction (Assimilatory Sulfate Reduction); Degradation (Degradation/Utilization/Assimilation); Noncarbon-Nutrients (Inorganic Nutrient Metabolism); SULFMETII-PWY (assimilatory sulfate reduction II); Sulfur-Metabolism (Sulfur Compound Metabolism)"
@@ -352,6 +353,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -6.19,
+                0.03
             ]
         }
     },
@@ -365,8 +370,8 @@
         "code": "(1) cpd00017[0] + (1) cpd28083[0] + (1) cpd29314[0] <=> (1) cpd03091[0] + (1) cpd27758[0] + (1) cpd29315[0]",
         "compound_ids": "cpd00017;cpd03091;cpd27758;cpd28083;cpd29314;cpd29315",
         "definition": "(1) S-Adenosyl-L-methionine[0] + (1) Reduced-flavodoxins[0] + (1) KETOBUTFORMLY-INACT-MONOMER[0] <=> (1) 5'-Deoxyadenosine[0] + (1) Oxidized-flavodoxins[0] + (1) KETOBUTFORMLY-MONOMER[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -6.19,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "1.97.1.4"
         ],
@@ -378,7 +383,8 @@
         "name": "TDCEACT1-RXN.c",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -438,6 +444,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -6.19,
+                0.03
             ]
         }
     },
@@ -534,8 +544,8 @@
         "code": "(1) cpd00002[0] + (1) cpd29593[0] <=> (1) cpd00012[0] + (1) cpd29591[0]",
         "compound_ids": "cpd00002;cpd00012;cpd29591;cpd29593",
         "definition": "(1) ATP[0] + (1) THIS-MONOMER[0] <=> (1) PPi[0] + (1) THIS-COAMP-MONOMER[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -1.23,
+        "deltagerr": 0.03,
         "ec_numbers": null,
         "equation": "(1) cpd00002[0] + (1) cpd29593[0] <=> (1) cpd00012[0] + (1) cpd29591[0]",
         "id": "rxn29007",
@@ -545,7 +555,8 @@
         "name": "THIFAMP-RXN.c",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -589,6 +600,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -1.23,
+                0.03
             ]
         }
     },
@@ -602,8 +617,8 @@
         "code": "(1) cpd00084[0] + (1) cpd29591[0] <=> (1) cpd00018[0] + (1) cpd00035[0] + (1) cpd29592[0]",
         "compound_ids": "cpd00018;cpd00035;cpd00084;cpd29591;cpd29592",
         "definition": "(1) L-Cysteine[0] + (1) THIS-COAMP-MONOMER[0] <=> (1) AMP[0] + (1) L-Alanine[0] + (1) THIS-COSH-MONOMER[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -1.23,
+        "deltagerr": 0.03,
         "ec_numbers": null,
         "equation": "(1) cpd00084[0] + (1) cpd29591[0] <=> (1) cpd00018[0] + (1) cpd00035[0] + (1) cpd29592[0]",
         "id": "rxn29008",
@@ -613,7 +628,8 @@
         "name": "THIFIS-RXN.c",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -665,6 +681,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -1.23,
+                0.03
             ]
         }
     },
@@ -679,8 +699,8 @@
         "code": "(1) cpd00007[0] + (4) cpd28202[0] <=> (2) cpd00001[0] + (2) cpd12074[0]",
         "compound_ids": "cpd00001;cpd00007;cpd12074;cpd28202",
         "definition": "(1) O2[0] + (4) Sulfhydryls[0] <=> (2) H2O[0] + (2) R'C(R)S-S(R)CR'[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -1.23,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "1.8.3.2"
         ],
@@ -692,7 +712,8 @@
         "name": "Thiol oxidase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -736,6 +757,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -1.23,
+                0.03
             ]
         }
     },
@@ -753,8 +778,8 @@
         "code": "(1) cpd00150[0] + (1) cpd00268[0] <=> (1) cpd00081[0] + (1) cpd01211[0]",
         "compound_ids": "cpd00067;cpd00081;cpd00150;cpd00268;cpd01211",
         "definition": "(1) HCN[0] + (1) H2S2O3[0] <=> (1) H+[0] + (1) Sulfite[0] + (1) Thiocyanate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -88.84,
+        "deltagerr": 0.6,
         "ec_numbers": [
             "2.8.1.1"
         ],
@@ -767,7 +792,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: Degradation (Degradation/Utilization/Assimilation); Noncarbon-Nutrients (Inorganic Nutrient Metabolism); PWY-5350 (thiosulfate disproportionation IV (rhodanese)); Sulfur-Metabolism (Sulfur Compound Metabolism); Thiosulfate-Disproportionation (Thiosulfate Disproportionation)"
@@ -821,6 +847,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -88.84,
+                0.6
             ]
         }
     },
@@ -1073,8 +1103,8 @@
         "code": "(1) cpd29521[0] <=> (1) cpd29524[0]",
         "compound_ids": "cpd29521;cpd29524",
         "definition": "(1) PHOSPHO-TORASP[0] <=> (1) PHOSPHO-TORS850[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -7.6,
+        "deltagerr": 0.4,
         "ec_numbers": null,
         "equation": "(1) cpd29521[0] <=> (1) cpd29524[0]",
         "id": "rxn29014",
@@ -1084,7 +1114,8 @@
         "name": "TORS850-RXN.c",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -1112,6 +1143,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -7.6,
+                0.4
             ]
         }
     },
@@ -1125,8 +1160,8 @@
         "code": "(1) cpd29523[0] <=> (1) cpd29521[0]",
         "compound_ids": "cpd29521;cpd29523",
         "definition": "(1) PHOSPHO-TORS[0] <=> (1) PHOSPHO-TORASP[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -7.6,
+        "deltagerr": 0.4,
         "ec_numbers": null,
         "equation": "(1) cpd29523[0] <=> (1) cpd29521[0]",
         "id": "rxn29015",
@@ -1136,7 +1171,8 @@
         "name": "TORSASP-RXN.c",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -1164,6 +1200,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -7.6,
+                0.4
             ]
         }
     },
@@ -1177,8 +1217,8 @@
         "code": "(1) cpd00811[0] + (1) cpd29597[0] <=> (1) cpd28709[0]",
         "compound_ids": "cpd00811;cpd28709;cpd29597",
         "definition": "(1) (CH3)3NO[0] + (1) TORT-MONOMER[0] <=> (1) BOUND-TORT[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -7.6,
+        "deltagerr": 0.4,
         "ec_numbers": null,
         "equation": "(1) cpd00811[0] + (1) cpd29597[0] <=> (1) cpd28709[0]",
         "id": "rxn29016",
@@ -1188,7 +1228,8 @@
         "name": "TORT-RXN.c",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -1224,6 +1265,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -7.6,
+                0.4
             ]
         }
     },
@@ -1238,8 +1283,8 @@
         "code": "(1) cpd29598[0] <=> (1) cpd28719[0]",
         "compound_ids": "cpd28719;cpd29598",
         "definition": "(1) TRANS-D2-DECENOYL-ACP[0] <=> (1) CIS-DELTA3-DECENOYL-ACP[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -7.6,
+        "deltagerr": 0.4,
         "ec_numbers": null,
         "equation": "(1) cpd29598[0] <=> (1) cpd28719[0]",
         "id": "rxn29017",
@@ -1249,7 +1294,8 @@
         "name": "TRANS-2-DECENOYL-ACP-ISOM-RXN.c",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -1277,6 +1323,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -7.6,
+                0.4
             ]
         }
     },
@@ -2042,8 +2092,8 @@
         "code": "(1) cpd28713[1] <=> (1) cpd28713[0]",
         "compound_ids": "cpd00067;cpd28713",
         "definition": "(3) H+[1] + (1) C4-dicarboxylates[1] <=> (3) H+[0] + (1) C4-dicarboxylates[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(3) cpd00067[1] + (1) cpd28713[1] <=> (3) cpd00067[0] + (1) cpd28713[0]",
         "id": "rxn29027",
@@ -2053,7 +2103,8 @@
         "name": "TRANS-RXN-106D.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2097,6 +2148,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -2184,8 +2239,8 @@
         "code": "(1) cpd27688[1] <=> (1) cpd27688[0]",
         "compound_ids": "cpd00067;cpd27688",
         "definition": "(1) H+[1] + (1) Nucleosides[1] <=> (1) H+[0] + (1) Nucleosides[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd27688[1] <=> (1) cpd00067[0] + (1) cpd27688[0]",
         "id": "rxn29031",
@@ -2195,7 +2250,8 @@
         "name": "TRANS-RXN-108.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2239,6 +2295,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -2326,8 +2386,8 @@
         "code": "(1) cpd00023[1] + (2) cpd00971[1] <=> (1) cpd00023[0] + (2) cpd00971[0]",
         "compound_ids": "cpd00023;cpd00971",
         "definition": "(1) L-Glutamate[1] + (2) Na+[1] <=> (1) L-Glutamate[0] + (2) Na+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00023[1] + (2) cpd00971[1] <=> (1) cpd00023[0] + (2) cpd00971[0]",
         "id": "rxn29048",
@@ -2337,7 +2397,8 @@
         "name": "TRANS-RXN-122.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2381,6 +2442,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -2398,8 +2463,8 @@
         "code": "(1) cpd00322[1] + (1) cpd00971[1] <=> (1) cpd00322[0] + (1) cpd00971[0]",
         "compound_ids": "cpd00322;cpd00971",
         "definition": "(1) L-Isoleucine[1] + (1) Na+[1] <=> (1) L-Isoleucine[0] + (1) Na+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00322[1] + (1) cpd00971[1] <=> (1) cpd00322[0] + (1) cpd00971[0]",
         "id": "rxn29051",
@@ -2409,7 +2474,8 @@
         "name": "TRANS-RXN-126.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2453,6 +2519,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -2470,8 +2540,8 @@
         "code": "(1) cpd00156[1] + (1) cpd00971[1] <=> (1) cpd00156[0] + (1) cpd00971[0]",
         "compound_ids": "cpd00156;cpd00971",
         "definition": "(1) L-Valine[1] + (1) Na+[1] <=> (1) L-Valine[0] + (1) Na+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00156[1] + (1) cpd00971[1] <=> (1) cpd00156[0] + (1) cpd00971[0]",
         "id": "rxn29052",
@@ -2481,7 +2551,8 @@
         "name": "TRANS-RXN-126A.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2525,6 +2596,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -2542,8 +2617,8 @@
         "code": "(1) cpd00107[1] + (1) cpd00971[1] <=> (1) cpd00107[0] + (1) cpd00971[0]",
         "compound_ids": "cpd00107;cpd00971",
         "definition": "(1) L-Leucine[1] + (1) Na+[1] <=> (1) L-Leucine[0] + (1) Na+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00107[1] + (1) cpd00971[1] <=> (1) cpd00107[0] + (1) cpd00971[0]",
         "id": "rxn29053",
@@ -2553,7 +2628,8 @@
         "name": "TRANS-RXN-126B.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2597,6 +2673,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -2670,8 +2750,8 @@
         "code": "(1) cpd00099[1] <=> (1) cpd00099[0]",
         "compound_ids": "cpd00099",
         "definition": "(1) Cl-[1] <=> (1) Cl-[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00099[1] <=> (1) cpd00099[0]",
         "id": "rxn29055",
@@ -2681,7 +2761,8 @@
         "name": "TRANS-RXN-139.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2709,6 +2790,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -2782,8 +2867,8 @@
         "code": "(1) cpd00244[1] <=> (1) cpd00244[0]",
         "compound_ids": "cpd00244",
         "definition": "(1) Ni2+[1] <=> (1) Ni2+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00244[1] <=> (1) cpd00244[0]",
         "id": "rxn29057",
@@ -2793,7 +2878,8 @@
         "name": "TRANS-RXN-141B.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2821,6 +2907,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -2838,8 +2928,8 @@
         "code": "(1) cpd00063[0] <=> (1) cpd00063[1]",
         "compound_ids": "cpd00063",
         "definition": "(1) Ca2+[0] <=> (1) Ca2+[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00063[0] <=> (1) cpd00063[1]",
         "id": "rxn29058",
@@ -2849,7 +2939,8 @@
         "name": "TRANS-RXN0-497.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2877,6 +2968,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -2890,8 +2985,8 @@
         "code": "(1) cpd29426[0] <=> (1) cpd29426[1]",
         "compound_ids": "cpd29426",
         "definition": "(1) O-Antigens[0] <=> (1) O-Antigens[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29426[0] <=> (1) cpd29426[1]",
         "id": "rxn29059",
@@ -2901,7 +2996,8 @@
         "name": "TRANS-RXN-146.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2929,6 +3025,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -3600,8 +3700,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd00058[0] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00058[1]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00058;cpd00067",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) Cu2+[0] <=> (1) ADP[0] + (1) Phosphate[0] + (1) Cu2+[1] + (1) H+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": [
             "3.6.3.-",
             "3.6.3.4",
@@ -3615,7 +3715,8 @@
         "name": "TRANS-RXN-181.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3683,6 +3784,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -3700,8 +3805,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd00063[0] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00063[1]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00063;cpd00067",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) Ca2+[0] <=> (1) ADP[0] + (1) Phosphate[0] + (1) Ca2+[1] + (1) H+[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": [
             "3.6.3.-",
             "3.6.3.8"
@@ -3714,7 +3819,8 @@
         "name": "TRANS-RXN-191.cr",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3782,6 +3888,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -3799,8 +3909,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd00063[0] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00063[1]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00063;cpd00067",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) Ca2+[0] <=> (1) ADP[0] + (1) Phosphate[0] + (1) Ca2+[1] + (1) H+[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": [
             "3.6.3.-",
             "3.6.3.8"
@@ -3813,7 +3923,8 @@
         "name": "TRANS-RXN-192.cg",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3881,6 +3992,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -3966,8 +4081,8 @@
         "code": "(1) cpd29538[1] <=> (1) cpd29538[0]",
         "compound_ids": "cpd29538",
         "definition": "(1) Peptide-Antibiotics[1] <=> (1) Peptide-Antibiotics[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29538[1] <=> (1) cpd29538[0]",
         "id": "rxn29078",
@@ -3977,7 +4092,8 @@
         "name": "TRANS-RXN-205A.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -4005,6 +4121,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -5094,8 +5214,8 @@
         "code": "(1) cpd29212[0] <=> (1) cpd29212[1]",
         "compound_ids": "cpd00067;cpd29212",
         "definition": "(1) H+[1] + (1) Drugs[0] <=> (1) H+[0] + (1) Drugs[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd29212[0] <=> (1) cpd00067[0] + (1) cpd29212[1]",
         "id": "rxn29099",
@@ -5105,7 +5225,8 @@
         "name": "TRANS-RXN-44.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5149,6 +5270,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -5234,8 +5359,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd01048[0] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd01048[1]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00067;cpd01048",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) Arsenate[0] <=> (1) ADP[0] + (1) Phosphate[0] + (1) H+[0] + (1) Arsenate[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd01048[0] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00067[0] + (1) cpd01048[1]",
         "id": "rxn29101",
@@ -5245,7 +5370,8 @@
         "name": "TRANS-RXN-7.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5313,6 +5439,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -5395,8 +5525,8 @@
         "code": "(1) cpd29618[0] <=> (1) cpd29618[1]",
         "compound_ids": "cpd29618",
         "definition": "(1) Unspecified-Ion-Or-Solute[0] <=> (1) Unspecified-Ion-Or-Solute[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29618[0] <=> (1) cpd29618[1]",
         "id": "rxn29103",
@@ -5406,7 +5536,8 @@
         "name": "TRANS-RXN-86.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5434,6 +5565,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -5449,8 +5584,8 @@
         "code": "(1) cpd04100[0] <=> (1) cpd04100[1]",
         "compound_ids": "cpd04100",
         "definition": "(1) Ag[0] <=> (1) Ag[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd04100[0] <=> (1) cpd04100[1]",
         "id": "rxn29104",
@@ -5460,7 +5595,8 @@
         "name": "TRANS-RXN-90.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5488,6 +5624,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -5501,8 +5641,8 @@
         "code": "(1) cpd29212[0] <=> (1) cpd29212[1]",
         "compound_ids": "cpd29212",
         "definition": "(1) Drugs[0] <=> (1) Drugs[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29212[0] <=> (1) cpd29212[1]",
         "id": "rxn29105",
@@ -5512,7 +5652,8 @@
         "name": "TRANS-RXN-92.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5540,6 +5681,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -5556,8 +5701,8 @@
         "code": "(1) cpd00971[1] + (1) cpd03198[1] <=> (1) cpd00971[0] + (1) cpd03198[0]",
         "compound_ids": "cpd00971;cpd03198",
         "definition": "(1) Na+[1] + (1) Melibiose[1] <=> (1) Na+[0] + (1) Melibiose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00971[1] + (1) cpd03198[1] <=> (1) cpd00971[0] + (1) cpd03198[0]",
         "id": "rxn29106",
@@ -5567,7 +5712,8 @@
         "name": "TRANS-RXN-94A.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5611,6 +5757,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -5627,8 +5777,8 @@
         "code": "(1) cpd03198[1] + (1) cpd27384[1] <=> (1) cpd03198[0] + (1) cpd27384[0]",
         "compound_ids": "cpd03198;cpd27384",
         "definition": "(1) Melibiose[1] + (1) Li+[1] <=> (1) Melibiose[0] + (1) Li+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd03198[1] + (1) cpd27384[1] <=> (1) cpd03198[0] + (1) cpd27384[0]",
         "id": "rxn29107",
@@ -5638,7 +5788,8 @@
         "name": "TRANS-RXN-94B.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5682,6 +5833,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -5697,8 +5852,8 @@
         "code": "(1) cpd29297[1] <=> (1) cpd29297[0]",
         "compound_ids": "cpd00067;cpd29297",
         "definition": "(1) H+[1] + (1) Glucuronides[1] <=> (1) H+[0] + (1) Glucuronides[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd29297[1] <=> (1) cpd00067[0] + (1) cpd29297[0]",
         "id": "rxn29108",
@@ -5708,7 +5863,8 @@
         "name": "TRANS-RXN-98.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5752,6 +5908,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -5765,8 +5925,8 @@
         "code": "(1) cpd27803[0] <=> (1) cpd27803[1]",
         "compound_ids": "cpd27803",
         "definition": "(1) POLYPEPTIDE[0] <=> (1) POLYPEPTIDE[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd27803[0] <=> (1) cpd27803[1]",
         "id": "rxn29109",
@@ -5776,7 +5936,8 @@
         "name": "TRANS-RXN0-181.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -5804,6 +5965,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -6264,8 +6429,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd29400[0] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd29400[1]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00067;cpd29400",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) Macrolide-Antibiotics[0] <=> (1) ADP[0] + (1) Phosphate[0] + (1) H+[0] + (1) Macrolide-Antibiotics[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd29400[0] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00067[0] + (1) cpd29400[1]",
         "id": "rxn29118",
@@ -6276,7 +6441,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -6344,6 +6510,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -6359,8 +6529,8 @@
         "code": "(1) cpd25964[1] <=> (1) cpd25964[0]",
         "compound_ids": "cpd00067;cpd25964",
         "definition": "(1) H+[1] + (1) GlcNAc-1,6-anhMurNAc-L-Ala-gamma-D-Glu-DAP-D-Ala[1] <=> (1) H+[0] + (1) GlcNAc-1,6-anhMurNAc-L-Ala-gamma-D-Glu-DAP-D-Ala[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd25964[1] <=> (1) cpd00067[0] + (1) cpd25964[0]",
         "id": "rxn29119",
@@ -6370,7 +6540,8 @@
         "name": "TRANS-RXN0-226.cp",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -6414,6 +6585,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -6625,8 +6800,8 @@
         "code": "(1) cpd25965[1] <=> (1) cpd25965[0]",
         "compound_ids": "cpd00067;cpd25965",
         "definition": "(1) H+[1] + (1) N-acetyl-beta-D-glucosamine(anhydrous)-N-acetylmuramate[1] <=> (1) H+[0] + (1) N-acetyl-beta-D-glucosamine(anhydrous)-N-acetylmuramate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd25965[1] <=> (1) cpd00067[0] + (1) cpd25965[0]",
         "id": "rxn29123",
@@ -6636,7 +6811,8 @@
         "name": "TRANS-RXN0-258.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -6680,6 +6856,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -6693,8 +6873,8 @@
         "code": "(1) cpd25986[0] <=> (1) cpd25986[1]",
         "compound_ids": "cpd00067;cpd25986",
         "definition": "(1) H+[1] + (1) As(III)[0] <=> (1) H+[0] + (1) As(III)[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd25986[0] <=> (1) cpd00067[0] + (1) cpd25986[1]",
         "id": "rxn29124",
@@ -6704,7 +6884,8 @@
         "name": "TRANS-RXN0-264.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -6748,6 +6929,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -6763,8 +6948,8 @@
         "code": "(1) cpd22393[0] <=> (1) cpd22393[1]",
         "compound_ids": "cpd22393",
         "definition": "(1) Aromatic-Amino-Acids[0] <=> (1) Aromatic-Amino-Acids[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd22393[0] <=> (1) cpd22393[1]",
         "id": "rxn29125",
@@ -6774,7 +6959,8 @@
         "name": "TRANS-RXN0-265.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -6802,6 +6988,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -6890,8 +7080,8 @@
         "code": "(1) cpd28237[1] <=> (1) cpd28237[0]",
         "compound_ids": "cpd00067;cpd28237",
         "definition": "(1) H+[1] + (1) TRIPEPTIDES[1] <=> (1) H+[0] + (1) TRIPEPTIDES[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd28237[1] <=> (1) cpd00067[0] + (1) cpd28237[0]",
         "id": "rxn29136",
@@ -6901,7 +7091,8 @@
         "name": "TRANS-RXN0-267.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -6945,6 +7136,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -7241,8 +7436,8 @@
         "code": "(1) cpd08021[1] <=> (1) cpd08021[0]",
         "compound_ids": "cpd08021",
         "definition": "(1) DMSO[1] <=> (1) DMSO[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd08021[1] <=> (1) cpd08021[0]",
         "id": "rxn29142",
@@ -7252,7 +7447,8 @@
         "name": "TRANS-RXN0-273.cp",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7280,6 +7476,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -7351,8 +7551,8 @@
         "code": "(1) cpd26015[0] <=> (1) cpd26015[1]",
         "compound_ids": "cpd26015",
         "definition": "(1) partially N-deacetylated poly-beta-1,6-N-acetyl-D-glucosamine[0] <=> (1) partially N-deacetylated poly-beta-1,6-N-acetyl-D-glucosamine[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd26015[0] <=> (1) cpd26015[1]",
         "id": "rxn29144",
@@ -7362,7 +7562,8 @@
         "name": "TRANS-RXN0-275.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7390,6 +7591,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -7516,8 +7721,8 @@
         "code": "(1) cpd30760[0] <=> (1) cpd30760[1]",
         "compound_ids": "cpd30760",
         "definition": "(1) Cu(I)[0] <=> (1) Cu(I)[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd30760[0] <=> (1) cpd30760[1]",
         "id": "rxn29147",
@@ -7527,7 +7732,8 @@
         "name": "TRANS-RXN0-280.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7555,6 +7761,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -7683,8 +7893,8 @@
         "code": "(1) cpd03422[1] <=> (1) cpd03422[0]",
         "compound_ids": "cpd03422",
         "definition": "(1) Cobinamide[1] <=> (1) Cobinamide[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd03422[1] <=> (1) cpd03422[0]",
         "id": "rxn29150",
@@ -7694,7 +7904,8 @@
         "name": "TRANS-RXN0-283.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7722,6 +7933,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -7738,8 +7953,8 @@
         "code": "(1) cpd03422[1] <=> (1) cpd03422[0]",
         "compound_ids": "cpd03422",
         "definition": "(1) Cobinamide[1] <=> (1) Cobinamide[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd03422[1] <=> (1) cpd03422[0]",
         "id": "rxn29151",
@@ -7749,7 +7964,8 @@
         "name": "TRANS-RXN0-283.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7777,6 +7993,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -7901,8 +8121,8 @@
         "code": "(1) cpd26871[1] <=> (1) cpd26871[0]",
         "compound_ids": "cpd00067;cpd26871",
         "definition": "(1) H+[1] + (1) DIPEPTIDES[1] <=> (1) H+[0] + (1) DIPEPTIDES[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd26871[1] <=> (1) cpd00067[0] + (1) cpd26871[0]",
         "id": "rxn29154",
@@ -7912,7 +8132,8 @@
         "name": "Transport of a dipeptide",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7956,6 +8177,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -8083,8 +8308,8 @@
         "code": "(1) cpd27424[1] <=> (1) cpd27424[0]",
         "compound_ids": "cpd27424",
         "definition": "(1) Long-Chain-Fatty-Acids[1] <=> (1) Long-Chain-Fatty-Acids[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd27424[1] <=> (1) cpd27424[0]",
         "id": "rxn29173",
@@ -8094,7 +8319,8 @@
         "name": "TRANS-RXN0-443.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8122,6 +8348,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -9092,8 +9322,8 @@
         "code": "(1) cpd27688[0] <=> (1) cpd27688[1]",
         "compound_ids": "cpd27688",
         "definition": "(1) Nucleosides[0] <=> (1) Nucleosides[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd27688[0] <=> (1) cpd27688[1]",
         "id": "rxn29195",
@@ -9103,7 +9333,8 @@
         "name": "TRANS-RXN0-468.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9131,6 +9362,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -9532,8 +9767,8 @@
         "code": "(1) cpd15414[0] <=> (1) cpd15414[1]",
         "compound_ids": "cpd15414",
         "definition": "(1) d-biotin d-sulfoxide[0] <=> (1) d-biotin d-sulfoxide[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd15414[0] <=> (1) cpd15414[1]",
         "id": "rxn29215",
@@ -9543,7 +9778,8 @@
         "name": "TRANS-RXN0-475.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9571,6 +9807,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -9741,8 +9981,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd03396[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd03396[0]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00067;cpd03396",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) Selenate[1] <=> (1) ADP[0] + (1) Phosphate[0] + (1) H+[0] + (1) Selenate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd03396[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00067[0] + (1) cpd03396[0]",
         "id": "rxn29218",
@@ -9752,7 +9992,8 @@
         "name": "TRANS-RXN0-478.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9820,6 +10061,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -9836,8 +10081,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd03387[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd03387[0]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00067;cpd03387",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) Selenite[1] <=> (1) ADP[0] + (1) Phosphate[0] + (1) H+[0] + (1) Selenite[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd03387[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00067[0] + (1) cpd03387[0]",
         "id": "rxn29219",
@@ -9847,7 +10092,8 @@
         "name": "TRANS-RXN0-479.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9915,6 +10161,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -9930,8 +10180,8 @@
         "code": "(1) cpd03389[1] <=> (1) cpd03389[0]",
         "compound_ids": "cpd03389",
         "definition": "(1) Selenocysteine[1] <=> (1) Selenocysteine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd03389[1] <=> (1) cpd03389[0]",
         "id": "rxn29220",
@@ -9941,7 +10191,8 @@
         "name": "TRANS-RXN0-480.cp",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9969,6 +10220,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -10296,8 +10551,8 @@
         "code": "(1) cpd29212[0] <=> (1) cpd29212[1]",
         "compound_ids": "cpd00067;cpd29212",
         "definition": "(2) H+[1] + (1) Drugs[0] <=> (2) H+[0] + (1) Drugs[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(2) cpd00067[1] + (1) cpd29212[0] <=> (2) cpd00067[0] + (1) cpd29212[1]",
         "id": "rxn29225",
@@ -10307,7 +10562,8 @@
         "name": "transport of a drug",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10351,6 +10607,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -10421,8 +10681,8 @@
         "code": "(1) cpd03453[0] <=> (1) cpd03453[1]",
         "compound_ids": "cpd03453",
         "definition": "(1) Enterobactin[0] <=> (1) Enterobactin[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd03453[0] <=> (1) cpd03453[1]",
         "id": "rxn29227",
@@ -10432,7 +10692,8 @@
         "name": "TRANS-RXN0-496.cp",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10460,6 +10721,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -10475,8 +10740,8 @@
         "code": "(1) cpd00552[0] <=> (1) cpd00552[1]",
         "compound_ids": "cpd00552",
         "definition": "(1) F-[0] <=> (1) F-[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00552[0] <=> (1) cpd00552[1]",
         "id": "rxn29228",
@@ -10486,7 +10751,8 @@
         "name": "F- efflux transporter",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -10514,6 +10780,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -11499,8 +11769,8 @@
         "code": "(1) cpd11574[1] <=> (1) cpd11574[0]",
         "compound_ids": "cpd11574",
         "definition": "(1) Molybdate[1] <=> (1) Molybdate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd11574[1] <=> (1) cpd11574[0]",
         "id": "rxn29245",
@@ -11510,7 +11780,8 @@
         "name": "TRANS-RXN4LZ-7588.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11538,6 +11809,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -11817,8 +12092,8 @@
         "code": "(1) cpd29406[1] <=> (1) cpd29406[0]",
         "compound_ids": "cpd29406",
         "definition": "(1) Multidrug[1] <=> (1) Multidrug[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29406[1] <=> (1) cpd29406[0]",
         "id": "rxn29251",
@@ -11828,7 +12103,8 @@
         "name": "TRANS-RXNAVI-26328.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11856,6 +12132,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -11869,8 +12149,8 @@
         "code": "(1) cpd29402[1] <=> (1) cpd29402[0]",
         "compound_ids": "cpd29402",
         "definition": "(1) Metal-Ions[1] <=> (1) Metal-Ions[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29402[1] <=> (1) cpd29402[0]",
         "id": "rxn29252",
@@ -11880,7 +12160,8 @@
         "name": "TRANS-RXNAVI-26332.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11908,6 +12189,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -11921,8 +12206,8 @@
         "code": "(1) cpd00971[1] <=> (1) cpd00971[0]",
         "compound_ids": "cpd00067;cpd00971",
         "definition": "(1) H+[1] + (1) Na+[1] <=> (1) H+[0] + (1) Na+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd00971[1] <=> (1) cpd00067[0] + (1) cpd00971[0]",
         "id": "rxn29253",
@@ -11932,7 +12217,8 @@
         "name": "TRANS-RXNAVI-26335.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -11976,6 +12262,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -12062,8 +12352,8 @@
         "code": "(1) cpd29190[1] <=> (1) cpd29190[0]",
         "compound_ids": "cpd00067;cpd29190",
         "definition": "(1) H+[0] + (1) Cations[1] <=> (1) H+[1] + (1) Cations[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[0] + (1) cpd29190[1] <=> (1) cpd00067[1] + (1) cpd29190[0]",
         "id": "rxn29255",
@@ -12073,7 +12363,8 @@
         "name": "TRANS-RXNBWI-115525.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12117,6 +12408,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -12203,8 +12498,8 @@
         "code": "(1) cpd00063[1] <=> (1) cpd00063[0]",
         "compound_ids": "cpd00063;cpd00067",
         "definition": "(1) Ca2+[1] + (1) H+[0] <=> (1) Ca2+[0] + (1) H+[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": [
             "2.A.19.-.-"
         ],
@@ -12216,7 +12511,8 @@
         "name": "TRANS-RXNBWI-115525.ce.maizeexp.CA+2_CA+2",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12260,6 +12556,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -12277,8 +12577,8 @@
         "code": "(1) cpd00058[1] <=> (1) cpd00058[0]",
         "compound_ids": "cpd00058;cpd00067",
         "definition": "(1) Cu2+[1] + (1) H+[0] <=> (1) Cu2+[0] + (1) H+[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00058[1] + (1) cpd00067[0] <=> (1) cpd00058[0] + (1) cpd00067[1]",
         "id": "rxn29258",
@@ -12288,7 +12588,8 @@
         "name": "TRANS-RXNBWI-115525.ce.maizeexp.CU+2_CU+2",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12332,6 +12633,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -12490,8 +12795,8 @@
         "code": "(1) cpd00531[1] <=> (1) cpd00531[0]",
         "compound_ids": "cpd00067;cpd00531",
         "definition": "(1) H+[0] + (1) Hg2+[1] <=> (1) H+[1] + (1) Hg2+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[0] + (1) cpd00531[1] <=> (1) cpd00067[1] + (1) cpd00531[0]",
         "id": "rxn29261",
@@ -12501,7 +12806,8 @@
         "name": "TRANS-RXNAVI-26352.ce.brachyexp.HG+2_HG+2",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12545,6 +12851,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -12562,8 +12872,8 @@
         "code": "(1) cpd00030[1] <=> (1) cpd00030[0]",
         "compound_ids": "cpd00030;cpd00067",
         "definition": "(1) Mn2+[1] + (1) H+[0] <=> (1) Mn2+[0] + (1) H+[1]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00030[1] + (1) cpd00067[0] <=> (1) cpd00030[0] + (1) cpd00067[1]",
         "id": "rxn29262",
@@ -12573,7 +12883,8 @@
         "name": "TRANS-RXNAVI-26352.ce.brachyexp.MN+2_MN+2",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12617,6 +12928,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -12700,8 +13015,8 @@
         "code": "(1) cpd27704[1] <=> (1) cpd27704[0]",
         "compound_ids": "cpd27704",
         "definition": "(1) OLIGOPEPTIDES[1] <=> (1) OLIGOPEPTIDES[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd27704[1] <=> (1) cpd27704[0]",
         "id": "rxn29264",
@@ -12711,7 +13026,8 @@
         "name": "TRANS-RXNBWI-115486.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12739,6 +13055,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -12808,8 +13128,8 @@
         "code": "(1) cpd11852[1] <=> (1) cpd11852[0]",
         "compound_ids": "cpd11852",
         "definition": "(1) Lipid[1] <=> (1) Lipid[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd11852[1] <=> (1) cpd11852[0]",
         "id": "rxn29317",
@@ -12819,7 +13139,8 @@
         "name": "TRANS-RXNAVI-26361.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12847,6 +13168,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -12917,8 +13242,8 @@
         "code": "(1) cpd27689[1] <=> (1) cpd27689[0]",
         "compound_ids": "cpd27689",
         "definition": "(1) Nucleotides[1] <=> (1) Nucleotides[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd27689[1] <=> (1) cpd27689[0]",
         "id": "rxn29319",
@@ -12928,7 +13253,8 @@
         "name": "TRANS-RXNAVI-26378.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12956,6 +13282,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -14235,8 +14565,8 @@
         "code": "(1) cpd22250[1] <=> (1) cpd22250[0]",
         "compound_ids": "cpd22250",
         "definition": "(1) an alcohol group[1] <=> (1) an alcohol group[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd22250[1] <=> (1) cpd22250[0]",
         "id": "rxn29343",
@@ -14246,7 +14576,8 @@
         "name": "TRANS-RXNAVI-26389.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14274,6 +14605,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -14339,8 +14674,8 @@
         "code": "(1) cpd22296[1] <=> (1) cpd22296[0]",
         "compound_ids": "cpd22296",
         "definition": "(1) Acids[1] <=> (1) Acids[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd22296[1] <=> (1) cpd22296[0]",
         "id": "rxn29345",
@@ -14350,7 +14685,8 @@
         "name": "TRANS-RXNAVI-26408.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -14378,6 +14714,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -15450,8 +15790,8 @@
         "code": "(1) cpd22369[1] <=> (1) cpd22369[0]",
         "compound_ids": "cpd22369",
         "definition": "(1) Amino-Acids-20[1] <=> (1) Amino-Acids-20[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd22369[1] <=> (1) cpd22369[0]",
         "id": "rxn29366",
@@ -15461,7 +15801,8 @@
         "name": "TRANS-RXNBWI-115362.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -15489,6 +15830,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -16182,8 +16527,8 @@
         "code": "(1) cpd28726[1] <=> (1) cpd28726[0]",
         "compound_ids": "cpd28726",
         "definition": "(1) xylogalacturonan[1] <=> (1) xylogalacturonan[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd28726[1] <=> (1) cpd28726[0]",
         "id": "rxn29380",
@@ -16193,7 +16538,8 @@
         "name": "TRANS-RXNAVI-26433.ce.brachyexp.CPD-10235_CPD-10235",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -16221,6 +16567,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -18948,8 +19298,8 @@
         "code": "(1) cpd25500[1] <=> (1) cpd25500[0]",
         "compound_ids": "cpd25500",
         "definition": "(1) agarotetraose[1] <=> (1) agarotetraose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd25500[1] <=> (1) cpd25500[0]",
         "id": "rxn29433",
@@ -18959,7 +19309,8 @@
         "name": "TRANS-RXNAVI-26433.ce.brachyexp.CPD-8939_CPD-8939",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -18987,6 +19338,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -20300,8 +20655,8 @@
         "code": "(1) cpd26068[1] <=> (1) cpd26068[0]",
         "compound_ids": "cpd26068",
         "definition": "(1) 2-deoxy-2-fluoro-beta-D-galactopyranosyl fluoride[1] <=> (1) 2-deoxy-2-fluoro-beta-D-galactopyranosyl fluoride[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd26068[1] <=> (1) cpd26068[0]",
         "id": "rxn29459",
@@ -20311,7 +20666,8 @@
         "name": "TRANS-RXNAVI-26433.ce.brachyexp.CPD0-1297_CPD0-1297",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -20339,6 +20695,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -20980,8 +21340,8 @@
         "code": "(1) cpd29309[1] <=> (1) cpd29309[0]",
         "compound_ids": "cpd29309",
         "definition": "(1) iduronate[1] <=> (1) iduronate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29309[1] <=> (1) cpd29309[0]",
         "id": "rxn29472",
@@ -20991,7 +21351,8 @@
         "name": "TRANS-RXNAVI-26433.ce.brachyexp.IDURONATE_IDURONATE",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -21019,6 +21380,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -21404,8 +21769,8 @@
         "code": "(1) cpd29323[1] <=> (1) cpd29323[0]",
         "compound_ids": "cpd29323",
         "definition": "(1) linear alpha-glucan[1] <=> (1) linear alpha-glucan[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29323[1] <=> (1) cpd29323[0]",
         "id": "rxn29480",
@@ -21415,7 +21780,8 @@
         "name": "TRANS-RXNAVI-26433.ce.brachyexp.LINEAR-ALPHA-GLUCAN_LINEAR-ALPHA-GLUCAN",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -21443,6 +21809,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -21824,8 +22194,8 @@
         "code": "(1) cpd29557[1] <=> (1) cpd29557[0]",
         "compound_ids": "cpd29557",
         "definition": "(1) D-erythro-pentulose[1] <=> (1) D-erythro-pentulose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29557[1] <=> (1) cpd29557[0]",
         "id": "rxn29488",
@@ -21835,7 +22205,8 @@
         "name": "TRANS-RXNAVI-26433.ce.brachyexp.RIBULOSE_RIBULOSE",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -21863,6 +22234,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -22032,8 +22407,8 @@
         "code": "(1) cpd28698[1] <=> (1) cpd28698[0]",
         "compound_ids": "cpd00067;cpd28698",
         "definition": "(1) H+[0] + (1) Antibiotics[1] <=> (1) H+[1] + (1) Antibiotics[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[0] + (1) cpd28698[1] <=> (1) cpd00067[1] + (1) cpd28698[0]",
         "id": "rxn29492",
@@ -22043,7 +22418,8 @@
         "name": "TRANS-RXNAVI-26444.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -22087,6 +22463,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -22100,8 +22480,8 @@
         "code": "(1) cpd22250[1] <=> (1) cpd22250[0]",
         "compound_ids": "cpd00067;cpd22250",
         "definition": "(1) H+[1] + (1) an alcohol group[1] <=> (1) H+[0] + (1) an alcohol group[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd22250[1] <=> (1) cpd00067[0] + (1) cpd22250[0]",
         "id": "rxn29495",
@@ -22111,7 +22491,8 @@
         "name": "TRANS-RXNAVI-26449.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -22155,6 +22536,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -22257,8 +22642,8 @@
         "code": "(1) cpd29299[1] <=> (1) cpd29299[0]",
         "compound_ids": "cpd29299",
         "definition": "(1) Groups[1] <=> (1) Groups[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29299[1] <=> (1) cpd29299[0]",
         "id": "rxn29497",
@@ -22268,7 +22653,8 @@
         "name": "TRANS-RXNAVI-26455.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -22296,6 +22682,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -22313,8 +22703,8 @@
         "code": "(1) cpd00063[1] <=> (1) cpd00063[0]",
         "compound_ids": "cpd00063",
         "definition": "(1) Ca2+[1] <=> (1) Ca2+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00063[1] <=> (1) cpd00063[0]",
         "id": "rxn29529",
@@ -22324,7 +22714,8 @@
         "name": "TRANS-RXNBWI-115627.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -22352,6 +22743,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -22365,8 +22760,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd22250[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd22250[0]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00067;cpd22250",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) an alcohol group[1] <=> (1) ADP[0] + (1) Phosphate[0] + (1) H+[0] + (1) an alcohol group[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd22250[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00067[0] + (1) cpd22250[0]",
         "id": "rxn29530",
@@ -22377,7 +22772,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -22445,6 +22841,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -22458,8 +22858,8 @@
         "code": "(1) cpd28735[1] <=> (1) cpd28735[0]",
         "compound_ids": "cpd28735",
         "definition": "(1) Cu[1] <=> (1) Cu[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd28735[1] <=> (1) cpd28735[0]",
         "id": "rxn29531",
@@ -22469,7 +22869,8 @@
         "name": "TRANS-RXNAVI-26497.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -22497,6 +22898,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -22510,8 +22915,8 @@
         "code": "(1) cpd28198[1] <=> (1) cpd28198[0]",
         "compound_ids": "cpd00067;cpd28198",
         "definition": "(1) H+[1] + (1) Sugar[1] <=> (1) H+[0] + (1) Sugar[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd28198[1] <=> (1) cpd00067[0] + (1) cpd28198[0]",
         "id": "rxn29532",
@@ -22521,7 +22926,8 @@
         "name": "TRANS-RXNAVI-26524.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -22565,6 +22971,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -23940,8 +24350,8 @@
         "code": "(1) cpd28726[1] <=> (1) cpd28726[0]",
         "compound_ids": "cpd00067;cpd28726",
         "definition": "(1) H+[1] + (1) xylogalacturonan[1] <=> (1) H+[0] + (1) xylogalacturonan[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd28726[1] <=> (1) cpd00067[0] + (1) cpd28726[0]",
         "id": "rxn29553",
@@ -23951,7 +24361,8 @@
         "name": "TRANS-RXNAVI-26524.ce.brachyexp.CPD-10235_CPD-10235",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -23995,6 +24406,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -27275,8 +27690,8 @@
         "code": "(1) cpd25500[1] <=> (1) cpd25500[0]",
         "compound_ids": "cpd00067;cpd25500",
         "definition": "(1) H+[1] + (1) agarotetraose[1] <=> (1) H+[0] + (1) agarotetraose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd25500[1] <=> (1) cpd00067[0] + (1) cpd25500[0]",
         "id": "rxn29602",
@@ -27286,7 +27701,8 @@
         "name": "TRANS-RXNAVI-26524.ce.brachyexp.CPD-8939_CPD-8939",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -27330,6 +27746,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -29247,8 +29667,8 @@
         "code": "(1) cpd26068[1] <=> (1) cpd26068[0]",
         "compound_ids": "cpd00067;cpd26068",
         "definition": "(1) H+[1] + (1) 2-deoxy-2-fluoro-beta-D-galactopyranosyl fluoride[1] <=> (1) H+[0] + (1) 2-deoxy-2-fluoro-beta-D-galactopyranosyl fluoride[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd26068[1] <=> (1) cpd00067[0] + (1) cpd26068[0]",
         "id": "rxn29631",
@@ -29258,7 +29678,8 @@
         "name": "TRANS-RXNAVI-26524.ce.brachyexp.CPD0-1297_CPD0-1297",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -29302,6 +29723,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -30201,8 +30626,8 @@
         "code": "(1) cpd29309[1] <=> (1) cpd29309[0]",
         "compound_ids": "cpd00067;cpd29309",
         "definition": "(1) H+[1] + (1) iduronate[1] <=> (1) H+[0] + (1) iduronate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd29309[1] <=> (1) cpd00067[0] + (1) cpd29309[0]",
         "id": "rxn29645",
@@ -30212,7 +30637,8 @@
         "name": "TRANS-RXNAVI-26524.ce.brachyexp.IDURONATE_IDURONATE",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -30256,6 +30682,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -30750,8 +31180,8 @@
         "code": "(1) cpd29323[1] <=> (1) cpd29323[0]",
         "compound_ids": "cpd00067;cpd29323",
         "definition": "(1) H+[1] + (1) linear alpha-glucan[1] <=> (1) H+[0] + (1) linear alpha-glucan[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd29323[1] <=> (1) cpd00067[0] + (1) cpd29323[0]",
         "id": "rxn29653",
@@ -30761,7 +31191,8 @@
         "name": "TRANS-RXNAVI-26524.ce.brachyexp.LINEAR-ALPHA-GLUCAN_LINEAR-ALPHA-GLUCAN",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -30805,6 +31236,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -31506,8 +31941,8 @@
         "code": "(1) cpd29557[1] <=> (1) cpd29557[0]",
         "compound_ids": "cpd00067;cpd29557",
         "definition": "(1) H+[1] + (1) D-erythro-pentulose[1] <=> (1) H+[0] + (1) D-erythro-pentulose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd29557[1] <=> (1) cpd00067[0] + (1) cpd29557[0]",
         "id": "rxn29664",
@@ -31517,7 +31952,8 @@
         "name": "TRANS-RXNAVI-26524.ce.brachyexp.RIBULOSE_RIBULOSE",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -31561,6 +31997,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -31780,8 +32220,8 @@
         "code": "(1) cpd22369[1] <=> (1) cpd22369[0]",
         "compound_ids": "cpd00067;cpd22369",
         "definition": "(1) H+[1] + (1) Amino-Acids-20[1] <=> (1) H+[0] + (1) Amino-Acids-20[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd22369[1] <=> (1) cpd00067[0] + (1) cpd22369[0]",
         "id": "rxn29668",
@@ -31791,7 +32231,8 @@
         "name": "TRANS-RXNBWI-115637.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -31835,6 +32276,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -31849,8 +32294,8 @@
         "code": "(1) cpd29190[1] <=> (1) cpd29190[0]",
         "compound_ids": "cpd29190",
         "definition": "(1) Cations[1] <=> (1) Cations[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29190[1] <=> (1) cpd29190[0]",
         "id": "rxn29669",
@@ -31860,7 +32305,8 @@
         "name": "TRANS-RXNBWI-115534.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -31888,6 +32334,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -31905,8 +32355,8 @@
         "code": "(1) cpd01012[1] <=> (1) cpd01012[0]",
         "compound_ids": "cpd01012",
         "definition": "(1) Cd2+[1] <=> (1) Cd2+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd01012[1] <=> (1) cpd01012[0]",
         "id": "rxn29670",
@@ -31916,7 +32366,8 @@
         "name": "TRANS-RXNAVI-26549.ce.brachyexp.CD+2_CD+2",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -31944,6 +32395,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -31961,8 +32416,8 @@
         "code": "(1) cpd00030[1] <=> (1) cpd00030[0]",
         "compound_ids": "cpd00030",
         "definition": "(1) Mn2+[1] <=> (1) Mn2+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00030[1] <=> (1) cpd00030[0]",
         "id": "rxn29671",
@@ -31972,7 +32427,8 @@
         "name": "TRANS-RXNAVI-26549.ce.brachyexp.MN+2_MN+2",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -32000,6 +32456,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -32065,8 +32525,8 @@
         "code": "(1) cpd27704[1] <=> (1) cpd27704[0]",
         "compound_ids": "cpd00067;cpd27704",
         "definition": "(1) H+[1] + (1) OLIGOPEPTIDES[1] <=> (1) H+[0] + (1) OLIGOPEPTIDES[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd27704[1] <=> (1) cpd00067[0] + (1) cpd27704[0]",
         "id": "rxn29673",
@@ -32076,7 +32536,8 @@
         "name": "TRANS-RXNAVI-26571.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -32120,6 +32581,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -32133,8 +32598,8 @@
         "code": "(1) cpd29306[1] <=> (1) cpd29306[0]",
         "compound_ids": "cpd29306",
         "definition": "(1) Hemes[1] <=> (1) Hemes[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29306[1] <=> (1) cpd29306[0]",
         "id": "rxn29726",
@@ -32144,7 +32609,8 @@
         "name": "TRANS-RXNAVI-26584.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -32172,6 +32638,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -32185,8 +32655,8 @@
         "code": "(1) cpd00557[1] <=> (1) cpd00557[0]",
         "compound_ids": "cpd00557",
         "definition": "(1) Siroheme[1] <=> (1) Siroheme[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00557[1] <=> (1) cpd00557[0]",
         "id": "rxn29728",
@@ -32196,7 +32666,8 @@
         "name": "TRANS-RXNAVI-26584.ce.brachyexp.SIROHEME_SIROHEME",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -32224,6 +32695,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -32237,8 +32712,8 @@
         "code": "(1) cpd03977[0] + (1) cpd28698[1] <=> (1) cpd03977[1] + (1) cpd28698[0]",
         "compound_ids": "cpd03977;cpd28698",
         "definition": "(1) Tetracycline[0] + (1) Antibiotics[1] <=> (1) Tetracycline[1] + (1) Antibiotics[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd03977[0] + (1) cpd28698[1] <=> (1) cpd03977[1] + (1) cpd28698[0]",
         "id": "rxn29729",
@@ -32248,7 +32723,8 @@
         "name": "TRANS-RXNAVI-26641.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -32292,6 +32768,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -32306,8 +32786,8 @@
         "code": "(1) cpd28697[1] <=> (1) cpd28697[0]",
         "compound_ids": "cpd28697",
         "definition": "(1) Anions[1] <=> (1) Anions[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd28697[1] <=> (1) cpd28697[0]",
         "id": "rxn29731",
@@ -32317,7 +32797,8 @@
         "name": "TRANS-RXNBWI-115401.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -32345,6 +32826,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -32650,8 +33135,8 @@
         "code": "(1) cpd27865[1] <=> (1) cpd27865[0]",
         "compound_ids": "cpd27865",
         "definition": "(1) Phospholipids[1] <=> (1) Phospholipids[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd27865[1] <=> (1) cpd27865[0]",
         "id": "rxn29737",
@@ -32661,7 +33146,8 @@
         "name": "TRANS-RXNAVI-26723.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -32689,6 +33175,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -32702,8 +33192,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd29189[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd29189[0]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00067;cpd29189",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) Carbohydrates[1] <=> (1) ADP[0] + (1) Phosphate[0] + (1) H+[0] + (1) Carbohydrates[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd29189[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00067[0] + (1) cpd29189[0]",
         "id": "rxn29738",
@@ -32714,7 +33204,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -32782,6 +33273,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -33372,8 +33867,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd28726[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd28726[0]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00067;cpd28726",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) xylogalacturonan[1] <=> (1) ADP[0] + (1) Phosphate[0] + (1) H+[0] + (1) xylogalacturonan[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd28726[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00067[0] + (1) cpd28726[0]",
         "id": "rxn29745",
@@ -33383,7 +33878,8 @@
         "name": "TRANS-RXNAVI-26732.ce.brachyexp.CPD-10235_CPD-10235",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -33451,6 +33947,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -35774,8 +36274,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd29309[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd29309[0]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00067;cpd29309",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) iduronate[1] <=> (1) ADP[0] + (1) Phosphate[0] + (1) H+[0] + (1) iduronate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd29309[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00067[0] + (1) cpd29309[0]",
         "id": "rxn29770",
@@ -35785,7 +36285,8 @@
         "name": "TRANS-RXNAVI-26732.ce.brachyexp.IDURONATE_IDURONATE",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -35853,6 +36354,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -36157,8 +36662,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd29323[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd29323[0]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00067;cpd29323",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) linear alpha-glucan[1] <=> (1) ADP[0] + (1) Phosphate[0] + (1) H+[0] + (1) linear alpha-glucan[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd29323[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00067[0] + (1) cpd29323[0]",
         "id": "rxn29774",
@@ -36168,7 +36673,8 @@
         "name": "TRANS-RXNAVI-26732.ce.brachyexp.LINEAR-ALPHA-GLUCAN_LINEAR-ALPHA-GLUCAN",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -36236,6 +36742,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -36540,8 +37050,8 @@
         "code": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd29557[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd29557[0]",
         "compound_ids": "cpd00001;cpd00002;cpd00008;cpd00009;cpd00067;cpd29557",
         "definition": "(1) H2O[0] + (1) ATP[0] + (1) D-erythro-pentulose[1] <=> (1) ADP[0] + (1) Phosphate[0] + (1) H+[0] + (1) D-erythro-pentulose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd00002[0] + (1) cpd29557[1] <=> (1) cpd00008[0] + (1) cpd00009[0] + (1) cpd00067[0] + (1) cpd29557[0]",
         "id": "rxn29778",
@@ -36551,7 +37061,8 @@
         "name": "TRANS-RXNAVI-26732.ce.brachyexp.RIBULOSE_RIBULOSE",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -36619,6 +37130,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -36827,8 +37342,8 @@
         "code": "(1) cpd27228[1] <=> (1) cpd27228[0]",
         "compound_ids": "cpd27228",
         "definition": "(1) deltaH[1] <=> (1) deltaH[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd27228[1] <=> (1) cpd27228[0]",
         "id": "rxn29781",
@@ -36838,7 +37353,8 @@
         "name": "TRANS-RXNAVI-26758.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -36866,6 +37382,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -36883,8 +37403,8 @@
         "code": "(1) cpd04098[1] <=> (1) cpd04098[0]",
         "compound_ids": "cpd04098",
         "definition": "(1) Arsenite[1] <=> (1) Arsenite[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd04098[1] <=> (1) cpd04098[0]",
         "id": "rxn29782",
@@ -36894,7 +37414,8 @@
         "name": "TRANS-RXNBWI-115495.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -36922,6 +37443,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -37115,8 +37640,8 @@
         "code": "(1) cpd29306[1] <=> (1) cpd29306[0]",
         "compound_ids": "cpd00067;cpd29306",
         "definition": "(1) H+[1] + (1) Hemes[1] <=> (1) H+[0] + (1) Hemes[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd29306[1] <=> (1) cpd00067[0] + (1) cpd29306[0]",
         "id": "rxn29786",
@@ -37126,7 +37651,8 @@
         "name": "TRANS-RXNAVI-27033.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -37170,6 +37696,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -37183,8 +37713,8 @@
         "code": "(1) cpd00028[1] <=> (1) cpd00028[0]",
         "compound_ids": "cpd00028;cpd00067",
         "definition": "(1) Heme[1] + (1) H+[1] <=> (1) Heme[0] + (1) H+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00028[1] + (1) cpd00067[1] <=> (1) cpd00028[0] + (1) cpd00067[0]",
         "id": "rxn29788",
@@ -37194,7 +37724,8 @@
         "name": "TRANS-RXNAVI-27033.ce.brachyexp.PROTOHEME_PROTOHEME",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -37238,6 +37769,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -37251,8 +37786,8 @@
         "code": "(1) cpd00557[1] <=> (1) cpd00557[0]",
         "compound_ids": "cpd00067;cpd00557",
         "definition": "(1) H+[1] + (1) Siroheme[1] <=> (1) H+[0] + (1) Siroheme[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd00557[1] <=> (1) cpd00067[0] + (1) cpd00557[0]",
         "id": "rxn29789",
@@ -37262,7 +37797,8 @@
         "name": "TRANS-RXNAVI-27033.ce.brachyexp.SIROHEME_SIROHEME",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -37306,6 +37842,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -37319,8 +37859,8 @@
         "code": "(1) cpd29189[1] <=> (1) cpd29189[0]",
         "compound_ids": "cpd00067;cpd29189",
         "definition": "(1) H+[1] + (1) Carbohydrates[1] <=> (1) H+[0] + (1) Carbohydrates[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd29189[1] <=> (1) cpd00067[0] + (1) cpd29189[0]",
         "id": "rxn29790",
@@ -37330,7 +37870,8 @@
         "name": "TRANS-RXNAVI-27173.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -37374,6 +37915,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -37455,8 +38000,8 @@
         "code": "(1) cpd00971[1] + (1) cpd29299[1] <=> (1) cpd00971[0] + (1) cpd29299[0]",
         "compound_ids": "cpd00971;cpd29299",
         "definition": "(1) Na+[1] + (1) Groups[1] <=> (1) Na+[0] + (1) Groups[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00971[1] + (1) cpd29299[1] <=> (1) cpd00971[0] + (1) cpd29299[0]",
         "id": "rxn29792",
@@ -37466,7 +38011,8 @@
         "name": "TRANS-RXNAVI-27560.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -37510,6 +38056,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -37523,8 +38073,8 @@
         "code": "(1) cpd00063[1] <=> (1) cpd00063[0]",
         "compound_ids": "cpd00063;cpd00067",
         "definition": "(1) Ca2+[1] + (1) H+[1] <=> (1) Ca2+[0] + (1) H+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00063[1] + (1) cpd00067[1] <=> (1) cpd00063[0] + (1) cpd00067[0]",
         "id": "rxn29824",
@@ -37534,7 +38084,8 @@
         "name": "TRANS-RXNAVI-27585.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -37578,6 +38129,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -37591,8 +38146,8 @@
         "code": "(1) cpd27900[1] <=> (1) cpd27900[0]",
         "compound_ids": "cpd00067;cpd27900",
         "definition": "(1) H+[0] + (1) Polysaccharides[1] <=> (1) H+[1] + (1) Polysaccharides[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[0] + (1) cpd27900[1] <=> (1) cpd00067[1] + (1) cpd27900[0]",
         "id": "rxn29825",
@@ -37602,7 +38157,8 @@
         "name": "TRANS-RXNAVI-27596.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -37646,6 +38202,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -37999,8 +38559,8 @@
         "code": "(1) cpd28726[1] <=> (1) cpd28726[0]",
         "compound_ids": "cpd00067;cpd28726",
         "definition": "(1) H+[0] + (1) xylogalacturonan[1] <=> (1) H+[1] + (1) xylogalacturonan[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[0] + (1) cpd28726[1] <=> (1) cpd00067[1] + (1) cpd28726[0]",
         "id": "rxn29831",
@@ -38010,7 +38570,8 @@
         "name": "TRANS-RXNAVI-27596.ce.brachyexp.CPD-10235_CPD-10235",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -38054,6 +38615,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -38475,8 +39040,8 @@
         "code": "(1) cpd25500[1] <=> (1) cpd25500[0]",
         "compound_ids": "cpd00067;cpd25500",
         "definition": "(1) H+[0] + (1) agarotetraose[1] <=> (1) H+[1] + (1) agarotetraose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[0] + (1) cpd25500[1] <=> (1) cpd00067[1] + (1) cpd25500[0]",
         "id": "rxn29838",
@@ -38486,7 +39051,8 @@
         "name": "TRANS-RXNAVI-27596.ce.brachyexp.CPD-8939_CPD-8939",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -38530,6 +39096,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -39019,8 +39589,8 @@
         "code": "(1) cpd29323[1] <=> (1) cpd29323[0]",
         "compound_ids": "cpd00067;cpd29323",
         "definition": "(1) H+[0] + (1) linear alpha-glucan[1] <=> (1) H+[1] + (1) linear alpha-glucan[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[0] + (1) cpd29323[1] <=> (1) cpd00067[1] + (1) cpd29323[0]",
         "id": "rxn29846",
@@ -39030,7 +39600,8 @@
         "name": "TRANS-RXNAVI-27596.ce.brachyexp.LINEAR-ALPHA-GLUCAN_LINEAR-ALPHA-GLUCAN",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -39074,6 +39645,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -39155,8 +39730,8 @@
         "code": "(1) cpd28735[1] <=> (1) cpd28735[0]",
         "compound_ids": "cpd00067;cpd28735",
         "definition": "(1) H+[1] + (1) Cu[1] <=> (1) H+[0] + (1) Cu[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd28735[1] <=> (1) cpd00067[0] + (1) cpd28735[0]",
         "id": "rxn29848",
@@ -39166,7 +39741,8 @@
         "name": "TRANS-RXNAVI-27627.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -39210,6 +39786,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -39320,8 +39900,8 @@
         "code": "(1) cpd27228[1] <=> (1) cpd27228[0]",
         "compound_ids": "cpd00067;cpd27228",
         "definition": "(1) H+[1] + (1) deltaH[1] <=> (1) H+[0] + (1) deltaH[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd27228[1] <=> (1) cpd00067[0] + (1) cpd27228[0]",
         "id": "rxn29850",
@@ -39331,7 +39911,8 @@
         "name": "TRANS-RXNAVI-27838.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -39375,6 +39956,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -39388,8 +39973,8 @@
         "code": "(1) cpd27689[1] <=> (1) cpd27689[0]",
         "compound_ids": "cpd00067;cpd27689",
         "definition": "(1) H+[1] + (1) Nucleotides[1] <=> (1) H+[0] + (1) Nucleotides[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd27689[1] <=> (1) cpd00067[0] + (1) cpd27689[0]",
         "id": "rxn29851",
@@ -39399,7 +39984,8 @@
         "name": "TRANS-RXNAVI-27988.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -39443,6 +40029,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -41068,8 +41658,8 @@
         "code": "(1) cpd27724[1] <=> (1) cpd27724[0]",
         "compound_ids": "cpd27724",
         "definition": "(1) Oligosaccharides[1] <=> (1) Oligosaccharides[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd27724[1] <=> (1) cpd27724[0]",
         "id": "rxn29876",
@@ -41079,7 +41669,8 @@
         "name": "TRANS-RXNBWI-115383.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -41107,6 +41698,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -41120,8 +41715,8 @@
         "code": "(1) cpd19015[1] <=> (1) cpd19015[0]",
         "compound_ids": "cpd19015",
         "definition": "(1) Fructose[1] <=> (1) Fructose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd19015[1] <=> (1) cpd19015[0]",
         "id": "rxn29877",
@@ -41131,7 +41726,8 @@
         "name": "TRANS-RXNBWI-115388.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -41159,6 +41755,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -41172,8 +41772,8 @@
         "code": "(1) cpd27894[1] <=> (1) cpd27894[0]",
         "compound_ids": "cpd27894",
         "definition": "(1) Polyamines[1] <=> (1) Polyamines[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd27894[1] <=> (1) cpd27894[0]",
         "id": "rxn29878",
@@ -41183,7 +41783,8 @@
         "name": "TRANS-RXNBWI-115420.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -41211,6 +41812,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -41383,8 +41988,8 @@
         "code": "(1) cpd28198[1] <=> (1) cpd28198[0]",
         "compound_ids": "cpd28198",
         "definition": "(1) Sugar[1] <=> (1) Sugar[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd28198[1] <=> (1) cpd28198[0]",
         "id": "rxn29882",
@@ -41394,7 +41999,8 @@
         "name": "TRANS-RXNBWI-115506.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -41422,6 +42028,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -41491,8 +42101,8 @@
         "code": "(1) cpd11423[1] <=> (1) cpd11423[0]",
         "compound_ids": "cpd11423",
         "definition": "(1) 1,2-Diacyl-sn-glycerol[1] <=> (1) 1,2-Diacyl-sn-glycerol[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd11423[1] <=> (1) cpd11423[0]",
         "id": "rxn29884",
@@ -41502,7 +42112,8 @@
         "name": "TRANS-RXNBWI-115562.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -41530,6 +42141,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -41595,8 +42210,8 @@
         "code": "(1) cpd29553[1] <=> (1) cpd29553[0]",
         "compound_ids": "cpd00067;cpd29553",
         "definition": "(1) H+[1] + (1) Purines[1] <=> (1) H+[0] + (1) Purines[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd00067[1] + (1) cpd29553[1] <=> (1) cpd00067[0] + (1) cpd29553[0]",
         "id": "rxn29886",
@@ -41606,7 +42221,8 @@
         "name": "TRANS-RXNBWI-115572.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -41650,6 +42266,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -41784,8 +42404,8 @@
         "code": "(1) cpd29423[1] <=> (1) cpd29423[0]",
         "compound_ids": "cpd29423",
         "definition": "(1) NUCLEOTIDE-SUGARS[1] <=> (1) NUCLEOTIDE-SUGARS[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29423[1] <=> (1) cpd29423[0]",
         "id": "rxn29889",
@@ -41795,7 +42415,8 @@
         "name": "TRANS-RXNBWI-115630.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -41823,6 +42444,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -43211,8 +43836,8 @@
         "code": "(1) cpd27532[1] <=> (1) cpd27532[0]",
         "compound_ids": "cpd27532",
         "definition": "(1) Monosaccharides[1] <=> (1) Monosaccharides[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd27532[1] <=> (1) cpd27532[0]",
         "id": "rxn29916",
@@ -43222,7 +43847,8 @@
         "name": "TRANS-RXNBWI-115646.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -43250,6 +43876,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -43263,8 +43893,8 @@
         "code": "(1) cpd29580[1] <=> (1) cpd29580[0]",
         "compound_ids": "cpd29580",
         "definition": "(1) Sugar-alcohols[1] <=> (1) Sugar-alcohols[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -67.33,
+        "deltagerr": 2.29,
         "ec_numbers": null,
         "equation": "(1) cpd29580[1] <=> (1) cpd29580[0]",
         "id": "rxn29917",
@@ -43274,7 +43904,8 @@
         "name": "TRANS-RXNBWI-115653.ce",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -43302,6 +43933,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -67.33,
+                2.29
             ]
         }
     },
@@ -43453,8 +44088,8 @@
         "code": "(1) cpd00006[0] + (1) cpd22234[0] + (1) cpd28168[0] <=> (1) cpd00005[0] + (1) cpd28232[0]",
         "compound_ids": "cpd00005;cpd00006;cpd22234;cpd28168;cpd28232",
         "definition": "(1) NADP[0] + (1) ACYL-COA[0] + (1) Saturated-Fatty-Acyl-CoA[0] <=> (1) NADPH[0] + (1) TRANS-D2-ENOYL-COA[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 6.87,
+        "deltagerr": 0.21,
         "ec_numbers": [
             "1.3.1.38"
         ],
@@ -43466,7 +44101,8 @@
         "name": "Trans-2-enoyl-CoA reductase (NADPH)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -43518,6 +44154,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                6.87,
+                0.21
             ]
         }
     },
@@ -43853,8 +44493,8 @@
         "code": "(1) cpd00001[0] + (1) cpd28278[0] <=> (1) cpd26675[0] + (1) cpd26958[0]",
         "compound_ids": "cpd00001;cpd00067;cpd26675;cpd26958;cpd28278",
         "definition": "(1) H2O[0] + (1) Triacylglycerols[0] <=> (1) H+[0] + (1) Carboxylates[0] + (1) Diacylglycerides[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -2.95,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "3.1.1.3",
             "3.1.1.79"
@@ -43867,7 +44507,8 @@
         "name": "hepatic monoacylglycerol acyltransferase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: Degradation (Degradation/Utilization/Assimilation); Fatty-Acid-and-Lipid-Degradation (Fatty Acid and Lipid Degradation); LIPAS-PWY (triacylglycerol degradation)"
@@ -43921,6 +44562,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -2.95,
+                0.03
             ]
         }
     },
@@ -43934,8 +44579,8 @@
         "code": "(1) cpd00017[0] + (1) cpd29578[0] <=> (1) cpd00019[0] + (1) cpd12484[0]",
         "compound_ids": "cpd00017;cpd00019;cpd12484;cpd29578",
         "definition": "(1) S-Adenosyl-L-methionine[0] + (1) Some-tRNA[0] <=> (1) S-Adenosyl-homocysteine[0] + (1) tRNA containing N2-methylguanine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -2.95,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "2.1.1.32"
         ],
@@ -43947,7 +44592,8 @@
         "name": "tRNA (guanine-N2-)-methyltransferase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -43991,6 +44637,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -2.95,
+                0.03
             ]
         }
     },
@@ -44007,8 +44657,8 @@
         "code": "(1) cpd00017[0] + (1) cpd28567[0] <=> (1) cpd00019[0] + (1) cpd12482[0]",
         "compound_ids": "cpd00017;cpd00019;cpd12482;cpd28567",
         "definition": "(1) S-Adenosyl-L-methionine[0] + (1) tRNA-Holder[0] <=> (1) S-Adenosyl-homocysteine[0] + (1) tRNA containing N1-methyladenine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -2.95,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "2.1.1.36"
         ],
@@ -44020,7 +44670,8 @@
         "name": "S-adenosyl-L-methionine:tRNA (adenine-N1-)-methyltransferase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -44064,6 +44715,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -2.95,
+                0.03
             ]
         }
     },
@@ -44078,8 +44733,8 @@
         "code": "(1) cpd00002[0] <=> (1) cpd00012[0] + (1) cpd28600[0]",
         "compound_ids": "cpd00002;cpd00012;cpd28600",
         "definition": "(1) ATP[0] <=> (1) PPi[0] + (1) tRNAs-with-CCA[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -2.95,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "2.7.7.25"
         ],
@@ -44091,7 +44746,8 @@
         "name": "CCA-adding enzyme",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -44127,6 +44783,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -2.95,
+                0.03
             ]
         }
     },
@@ -44140,8 +44800,8 @@
         "code": "(1) cpd00052[0] <=> (1) cpd00012[0] + (1) cpd28600[0]",
         "compound_ids": "cpd00012;cpd00052;cpd28600",
         "definition": "(1) CTP[0] <=> (1) PPi[0] + (1) tRNAs-with-CCA[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -2.95,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "2.7.7.21"
         ],
@@ -44153,7 +44813,8 @@
         "name": "tRNA CCA-pyrophosphorylase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -44189,6 +44850,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -2.95,
+                0.03
             ]
         }
     },
@@ -44202,8 +44867,8 @@
         "code": "(1) cpd00017[0] + (1) cpd28567[0] <=> (1) cpd00019[0] + (1) cpd12481[0]",
         "compound_ids": "cpd00017;cpd00019;cpd12481;cpd28567",
         "definition": "(1) S-Adenosyl-L-methionine[0] + (1) tRNA-Holder[0] <=> (1) S-Adenosyl-homocysteine[0] + (1) tRNA containing 5-methylcytosine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -2.95,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "2.1.1.29"
         ],
@@ -44215,7 +44880,8 @@
         "name": "tRNA (cytosine-5-)-methyltransferase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -44259,6 +44925,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -2.95,
+                0.03
             ]
         }
     },
@@ -44272,8 +44942,8 @@
         "code": "(1) cpd00017[0] + (1) cpd28567[0] <=> (1) cpd00019[0] + (1) cpd12483[0]",
         "compound_ids": "cpd00017;cpd00019;cpd12483;cpd28567",
         "definition": "(1) S-Adenosyl-L-methionine[0] + (1) tRNA-Holder[0] <=> (1) S-Adenosyl-homocysteine[0] + (1) tRNA containing N1-methylguanine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -2.95,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "2.1.1.31"
         ],
@@ -44285,7 +44955,8 @@
         "name": "S-adenosyl-L-methionine:tRNA (guanine-N1-)-methyltransferase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -44329,6 +45000,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -2.95,
+                0.03
             ]
         }
     },
@@ -44346,8 +45021,8 @@
         "code": "(1) cpd00017[0] + (1) cpd28567[0] <=> (1) cpd00019[0] + (1) cpd12484[0]",
         "compound_ids": "cpd00017;cpd00019;cpd12484;cpd28567",
         "definition": "(1) S-Adenosyl-L-methionine[0] + (1) tRNA-Holder[0] <=> (1) S-Adenosyl-homocysteine[0] + (1) tRNA containing N2-methylguanine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -2.95,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "2.1.1.32"
         ],
@@ -44359,7 +45034,8 @@
         "name": "transfer ribonucleate guanine N2-methyltransferase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -44403,6 +45079,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -2.95,
+                0.03
             ]
         }
     },
@@ -44419,8 +45099,8 @@
         "code": "(1) cpd29578[0] + (1) cpd29646[0] <=> (1) cpd00012[0] + (1) cpd28549[0]",
         "compound_ids": "cpd00012;cpd28549;cpd29578;cpd29646",
         "definition": "(1) Some-tRNA[0] + (1) IPP[0] <=> (1) PPi[0] + (1) tRNA-Containing-6Isopentenyladenosine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -2.95,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "2.5.1.8"
         ],
@@ -44432,7 +45112,8 @@
         "name": "IPP transferase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -44476,6 +45157,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -2.95,
+                0.03
             ]
         }
     },
@@ -44697,8 +45382,8 @@
         "code": "(1) cpd00002[0] + (1) cpd00065[0] + (1) cpd28239[0] <=> (1) cpd00012[0] + (1) cpd00018[0] + (1) cpd26707[0]",
         "compound_ids": "cpd00002;cpd00012;cpd00018;cpd00065;cpd00067;cpd26707;cpd28239",
         "definition": "(1) ATP[0] + (1) L-Tryptophan[0] + (1) TRP-tRNAs[0] <=> (1) PPi[0] + (1) AMP[0] + (1) H+[0] + (1) Charged-TRP-tRNAs[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -7.58,
+        "deltagerr": 0.04,
         "ec_numbers": [
             "6.1.1.2"
         ],
@@ -44711,7 +45396,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: Aminoacyl-tRNAs-Charging (Aminoacyl-tRNA Charging); Metabolic-Clusters (Metabolic Clusters); TRNA-CHARGING-PWY (tRNA charging)"
@@ -44781,6 +45467,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -7.58,
+                0.04
             ]
         }
     },
@@ -44891,8 +45581,8 @@
         "code": "(1) cpd00002[0] + (1) cpd29612[0] <=> (1) cpd00008[0] + (1) cpd29525[0]",
         "compound_ids": "cpd00002;cpd00008;cpd29525;cpd29612",
         "definition": "(1) ATP[0] + (1) UHPB-MONOMER[0] <=> (1) ADP[0] + (1) PHOSPHO-UHPB[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -59.48,
+        "deltagerr": 0.45,
         "ec_numbers": null,
         "equation": "(1) cpd00002[0] + (1) cpd29612[0] <=> (1) cpd00008[0] + (1) cpd29525[0]",
         "id": "rxn29939",
@@ -44902,7 +45592,8 @@
         "name": "UHPB-RXN.c",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -44946,6 +45637,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -59.48,
+                0.45
             ]
         }
     },
@@ -44959,8 +45654,8 @@
         "code": "(1) cpd00863[0] + (1) cpd29613[0] <=> (1) cpd29289[0]",
         "compound_ids": "cpd00863;cpd29289;cpd29613",
         "definition": "(1) beta-D-Glucose 6-phosphate[0] + (1) UHPC-MONOMER[0] <=> (1) GLU-UHPC[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -59.48,
+        "deltagerr": 0.45,
         "ec_numbers": null,
         "equation": "(1) cpd00863[0] + (1) cpd29613[0] <=> (1) cpd29289[0]",
         "id": "rxn29940",
@@ -44970,7 +45665,8 @@
         "name": "UHPC-RXN.c",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -45006,6 +45702,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -59.48,
+                0.45
             ]
         }
     },
@@ -45190,8 +45890,8 @@
         "code": "(1) cpd29614[0] <=> (1) cpd00091[0] + (1) cpd12687[0]",
         "compound_ids": "cpd00091;cpd12687;cpd29614",
         "definition": "(1) URIDYLYL-PII[0] <=> (1) UMP[0] + (1) [Protein-PII][0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 3.14,
+        "deltagerr": 0.03,
         "ec_numbers": null,
         "equation": "(1) cpd29614[0] <=> (1) cpd00091[0] + (1) cpd12687[0]",
         "id": "rxn29944",
@@ -45201,7 +45901,8 @@
         "name": "URIDYLREM-RXN.c",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -45237,6 +45938,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                3.14,
+                0.03
             ]
         }
     },
@@ -47204,8 +47909,8 @@
         "code": "(1) cpd00004[0] + (1) cpd00007[0] + (1) cpd09252[0] <=> (1) cpd00001[0] + (1) cpd00003[0] + (1) cpd29675[0]",
         "compound_ids": "cpd00001;cpd00003;cpd00004;cpd00007;cpd00067;cpd09252;cpd29675",
         "definition": "(1) NADH[0] + (1) O2[0] + (1) H+[0] + (1) 3-Coumaric acid[0] <=> (1) H2O[0] + (1) NAD[0] + (1) 2,3-dihydroxicinnamic acid[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -2.96,
+        "deltagerr": 0.02,
         "ec_numbers": null,
         "equation": "(1) cpd00004[0] + (1) cpd00007[0] + (1) cpd00067[0] + (1) cpd09252[0] <=> (1) cpd00001[0] + (1) cpd00003[0] + (1) cpd29675[0]",
         "id": "rxn29981",
@@ -47215,7 +47920,8 @@
         "name": "3-hydroxycinnamate hydroxylase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -47283,6 +47989,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -2.96,
+                0.02
             ]
         }
     },
@@ -47477,8 +48187,8 @@
         "code": "(1) cpd00010[0] + (1) cpd29672[0] <=> (1) cpd00045[0] + (1) cpd11493[0]",
         "compound_ids": "cpd00010;cpd00045;cpd11493;cpd29672",
         "definition": "(1) CoA[0] + (1) apoprotein [acyl carrier protein][0] <=> (1) Adenosine 3-5-bisphosphate[0] + (1) ACP[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -21.38,
+        "deltagerr": 0.25,
         "ec_numbers": [
             "2.7.8.7"
         ],
@@ -47490,7 +48200,8 @@
         "name": "acyl-carrier protein synthase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -47534,6 +48245,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -21.38,
+                0.25
             ]
         }
     },
@@ -47728,8 +48443,8 @@
         "code": "(1) cpd00001[0] + (1) cpd15397[0] <=> (1) cpd15386[0] + (1) cpd15396[0]",
         "compound_ids": "cpd00001;cpd15386;cpd15396;cpd15397",
         "definition": "(1) H2O[0] + (1) N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide[0] <=> (1) L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate[0] + (1) N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -4.99,
+        "deltagerr": 0.03,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd15397[0] <=> (1) cpd15386[0] + (1) cpd15396[0]",
         "id": "rxn29987",
@@ -47739,7 +48454,8 @@
         "name": "N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide amidase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -47783,6 +48499,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -4.99,
+                0.03
             ]
         }
     },
@@ -47800,8 +48520,8 @@
         "code": "(1) cpd29671[0] <=> (1) cpd03831[0]",
         "compound_ids": "cpd03831;cpd29671",
         "definition": "(1) ADP-D-glycero-D-manno-heptose[0] <=> (1) ADP-L-glycero-D-manno-heptose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -4.99,
+        "deltagerr": 0.03,
         "ec_numbers": [
             "5.1.3.20"
         ],
@@ -47813,7 +48533,8 @@
         "name": "ADP-D-glycero-D-manno-heptose epimerase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -47841,6 +48562,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -4.99,
+                0.03
             ]
         }
     },
@@ -47953,8 +48678,8 @@
         "code": "(1) cpd29673[0] <=> (1) cpd00051[0] + (1) cpd00106[0]",
         "compound_ids": "cpd00051;cpd00106;cpd29673",
         "definition": "(1) N(omega)-(L-Arginino)succinate[0] <=> (1) L-Arginine[0] + (1) Fumarate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -3.47,
+        "deltagerr": 0.15,
         "ec_numbers": [
             "4.3.2.1"
         ],
@@ -47966,7 +48691,8 @@
         "name": "argininosuccinate lyase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -48002,6 +48728,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -3.47,
+                0.15
             ]
         }
     },
@@ -48019,8 +48749,8 @@
         "code": "(1) cpd00002[0] + (1) cpd00041[0] + (1) cpd00274[0] <=> (1) cpd00012[0] + (1) cpd00018[0] + (1) cpd29673[0]",
         "compound_ids": "cpd00002;cpd00012;cpd00018;cpd00041;cpd00067;cpd00274;cpd29673",
         "definition": "(1) ATP[0] + (1) L-Aspartate[0] + (1) Citrulline[0] <=> (1) PPi[0] + (1) AMP[0] + (2) H+[0] + (1) N(omega)-(L-Arginino)succinate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -3.47,
+        "deltagerr": 0.15,
         "ec_numbers": [
             "6.3.4.5"
         ],
@@ -48032,7 +48762,8 @@
         "name": "argininosuccinate synthase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -48100,6 +48831,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -3.47,
+                0.15
             ]
         }
     },

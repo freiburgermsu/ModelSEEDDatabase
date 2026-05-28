@@ -115,8 +115,8 @@
         "code": "(1) cpd02816[0] <=> (1) cpd00099[0] + (1) cpd02864[0]",
         "compound_ids": "cpd00067;cpd00099;cpd02816;cpd02864",
         "definition": "(1) 3,5-Dichloro-2,5-dihydro-2-oxofuran-5-acetate[0] <=> (1) H+[0] + (1) Cl-[0] + (1) cis-2-Chlorodienelactone[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 7.33,
+        "deltagerr": 0.69,
         "ec_numbers": null,
         "equation": "(1) cpd02816[0] <=> (1) cpd00067[0] + (1) cpd00099[0] + (1) cpd02864[0]",
         "id": "rxn40001",
@@ -127,7 +127,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -171,6 +172,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                7.33,
+                0.69
             ]
         }
     },
@@ -744,8 +749,8 @@
         "code": "(1) cpd00004[0] + (2) cpd00007[0] + (2) cpd03527[0] <=> (2) cpd00001[0] + (1) cpd00003[0] + (2) cpd00274[0] + (2) cpd00418[0]",
         "compound_ids": "cpd00001;cpd00003;cpd00004;cpd00007;cpd00067;cpd00274;cpd00418;cpd03527",
         "definition": "(1) NADH[0] + (2) O2[0] + (2) N-(omega)-Hydroxyarginine[0] <=> (2) H2O[0] + (1) NAD[0] + (1) H+[0] + (2) Citrulline[0] + (2) NO[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -164.42,
+        "deltagerr": 1.23,
         "ec_numbers": null,
         "equation": "(1) cpd00004[0] + (2) cpd00007[0] + (2) cpd03527[0] <=> (2) cpd00001[0] + (1) cpd00003[0] + (1) cpd00067[0] + (2) cpd00274[0] + (2) cpd00418[0]",
         "id": "rxn40009",
@@ -756,7 +761,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -832,6 +838,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -164.42,
+                1.23
             ]
         }
     },
@@ -847,8 +857,8 @@
         "code": "(1) cpd00007[0] + (1) cpd21034[0] <=> (1) cpd31060[0]",
         "compound_ids": "cpd00007;cpd00067;cpd21034;cpd31060",
         "definition": "(1) O2[0] + (1) 5-Nitrosalicylate[0] <=> (1) H+[0] + (1) 4-Nitro-6-oxohepta-2,4-dienedioate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -83.08,
+        "deltagerr": 0.8,
         "ec_numbers": null,
         "equation": "(1) cpd00007[0] + (1) cpd21034[0] <=> (1) cpd00067[0] + (1) cpd31060[0]",
         "id": "rxn40010",
@@ -859,7 +869,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -903,6 +914,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -83.08,
+                0.8
             ]
         }
     },
@@ -917,8 +932,8 @@
         "code": "(1) cpd31060[0] <=> (1) cpd00075[0] + (1) cpd24308[0]",
         "compound_ids": "cpd00067;cpd00075;cpd24308;cpd31060",
         "definition": "(1) H+[0] + (1) 4-Nitro-6-oxohepta-2,4-dienedioate[0] <=> (1) Nitrite[0] + (1) 2-oxo-3-(5-oxofuran-2-ylidene)propanoate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 12.7,
+        "deltagerr": 0.58,
         "ec_numbers": null,
         "equation": "(1) cpd00067[0] + (1) cpd31060[0] <=> (1) cpd00075[0] + (1) cpd24308[0]",
         "id": "rxn40011",
@@ -929,7 +944,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -973,6 +989,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                12.7,
+                0.58
             ],
             "eQuilibrator": [
                 -5.27,
@@ -2179,8 +2199,8 @@
         "code": "(1) cpd00001[0] + (1) cpd10230[0] <=> (1) cpd00075[0] + (1) cpd31071[0]",
         "compound_ids": "cpd00001;cpd00075;cpd10230;cpd31071",
         "definition": "(1) H2O[0] + (1) Azomycin[0] <=> (1) Nitrite[0] + (1) Imidazol-2-one[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 20.89,
+        "deltagerr": 0.87,
         "ec_numbers": [
             "3.5.99.9"
         ],
@@ -2192,7 +2212,8 @@
         "name": "2-nitroimidazole nitrohydrolase",
         "notes": [
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2236,6 +2257,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                20.89,
+                0.87
             ],
             "eQuilibrator": [
                 58.76,
@@ -2726,8 +2751,8 @@
         "code": "(1) cpd00007[0] + (1) cpd00024[0] + (1) cpd31082[0] <=> (1) cpd00001[0] + (1) cpd00011[0] + (1) cpd00036[0] + (1) cpd31081[0]",
         "compound_ids": "cpd00001;cpd00007;cpd00011;cpd00024;cpd00036;cpd31081;cpd31082",
         "definition": "(1) O2[0] + (1) 2-Oxoglutarate[0] + (1) Pentalenolactone D[0] <=> (1) H2O[0] + (1) CO2[0] + (1) Succinate[0] + (1) Pentalenolactone E[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -115.33,
+        "deltagerr": 0.61,
         "ec_numbers": [
             "1.14.11.36"
         ],
@@ -2739,7 +2764,8 @@
         "name": "pentalenolactone-D,2-oxoglutarate:oxygen oxidoreductase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2807,6 +2833,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -115.33,
+                0.61
             ]
         }
     },
@@ -2820,8 +2850,8 @@
         "code": "(1) cpd00007[0] + (1) cpd00024[0] + (1) cpd31081[0] <=> (1) cpd00011[0] + (1) cpd00036[0] + (1) cpd31080[0]",
         "compound_ids": "cpd00007;cpd00011;cpd00024;cpd00036;cpd31080;cpd31081",
         "definition": "(1) O2[0] + (1) 2-Oxoglutarate[0] + (1) Pentalenolactone E[0] <=> (1) CO2[0] + (1) Succinate[0] + (1) Pentalenolactone F[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -106.61,
+        "deltagerr": 0.65,
         "ec_numbers": null,
         "equation": "(1) cpd00007[0] + (1) cpd00024[0] + (1) cpd31081[0] <=> (1) cpd00011[0] + (1) cpd00036[0] + (1) cpd31080[0]",
         "id": "rxn40035",
@@ -2831,7 +2861,8 @@
         "name": "pentalenolactone-E,2-oxoglutarate:oxygen oxidoreductase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2891,6 +2922,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -106.61,
+                0.65
             ]
         }
     },
@@ -2904,8 +2939,8 @@
         "code": "(2) cpd00007[0] + (2) cpd00024[0] + (1) cpd31082[0] <=> (1) cpd00001[0] + (2) cpd00011[0] + (2) cpd00036[0] + (1) cpd31080[0]",
         "compound_ids": "cpd00001;cpd00007;cpd00011;cpd00024;cpd00036;cpd31080;cpd31082",
         "definition": "(2) O2[0] + (2) 2-Oxoglutarate[0] + (1) Pentalenolactone D[0] <=> (1) H2O[0] + (2) CO2[0] + (2) Succinate[0] + (1) Pentalenolactone F[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -221.94,
+        "deltagerr": 0.48,
         "ec_numbers": null,
         "equation": "(2) cpd00007[0] + (2) cpd00024[0] + (1) cpd31082[0] <=> (1) cpd00001[0] + (2) cpd00011[0] + (2) cpd00036[0] + (1) cpd31080[0]",
         "id": "rxn40036",
@@ -2915,7 +2950,8 @@
         "name": "pentalenolactone-D,2-oxoglutarate:oxygen oxidoreductase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -2983,6 +3019,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -221.94,
+                0.48
             ]
         }
     },
@@ -3466,8 +3506,8 @@
         "code": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd31083[0] <=> (1) cpd00001[0] + (1) cpd00006[0] + (1) cpd31082[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31082;cpd31083",
         "definition": "(1) NADPH[0] + (1) O2[0] + (1) H+[0] + (1) 1-Deoxy-11-oxopentalenate[0] <=> (1) H2O[0] + (1) NADP[0] + (1) Pentalenolactone D[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -91.13,
+        "deltagerr": 0.5,
         "ec_numbers": [
             "1.14.13.170"
         ],
@@ -3479,7 +3519,8 @@
         "name": "1-deoxy-11-oxopentalenate,NADH:oxygen oxidoreductase (pentalenolactone-D forming)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3547,6 +3588,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -91.13,
+                0.5
             ]
         }
     },
@@ -3560,8 +3605,8 @@
         "code": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd31083[0] <=> (1) cpd00001[0] + (1) cpd00006[0] + (1) cpd31084[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31083;cpd31084",
         "definition": "(1) NADPH[0] + (1) O2[0] + (1) H+[0] + (1) 1-Deoxy-11-oxopentalenate[0] <=> (1) H2O[0] + (1) NADP[0] + (1) Neopentalenolactone D[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -92.42,
+        "deltagerr": 0.53,
         "ec_numbers": [
             "1.14.13.171"
         ],
@@ -3573,7 +3618,8 @@
         "name": "1-deoxy-11-oxopentalenate,NADH:oxygen oxidoreductase (neopentalenolactone-D forming)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3641,6 +3687,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -92.42,
+                0.53
             ]
         }
     },
@@ -3654,8 +3704,8 @@
         "code": "(1) cpd00003[0] + (1) cpd31085[0] <=> (1) cpd00004[0] + (1) cpd31083[0]",
         "compound_ids": "cpd00003;cpd00004;cpd00067;cpd31083;cpd31085",
         "definition": "(1) NAD[0] + (1) 1-Deoxy-11beta-hydroxypentalenate[0] <=> (1) NADH[0] + (1) H+[0] + (1) 1-Deoxy-11-oxopentalenate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 3.15,
+        "deltagerr": 0.12,
         "ec_numbers": [
             "1.1.1.340"
         ],
@@ -3667,7 +3717,8 @@
         "name": "1-deoxy-11beta-hydroxypentalenate:NAD+ oxidoreductase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3719,6 +3770,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                3.15,
+                0.12
             ]
         }
     },
@@ -3732,8 +3787,8 @@
         "code": "(1) cpd00007[0] + (1) cpd00024[0] + (1) cpd31086[0] <=> (1) cpd00011[0] + (1) cpd00036[0] + (1) cpd31085[0]",
         "compound_ids": "cpd00007;cpd00011;cpd00024;cpd00036;cpd31085;cpd31086",
         "definition": "(1) O2[0] + (1) 2-Oxoglutarate[0] + (1) 1-Deoxypentalenate[0] <=> (1) CO2[0] + (1) Succinate[0] + (1) 1-Deoxy-11beta-hydroxypentalenate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -107.36,
+        "deltagerr": 0.1,
         "ec_numbers": [
             "1.14.11.35"
         ],
@@ -3745,7 +3800,8 @@
         "name": "1-deoxypentalenic acid,2-oxoglutarate:oxygen oxidoreductase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -3805,6 +3861,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -107.36,
+                0.1
             ]
         }
     },
@@ -6535,8 +6595,8 @@
         "code": "(2) cpd00007[0] + (2) cpd01270[0] + (1) cpd08020[0] <=> (2) cpd00001[0] + (2) cpd00050[0] + (1) cpd00055[0] + (1) cpd08023[0]",
         "compound_ids": "cpd00001;cpd00007;cpd00050;cpd00055;cpd00067;cpd01270;cpd08020;cpd08023",
         "definition": "(2) O2[0] + (2) FMNH2[0] + (1) Dimethyl sulfone[0] <=> (2) H2O[0] + (2) FMN[0] + (1) Formaldehyde[0] + (1) H+[0] + (1) methanesulfonate[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -159.86,
+        "deltagerr": 0.46,
         "ec_numbers": null,
         "equation": "(2) cpd00007[0] + (2) cpd01270[0] + (1) cpd08020[0] <=> (2) cpd00001[0] + (2) cpd00050[0] + (1) cpd00055[0] + (1) cpd00067[0] + (1) cpd08023[0]",
         "id": "rxn40080",
@@ -6547,7 +6607,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00920 (Sulfur metabolism)"
@@ -6625,6 +6686,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -159.86,
+                0.46
             ],
             "eQuilibrator": [
                 -327.68,
@@ -7269,8 +7334,8 @@
         "code": "(1) cpd00007[0] + (1) cpd00109[0] + (1) cpd00165[0] <=> (1) cpd00001[0] + (1) cpd00075[0] + (1) cpd00110[0]",
         "compound_ids": "cpd00001;cpd00007;cpd00075;cpd00109;cpd00110;cpd00165",
         "definition": "(1) O2[0] + (1) Cytochrome c3+[0] + (1) Hydroxylamine[0] <=> (1) H2O[0] + (1) Nitrite[0] + (1) Cytochrome c2+[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -75.8,
+        "deltagerr": 0.47,
         "ec_numbers": [
             "1.7.3.6"
         ],
@@ -7283,7 +7348,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -7343,6 +7409,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -75.8,
+                0.47
             ]
         }
     },
@@ -7959,8 +8029,8 @@
         "code": "(1) cpd00043[0] + (1) cpd03502[0] <=> (1) cpd00014[0] + (1) cpd05553[0]",
         "compound_ids": "cpd00014;cpd00043;cpd00067;cpd03502;cpd05553",
         "definition": "(1) UDP-galactose[0] + (1) H+[0] + (1) IdB 1027[0] <=> (1) UDP[0] + (1) Cyanidin 3-O-galactoside[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -23.6,
+        "deltagerr": 0.51,
         "ec_numbers": [
             "2.4.1.294"
         ],
@@ -7973,7 +8043,8 @@
         "notes": [
             "GCP",
             "EQC",
-            "HB"
+            "HB",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -8025,6 +8096,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -23.6,
+                0.51
             ],
             "eQuilibrator": [
                 41.99,
@@ -9682,8 +9757,8 @@
         "code": "(1) cpd00350[0] <=> (1) cpd00012[0] + (1) cpd31127[0]",
         "compound_ids": "cpd00012;cpd00067;cpd00350;cpd31127",
         "definition": "(1) Farnesyldiphosphate[0] <=> (1) PPi[0] + (1) H+[0] + (1) (-)-alpha-Isocomene[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -31.32,
+        "deltagerr": 1.24,
         "ec_numbers": [
             "4.2.3.136"
         ],
@@ -9696,7 +9771,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -9740,6 +9816,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -31.32,
+                1.24
             ]
         }
     },
@@ -9756,8 +9836,8 @@
         "code": "(1) cpd00350[0] <=> (1) cpd00012[0] + (1) cpd31128[0]",
         "compound_ids": "cpd00012;cpd00067;cpd00350;cpd31128",
         "definition": "(1) Farnesyldiphosphate[0] <=> (1) PPi[0] + (1) H+[0] + (1) (E)-2-epi-beta-Caryophyllene[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -25.06,
+        "deltagerr": 1.15,
         "ec_numbers": [
             "4.2.3.137"
         ],
@@ -9770,7 +9850,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00909 (Sesquiterpenoid and triterpenoid biosynthesis)"
@@ -9816,6 +9897,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -25.06,
+                1.15
             ],
             "eQuilibrator": [
                 -146.31,
@@ -10876,8 +10961,8 @@
         "code": "(1) cpd00026[0] + (1) cpd31136[0] <=> (1) cpd00014[0] + (1) cpd31139[0]",
         "compound_ids": "cpd00014;cpd00026;cpd31136;cpd31139",
         "definition": "(1) UDP-glucose[0] + (1) Cyanidin 3-O-beta-D-sambubioside[0] <=> (1) UDP[0] + (1) Cyanidin 5-O-beta-D-glucoside 3-O-beta-D-sambubioside[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -12.52,
+        "deltagerr": 0.47,
         "ec_numbers": null,
         "equation": "(1) cpd00026[0] + (1) cpd31136[0] <=> (1) cpd00014[0] + (1) cpd31139[0]",
         "id": "rxn40134",
@@ -10888,7 +10973,8 @@
         "notes": [
             "GCP",
             "EQP",
-            "HB"
+            "HB",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00942 (Anthocyanin biosynthesis)"
@@ -10934,6 +11020,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -12.52,
+                0.47
             ]
         }
     },
@@ -12775,8 +12865,8 @@
         "code": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd31159[0] <=> (2) cpd00001[0] + (1) cpd00006[0] + (1) cpd31160[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31159;cpd31160",
         "definition": "(1) NADPH[0] + (1) O2[0] + (1) H+[0] + (1) Cyclo(L-tyrosyl-L-tyrosyl)[0] <=> (2) H2O[0] + (1) NADP[0] + (1) Mycocyclosin[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -129.1,
+        "deltagerr": 0.64,
         "ec_numbers": [
             "1.14.21.9"
         ],
@@ -12788,7 +12878,8 @@
         "name": "cyclo(L-tyrosyl-L-tyrosyl),NADPH:oxygen oxidoreductase (diarylbridge-forming)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -12856,6 +12947,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -129.1,
+                0.64
             ]
         }
     },
@@ -13887,8 +13982,8 @@
         "code": "(1) cpd00202[0] + (1) cpd21284[0] <=> (1) cpd00012[0] + (1) cpd31193[0]",
         "compound_ids": "cpd00012;cpd00067;cpd00202;cpd21284;cpd31193",
         "definition": "(1) DMAPP[0] + (1) Verruculogen[0] <=> (1) PPi[0] + (1) H+[0] + (1) Fumitremorgin A[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -14.43,
+        "deltagerr": 0.35,
         "ec_numbers": [
             "2.5.1.107"
         ],
@@ -13901,7 +13996,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: ALKALOIDS-SYN (Alkaloid Biosynthesis); N-CONTAINING-SECONDARY-CMPD-SYN (Nitrogen-Containing Secondary Compound Biosynthesis); PWY-7526 (fumitremorgin A biosynthesis); PWY-7537 (superpathway of fumitremorgin biosynthesis); SECONDARY-METABOLITE-BIOSYNTHESIS (Secondary Metabolite Biosynthesis)"
@@ -13955,6 +14051,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -14.43,
+                0.35
             ]
         }
     },
@@ -14982,8 +15082,8 @@
         "code": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd31172[0] <=> (2) cpd00001[0] + (1) cpd00006[0] + (1) cpd31187[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31172;cpd31187",
         "definition": "(1) NADPH[0] + (1) O2[0] + (1) H+[0] + (1) 13-Desoxypaxilline[0] <=> (2) H2O[0] + (1) NADP[0] + (1) Paspalicine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -92.47,
+        "deltagerr": 0.46,
         "ec_numbers": null,
         "equation": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd00067[0] + (1) cpd31172[0] <=> (2) cpd00001[0] + (1) cpd00006[0] + (1) cpd31187[0]",
         "id": "rxn40182",
@@ -14993,7 +15093,8 @@
         "name": "",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -15063,6 +15164,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -92.47,
+                0.46
             ]
         }
     },
@@ -15076,8 +15181,8 @@
         "code": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd31187[0] <=> (1) cpd00001[0] + (1) cpd00006[0] + (1) cpd31188[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31187;cpd31188",
         "definition": "(1) NADPH[0] + (1) O2[0] + (1) H+[0] + (1) Paspalicine[0] <=> (1) H2O[0] + (1) NADP[0] + (1) Paspalinine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -91.55,
+        "deltagerr": 0.52,
         "ec_numbers": null,
         "equation": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd00067[0] + (1) cpd31187[0] <=> (1) cpd00001[0] + (1) cpd00006[0] + (1) cpd31188[0]",
         "id": "rxn40183",
@@ -15087,7 +15192,8 @@
         "name": "",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -15157,6 +15263,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -91.55,
+                0.52
             ]
         }
     },
@@ -15172,8 +15282,8 @@
         "code": "(1) cpd00202[0] + (1) cpd31188[0] <=> (1) cpd00012[0] + (1) cpd31189[0]",
         "compound_ids": "cpd00012;cpd00067;cpd00202;cpd31188;cpd31189",
         "definition": "(1) DMAPP[0] + (1) Paspalinine[0] <=> (1) PPi[0] + (1) H+[0] + (1) Aflatrem[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -24.6,
+        "deltagerr": 0.87,
         "ec_numbers": [
             "2.5.1.-"
         ],
@@ -15186,7 +15296,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: PWY-7540 (aflatrem biosynthesis); SECONDARY-METABOLITE-BIOSYNTHESIS (Secondary Metabolite Biosynthesis)",
@@ -15241,6 +15352,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -24.6,
+                0.87
             ]
         }
     },
@@ -15255,8 +15370,8 @@
         "code": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd31178[0] <=> (1) cpd00001[0] + (1) cpd00006[0] + (1) cpd31179[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31178;cpd31179",
         "definition": "(1) NADPH[0] + (1) O2[0] + (1) H+[0] + (1) 13-Desoxyterpendole I[0] <=> (1) H2O[0] + (1) NADP[0] + (1) Terpendole I[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -93.1,
+        "deltagerr": 0.59,
         "ec_numbers": null,
         "equation": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd00067[0] + (1) cpd31178[0] <=> (1) cpd00001[0] + (1) cpd00006[0] + (1) cpd31179[0]",
         "id": "rxn40185",
@@ -15266,7 +15381,8 @@
         "name": "13-desoxyterpendole I,NADPH:oxygen oxidoreductase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -15336,6 +15452,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -93.1,
+                0.59
             ]
         }
     },
@@ -15349,8 +15469,8 @@
         "code": "(3) cpd00005[0] + (3) cpd00007[0] + (1) cpd31173[0] <=> (4) cpd00001[0] + (3) cpd00006[0] + (1) cpd31182[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31173;cpd31182",
         "definition": "(3) NADPH[0] + (3) O2[0] + (3) H+[0] + (1) 20,21-Diprenylterpendole I[0] <=> (4) H2O[0] + (3) NADP[0] + (1) Lolitriol[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -273.06,
+        "deltagerr": 1.49,
         "ec_numbers": null,
         "equation": "(3) cpd00005[0] + (3) cpd00007[0] + (3) cpd00067[0] + (1) cpd31173[0] <=> (4) cpd00001[0] + (3) cpd00006[0] + (1) cpd31182[0]",
         "id": "rxn40186",
@@ -15360,7 +15480,8 @@
         "name": "",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -15430,6 +15551,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -273.06,
+                1.49
             ]
         }
     },
@@ -15443,8 +15568,8 @@
         "code": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd31184[0] <=> (2) cpd00001[0] + (1) cpd00006[0] + (1) cpd31185[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31184;cpd31185",
         "definition": "(1) NADPH[0] + (1) O2[0] + (1) H+[0] + (1) Lolitrem E[0] <=> (2) H2O[0] + (1) NADP[0] + (1) Lolitrem B[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -93.38,
+        "deltagerr": 0.41,
         "ec_numbers": null,
         "equation": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd00067[0] + (1) cpd31184[0] <=> (2) cpd00001[0] + (1) cpd00006[0] + (1) cpd31185[0]",
         "id": "rxn40187",
@@ -15454,7 +15579,8 @@
         "name": "",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -15524,6 +15650,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -93.38,
+                0.41
             ]
         }
     },
@@ -15537,8 +15667,8 @@
         "code": "(2) cpd00202[0] + (1) cpd31179[0] <=> (2) cpd00012[0] + (1) cpd31173[0]",
         "compound_ids": "cpd00012;cpd00067;cpd00202;cpd31173;cpd31179",
         "definition": "(2) DMAPP[0] + (1) Terpendole I[0] <=> (2) PPi[0] + (2) H+[0] + (1) 20,21-Diprenylterpendole I[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -61.27,
+        "deltagerr": 0.95,
         "ec_numbers": null,
         "equation": "(2) cpd00202[0] + (1) cpd31179[0] <=> (2) cpd00012[0] + (2) cpd00067[0] + (1) cpd31173[0]",
         "id": "rxn40188",
@@ -15549,7 +15679,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -15603,6 +15734,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -61.27,
+                0.95
             ]
         }
     },
@@ -15617,8 +15752,8 @@
         "code": "(1) cpd00202[0] + (1) cpd31182[0] <=> (1) cpd00012[0] + (1) cpd31184[0]",
         "compound_ids": "cpd00012;cpd00067;cpd00202;cpd31182;cpd31184",
         "definition": "(1) DMAPP[0] + (1) Lolitriol[0] <=> (1) PPi[0] + (1) H+[0] + (1) Lolitrem E[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -13.05,
+        "deltagerr": 0.36,
         "ec_numbers": null,
         "equation": "(1) cpd00202[0] + (1) cpd31182[0] <=> (1) cpd00012[0] + (1) cpd00067[0] + (1) cpd31184[0]",
         "id": "rxn40189",
@@ -15629,7 +15764,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -15683,6 +15819,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -13.05,
+                0.36
             ]
         }
     },
@@ -15939,8 +16079,8 @@
         "code": "(4) cpd00005[0] + (4) cpd00007[0] + (1) cpd31177[0] <=> (5) cpd00001[0] + (4) cpd00006[0] + (1) cpd00047[0] + (1) cpd31178[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00047;cpd00067;cpd31177;cpd31178",
         "definition": "(4) NADPH[0] + (4) O2[0] + (3) H+[0] + (1) Terpendole E[0] <=> (5) H2O[0] + (4) NADP[0] + (1) Formate[0] + (1) 13-Desoxyterpendole I[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -392.7,
+        "deltagerr": 0.4,
         "ec_numbers": null,
         "equation": "(4) cpd00005[0] + (4) cpd00007[0] + (3) cpd00067[0] + (1) cpd31177[0] <=> (5) cpd00001[0] + (4) cpd00006[0] + (1) cpd00047[0] + (1) cpd31178[0]",
         "id": "rxn40193",
@@ -15951,7 +16091,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -16029,6 +16170,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -392.7,
+                0.4
             ]
         }
     },
@@ -16042,8 +16187,8 @@
         "code": "(3) cpd00005[0] + (3) cpd00007[0] + (1) cpd31175[0] <=> (3) cpd00001[0] + (3) cpd00006[0] + (1) cpd31179[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31175;cpd31179",
         "definition": "(3) NADPH[0] + (3) O2[0] + (3) H+[0] + (1) 12-Demethyl-11,12-dehydropaspaline[0] <=> (3) H2O[0] + (3) NADP[0] + (1) Terpendole I[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -264.17,
+        "deltagerr": 0.77,
         "ec_numbers": null,
         "equation": "(3) cpd00005[0] + (3) cpd00007[0] + (3) cpd00067[0] + (1) cpd31175[0] <=> (3) cpd00001[0] + (3) cpd00006[0] + (1) cpd31179[0]",
         "id": "rxn40194",
@@ -16053,7 +16198,8 @@
         "name": "",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -16123,6 +16269,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -264.17,
+                0.77
             ]
         }
     },
@@ -16137,8 +16287,8 @@
         "code": "(1) cpd00202[0] + (1) cpd31179[0] <=> (1) cpd00012[0] + (1) cpd31180[0]",
         "compound_ids": "cpd00012;cpd00067;cpd00202;cpd31179;cpd31180",
         "definition": "(1) DMAPP[0] + (1) Terpendole I[0] <=> (1) PPi[0] + (1) H+[0] + (1) Terpendole J[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -13.05,
+        "deltagerr": 0.36,
         "ec_numbers": null,
         "equation": "(1) cpd00202[0] + (1) cpd31179[0] <=> (1) cpd00012[0] + (1) cpd00067[0] + (1) cpd31180[0]",
         "id": "rxn40195",
@@ -16149,7 +16299,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -16203,6 +16354,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -13.05,
+                0.36
             ]
         }
     },
@@ -16216,8 +16371,8 @@
         "code": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd31180[0] <=> (2) cpd00001[0] + (1) cpd00006[0] + (1) cpd31181[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31180;cpd31181",
         "definition": "(1) NADPH[0] + (1) O2[0] + (1) H+[0] + (1) Terpendole J[0] <=> (2) H2O[0] + (1) NADP[0] + (1) Terpendole C[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -93.38,
+        "deltagerr": 0.41,
         "ec_numbers": null,
         "equation": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd00067[0] + (1) cpd31180[0] <=> (2) cpd00001[0] + (1) cpd00006[0] + (1) cpd31181[0]",
         "id": "rxn40196",
@@ -16227,7 +16382,8 @@
         "name": "",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -16297,6 +16453,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -93.38,
+                0.41
             ]
         }
     },
@@ -16310,8 +16470,8 @@
         "code": "(1) cpd31181[0] <=> (1) cpd31186[0]",
         "compound_ids": "cpd00067;cpd31181;cpd31186",
         "definition": "(1) Terpendole C[0] <=> (2) H+[0] + (1) Terpendole K[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -10.73,
+        "deltagerr": 0.53,
         "ec_numbers": null,
         "equation": "(1) cpd31181[0] <=> (2) cpd00067[0] + (1) cpd31186[0]",
         "id": "rxn40197",
@@ -16322,7 +16482,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -16360,6 +16521,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -10.73,
+                0.53
             ]
         }
     },
@@ -16373,8 +16538,8 @@
         "code": "(2) cpd00202[0] + (1) cpd31181[0] <=> (2) cpd00012[0] + (1) cpd31214[0]",
         "compound_ids": "cpd00012;cpd00067;cpd00202;cpd31181;cpd31214",
         "definition": "(2) DMAPP[0] + (1) Terpendole C[0] <=> (2) PPi[0] + (2) H+[0] + (1) 20,21-Diprenylterpendole C[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -63.8,
+        "deltagerr": 0.95,
         "ec_numbers": null,
         "equation": "(2) cpd00202[0] + (1) cpd31181[0] <=> (2) cpd00012[0] + (2) cpd00067[0] + (1) cpd31214[0]",
         "id": "rxn40198",
@@ -16385,7 +16550,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -16439,6 +16605,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -63.8,
+                0.95
             ]
         }
     },
@@ -16452,8 +16622,8 @@
         "code": "(2) cpd00202[0] + (1) cpd31180[0] <=> (2) cpd00012[0] + (1) cpd31213[0]",
         "compound_ids": "cpd00012;cpd00067;cpd00202;cpd31180;cpd31213",
         "definition": "(2) DMAPP[0] + (1) Terpendole J[0] <=> (2) PPi[0] + (2) H+[0] + (1) 20,21-Diprenylterpendole J[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -61.68,
+        "deltagerr": 0.85,
         "ec_numbers": null,
         "equation": "(2) cpd00202[0] + (1) cpd31180[0] <=> (2) cpd00012[0] + (2) cpd00067[0] + (1) cpd31213[0]",
         "id": "rxn40199",
@@ -16464,7 +16634,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -16518,6 +16689,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -61.68,
+                0.85
             ]
         }
     },
@@ -18684,8 +18859,8 @@
         "code": "(1) cpd02027[0] + (1) cpd03389[0] <=> (1) cpd00060[0] + (1) cpd03390[0]",
         "compound_ids": "cpd00060;cpd02027;cpd03389;cpd03390",
         "definition": "(1) S-Methyl-L-methionine[0] + (1) Selenocysteine[0] <=> (1) L-Methionine[0] + (1) Se-Methylselenocysteine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -14.86,
+        "deltagerr": 0.39,
         "ec_numbers": [
             "1.1.1.124",
             "1.1.1.138",
@@ -18712,7 +18887,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -18756,6 +18932,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -14.86,
+                0.39
             ]
         }
     },
@@ -19988,8 +20168,8 @@
         "code": "(1) cpd00017[0] + (1) cpd08661[0] <=> (1) cpd00019[0] + (1) cpd31243[0]",
         "compound_ids": "cpd00017;cpd00019;cpd08661;cpd31243",
         "definition": "(1) S-Adenosyl-L-methionine[0] + (1) Gibberellin A9[0] <=> (1) S-Adenosyl-homocysteine[0] + (1) Methyl gibberellin A9[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 1.61,
+        "deltagerr": 0.8,
         "ec_numbers": [
             "2.1.1.275"
         ],
@@ -20001,7 +20181,8 @@
         "name": "S-adenosyl-L-methionine:gibberellin A9 O-methyltransferase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -20045,6 +20226,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                1.61,
+                0.8
             ]
         }
     },
@@ -20058,8 +20243,8 @@
         "code": "(1) cpd00017[0] + (1) cpd08662[0] <=> (1) cpd00019[0] + (1) cpd31244[0]",
         "compound_ids": "cpd00017;cpd00019;cpd08662;cpd31244",
         "definition": "(1) S-Adenosyl-L-methionine[0] + (1) Gibberellin A4[0] <=> (1) S-Adenosyl-homocysteine[0] + (1) Methyl gibberellin A4[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 1.63,
+        "deltagerr": 0.84,
         "ec_numbers": [
             "2.1.1.276"
         ],
@@ -20071,7 +20256,8 @@
         "name": "S-adenosyl-L-methionine:gibberellin A4 O-methyltransferase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -20115,6 +20301,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                1.63,
+                0.84
             ]
         }
     },
@@ -20998,8 +21188,8 @@
         "code": "(1) cpd00002[0] + (1) cpd00038[0] <=> (2) cpd00012[0] + (1) cpd31249[0]",
         "compound_ids": "cpd00002;cpd00012;cpd00038;cpd00067;cpd31249",
         "definition": "(1) ATP[0] + (1) GTP[0] <=> (2) PPi[0] + (2) H+[0] + (1) Cyclic GMP-AMP[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 7.65,
+        "deltagerr": 0.27,
         "ec_numbers": [
             "2.7.7.86"
         ],
@@ -21013,7 +21203,8 @@
             "HB",
             "GCP",
             "EQU",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -21065,6 +21256,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                7.65,
+                0.27
             ]
         }
     },
@@ -21953,8 +22148,8 @@
         "code": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd22587[0] <=> (1) cpd00001[0] + (1) cpd00006[0] + (1) cpd31146[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd22587;cpd31146",
         "definition": "(1) NADPH[0] + (1) O2[0] + (1) H+[0] + (1) (1'S,5'S)-averufin[0] <=> (1) H2O[0] + (1) NADP[0] + (1) 1'-Hydroxyversicolorone[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -127.5,
+        "deltagerr": 0.68,
         "ec_numbers": null,
         "equation": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd00067[0] + (1) cpd22587[0] <=> (1) cpd00001[0] + (1) cpd00006[0] + (1) cpd31146[0]",
         "id": "rxn40267",
@@ -21965,7 +22160,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQC"
+            "EQC",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00254 (Aflatoxin biosynthesis)"
@@ -22035,6 +22231,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -127.5,
+                0.68
             ],
             "eQuilibrator": [
                 -45.62,
@@ -25530,8 +25730,8 @@
         "code": "(2) cpd00001[0] + (1) cpd20293[0] <=> (1) cpd00011[0] + (2) cpd00239[0]",
         "compound_ids": "cpd00001;cpd00011;cpd00067;cpd00239;cpd20293",
         "definition": "(2) H2O[0] + (1) Carbon disulfide[0] <=> (1) CO2[0] + (2) H+[0] + (2) H2S[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 8.03,
+        "deltagerr": 0.55,
         "ec_numbers": [
             "3.13.1.5"
         ],
@@ -25544,7 +25744,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -25596,6 +25797,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                8.03,
+                0.55
             ]
         }
     },
@@ -30903,8 +31108,8 @@
         "code": "(1) cpd00003[0] <=> (1) cpd00133[0] + (1) cpd09364[0]",
         "compound_ids": "cpd00003;cpd00067;cpd00133;cpd09364",
         "definition": "(1) NAD[0] <=> (1) H+[0] + (1) Nicotinamide[0] + (1) cADPR[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -41.92,
+        "deltagerr": 0.59,
         "ec_numbers": null,
         "equation": "(1) cpd00003[0] <=> (1) cpd00067[0] + (1) cpd00133[0] + (1) cpd09364[0]",
         "id": "rxn40377",
@@ -30914,7 +31119,8 @@
         "name": "NAD+ nicotinamide-lyase (cyclic-ADP-ribose-forming)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -30958,6 +31164,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -41.92,
+                0.59
             ]
         }
     },
@@ -30973,8 +31183,8 @@
         "code": "(1) cpd00001[0] + (1) cpd09364[0] <=> (1) cpd00251[0]",
         "compound_ids": "cpd00001;cpd00251;cpd09364",
         "definition": "(1) H2O[0] + (1) cADPR[0] <=> (1) ADPribose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 37.6,
+        "deltagerr": 0.64,
         "ec_numbers": null,
         "equation": "(1) cpd00001[0] + (1) cpd09364[0] <=> (1) cpd00251[0]",
         "id": "rxn40378",
@@ -30984,7 +31194,8 @@
         "name": "cyclic-ADP-ribose hydrolase",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -31020,6 +31231,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                37.6,
+                0.64
             ]
         }
     },
@@ -31035,8 +31250,8 @@
         "code": "(1) cpd00006[0] <=> (1) cpd00133[0] + (1) cpd31315[0]",
         "compound_ids": "cpd00006;cpd00067;cpd00133;cpd31315",
         "definition": "(1) NADP[0] <=> (1) H+[0] + (1) Nicotinamide[0] + (1) 2'-Phospho-cyclic ADP-ribose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -42.51,
+        "deltagerr": 0.59,
         "ec_numbers": null,
         "equation": "(1) cpd00006[0] <=> (1) cpd00067[0] + (1) cpd00133[0] + (1) cpd31315[0]",
         "id": "rxn40379",
@@ -31046,7 +31261,8 @@
         "name": "NADP+ nicotinamide-lyase (2'-phospho-cyclic-ADP-ribose-forming)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -31090,6 +31306,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -42.51,
+                0.59
             ]
         }
     },
@@ -31105,8 +31325,8 @@
         "code": "(1) cpd00218[0] + (1) cpd31315[0] <=> (1) cpd09365[0]",
         "compound_ids": "cpd00067;cpd00218;cpd09365;cpd31315",
         "definition": "(1) H+[0] + (1) Niacin[0] + (1) 2'-Phospho-cyclic ADP-ribose[0] <=> (1) NAADP[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": 39.93,
+        "deltagerr": 0.59,
         "ec_numbers": null,
         "equation": "(1) cpd00067[0] + (1) cpd00218[0] + (1) cpd31315[0] <=> (1) cpd09365[0]",
         "id": "rxn40380",
@@ -31116,7 +31336,8 @@
         "name": "NAADP nicotinate-lyase (2'-phospho-cyclic-ADP-ribose-forming)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -31160,6 +31381,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                39.93,
+                0.59
             ]
         }
     },
@@ -33338,8 +33563,8 @@
         "code": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd31333[0] <=> (2) cpd00001[0] + (1) cpd00006[0] + (1) cpd31334[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31333;cpd31334",
         "definition": "(1) NADPH[0] + (1) O2[0] + (1) H+[0] + (1) dTDP-N-hydroxy-beta-L-evernosamine[0] <=> (2) H2O[0] + (1) NADP[0] + (1) dTDP-2,3,6-trideoxy-3-C-methyl-4-O-methyl-3-nitroso-beta-L-arabino-hexopyranose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -114.06,
+        "deltagerr": 0.49,
         "ec_numbers": null,
         "equation": "(1) cpd00005[0] + (1) cpd00007[0] + (1) cpd00067[0] + (1) cpd31333[0] <=> (2) cpd00001[0] + (1) cpd00006[0] + (1) cpd31334[0]",
         "id": "rxn40407",
@@ -33349,7 +33574,8 @@
         "name": "dTDP-beta-L-evernosamine,NADPH:oxygen oxidoreductase (N-hydroxylating)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "MetaCyc: CARBO-BIOSYNTHESIS (Sugar Biosynthesis); Carbohydrates-Biosynthesis (Carbohydrate Biosynthesis); PWY-7439 (dTDP-&beta;-L-evernitrose biosynthesis); SUGAR-NUCLEOTIDES (Sugar Nucleotide Biosynthesis); dTDP-Sugar-Biosynthesis (dTDP-sugar Biosynthesis)"
@@ -33419,6 +33645,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -114.06,
+                0.49
             ]
         }
     },
@@ -33434,8 +33664,8 @@
         "code": "(2) cpd00005[0] + (2) cpd00007[0] + (1) cpd31332[0] <=> (3) cpd00001[0] + (2) cpd00006[0] + (1) cpd31334[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31332;cpd31334",
         "definition": "(2) NADPH[0] + (2) O2[0] + (1) H+[0] + (1) dTDP-beta-L-evernosamine[0] <=> (3) H2O[0] + (2) NADP[0] + (1) dTDP-2,3,6-trideoxy-3-C-methyl-4-O-methyl-3-nitroso-beta-L-arabino-hexopyranose[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -179.02,
+        "deltagerr": 0.51,
         "ec_numbers": [
             "1.14.13.187"
         ],
@@ -33448,7 +33678,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -33516,6 +33747,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -179.02,
+                0.51
             ]
         }
     },
@@ -34716,8 +34951,8 @@
         "code": "(1) cpd00017[0] + (1) cpd31337[0] <=> (1) cpd00019[0] + (1) cpd31336[0]",
         "compound_ids": "cpd00017;cpd00019;cpd00067;cpd31336;cpd31337",
         "definition": "(1) S-Adenosyl-L-methionine[0] + (1) (+/-)-Pavine[0] <=> (1) S-Adenosyl-homocysteine[0] + (2) H+[0] + (1) N-Methylpavine[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -5.09,
+        "deltagerr": 1.05,
         "ec_numbers": [
             "2.1.1.300"
         ],
@@ -34730,7 +34965,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -34782,6 +35018,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -5.09,
+                1.05
             ]
         }
     },
@@ -35590,8 +35830,8 @@
         "code": "(3) cpd00005[0] + (3) cpd00007[0] + (1) cpd31213[0] <=> (4) cpd00001[0] + (3) cpd00006[0] + (1) cpd31184[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31184;cpd31213",
         "definition": "(3) NADPH[0] + (3) O2[0] + (3) H+[0] + (1) 20,21-Diprenylterpendole J[0] <=> (4) H2O[0] + (3) NADP[0] + (1) Lolitrem E[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -272.66,
+        "deltagerr": 1.42,
         "ec_numbers": null,
         "equation": "(3) cpd00005[0] + (3) cpd00007[0] + (3) cpd00067[0] + (1) cpd31213[0] <=> (4) cpd00001[0] + (3) cpd00006[0] + (1) cpd31184[0]",
         "id": "rxn40433",
@@ -35601,7 +35841,8 @@
         "name": "",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -35671,6 +35912,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -272.66,
+                1.42
             ]
         }
     },
@@ -35785,8 +36030,8 @@
         "code": "(3) cpd00005[0] + (3) cpd00007[0] + (1) cpd31214[0] <=> (4) cpd00001[0] + (3) cpd00006[0] + (1) cpd31185[0]",
         "compound_ids": "cpd00001;cpd00005;cpd00006;cpd00007;cpd00067;cpd31185;cpd31214",
         "definition": "(3) NADPH[0] + (3) O2[0] + (3) H+[0] + (1) 20,21-Diprenylterpendole C[0] <=> (4) H2O[0] + (3) NADP[0] + (1) Lolitrem B[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -270.53,
+        "deltagerr": 1.49,
         "ec_numbers": null,
         "equation": "(3) cpd00005[0] + (3) cpd00007[0] + (3) cpd00067[0] + (1) cpd31214[0] <=> (4) cpd00001[0] + (3) cpd00006[0] + (1) cpd31185[0]",
         "id": "rxn40435",
@@ -35796,7 +36041,8 @@
         "name": "",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": [
             "KEGG: rn00403 (Indole diterpene alkaloid biosynthesis); rn01110 (Biosynthesis of secondary metabolites)"
@@ -35866,6 +36112,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -270.53,
+                1.49
             ]
         }
     },
@@ -37943,8 +38193,8 @@
         "code": "(1) cpd00350[0] <=> (1) cpd00012[0] + (1) cpd31363[0]",
         "compound_ids": "cpd00012;cpd00067;cpd00350;cpd31363",
         "definition": "(1) Farnesyldiphosphate[0] <=> (1) PPi[0] + (1) H+[0] + (1) alpha-Longipinene[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -31.85,
+        "deltagerr": 1.2,
         "ec_numbers": null,
         "equation": "(1) cpd00350[0] <=> (1) cpd00012[0] + (1) cpd00067[0] + (1) cpd31363[0]",
         "id": "rxn40460",
@@ -37955,7 +38205,8 @@
         "notes": [
             "HB",
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -37999,6 +38250,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -31.85,
+                1.2
             ]
         }
     },
@@ -39050,8 +39305,8 @@
         "code": "(1) cpd00007[0] + (1) cpd00024[0] + (1) cpd08561[0] <=> (1) cpd00011[0] + (1) cpd00036[0] + (1) cpd31372[0]",
         "compound_ids": "cpd00007;cpd00011;cpd00024;cpd00036;cpd08561;cpd31372",
         "definition": "(1) O2[0] + (1) 2-Oxoglutarate[0] + (1) MM13902[0] <=> (1) CO2[0] + (1) Succinate[0] + (1) MM 4550[0]",
-        "deltag": 10000000.0,
-        "deltagerr": 10000000.0,
+        "deltag": -90.85,
+        "deltagerr": 0.45,
         "ec_numbers": null,
         "equation": "(1) cpd00007[0] + (1) cpd00024[0] + (1) cpd08561[0] <=> (1) cpd00011[0] + (1) cpd00036[0] + (1) cpd31372[0]",
         "id": "rxn40473",
@@ -39061,7 +39316,8 @@
         "name": "epithienamycin-E,2-oxoglutarate:oxygen oxidoreductase (sulfoxidation)",
         "notes": [
             "GCP",
-            "EQP"
+            "EQP",
+            "DGP"
         ],
         "pathways": null,
         "reversibility": "?",
@@ -39121,6 +39377,10 @@
             "Group contribution": [
                 10000000.0,
                 10000000.0
+            ],
+            "dGPredictor": [
+                -90.85,
+                0.45
             ]
         }
     },

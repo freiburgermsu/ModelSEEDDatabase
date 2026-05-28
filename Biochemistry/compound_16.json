@@ -3639,8 +3639,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:8:14.73;1:10:12.56;1:11:2.74",
-        "pkb": "1:7:-7.63;1:8:-3.31;1:9:-9.72;1:10:-3.86",
+        "pka": "1:8:12.40;1:10:12.21;1:11:2.85",
+        "pkb": "",
         "smiles": "O=C[C@H](O)[C@@H](O)CC(=O)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7336,8 +7336,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:3:17.49;1:7:3.98",
-        "pkb": "1:5:-7.23",
+        "pka": "1:3:7.82;1:7:4.10",
+        "pkb": "",
         "smiles": "C[C@H](C=O)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7546,8 +7546,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:6:2.31;1:19:12.20;1:20:14.81;1:21:13.40;1:23:6.50;1:25:1.42",
-        "pkb": "1:4:9.52;1:10:8.02;1:19:-3.97;1:20:-3.68;1:21:-3.54",
+        "pka": "1:6:2.43;1:19:8.95;1:20:10.60;1:21:10.51;1:23:1.86;1:25:1.86",
+        "pkb": "1:4:9.56;1:10:8.72",
         "smiles": "[NH3+][C@@H](CCCC[NH2+]CC(=O)[C@@H](O)[C@H](O)[C@H](O)COP(=O)([O-])[O-])C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7579,8 +7579,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:18:6.81;1:19:5.23;1:20:8.55;1:29:12.71;1:37:14.83;1:40:14.09;1:41:13.29;1:42:12.09",
-        "pkb": "1:18:-7.55;1:19:-8.85;1:20:-6.41;1:29:-3.69;1:37:-3.65;1:40:-3.68;1:41:-3.65;1:42:-3.95",
+        "pka": "1:18:6.51;1:19:6.34;1:20:6.52;1:29:7.59;1:37:8.02;1:40:9.62;1:41:9.95;1:42:8.69",
+        "pkb": "",
         "smiles": "O=c1c(O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c(-c2ccc(O)cc2)oc2cc([O-])cc([O-])c12",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7611,8 +7611,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:15:13.42;1:16:12.78;1:18:12.13;1:19:14.16;1:20:14.91;1:32:7.71;1:33:6.14;1:40:8.77",
-        "pkb": "1:15:-3.65;1:16:-3.66;1:18:-3.95;1:19:-3.67;1:20:-3.53;1:32:-6.48;1:33:-7.79;1:40:-6.39",
+        "pka": "1:15:9.68;1:16:7.58;1:18:9.06;1:19:10.25;1:20:10.51;1:32:6.40;1:33:5.90;1:40:8.11",
+        "pkb": "",
         "smiles": "O=c1cc(-c2ccc(O)cc2)oc2cc([O-])c([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O[C@@H]3OC[C@H](O)[C@H](O)[C@H]3O)c(O)c12",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7644,8 +7644,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:8:15.06;1:9:13.47;1:10:14.47;1:11:12.58;1:19:16.18;1:29:9.15;1:30:7.46;1:31:9.75",
-        "pkb": "1:8:-2.98;1:9:-3.64;1:10:-3.65;1:11:-3.70;1:29:-5.06;1:30:-6.48;1:31:-5.96",
+        "pka": "1:8:9.16;1:9:9.36;1:10:9.13;1:11:8.53;1:29:6.96;1:30:7.08;1:31:7.80",
+        "pkb": "",
         "smiles": "O=C1CC(c2ccc(O)cc2)Oc2c1c(O)cc(O)c2[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7677,8 +7677,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:3:18.25;1:7:13.77;1:26:15.25",
-        "pkb": "1:7:-3.33;1:18:-6.02;1:26:-2.70",
+        "pka": "1:7:13.66;1:26:13.60",
+        "pkb": "",
         "smiles": "CC(C)CCC[C@@H](C)[C@H]1CC[C@@]2(O)C3=CC(=O)[C@@H]4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7710,8 +7710,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:3:18.25;1:7:13.77;1:26:15.25;1:31:18.53",
-        "pkb": "1:7:-3.33;1:18:-6.02;1:26:-2.70;1:31:-1.25",
+        "pka": "1:7:13.66;1:26:13.60;1:31:13.77",
+        "pkb": "",
         "smiles": "C[C@H](CCCC(C)(C)O)[C@H]1CC[C@@]2(O)C3=CC(=O)[C@@H]4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7744,8 +7744,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:3:18.25;1:7:13.73;1:26:14.71;1:27:15.21;1:32:15.71",
-        "pkb": "1:7:-3.33;1:18:-6.02;1:26:-2.82;1:27:-2.70;1:32:-2.63",
+        "pka": "1:7:13.65;1:26:13.64;1:27:13.58;1:32:13.73",
+        "pkb": "",
         "smiles": "C[C@H]([C@H](O)CCC(C)(C)O)[C@H]1CC[C@@]2(O)C3=CC(=O)[C@@H]4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7777,8 +7777,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:10:18.25;1:20:14.07;1:21:14.77;1:30:15.74;1:31:13.51;1:33:15.25",
-        "pkb": "1:20:-3.16;1:21:-3.15;1:30:-2.63;1:31:-3.33;1:32:-6.03;1:33:-2.82",
+        "pka": "1:20:13.58;1:21:13.60;1:30:13.68;1:31:13.62;1:33:13.57",
+        "pkb": "",
         "smiles": "C[C@H]([C@H](O)CCC(C)(C)O)[C@H]1CC[C@@]2(O)C3=CC(=O)[C@@H]4C[C@H](O)[C@@H](O)C[C@]4(C)[C@H]3CC[C@]12C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7810,8 +7810,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:3:19.74;1:10:18.16;1:29:15.54;1:30:13.74;1:32:14.84",
-        "pkb": "1:20:-7.43;1:29:-2.63;1:30:-3.33;1:31:-6.01;1:32:-2.82",
+        "pka": "1:29:13.76;1:30:13.59;1:32:13.65",
+        "pkb": "",
         "smiles": "C[C@H]([C@H](O)CCC(C)(C)O)[C@H]1CC[C@@]2(O)C3=CC(=O)[C@@H]4CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7843,8 +7843,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:3:19.74;1:10:18.16;1:29:18.53;1:30:13.78",
-        "pkb": "1:20:-7.43;1:29:-1.25;1:30:-3.33;1:31:-6.01",
+        "pka": "1:29:13.79;1:30:13.61",
+        "pkb": "",
         "smiles": "C[C@H](CCCC(C)(C)O)[C@H]1CC[C@@]2(O)C3=CC(=O)[C@@H]4CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7875,8 +7875,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:10:18.25;1:20:14.29;1:29:14.83;1:30:13.87;1:32:15.29;1:33:13.40;1:34:15.79",
-        "pkb": "1:20:-3.16;1:29:-3.11;1:30:-3.33;1:31:-6.03;1:32:-2.82;1:33:-3.15;1:34:-3.07",
+        "pka": "1:20:13.54;1:29:13.60;1:30:13.61;1:32:13.47;1:33:13.56;1:34:13.41",
+        "pkb": "",
         "smiles": "C[C@H]([C@H](O)CCC(C)(O)CO)[C@H]1CC[C@@]2(O)C3=CC(=O)[C@@H]4C[C@@H](O)[C@@H](O)C[C@]4(C)[C@H]3CC[C@]12C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7909,8 +7909,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:5:13.19;1:6:18.25;1:22:13.63;1:26:13.98;1:28:14.86;1:30:14.35;1:34:15.31;1:35:15.80",
-        "pkb": "1:5:-3.33;1:22:-3.31;1:26:-3.24;1:28:-3.15;1:30:-3.16;1:34:-3.11;1:35:-3.07",
+        "pka": "1:5:13.50;1:22:13.60;1:26:13.44;1:28:13.52;1:30:13.49;1:34:13.56;1:35:13.36",
+        "pkb": "",
         "smiles": "CC(O)(CO)CC[C@@H](O)[C@](C)(O)[C@H]1CC[C@@]2(O)C3=CC(=O)[C@@H]4C[C@@H](O)[C@@H](O)C[C@]4(C)[C@H]3CC[C@]12C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -7973,7 +7973,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:17:5.12",
+        "pka": "1:17:5.09",
         "pkb": "",
         "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/C(=O)[O-]",
         "source": "Primary Database",
@@ -8043,8 +8043,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:17:5.06",
-        "pkb": "1:3:-4.22",
+        "pka": "1:17:5.09",
+        "pkb": "",
         "smiles": "C/C(=C\\C(=O)[O-])CC/C=C(\\C)CC[C@H]1OC1(C)C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8076,8 +8076,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:19:13.84;1:20:15.32",
-        "pkb": "1:17:-6.79;1:19:-3.23;1:20:-3.09",
+        "pka": "1:19:13.91;1:20:13.86",
+        "pkb": "",
         "smiles": "COC(=O)/C=C(\\C)CC/C=C(\\C)CC[C@H](O)C(C)(C)O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8109,8 +8109,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:16:5.06;1:18:13.84;1:19:15.32",
-        "pkb": "1:18:-3.23;1:19:-3.09",
+        "pka": "1:16:5.08;1:18:13.67;1:19:13.66",
+        "pkb": "",
         "smiles": "C/C(=C\\C(=O)[O-])CC/C=C(\\C)CC[C@H](O)C(C)(C)O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8142,8 +8142,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:20:14.35;1:23:6.72;1:24:1.69",
-        "pkb": "1:17:-6.79;1:20:-3.11",
+        "pka": "1:20:10.67;1:23:1.86;1:24:1.86",
+        "pkb": "",
         "smiles": "COC(=O)/C=C(\\C)CC/C=C(\\C)CC[C@H](OP(=O)([O-])[O-])C(C)(C)O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8173,8 +8173,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:20:14.29",
-        "pkb": "1:3:-4.24;1:18:-6.80;1:20:-3.11",
+        "pka": "1:20:13.82",
+        "pkb": "",
         "smiles": "COC(=O)/C=C(\\C)CC/C=C(\\C)CC[C@H]1O[C@]1(C)CO",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8206,8 +8206,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:3:18.16;1:7:13.78;1:20:19.74",
-        "pkb": "1:7:-3.33;1:18:-6.01;1:26:-7.43",
+        "pka": "1:7:13.61",
+        "pkb": "",
         "smiles": "CC(C)CCC[C@@H](C)[C@H]1CC[C@@]2(O)C3=CC(=O)[C@@H]4CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8270,8 +8270,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:1:2.44;1:9:-1.25",
-        "pkb": "1:7:9.51",
+        "pka": "1:1:1.97;1:9:1.75",
+        "pkb": "1:7:8.82",
         "smiles": "[NH3+][C@@H](CCS(=O)(=O)[O-])C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8305,8 +8305,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:13:16.45;1:21:15.46",
-        "pkb": "1:14:1.52;1:21:-2.54",
+        "pka": "1:13:13.80;1:21:13.78",
+        "pkb": "",
         "smiles": "CCCCCCCCCCCCCCCC(=O)NCCO",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8341,7 +8341,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:5:4.96",
+        "pka": "1:5:4.79",
         "pkb": "",
         "smiles": "CC/C=C\\C/C=C\\C/C=C\\C/C=C\\C/C=C\\CCCCCC(=O)[O-]",
         "source": "Primary Database",
@@ -8491,8 +8491,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:2:12.69",
-        "pkb": "1:2:3.99;1:11:-4.04",
+        "pka": "1:2:12.26",
+        "pkb": "1:2:3.69",
         "smiles": "CC(=O)ONc1ccccc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8522,8 +8522,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:3:17.04;1:5:13.72",
-        "pkb": "1:6:0.93;1:11:-0.23;1:16:-6.05",
+        "pka": "1:3:9.95;1:5:11.36",
+        "pkb": "",
         "smiles": "*CCC(=O)SC[C@H](NC(*)=O)C(=O)N*",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8554,8 +8554,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:2:14.63;1:7:13.45;1:9:4.39;1:20:2.16",
-        "pkb": "1:8:1.00;1:16:9.31;1:17:1.65",
+        "pka": "1:2:7.26;1:7:12.71;1:9:2.21;1:20:2.30",
+        "pkb": "1:16:9.14",
         "smiles": "*NC(=O)CC[C@@H](NC(=O)CC[C@@H]([NH3+])C(=O)[O-])C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8611,8 +8611,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:24:11.91;1:27:13.01;1:28:14.47;1:34:12.44;1:37:13.52;1:39:15.05",
-        "pkb": "1:11:-1.94;1:24:-3.95;1:27:-3.68;1:28:-3.65;1:29:-4.36;1:34:-3.95;1:37:-3.68;1:39:-3.61",
+        "pka": "1:24:12.36;1:27:12.61;1:28:12.49;1:34:12.64;1:37:12.83;1:39:12.81",
+        "pkb": "",
         "smiles": "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3c(-c4ccccc4)oc4ccccc4c3=O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8667,8 +8667,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:57:9.34;1:71:12.59;1:88:1.61",
-        "pkb": "1:2:4.86;1:4:7.86;1:5:8.74;1:6:5.90;1:57:-5.55;1:71:-3.87;1:76:2.21",
+        "pka": "1:57:7.96;1:71:9.29;1:85:3.41",
+        "pkb": "1:2:7.63;1:4:6.76;1:5:6.92;1:6:4.85",
         "smiles": "C[Co+]N1/C2=C(/C)C3=[NH+]/C(=C\\C4=[NH+]/C(=C(/C)C5=N[C@@](C)(C1[C@H](CC(N)=O)[C@@]2(C)CCC(=O)NCC(C)OP(=O)([O-])O[C@H]1[C@@H](O)[C@@H](n2cnc6cc(O)ccc62)O[C@@H]1CO)[C@@](C)(CC(N)=O)[C@@H]5CCC(N)=O)[C@@](C)(CC(N)=O)[C@@H]4CCC(N)=O)C(C)(C)[C@@H]3CCC(N)=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8728,7 +8728,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:14:3.18;1:17:7.42;1:18:1.75",
+        "pka": "1:17:1.11;1:18:1.11",
         "pkb": "",
         "smiles": "C=CC(C)(CCC=C(C)C)OP(=O)([O-])OP(=O)([O-])O",
         "source": "Primary Database",
@@ -8816,8 +8816,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:15:13.36;1:20:14.88",
-        "pkb": "1:15:-3.46;1:20:-3.25",
+        "pka": "1:15:13.84;1:20:13.76",
+        "pkb": "",
         "smiles": "CC(C)CCC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3C[C@@H](O)[C@@]4(O)CCCC[C@]4(C)[C@H]3CC[C@]12C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8847,8 +8847,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:6:2.21;1:8:1.12",
-        "pkb": "1:4:9.62",
+        "pka": "1:6:0.90",
+        "pkb": "1:4:8.61",
         "smiles": "[NH3+][C@@H](C[Se](=O)[O-])C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8944,8 +8944,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:4:8.08;1:7:10.48;1:9:14.77",
-        "pkb": "1:5:-9.11;1:7:-4.60;1:9:-3.02;1:10:-7.50",
+        "pka": "1:7:10.44;1:9:11.58",
+        "pkb": "",
         "smiles": "O=C1O[C@H](CO)C(=O)C1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -8975,8 +8975,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:10:5.25",
-        "pkb": "1:8:-7.59;1:10:-5.43;1:15:-9.50",
+        "pka": "1:10:5.04",
+        "pkb": "",
         "smiles": "O=C1C([O-])=C([C@H]2CC[C@H](c3ccc(Cl)cc3)CC2)C(=O)c2ccccc21",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9008,8 +9008,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:9:9.84",
-        "pkb": "1:4:0.73;1:6:-2.91;1:15:-0.02",
+        "pka": "",
+        "pkb": "1:4:2.21;1:10:2.51;1:15:2.46",
         "smiles": "Cn1cnc([N+](=O)[O-])c1Sc1ncnc2[nH]cnc12",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9075,8 +9075,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:2:13.78",
-        "pkb": "1:11:-5.32;1:13:7.75",
+        "pka": "1:2:13.87",
+        "pkb": "1:13:7.60",
         "smiles": "CC[NH+](CC)CC(=O)Nc1c(C)cccc1C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9109,7 +9109,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:5.14",
+        "pka": "1:7:4.75",
         "pkb": "",
         "smiles": "CCCC(CCC)C(=O)[O-]",
         "source": "Primary Database",
@@ -9140,8 +9140,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:5:14.36;1:10:11.85;1:13:1.30;2:1:15.70",
-        "pkb": "1:7:2.76;1:17:0.12;1:19:7.23;2:1:-1.80",
+        "pka": "1:10:12.50;1:13:3.20",
+        "pkb": "1:1:4.16;1:19:6.75",
         "smiles": "O.[NH3+][C@@H](C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(Cl)CC[C@H]12)c1ccccc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9176,8 +9176,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:9:12.66;1:10:7.32;1:13:14.13",
-        "pkb": "1:3:-4.58;1:9:-3.79;1:11:-1.19;1:13:-3.63;1:15:-5.65",
+        "pka": "1:9:13.08;1:10:7.55;1:13:13.26",
+        "pkb": "",
         "smiles": "C[C@H]1O[C@@H](n2cc(F)c(=O)[nH]c2=O)[C@H](O)[C@@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9210,8 +9210,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:13:4.08;1:17:3.39;1:22:1.71",
-        "pkb": "1:7:-2.20;1:24:9.02",
+        "pka": "1:13:1.95;1:17:2.08;1:22:1.93",
+        "pkb": "1:24:7.55",
         "smiles": "[NH3+]C(CC1=CC2=C(NC(C(=O)[O-])CC2C(=O)[O-])C(=O)C1=O)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9246,8 +9246,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:14:12.46;1:18:13.95;1:24:6.25;1:25:1.19;1:29:15.19",
-        "pkb": "1:9:-3.09;1:14:-3.85;1:15:2.33;1:18:-3.67;1:29:-2.73",
+        "pka": "1:14:11.67;1:18:11.08;1:24:1.88;1:25:1.88;1:29:12.84",
+        "pkb": "1:6:3.70;1:9:3.05;1:15:3.97",
         "smiles": "C/C(=C\\CNc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O)CO",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9315,8 +9315,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:11:12.57;1:14:14.41;1:15:13.46;1:16:14.91;1:17:9.08;1:20:15.43",
-        "pkb": "1:5:0.77;1:7:-5.06;1:11:-3.78;1:14:-3.66;1:15:-3.65;1:16:-2.98",
+        "pka": "1:11:11.83;1:14:12.27;1:15:12.46;1:16:12.50;1:17:10.64;1:20:12.42",
+        "pkb": "1:5:3.41",
         "smiles": "OC[C@H]1O[C@@H](S/C(Cc2c[nH]c3ccccc23)=N\\O)[C@H](O)[C@@H](O)[C@@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9349,8 +9349,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:6:9.72;1:12:2.12;1:15:15.17",
-        "pkb": "1:5:1.24;1:9:8.82",
+        "pka": "1:6:4.67;1:12:2.05;1:15:11.29",
+        "pkb": "1:5:3.93;1:9:7.92",
         "smiles": "[NH3+][C@@H](CS/C(Cc1c[nH]c2ccccc12)=N\\O)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9385,8 +9385,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:6:13.85;1:9:16.07;1:13:3.76;1:15:3.19;1:21:4.33",
-        "pkb": "1:3:-5.08;1:6:-3.42",
+        "pka": "1:6:11.73;1:13:3.32;1:15:2.93;1:21:3.76",
+        "pkb": "",
         "smiles": "C=C(O[C@H]1C=C[C@H](C(=O)CCC(=O)[O-])[C@@H](C(=O)[O-])[C@@H]1O)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9457,7 +9457,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:5:4.95",
+        "pka": "1:5:4.79",
         "pkb": "",
         "smiles": "CC/C=C\\C/C=C\\C/C=C\\CCCCCCCCCC(=O)[O-]",
         "source": "Primary Database",
@@ -9490,8 +9490,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:18:13.44;1:20:12.72;1:22:14.53",
-        "pkb": "1:13:-4.19;1:18:-3.55;1:22:-3.05;1:24:-7.47;1:30:-6.51;1:38:-6.99;1:43:8.61",
+        "pka": "1:18:12.30;1:22:12.00",
+        "pkb": "1:43:7.78",
         "smiles": "CC(=O)O[C@H]1C(=O)[C@@]2(C)C([C@H](OC(=O)c3ccccc3)[C@]3(O)C[C@H](OC(=O)C[C@@H]([NH3+])c4ccccc4)C(C)=C1C3(C)C)[C@]1(OC(C)=O)CO[C@@H]1C[C@@H]2O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9525,8 +9525,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:18:13.46;1:20:12.79;1:22:14.53;1:42:11.96",
-        "pkb": "1:13:-4.19;1:18:-3.55;1:22:-3.05;1:24:-7.28;1:30:-6.67;1:42:-4.10;1:44:8.02",
+        "pka": "1:18:11.76;1:22:11.64;1:42:10.63",
+        "pkb": "1:44:7.25",
         "smiles": "CC(=O)O[C@H]1C(=O)[C@@]2(C)[C@H]([C@H](OC(=O)c3ccccc3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H]([NH3+])c4ccccc4)C(C)=C1C3(C)C)[C@]1(OC(C)=O)CO[C@@H]1C[C@@H]2O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9561,7 +9561,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:5:4.95",
+        "pka": "1:5:4.79",
         "pkb": "",
         "smiles": "CCCCC/C=C\\C/C=C\\CCCCCCCCCC(=O)[O-]",
         "source": "Primary Database",
@@ -9597,7 +9597,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:5:4.95",
+        "pka": "1:5:4.79",
         "pkb": "",
         "smiles": "CCCCCCCC/C=C\\CCCCCCCCCC(=O)[O-]",
         "source": "Primary Database",
@@ -9631,7 +9631,7 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:5:4.96",
+        "pka": "1:5:4.79",
         "pkb": "",
         "smiles": "CCCCC/C=C\\C/C=C\\C/C=C\\C/C=C\\CCCCCC(=O)[O-]",
         "source": "Primary Database",
@@ -9667,8 +9667,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:44:3.43;1:54:0.80;1:55:5.90;1:69:2.38",
-        "pkb": "1:38:2.87;1:61:-3.03;1:63:1.74",
+        "pka": "1:51:9.65;1:54:1.79;1:55:1.79",
+        "pkb": "1:61:3.58;1:63:4.19;1:65:3.74",
         "smiles": "CCCCCCCCCCCCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)([O-])[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9703,8 +9703,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:42:3.43;1:52:0.80;1:53:5.90;1:67:2.38",
-        "pkb": "1:36:2.87;1:59:-3.03;1:61:1.74",
+        "pka": "1:49:9.65;1:52:1.79;1:53:1.79",
+        "pkb": "1:59:3.57;1:61:4.19;1:63:3.74",
         "smiles": "CCCCCCCC/C=C\\CCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)([O-])[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9739,8 +9739,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:44:3.43;1:54:0.80;1:55:5.90;1:69:2.38",
-        "pkb": "1:38:2.87;1:61:-3.03;1:63:1.74",
+        "pka": "1:51:9.65;1:54:1.79;1:55:1.79",
+        "pkb": "1:61:3.57;1:63:4.19;1:65:3.74",
         "smiles": "CCCCCCCC/C=C\\CCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)([O-])[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9775,8 +9775,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:46:3.43;1:56:0.80;1:57:5.90;1:71:2.38",
-        "pkb": "1:40:2.87;1:63:-3.03;1:65:1.74",
+        "pka": "1:53:9.65;1:56:1.79;1:57:1.79",
+        "pkb": "1:63:3.57;1:65:4.19;1:67:3.74",
         "smiles": "CCCCCCCC/C=C\\CCCCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)([O-])[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -9811,7 +9811,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:14:4.95",
+        "pka": "1:14:4.79",
         "pkb": "",
         "smiles": "CCCCC/C=C\\C/C=C\\CCCCCCCCCCCC(=O)[O-]",
         "source": "Primary Database",
@@ -9844,7 +9844,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:17:4.95",
+        "pka": "1:17:4.79",
         "pkb": "",
         "smiles": "CC/C=C/C/C=C/C/C=C/CCCCCCCCCCCC(=O)[O-]",
         "source": "Primary Database",
@@ -9879,7 +9879,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:17:4.95",
+        "pka": "1:17:4.79",
         "pkb": "",
         "smiles": "CCCCCCCCCCCCCCCCCCC(=O)[O-]",
         "source": "Primary Database",
@@ -9912,7 +9912,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:15:4.99",
+        "pka": "1:15:4.79",
         "pkb": "",
         "smiles": "CCCCCCC/C=C/CCCCCCCC(=O)[O-]",
         "source": "Primary Database",
@@ -9948,7 +9948,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:13:4.95",
+        "pka": "1:13:4.79",
         "pkb": "",
         "smiles": "CCCCCCCCCCCCCCC(=O)[O-]",
         "source": "Primary Database",
@@ -9984,8 +9984,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:13.62;1:8:14.53;1:10:12.66;1:11:15.13",
-        "pkb": "1:6:-4.20;1:7:-3.52;1:8:-3.64;1:10:-3.64;1:11:-2.98",
+        "pka": "1:7:13.35;1:8:13.29;1:10:13.30;1:11:13.43",
+        "pkb": "",
         "smiles": "OC[C@H]1OC[C@@H](O)[C@@H](O)[C@@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10018,8 +10018,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:35:3.67;1:40:11.65;1:46:14.90",
-        "pkb": "1:9:4.77;1:19:2.67;1:41:-8.38;1:43:-7.25;1:46:-2.84",
+        "pka": "1:35:4.52;1:40:8.18;1:46:12.75",
+        "pkb": "1:9:5.70;1:19:3.89",
         "smiles": "C=Cc1c(C)/c2n3/c1=C\\C1=N/C(=C\\c4c(C)c5c(n4[Mg]3)/C(=C3\\N=C(/C=2)[C@@H](C)[C@@H]3CCC(=O)[O-])[C@@H](C(=O)OC)C5=O)C(CC)=C1CO",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10052,8 +10052,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:35:3.64;1:40:11.65",
-        "pkb": "1:9:4.77;1:19:2.20;1:41:-8.62;1:43:-7.20;1:46:-8.05",
+        "pka": "1:35:4.52;1:40:8.17",
+        "pkb": "1:9:5.74;1:19:3.16",
         "smiles": "C=Cc1c(C)/c2n3/c1=C\\C1=N/C(=C\\c4c(C)c5c(n4[Mg]3)/C(=C3\\N=C(/C=2)[C@@H](C)[C@@H]3CCC(=O)[O-])[C@@H](C(=O)OC)C5=O)C(CC)=C1C=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10085,8 +10085,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:23:16.19;1:37:11.74;1:44:4.74",
-        "pkb": "1:7:4.06;1:20:10.58;1:32:0.16;1:33:-7.52;1:37:-4.24",
+        "pka": "1:37:10.83;1:44:4.71",
+        "pkb": "1:7:6.47;1:20:10.16",
         "smiles": "CCc1c2c(nc3ccc(OC(=O)N4CCC([NH2+]CCCCC(=O)[O-])CC4)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10118,8 +10118,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:23:16.19;1:37:11.72",
-        "pkb": "1:7:4.20;1:20:9.97;1:32:0.16;1:33:-7.52;1:37:-4.24",
+        "pka": "1:37:11.28",
+        "pkb": "1:7:8.13;1:20:9.99",
         "smiles": "CCc1c2c(nc3ccc(OC(=O)N4CCC([NH3+])CC4)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10151,8 +10151,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:29:14.80",
-        "pkb": "1:17:-7.17;1:25:8.76;1:29:-2.88",
+        "pka": "1:29:13.68",
+        "pkb": "1:25:8.42",
         "smiles": "CC(O)/C(=C(\\c1ccccc1)c1ccc(OCC[NH+](C)C)cc1)c1ccccc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10254,8 +10254,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:24:8.58",
-        "pkb": "1:23:-6.98;1:24:-6.47;1:27:9.18",
+        "pka": "1:24:10.23",
+        "pkb": "1:27:8.87",
         "smiles": "CC/C(=C(\\c1ccc(O)cc1)c1ccc(OCC[NH2+]C)cc1)c1ccccc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10322,8 +10322,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:28:14.80",
-        "pkb": "1:17:-6.98;1:25:8.91;1:28:-2.88",
+        "pka": "1:28:13.68",
+        "pkb": "1:25:8.86",
         "smiles": "C[NH2+]CCOc1ccc(/C(=C(\\c2ccccc2)C(C)O)c2ccccc2)cc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10388,8 +10388,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:6:15.15;1:15:16.01",
-        "pkb": "1:15:-2.41",
+        "pka": "1:15:13.84",
+        "pkb": "",
         "smiles": "NP(=O)(OCCCO)N(CCCl)CCCl",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10453,8 +10453,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:2:14.67;1:15:13.40",
-        "pkb": "1:15:-3.48",
+        "pka": "1:15:13.05",
+        "pkb": "",
         "smiles": "O=P1(NCCCl)OCCC(O)N1CCCl",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10578,7 +10578,7 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:1:14.29;1:15:4.84",
+        "pka": "1:15:4.16",
         "pkb": "",
         "smiles": "O=C([O-])CCOP(=O)(NCCCl)NCCCl",
         "source": "Primary Database",
@@ -10609,8 +10609,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:5:14.41;1:15:15.94",
-        "pkb": "1:15:-2.41",
+        "pka": "1:15:13.84",
+        "pkb": "",
         "smiles": "O=P(NCCCl)(NCCCl)OCCCO",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10640,7 +10640,7 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:4:19.85;1:5:5.73",
+        "pka": "1:5:2.88",
         "pkb": "",
         "smiles": "O=P([O-])(NCCCl)NCCCl",
         "source": "Primary Database",
@@ -10675,8 +10675,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:2:13.93;1:18:10.14",
-        "pkb": "1:11:-5.34;1:13:7.73;1:18:-5.83",
+        "pka": "1:2:13.61;1:18:10.19",
+        "pkb": "1:13:7.67",
         "smiles": "CC[NH+](CC)CC(=O)Nc1c(C)ccc(O)c1C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10711,8 +10711,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:2:13.79",
-        "pkb": "1:11:-5.63;1:13:8.58",
+        "pka": "1:2:13.92",
+        "pkb": "1:13:7.69",
         "smiles": "CC[NH2+]CC(=O)Nc1c(C)cccc1C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10744,8 +10744,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:1:1.94;1:7:13.15;1:10:12.56;1:27:6.21",
-        "pkb": "1:17:10.75;1:25:9.28;1:29:10.17;1:33:8.12",
+        "pka": "1:1:2.40;1:7:7.68;1:10:11.38;1:27:6.62",
+        "pkb": "1:17:10.48;1:25:9.49;1:29:10.51;1:33:10.58",
         "smiles": "[NH3+]CCC[NH2+]CCCC[NH2+]CCCNC(=O)CNC(=O)[C@H](C[S-])NC(=O)CC[C@H]([NH3+])C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10777,8 +10777,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:8:5.91;1:20:1.64;1:29:6.52;1:51:2.24",
-        "pkb": "1:18:9.53;1:24:10.25;1:42:10.81;1:48:8.98",
+        "pka": "1:8:6.59;1:20:2.39;1:29:6.59;1:51:2.39",
+        "pkb": "1:18:9.46;1:24:10.64;1:42:10.64;1:48:9.46",
         "smiles": "[NH3+][C@@H](CCC(=O)N[C@@H](C[S-])C(=O)NCC(=O)NCCC[NH2+]CCCC[NH2+]CCCNC(=O)CNC(=O)[C@H](C[S-])NC(=O)CC[C@H]([NH3+])C(=O)[O-])C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10810,8 +10810,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:2:12.53;1:20:1.44;1:32:11.99;1:51:2.05",
-        "pkb": "1:18:9.53;1:24:10.79;1:42:10.24;1:48:8.98",
+        "pka": "1:2:7.46;1:20:2.27;1:32:7.46;1:51:2.27",
+        "pkb": "1:18:9.59;1:24:10.63;1:42:10.63;1:48:9.59",
         "smiles": "[NH3+][C@@H](CCC(=O)N[C@H]1CSSC[C@H](NC(=O)CC[C@H]([NH3+])C(=O)[O-])C(=O)NCC(=O)NCCC[NH2+]CCCC[NH2+]CCCNC(=O)CNC1=O)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10879,8 +10879,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:1:2.18;1:7:13.15;1:10:12.56;1:27:6.22",
-        "pkb": "1:17:10.68;1:23:1.66;1:25:9.23;1:30:10.08",
+        "pka": "1:1:2.40;1:7:7.68;1:10:11.38;1:13:13.38;1:27:6.62",
+        "pkb": "1:17:10.14;1:25:9.47;1:30:11.05",
         "smiles": "[NH3+]CCCCC[NH2+]CCCNC(=O)CNC(=O)[C@H](C[S-])NC(=O)CC[C@H]([NH3+])C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10912,8 +10912,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:2:12.90;1:8:6.52;1:20:2.24;1:22:5.91;1:45:1.64",
-        "pkb": "1:18:9.57;1:36:10.54;1:42:9.00",
+        "pka": "1:2:7.66;1:8:6.57;1:20:2.39;1:22:6.57;1:45:2.39",
+        "pkb": "1:18:9.27;1:36:10.64;1:42:9.38",
         "smiles": "[NH3+][C@@H](CCC(=O)N[C@@H](C[S-])C(=O)NCC(=O)NCCCCC[NH2+]CCCNC(=O)CNC(=O)[C@H](C[S-])NC(=O)CC[C@H]([NH3+])C(=O)[O-])C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10945,8 +10945,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:2:11.85;1:20:1.44;1:25:12.29;1:28:12.74;1:45:2.05",
-        "pkb": "1:18:9.00;1:36:10.51;1:42:9.57",
+        "pka": "1:2:7.46;1:20:2.27;1:25:7.46;1:28:10.62;1:45:2.27",
+        "pkb": "1:18:9.48;1:36:10.65;1:42:9.53",
         "smiles": "[NH3+][C@@H](CCC(=O)N[C@H]1CSSC[C@H](NC(=O)CC[C@H]([NH3+])C(=O)[O-])C(=O)NCC(=O)NCCC[NH2+]CCCCCNC(=O)CNC1=O)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -10978,8 +10978,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:2:13.79",
-        "pkb": "1:12:-6.20;1:13:7.98",
+        "pka": "1:2:13.72",
+        "pkb": "1:13:7.71",
         "smiles": "Cc1cccc(C)c1NC(=O)C[NH3+]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11011,8 +11011,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:10:10.62",
-        "pkb": "1:2:4.91;1:10:-6.30",
+        "pka": "1:10:10.61",
+        "pkb": "1:2:4.77",
         "smiles": "Cc1cc(O)cc(C)c1N",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11072,8 +11072,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:2:13.94;1:16:10.15",
-        "pkb": "1:11:-5.65;1:13:8.56;1:16:-5.83",
+        "pka": "1:2:13.76;1:16:10.24",
+        "pkb": "1:13:7.74",
         "smiles": "CC[NH2+]CC(=O)Nc1c(C)ccc(O)c1C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11105,8 +11105,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:13.77;1:21:10.14",
-        "pkb": "1:2:7.66;1:8:-4.88;1:21:-5.83",
+        "pka": "1:7:13.83;1:21:10.21",
+        "pkb": "1:2:8.35",
         "smiles": "CCC[NH+]1CCCC[C@H]1C(=O)Nc1c(C)ccc(O)c1C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11138,8 +11138,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:15.66;1:21:9.69",
-        "pkb": "1:2:7.69;1:8:-4.83;1:21:-5.94",
+        "pka": "1:7:13.86;1:21:10.19",
+        "pkb": "1:2:8.40",
         "smiles": "CCC[NH+]1CCCC[C@H]1C(=O)Nc1c(C)cc(O)cc1C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11171,8 +11171,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:6:13.63",
-        "pkb": "1:2:8.55;1:7:-5.04",
+        "pka": "1:6:13.93",
+        "pkb": "1:2:8.78",
         "smiles": "Cc1cccc(C)c1NC(=O)[C@@H]1CCCC[NH2+]1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11203,8 +11203,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:18:13.78",
-        "pkb": "1:10:-5.50;1:16:9.77;1:18:-3.33;1:20:-4.77",
+        "pka": "1:18:13.45",
+        "pkb": "1:16:9.16",
         "smiles": "COc1ccc2c3c1O[C@H]1[C@@H](O)C=C[C@H]4[C@@H](C2)[NH2+]CC[C@@]341",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11235,8 +11235,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:1:19.81;1:7:13.28;1:8:2.87;1:11:14.76;1:12:12.23",
-        "pkb": "1:2:-4.17;1:7:-3.73;1:11:-3.69;1:12:-3.95;1:28:8.89;1:30:-5.03",
+        "pka": "1:7:12.50;1:8:2.74;1:11:12.61;1:12:12.28",
+        "pkb": "1:28:7.95",
         "smiles": "COc1ccc2c3c1O[C@H]1[C@@H](O[C@@H]4O[C@H](C(=O)[O-])[C@@H](O)[C@H](O)[C@H]4O)C=C[C@H]4[C@@H](C2)[NH+](C)CC[C@@]341",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11267,8 +11267,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:1:19.81;1:7:13.28;1:8:2.87;1:11:14.76;1:12:12.23;1:32:9.53",
-        "pkb": "1:7:-3.73;1:11:-3.69;1:12:-3.95;1:28:8.65;1:30:-4.49;1:32:-5.98",
+        "pka": "1:7:11.99;1:8:2.76;1:11:12.22;1:12:11.81;1:32:9.17",
+        "pkb": "1:28:7.97",
         "smiles": "C[NH+]1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O[C@@H]2O[C@H](C(=O)[O-])[C@@H](O)[C@H](O)[C@H]2O)C=C[C@H]3[C@H]1C5",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11300,8 +11300,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:14:15.45;1:16:14.96;1:18:12.51",
-        "pkb": "1:18:-3.89",
+        "pka": "1:14:12.80;1:16:12.80;1:18:12.37",
+        "pkb": "",
         "smiles": "NC(=O)OCC(O)(COC(N)=O)c1ccccc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11333,8 +11333,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:14:15.55;1:16:15.07;1:18:9.50",
-        "pkb": "1:18:-5.96",
+        "pka": "1:14:12.36;1:16:12.36;1:18:9.85",
+        "pkb": "",
         "smiles": "NC(=O)OCC(COC(N)=O)c1ccc(O)cc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11368,8 +11368,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:8:15.09;1:13:15.84",
-        "pkb": "1:8:-2.66",
+        "pka": "1:8:13.75;1:13:13.25",
+        "pkb": "",
         "smiles": "NC(=O)OCC(CO)c1ccccc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11403,8 +11403,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:1:13.90;1:13:15.92",
-        "pkb": "1:8:-7.18",
+        "pka": "1:13:13.22",
+        "pkb": "",
         "smiles": "NC(=O)OCC(C=O)c1ccccc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11438,8 +11438,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:2.99;1:11:4.17",
-        "pkb": "1:5:-9.66",
+        "pka": "1:7:2.99;1:11:4.25",
+        "pkb": "",
         "smiles": "O=C([O-])CCCCC(=O)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11473,8 +11473,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:3.11;1:12:4.29",
-        "pkb": "1:5:-9.66",
+        "pka": "1:7:3.03;1:12:4.27",
+        "pkb": "",
         "smiles": "O=C([O-])CCCCCC(=O)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11506,7 +11506,7 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:13:15.30;1:15:4.10",
+        "pka": "1:13:12.87;1:15:3.56",
         "pkb": "",
         "smiles": "NC(=O)OCC(C(=O)[O-])c1ccccc1",
         "source": "Primary Database",
@@ -11574,8 +11574,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:11:11.88;1:14:12.72",
-        "pkb": "1:14:-3.54",
+        "pka": "1:11:10.42;1:14:10.37",
+        "pkb": "",
         "smiles": "O=C1NC(O)C(c2ccccc2)CO1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11609,8 +11609,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:11:10.48",
-        "pkb": "1:14:-3.24",
+        "pka": "1:11:7.74",
+        "pkb": "",
         "smiles": "O=C1NC(=O)C(c2ccccc2)CO1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11697,8 +11697,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:18:15.96;1:19:9.15",
-        "pkb": "1:17:-4.23;1:19:-5.97",
+        "pka": "1:18:11.82;1:19:9.92",
+        "pkb": "",
         "smiles": "NC(=O)N1c2ccccc2C=Cc2cc(O)ccc21",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11731,8 +11731,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:18:15.96;1:19:9.19",
-        "pkb": "1:17:-4.45;1:19:-5.98",
+        "pka": "1:18:12.03;1:19:9.78",
+        "pkb": "",
         "smiles": "NC(=O)N1c2ccccc2C=Cc2ccc(O)cc21",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11764,8 +11764,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:18:15.96;1:19:8.98;1:20:12.34",
-        "pkb": "1:17:-4.32;1:19:-6.30;1:20:-6.32",
+        "pka": "1:18:12.07;1:19:9.33;1:20:9.43",
+        "pkb": "",
         "smiles": "NC(=O)N1c2ccccc2C=Cc2cc(O)c(O)cc21",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11798,8 +11798,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:16:9.88",
-        "pkb": "1:2:2.72;1:16:-6.34",
+        "pka": "1:16:9.98",
+        "pkb": "1:2:5.00",
         "smiles": "Oc1ccc2c(c1)C=Cc1ccccc1N2",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11864,8 +11864,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:18:15.96",
-        "pkb": "1:17:-5.13;1:19:-6.76",
+        "pka": "1:18:13.63",
+        "pkb": "",
         "smiles": "NC(=O)n1c2cc(=O)c(=O)cc-2ccc2ccccc21",
         "source": "Primary Database",
         "thermodynamics": null
@@ -11998,8 +11998,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:22:4.24",
-        "pkb": "1:3:-4.26",
+        "pka": "1:22:4.42",
+        "pkb": "",
         "smiles": "N#Cc1ccc2c(c1)COC2(CCC(=O)[O-])c1ccc(F)cc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12029,8 +12029,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:23:16.84",
-        "pkb": "1:3:-4.26;1:23:-1.99",
+        "pka": "1:23:13.70",
+        "pkb": "",
         "smiles": "N#Cc1ccc2c(c1)COC2(CCCCO)c1ccc(F)cc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12096,8 +12096,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:7:6.25;1:9:16.94;1:10:6.98;1:11:14.36",
-        "pkb": "1:1:-8.63;1:3:-2.71;1:11:-8.26",
+        "pka": "1:7:9.03;1:9:9.19",
+        "pkb": "",
         "smiles": "O=c1[n-]c2nc(O)nc([S-])c2[nH]1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12157,8 +12157,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:14:12.46;1:18:13.98;1:21:6.25;1:22:0.97",
-        "pkb": "1:7:-4.99;1:9:-3.15;1:14:-3.85;1:15:1.57;1:18:-3.67",
+        "pka": "1:14:11.65;1:18:11.07;1:21:1.88;1:22:1.88",
+        "pkb": "1:9:2.01;1:15:2.21",
         "smiles": "CSc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12189,8 +12189,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:14:12.47;1:15:10.89;1:18:13.98;1:22:3.16;1:25:7.42;1:27:1.87",
-        "pkb": "1:6:-7.34;1:9:1.19;1:14:-3.85;1:18:-3.67",
+        "pka": "1:14:10.34;1:18:10.24;1:25:1.10;1:27:1.10",
+        "pkb": "1:9:2.36;1:15:3.47",
         "smiles": "O=P([O-])(O)OP(=O)([O-])OC[C@H]1O[C@@H](n2cnc3c(=S)[nH]cnc32)[C@H](O)[C@@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12223,8 +12223,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:14:12.47;1:15:10.89;1:18:13.98;1:22:3.26;1:27:0.76;1:29:7.42;1:31:2.51",
-        "pkb": "1:9:1.44;1:14:-3.85;1:18:-3.67",
+        "pka": "1:14:9.68;1:29:0.98;1:31:0.98",
+        "pkb": "1:9:2.35;1:15:3.47",
         "smiles": "O=P([O-])(O)OP(=O)([O-])OP(=O)([O-])OC[C@H]1O[C@@H](n2cnc3c(=S)[nH]cnc32)[C@H](O)[C@@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12257,8 +12257,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:6:7.18;1:14:12.55;1:15:11.76;1:18:13.98;1:21:1.38;1:22:6.20",
-        "pkb": "1:7:-4.68;1:9:0.70;1:14:-3.85;1:18:-3.67",
+        "pka": "1:6:0.87;1:14:10.98;1:15:4.38;1:18:10.40;1:21:1.86;1:22:1.86",
+        "pkb": "1:9:2.41",
         "smiles": "O=c1[nH]c(=S)c2ncn([C@@H]3O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]3O)c2[nH]1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12291,8 +12291,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:14:12.47;1:15:10.98;1:18:13.98;1:21:6.25;1:22:1.52",
-        "pkb": "1:6:-2.45;1:9:0.92;1:14:-3.85;1:18:-3.67;1:24:-5.11",
+        "pka": "1:14:10.66;1:18:10.46;1:21:1.86;1:22:1.86",
+        "pkb": "1:6:2.64;1:9:2.92;1:15:3.66;1:24:5.87",
         "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c(=S)[nH]1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12323,8 +12323,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:14:12.46;1:18:13.98;1:21:6.25;1:22:1.22;1:24:16.46",
-        "pkb": "1:9:-1.95;1:14:-3.85;1:15:3.14;1:18:-3.67;1:24:-7.40",
+        "pka": "1:14:11.64;1:18:11.08;1:21:1.88;1:22:1.88;1:24:11.75",
+        "pkb": "1:6:2.88;1:9:2.76;1:15:2.84;1:24:4.80",
         "smiles": "CSc1nc(N)nc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12388,8 +12388,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:1:10.83;1:5:12.44",
-        "pkb": "1:3:0.80;1:7:0.20",
+        "pka": "1:1:11.75;1:5:11.75",
+        "pkb": "",
         "smiles": "CC(=O)NNC(C)=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12421,8 +12421,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:8:14.25;1:11:2.87",
-        "pkb": "1:6:3.57;1:12:-2.23",
+        "pka": "1:8:11.52;1:11:3.21",
+        "pkb": "1:6:3.65",
         "smiles": "O=C([O-])CNC(=O)c1ccncc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12453,8 +12453,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:5:9.88;1:14:1.90",
-        "pkb": "1:6:-2.27;1:9:-3.48;1:10:3.60",
+        "pka": "1:5:10.01;1:14:1.15",
+        "pkb": "1:10:3.54",
         "smiles": "C/C(=N\\NC(=O)c1ccncc1)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12485,8 +12485,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:5:9.88;1:14:1.97;1:19:4.39",
-        "pkb": "1:6:-2.27;1:9:-3.58;1:10:3.30",
+        "pka": "1:5:9.31;1:14:1.18;1:19:3.63",
+        "pkb": "1:10:3.52",
         "smiles": "O=C([O-])CC/C(=N\\NC(=O)c1ccncc1)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12517,8 +12517,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:8:17.31;1:15:8.72;1:16:13.91",
-        "pkb": "1:13:2.74;1:16:-1.87",
+        "pka": "1:15:9.43;1:16:9.07",
+        "pkb": "1:13:4.06;1:16:4.01",
         "smiles": "CCCS(=O)(=O)c1ccc2[nH]c(NC(=O)OC)nc2c1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12549,8 +12549,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:8:17.30;1:15:11.55",
-        "pkb": "1:13:5.66;1:16:-6.18",
+        "pka": "1:15:10.19",
+        "pkb": "1:13:5.52;1:16:5.51",
         "smiles": "CCCS(=O)(=O)c1ccc2[nH]c(N)nc2c1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12581,8 +12581,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:8:16.41;1:13:14.69;1:16:8.71;1:17:13.83",
-        "pkb": "1:13:-2.93;1:14:2.74;1:17:-1.87",
+        "pka": "1:13:11.95;1:16:9.42;1:17:9.06",
+        "pkb": "1:14:4.08;1:17:4.01",
         "smiles": "COC(=O)Nc1nc2cc(S(=O)(=O)CC(C)O)ccc2[nH]1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12613,8 +12613,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:8:15.46;1:13:16.48;1:16:8.72;1:17:13.90",
-        "pkb": "1:13:-2.39;1:14:2.74;1:17:-1.87",
+        "pka": "1:13:11.34;1:16:9.43;1:17:9.07",
+        "pkb": "1:14:4.07;1:17:4.01",
         "smiles": "COC(=O)Nc1nc2cc(S(=O)(=O)CCCO)ccc2[nH]1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12648,8 +12648,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:2:16.04;1:3:10.66;1:8:19.35",
-        "pkb": "1:4:-8.87;1:9:0.28",
+        "pka": "1:3:9.33;1:8:9.93",
+        "pkb": "",
         "smiles": "O=C1NCC(F)C(=O)N1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12683,8 +12683,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:3:14.60;1:7:3.12",
-        "pkb": "1:1:-2.17",
+        "pka": "1:3:12.26;1:7:2.45",
+        "pkb": "",
         "smiles": "NC(=O)NCC(F)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12718,8 +12718,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:5:2.57",
-        "pkb": "1:1:8.70",
+        "pka": "1:5:1.31",
+        "pkb": "1:1:8.97",
         "smiles": "[NH3+]CC(F)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12754,8 +12754,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:9:7.32;1:13:13.97;1:16:14.80;1:18:12.62",
-        "pkb": "1:3:-4.59;1:10:-1.19;1:13:-3.66;1:16:-2.98;1:17:-5.65;1:18:-3.79",
+        "pka": "1:9:7.56;1:13:13.07;1:16:12.90;1:18:12.96",
+        "pkb": "",
         "smiles": "O=c1[nH]c(=O)n([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)cc1F",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12790,8 +12790,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:9:7.36;1:13:14.07;1:19:6.22;1:20:1.23;1:22:12.62",
-        "pkb": "1:3:-4.59;1:10:-1.19;1:13:-3.66;1:17:-5.65;1:22:-3.79",
+        "pka": "1:9:7.36;1:13:11.02;1:19:1.86;1:20:1.86;1:22:11.76",
+        "pkb": "",
         "smiles": "O=c1[nH]c(=O)n([C@@H]2O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]2O)cc1F",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12826,8 +12826,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:13:14.09;1:16:18.68;1:17:12.59",
-        "pkb": "1:3:-4.79;1:9:1.16;1:13:-3.63;1:17:-3.79",
+        "pka": "1:13:13.39;1:16:12.91;1:17:13.14",
+        "pkb": "1:9:2.38",
         "smiles": "C[C@H]1O[C@@H](n2cc(F)c(N)nc2=O)[C@H](O)[C@@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12893,8 +12893,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:6:12.31;1:7:13.98;1:11:6.22;1:12:1.16",
-        "pkb": "1:2:-4.38;1:6:-3.96;1:7:-3.64",
+        "pka": "1:6:10.20;1:7:10.84;1:11:1.77;1:12:1.77",
+        "pkb": "",
         "smiles": "C[C@H]1O[C@H](OP(=O)([O-])[O-])[C@H](O)[C@@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12958,8 +12958,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:6:12.90;1:8:14.86;1:9:14.15;1:10:11.31",
-        "pkb": "1:3:-4.39;1:6:-3.68;1:8:-2.98;1:9:-3.94;1:10:-4.39",
+        "pka": "1:6:12.40;1:8:12.36;1:9:12.20;1:10:12.33",
+        "pkb": "",
         "smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -12992,8 +12992,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:14:13.42",
-        "pkb": "1:14:-3.49;1:15:-7.94",
+        "pka": "1:14:13.16",
+        "pkb": "",
         "smiles": "CCCCCCCCCC(=O)[C@@H](O)CC",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13026,8 +13026,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:28:16.19;1:42:11.71",
-        "pkb": "1:7:4.20;1:20:9.17;1:37:0.16;1:38:-7.52;1:42:-4.24",
+        "pka": "1:42:11.28",
+        "pkb": "1:7:5.95;1:20:9.25",
         "smiles": "CCc1c2c(nc3ccc(OC(=O)N4CCC([NH+]5CCCCC5)CC4)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13058,8 +13058,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:1:19.80;1:7:13.17;1:8:2.67;1:11:14.80;1:12:12.21;1:30:13.86",
-        "pkb": "1:2:-4.47;1:7:-3.73;1:11:-3.69;1:12:-3.95;1:28:8.87;1:30:-3.33",
+        "pka": "1:7:12.34;1:8:2.76;1:11:12.45;1:12:12.04;1:30:12.60",
+        "pkb": "1:28:7.98",
         "smiles": "C[NH+]1CC[C@]23c4c5ccc(O[C@@H]6O[C@H](C(=O)[O-])[C@@H](O)[C@H](O)[C@H]6O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13092,8 +13092,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:5:13.61;1:9:15.57",
-        "pkb": "1:5:-3.38;1:9:-2.98;1:11:-5.32;1:12:-4.59",
+        "pka": "1:5:13.41;1:9:13.57",
+        "pkb": "",
         "smiles": "COc1ccc(C(O)CO)cc1OC",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13126,8 +13126,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:44:3.43;1:54:0.80;1:55:5.90;1:69:2.38",
-        "pkb": "1:38:2.87;1:61:-3.03;1:63:1.74",
+        "pka": "1:51:9.65;1:54:1.79;1:55:1.79",
+        "pkb": "1:61:3.57;1:63:4.19;1:65:3.74",
         "smiles": "CCCCC/C=C\\C/C=C\\CCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)([O-])[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13160,8 +13160,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:1:2.06",
-        "pkb": "1:5:10.03",
+        "pka": "1:1:2.45",
+        "pkb": "1:5:10.47",
         "smiles": "CC[NH+](CC)CC(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13193,7 +13193,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:5.06",
+        "pka": "1:7:4.70",
         "pkb": "",
         "smiles": "C=CCC(CCC)C(=O)[O-]",
         "source": "Primary Database",
@@ -13226,8 +13226,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:4.82;1:11:15.66",
-        "pkb": "1:11:-2.52",
+        "pka": "1:7:4.66;1:11:13.75",
+        "pkb": "",
         "smiles": "CCCC(CC(C)O)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13259,8 +13259,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:4.83;1:11:16.86",
-        "pkb": "1:11:-1.99",
+        "pka": "1:7:4.68;1:11:13.69",
+        "pkb": "",
         "smiles": "CCCC(CCCO)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13292,8 +13292,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:4.79;1:11:14.98",
-        "pkb": "1:11:-2.93",
+        "pka": "1:7:4.39;1:11:13.93",
+        "pkb": "",
         "smiles": "CCCC(C(=O)[O-])C(O)CC",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13325,8 +13325,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:1:15.89;1:7:4.53",
-        "pkb": "1:11:-7.60",
+        "pka": "1:1:9.03;1:7:3.40",
+        "pkb": "",
         "smiles": "CCCC(C(=O)[O-])C(=O)CC",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13358,7 +13358,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:5.18",
+        "pka": "1:7:5.06",
         "pkb": "",
         "smiles": "CC/C=C(\\CCC)C(=O)[O-]",
         "source": "Primary Database",
@@ -13391,7 +13391,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:5.01",
+        "pka": "1:7:4.98",
         "pkb": "",
         "smiles": "C/C=C\\C(CCC)C(=O)[O-]",
         "source": "Primary Database",
@@ -13424,8 +13424,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:4.63;1:9:19.60",
-        "pkb": "1:11:-7.29",
+        "pka": "1:7:4.45",
+        "pkb": "",
         "smiles": "CCCC(CC(C)=O)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13457,7 +13457,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:5.09",
+        "pka": "1:7:4.79",
         "pkb": "",
         "smiles": "C=C/C=C(\\CCC)C(=O)[O-]",
         "source": "Primary Database",
@@ -13490,7 +13490,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:4.27;1:9:5.83",
+        "pka": "1:7:3.60;1:9:3.95",
         "pkb": "",
         "smiles": "CCCC(CC(=O)[O-])C(=O)[O-]",
         "source": "Primary Database",
@@ -13523,7 +13523,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:4.83;1:11:5.58",
+        "pka": "1:7:4.29;1:11:4.39",
         "pkb": "",
         "smiles": "CCCC(CCC(=O)[O-])C(=O)[O-]",
         "source": "Primary Database",
@@ -13723,7 +13723,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:13:4.95",
+        "pka": "1:13:4.79",
         "pkb": "",
         "smiles": "CC[C@H](C)CCCCCCCCCCC(=O)[O-]",
         "source": "Primary Database",
@@ -13759,8 +13759,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:9:10.04",
-        "pkb": "1:7:-5.16;1:9:-5.10;1:11:9.11",
+        "pka": "1:9:9.78",
+        "pkb": "1:11:8.75",
         "smiles": "COc1cc(C[NH3+])ccc1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13793,8 +13793,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:1:14.58",
-        "pkb": "1:1:-2.98;1:9:-6.74;1:13:-7.35",
+        "pka": "1:1:13.58",
+        "pkb": "",
         "smiles": "CCCCCCCCCCCCCC(=O)OC[C@H](CO)OC(=O)CCCCCCCCCCCCC",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13855,8 +13855,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:8:3.59",
-        "pkb": "1:3:6.83",
+        "pka": "1:8:3.36",
+        "pkb": "1:3:6.90",
         "smiles": "O=C([O-])C1=CCC=NC1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13887,8 +13887,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:11:2.24;1:13:12.98;1:24:3.44",
-        "pkb": "1:3:4.45;1:16:1.28",
+        "pka": "1:11:1.96;1:13:10.70;1:24:2.01",
+        "pkb": "1:3:6.89",
         "smiles": "CC1(C)S[C@H]([C@H](NC(=O)Cc2ccccc2)C(=O)[O-])N[C@H]1C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13920,8 +13920,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:1:4.06;1:7:15.94",
-        "pkb": "1:9:8.46;1:10:-0.82",
+        "pka": "1:1:4.30;1:7:13.38",
+        "pkb": "1:9:7.96",
         "smiles": "NC(=O)C([NH3+])CCC(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13954,8 +13954,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:1:4.12;1:7:15.55;1:9:12.77",
-        "pkb": "1:10:1.26;1:12:0.31",
+        "pka": "1:1:4.50;1:7:13.22;1:9:13.69",
+        "pkb": "",
         "smiles": "NC(=O)[C@H](CCC(=O)[O-])NC=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -13985,8 +13985,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:14:12.36;1:16:15.45;1:19:14.37;1:20:13.27;1:21:14.89",
-        "pkb": "1:9:-3.02;1:14:-3.85;1:15:2.59;1:16:-9.22;1:19:-3.67;1:20:-3.65;1:21:-2.98",
+        "pka": "1:14:12.37;1:16:12.41;1:19:12.60;1:20:12.29;1:21:12.42",
+        "pkb": "1:6:3.05;1:9:3.40;1:15:3.61;1:16:5.34",
         "smiles": "*Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14021,8 +14021,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:19:5.00;1:21:18.18",
-        "pkb": "1:21:-1.41",
+        "pka": "1:19:5.03;1:21:13.46",
+        "pkb": "",
         "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C(=O)[O-])C(C)(C)CCC1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14056,7 +14056,7 @@
             "EQU"
         ],
         "pka": "1:19:5.00",
-        "pkb": "1:21:-4.75",
+        "pkb": "",
         "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C(=O)[O-])C(C)(C)CCC1=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14090,8 +14090,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:21:5.00;1:23:17.25",
-        "pkb": "1:23:-1.81",
+        "pka": "1:21:5.03;1:23:13.29",
+        "pkb": "",
         "smiles": "CC(/C=C/C1=C(CO)CCCC1(C)C)=C\\C=C\\C(C)=C\\C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14124,8 +14124,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:21:4.94",
-        "pkb": "1:23:-4.28",
+        "pka": "1:21:5.01",
+        "pkb": "",
         "smiles": "CC(/C=C/C12OC1(C)CCCC2(C)C)=C\\C=C\\C(C)=C\\C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14192,8 +14192,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:20:16.44",
-        "pkb": "1:20:-2.17",
+        "pka": "1:20:13.62",
+        "pkb": "",
         "smiles": "CC1=C(/C=C/C(C)=C\\C=C\\C(C)=C\\CO)C(C)(C)CCC1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14226,8 +14226,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:20:16.44",
-        "pkb": "1:20:-2.17;1:22:-4.75",
+        "pka": "1:20:13.61",
+        "pkb": "",
         "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/CO)C(C)(C)CCC1=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14286,8 +14286,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:2:14.63;1:7:13.45;1:10:4.39;1:20:2.16",
-        "pkb": "1:8:1.00;1:16:9.31;1:17:1.65",
+        "pka": "1:2:7.26;1:7:12.71;1:10:2.21;1:20:2.30",
+        "pkb": "1:16:9.14",
         "smiles": "*NC(=O)CC[C@@H](NC(=O)CC[C@H]([NH3+])C(=O)[O-])C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14349,8 +14349,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:13:15.89;1:16:15.15;1:17:12.65;1:18:14.40;1:19:13.52;1:21:1.51",
-        "pkb": "1:6:9.31;1:13:-2.97;1:14:0.48;1:16:-3.62;1:17:-3.64;1:18:-3.34;1:19:-3.52",
+        "pka": "1:1:9.33;1:13:11.69;1:16:12.51;1:17:12.26;1:18:4.73;1:19:11.69;1:21:2.23",
+        "pkb": "1:6:7.46",
         "smiles": "NC(=O)CC[C@H]([NH2+]C[C@@H](O)[C@@H](O)[C@H](O)[C@H](O)CO)C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14617,8 +14617,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:5:15.57;1:6:13.66;1:9:1.51;1:10:6.53",
-        "pkb": "1:5:-2.97;1:6:-3.39",
+        "pka": "1:5:11.36;1:6:10.57;1:9:1.88;1:10:1.88",
+        "pkb": "",
         "smiles": "O=P([O-])([O-])OC[C@@H](O)CO",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14680,8 +14680,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:4:15.40;1:7:4.81",
-        "pkb": "1:1:8.14;1:10:-0.43",
+        "pka": "1:4:12.67;1:7:2.60",
+        "pkb": "1:1:6.48",
         "smiles": "*SC[C@H]([NH3+])C(=O)NCC(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14714,8 +14714,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:8:14.29;1:10:9.06;1:17:4.14",
-        "pkb": "1:9:1.40;1:18:-6.05",
+        "pka": "1:8:13.45;1:10:10.11;1:17:4.60",
+        "pkb": "",
         "smiles": "*NC(=O)CCCCC(S)CCSC(=O)CCCC(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14747,8 +14747,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:14:8.64",
-        "pkb": "1:8:9.98;1:11:-4.90;1:13:-5.61;1:14:-5.33",
+        "pka": "1:14:9.27",
+        "pkb": "1:8:8.57",
         "smiles": "COc1cc2c(c(O)c1OC)C[NH2+]CC2",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14851,8 +14851,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:2:19.48;1:10:4.87",
-        "pkb": "1:2:1.88",
+        "pka": "1:2:13.54;1:10:3.90",
+        "pkb": "1:2:4.84",
         "smiles": "Cc1cccc(C(=O)[O-])c1N",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14887,8 +14887,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:6:10.02;1:11:11.85",
-        "pkb": "1:6:-5.92;1:11:-5.88",
+        "pka": "1:6:11.12;1:11:10.92",
+        "pkb": "",
         "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/Cc1cc(O)c(C)c(C)c1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -14920,8 +14920,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:5:13.10;1:8:16.15",
-        "pkb": "1:3:6.55;1:14:1.51",
+        "pka": "1:5:13.80;1:8:13.82",
+        "pkb": "1:3:6.80",
         "smiles": "CC(C)CC(=O)NCCc1c[nH]cn1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15016,8 +15016,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:11.88;1:8:7.46",
-        "pkb": "1:7:-6.33;1:8:-7.75;1:10:-7.11",
+        "pka": "1:7:8.50;1:8:7.46",
+        "pkb": "",
         "smiles": "O=Cc1ccc(O)c(O)c1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15051,8 +15051,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:17:8.68;1:18:12.70;1:19:10.09",
-        "pkb": "1:8:9.42;1:17:-5.83;1:18:-6.30;1:19:-6.29",
+        "pka": "1:17:9.79;1:18:9.31;1:19:9.32",
+        "pkb": "1:8:9.02",
         "smiles": "Oc1ccc(CC[NH2+]Cc2ccc(O)c(O)c2)cc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15086,8 +15086,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:17:10.25;1:18:9.66",
-        "pkb": "1:8:8.87;1:17:-5.83;1:18:-5.11;1:19:-5.18",
+        "pka": "1:17:9.90;1:18:9.57",
+        "pkb": "1:8:9.01",
         "smiles": "COc1ccc(C[NH2+]CCc2ccc(O)cc2)cc1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15118,8 +15118,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:15:19.16",
-        "pkb": "1:3:9.25;1:12:-4.82;1:13:-5.35;1:20:-5.87",
+        "pka": "",
+        "pkb": "1:3:8.90",
         "smiles": "COc1ccc2c3c1O[C@H]1CC(=O)C=C[C@@]31CC[NH2+]C2",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15151,8 +15151,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:13:8.63",
-        "pkb": "1:8:10.04;1:11:-4.90;1:12:-5.62;1:13:-5.33",
+        "pka": "1:13:9.03",
+        "pkb": "1:8:9.00",
         "smiles": "COc1cc2c(c(O)c1OC)C(C)[NH2+]CC2",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15217,8 +15217,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:9.51;1:9:17.98",
-        "pkb": "1:7:-5.96;1:11:-6.95",
+        "pka": "1:7:10.06",
+        "pkb": "",
         "smiles": "O=CCCc1ccc(O)cc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15252,8 +15252,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:21:10.46;1:27:9.85",
-        "pkb": "1:8:7.93;1:19:-5.75;1:21:-4.98;1:23:-4.70;1:25:-5.24;1:27:-4.86",
+        "pka": "1:21:9.92;1:27:9.56",
+        "pkb": "1:8:7.75",
         "smiles": "COc1cc2c(cc1O)[C@H](CCc1cc(O)c(OC)c(OC)c1)[NH+](C)CC2",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15283,8 +15283,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:8:18.65;1:26:10.04",
-        "pkb": "1:15:-5.80;1:17:7.73;1:19:-5.28;1:21:-4.76;1:24:-9.12;1:26:-4.86",
+        "pka": "1:26:9.95",
+        "pkb": "1:17:6.29",
         "smiles": "COC1=C[C@@]23CC[NH+](C)[C@@H](CCc4cc(O)c(OC)c(OC)c42)C3=CC1=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15316,8 +15316,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:8:18.64",
-        "pkb": "1:15:-5.96;1:17:7.73;1:19:-5.09;1:21:-5.48;1:24:-9.11;1:26:-4.61",
+        "pka": "",
+        "pkb": "1:17:6.23",
         "smiles": "COC1=C[C@@]23CC[NH+](C)[C@@H](CCc4cc(OC)c(OC)c(OC)c42)C3=CC1=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15385,8 +15385,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:6:17.08",
-        "pkb": "1:10:-4.79;1:12:9.42;1:14:-6.44;1:16:-4.33;1:24:-5.63;1:25:-5.18",
+        "pka": "",
+        "pkb": "1:12:8.60",
         "smiles": "COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1[C@@H]([NH3+])CC2",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15416,8 +15416,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:14:10.32;1:22:9.63",
-        "pkb": "1:4:6.93;1:14:-4.99;1:21:-5.26;1:22:-4.87;1:23:-5.77;1:26:-4.74",
+        "pka": "1:14:9.45;1:22:9.66",
+        "pkb": "1:4:7.84",
         "smiles": "COc1cc2c3c(c1O)-c1c(cc(O)c(OC)c1OC)CCC3N(C)CC2",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15447,8 +15447,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:14:9.94",
-        "pkb": "1:4:6.92;1:14:-4.99;1:21:-5.06;1:22:-4.59;1:23:-5.45;1:26:-5.93",
+        "pka": "1:14:9.51",
+        "pkb": "1:4:7.83",
         "smiles": "COc1cc2c3c(c1O)-c1c(cc(OC)c(OC)c1OC)CCC3N(C)CC2",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15482,8 +15482,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:10:11.48;1:14:3.08",
-        "pkb": "1:11:-3.84",
+        "pka": "1:10:4.57;1:14:2.77",
+        "pkb": "",
         "smiles": "O=C([O-])c1cc(=O)[nH]c2ccccc12",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15516,8 +15516,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:11.57;1:11:5.91",
-        "pkb": "1:11:-6.78;1:12:-3.97",
+        "pka": "1:7:11.58;1:11:4.53",
+        "pkb": "",
         "smiles": "O=c1cc([O-])c2ccccc2[nH]1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15547,8 +15547,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:3:19.90;1:14:19.19;1:16:13.53;1:35:4.07",
-        "pkb": "1:5:-4.57;1:16:-3.44;1:24:-3.98;1:28:-2.85;1:32:-7.07",
+        "pka": "1:16:13.73;1:35:3.44",
+        "pkb": "",
         "smiles": "CC1(C)O[C@H]2CC(=O)OC[C@]23[C@H]2CC[C@@](C)([C@@H](O)c4ccoc4)[C@@]4(O[C@@H]4C(=O)[O-])[C@]2(C)C(=O)C[C@@H]13",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15580,8 +15580,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:5:14.12;1:13:12.65;1:20:1.56",
-        "pkb": "1:6:0.93;1:9:-0.25;1:14:5.78;1:22:10.00",
+        "pka": "1:4:9.88;1:5:11.26;1:13:11.29;1:20:2.98",
+        "pkb": "1:14:6.68;1:22:8.93",
         "smiles": "*NC(=O)[C@H](Cc1c[nH]c(CC[C@@H](C(=O)[O-])[NH+](C)C)n1)NC(*)=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15613,8 +15613,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:15:14.29",
-        "pkb": "1:7:4.44;1:15:-3.11;1:18:-7.52",
+        "pka": "1:15:13.69",
+        "pkb": "1:7:4.66",
         "smiles": "COc1c2c(nc3ccccc13)O[C@@H](C(C)(C)O)C2",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15646,8 +15646,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:21:10.64;1:34:14.42;1:35:13.20;1:36:12.22;1:37:15.03",
-        "pkb": "1:11:-5.03;1:14:1.55;1:21:-1.14;1:28:-4.15;1:34:-3.68;1:35:-3.65;1:36:-3.95;1:37:-2.98",
+        "pka": "1:21:12.00;1:34:12.83;1:35:12.79;1:36:12.61;1:37:13.09",
+        "pkb": "",
         "smiles": "C=C[C@H]1[C@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)OC=C2C(=O)N3Cc4c([nH]c5ccccc5c4=O)[C@@H]3C[C@H]21",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15681,8 +15681,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:7:15.48;1:33:14.37;1:34:13.20;1:35:12.21;1:36:14.89",
-        "pkb": "1:22:-5.03;1:25:1.76;1:27:-4.15;1:33:-3.68;1:34:-3.65;1:35:-3.95;1:36:-2.98",
+        "pka": "1:7:13.54;1:33:12.83;1:34:12.78;1:35:12.61;1:36:13.08",
+        "pkb": "",
         "smiles": "C=C[C@H]1[C@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)OC=C2C(=O)N3CCc4c([nH]c5ccccc45)[C@@H]3C[C@H]21",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15714,8 +15714,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:33:14.42;1:34:13.20;1:35:12.21;1:36:15.03",
-        "pkb": "1:11:-5.03;1:14:1.56;1:21:3.52;1:27:-4.15;1:33:-3.68;1:34:-3.65;1:35:-3.95;1:36:-2.98",
+        "pka": "1:33:12.83;1:34:12.79;1:35:12.61;1:36:13.09",
+        "pkb": "1:21:4.91",
         "smiles": "C=C[C@H]1[C@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)OC=C2C(=O)N3Cc4cc5ccccc5nc4[C@@H]3C[C@H]21",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15748,8 +15748,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:12:17.53",
-        "pkb": "1:7:2.25;1:18:6.74",
+        "pka": "",
+        "pkb": "1:7:4.16;1:18:8.05",
         "smiles": "C=C[C@H]1CN2CCC1C[C@@H]2C(=O)c1ccnc2ccccc12",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15779,8 +15779,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:7:15.14;1:12:16.24",
-        "pkb": "1:12:-2.45;1:16:8.30",
+        "pka": "1:7:13.73;1:12:13.83",
+        "pkb": "1:16:9.89",
         "smiles": "C=C[C@H]1C[NH+]2CCC1C[C@H]2c1[nH]c2ccccc2c1CCO",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15812,8 +15812,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:12:17.57",
-        "pkb": "1:7:2.36;1:18:6.64;1:23:-5.64",
+        "pka": "",
+        "pkb": "1:7:4.15;1:18:7.99",
         "smiles": "C=C[C@H]1CN2CC[C@@H]1CC2C(=O)c1ccnc2ccc(OC)cc12",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15844,8 +15844,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:17:7.43;1:22:15.55;1:23:12.18",
-        "pkb": "1:2:-3.74;1:17:-6.92;1:24:1.12;1:27:-0.22",
+        "pka": "1:17:6.21;1:22:9.98;1:23:11.21",
+        "pkb": "",
         "smiles": "*NC(=O)[C@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)NC(*)=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15875,8 +15875,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:16:8.54;1:21:15.58;1:22:12.19",
-        "pkb": "1:2:-3.74;1:16:-6.41;1:23:1.12;1:26:-0.22",
+        "pka": "1:16:7.67;1:21:9.95;1:22:10.96",
+        "pkb": "",
         "smiles": "*NC(=O)[C@H](Cc1cc(I)c(Oc2ccc(O)c(I)c2)c(I)c1)NC(*)=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15907,8 +15907,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:1:7.26;1:13:15.79;1:14:12.44",
-        "pkb": "1:1:-6.97;1:15:1.12;1:18:-0.22",
+        "pka": "1:1:6.30;1:13:9.97;1:14:10.92",
+        "pkb": "",
         "smiles": "*NC(=O)[C@H](Cc1cc(I)c(O)c(I)c1)NC(*)=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15939,8 +15939,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:1:8.37;1:12:16.50;1:13:13.17",
-        "pkb": "1:1:-6.46;1:14:1.12;1:17:-0.22",
+        "pka": "1:1:8.14;1:12:9.98;1:13:9.71",
+        "pkb": "",
         "smiles": "*NC(=O)[C@H](Cc1ccc(O)c(I)c1)NC(*)=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -15971,8 +15971,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:1:9.50;1:11:17.68;1:12:14.38",
-        "pkb": "1:1:-5.96;1:13:1.12;1:16:-0.22",
+        "pka": "1:1:9.08;1:11:10.09;1:12:10.67",
+        "pkb": "",
         "smiles": "*NC(=O)[C@H](Cc1ccc(O)cc1)NC(*)=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16003,8 +16003,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:4:11.45;1:5:15.05",
-        "pkb": "1:6:0.02;1:9:-0.71",
+        "pka": "1:4:8.33;1:5:10.79",
+        "pkb": "",
         "smiles": "*NC(=O)C(=C)NC(*)=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16037,8 +16037,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:7:15.37;1:16:17.67",
-        "pkb": "1:11:7.32;1:22:-6.94",
+        "pka": "1:7:13.91",
+        "pkb": "1:11:8.54",
         "smiles": "C=C[C@H]1C[NH+]2CCc3c([nH]c4ccccc34)[C@@H]2C[C@@H]1CC=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16073,8 +16073,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:1:3.82;1:8:15.24;1:9:13.84;1:10:12.40",
-        "pkb": "1:8:-3.30;1:9:-3.65;1:10:-3.89;1:12:-7.63",
+        "pka": "1:1:4.05;1:8:12.93;1:9:12.60;1:10:12.08",
+        "pkb": "",
         "smiles": "O=C[C@H](O)[C@@H](O)[C@H](O)CC(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16139,8 +16139,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:5:2.45;1:10:14.90",
-        "pkb": "1:4:9.07;1:10:-2.84;1:11:9.75",
+        "pka": "1:5:2.49;1:10:8.10",
+        "pkb": "1:4:9.27;1:11:9.65",
         "smiles": "[NH3+]C[C@@H](O)CC[C@H]([NH3+])C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16172,8 +16172,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:4:1.50;1:5:6.66;1:14:3.05",
-        "pkb": "1:12:10.17;1:13:9.41",
+        "pka": "1:4:1.86;1:5:1.86;1:14:2.13",
+        "pkb": "1:12:10.08;1:13:9.35",
         "smiles": "[NH3+]C[C@H](CC[C@H]([NH3+])C(=O)[O-])OP(=O)([O-])[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16205,8 +16205,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:9:9.11;1:13:13.97;1:16:14.80;1:18:12.62",
-        "pkb": "1:3:-4.77;1:10:-0.66;1:13:-3.66;1:16:-2.98;1:17:-3.66;1:18:-3.79",
+        "pka": "1:9:9.54;1:13:13.08;1:16:12.74;1:18:12.43",
+        "pkb": "",
         "smiles": "Cc1cn([C@@H]2O[C@H](CO)[C@@H](O)[C@@H]2O)c(=O)[nH]c1=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16238,8 +16238,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:9:9.15;1:13:13.97;1:15:14.80;1:17:12.62",
-        "pkb": "1:3:-4.86;1:10:-0.79;1:13:-3.66;1:15:-2.98;1:16:-4.08;1:17:-3.79",
+        "pka": "1:9:9.41;1:13:13.18;1:15:13.01;1:17:13.16",
+        "pkb": "",
         "smiles": "O=c1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@@H]2O)c(=O)[nH]1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16271,8 +16271,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:1:19.80;1:11:11.32;1:28:11.45",
-        "pkb": "1:3:-0.48;1:19:10.15;1:23:8.06;1:24:12.23;1:25:2.20;1:28:-4.22",
+        "pka": "1:11:12.86;1:28:11.00",
+        "pkb": "1:19:10.45;1:23:10.39;1:24:11.80",
         "smiles": "NC(=[NH2+])NCCCC[C@H](O)CC(=O)N[C@@H](O)C(=O)NCCCC[NH2+]CCC[NH3+]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16305,8 +16305,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:11:11.65",
-        "pkb": "1:1:-4.37;1:10:-7.02;1:11:-4.26",
+        "pka": "1:11:10.39",
+        "pkb": "",
         "smiles": "O=C1C=C2C(=CCOC2O)O1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16336,8 +16336,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:27:19.19;1:40:15.59;1:43:14.47;1:47:14.02;1:51:13.61;1:53:13.02",
-        "pkb": "1:2:-4.65;1:43:-3.20;1:45:-4.05;1:47:-3.26;1:51:-3.26;1:53:-3.59",
+        "pka": "1:43:13.47;1:47:13.47;1:51:12.53;1:53:12.78",
+        "pkb": "",
         "smiles": "CC(=O)O[C@H]1C[C@H](O[C@H]2[C@@H](O)C[C@H](O[C@H]3[C@@H](O)C[C@H](O[C@H]4CC[C@@]5(C)[C@H](CC[C@@H]6[C@@H]5CC[C@]5(C)[C@@H](C7=CC(=O)OC7)[C@@H](OC=O)C[C@]65O)C4)O[C@@H]3C)O[C@@H]2C)O[C@H](C)[C@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16368,8 +16368,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:22:11.34;1:24:14.80",
-        "pkb": "1:2:6.72;1:11:-7.82;1:17:-7.22;1:22:-4.40;1:24:-3.24",
+        "pka": "1:22:12.48;1:24:12.55",
+        "pkb": "1:2:6.52",
         "smiles": "CC(=O)O[C@@H]1CCN2CC=C(COC(=O)[C@](O)(C(C)C)[C@@H](C)O)[C@H]12",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16500,8 +16500,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:20:11.42;1:22:19.59",
-        "pkb": "1:10:-5.55;1:14:-4.98;1:17:-4.46;1:18:-7.27;1:20:-4.36",
+        "pka": "1:20:10.60",
+        "pkb": "",
         "smiles": "COc1cc2c(c3oc(=O)c4c(c13)CCC4=O)[C@]1(O)C=CO[C@@H]1O2",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16597,8 +16597,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:8:2.53",
-        "pkb": "1:10:9.14",
+        "pka": "1:8:2.13",
+        "pkb": "",
         "smiles": "C=CCSC[C@H]([NH3+])C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16630,8 +16630,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:15:10.24;1:17:9.58;1:19:15.06",
-        "pkb": "1:15:-4.42;1:16:-7.78;1:17:-4.43;1:19:-2.87",
+        "pka": "1:15:7.29;1:17:7.31;1:19:7.79",
+        "pkb": "",
         "smiles": "O=C1c2c(O)cccc2Cc2cc(CO)cc(O)c21",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16661,8 +16661,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:13:12.48;1:30:12.88;1:31:14.31;1:32:15.19;1:36:13.28;1:44:13.81;1:45:12.00;1:47:10.29",
-        "pkb": "1:30:-3.66;1:31:-3.65;1:32:-3.65;1:36:-3.65;1:44:-3.67;1:45:-3.95",
+        "pka": "1:13:10.85;1:30:10.81;1:31:10.85;1:36:10.71;1:44:10.98;1:45:10.71;1:47:7.81",
+        "pkb": "",
         "smiles": "C[C@@]1(O)C2=NC3C(=O)NC(=O)N=C3NC[C@H]2[C@H](C(=O)O[C@@H]2[C@@H](O)[C@@H](O)[C@@H](O)[C@H](O)[C@H]2O[C@@H]2OC[C@@H](O)[C@H](O)[C@H]2O)[C@]12C(=O)Nc1cc(Br)ccc12",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16692,8 +16692,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:33:11.61;1:34:10.39;1:36:12.20;1:37:9.81;1:39:8.10;1:40:7.43;1:41:14.91;1:42:14.30",
-        "pkb": "1:33:-5.17;1:34:-4.45;1:36:-4.45;1:37:-5.17;1:39:-5.97;1:40:-5.97;1:41:-3.04;1:42:-3.04",
+        "pka": "1:33:7.00;1:34:6.62;1:36:6.62;1:37:7.00;1:39:4.67;1:40:4.67;1:41:6.85;1:42:6.85",
+        "pkb": "",
         "smiles": "Cc1cc(O)c2c(c1O)C(=O)C13C(=C(O)C4C(O)C1C1C(O)C3C(O)=C3C(=O)c5c(O)cc(C)c(O)c5C(=O)C341)C2=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16723,8 +16723,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:33:9.31;1:35:8.76;1:37:8.12;1:38:7.51;1:39:14.90;1:40:14.30",
-        "pkb": "1:30:-7.52;1:32:-8.13;1:33:-5.24;1:35:-5.24;1:37:-5.92;1:38:-5.92;1:39:-3.04;1:40:-3.04",
+        "pka": "1:33:6.24;1:35:6.24;1:37:4.70;1:38:4.70;1:39:7.16;1:40:7.16",
+        "pkb": "",
         "smiles": "Cc1cc(O)c2c(c1)C(=O)C13C(=C(O)C4C(O)C1C1C(O)C3C(O)=C3C(=O)c5c(O)cc(C)cc5C(=O)C341)C2=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16755,8 +16755,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:11:3.59;1:17:9.55",
-        "pkb": "1:9:-4.79;1:11:-7.67;1:13:-9.88",
+        "pka": "1:11:1.62;1:17:3.22",
+        "pkb": "",
         "smiles": "CC1=C2C(=CO[C@H](C)[C@H]2C)C([O-])=C(C(=O)O)C1=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16789,8 +16789,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:22:14.03;1:23:12.60",
-        "pkb": "1:7:-7.32;1:17:-4.15;1:22:-3.66;1:23:-3.76;1:25:-4.93",
+        "pka": "1:22:13.71;1:23:13.69",
+        "pkb": "",
         "smiles": "COc1cc(=O)oc(/C=C/C=C/C=C/C(C)=C/[C@]2(C)O[C@H](C)[C@](C)(O)[C@H]2O)c1C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16823,8 +16823,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:14:8.25;1:16:14.91;1:17:13.47",
-        "pkb": "1:14:-6.10;1:16:-3.33;1:17:-3.34;1:18:-7.32",
+        "pka": "1:14:7.99;1:16:10.66;1:17:10.97",
+        "pkb": "",
         "smiles": "C/C=C/[C@H](O)[C@H](O)/C=C/c1cccc(O)c1C=O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16891,8 +16891,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:15:15.51;1:20:4.00",
-        "pkb": "1:13:-7.41;1:16:1.43",
+        "pka": "1:15:12.62;1:20:4.65",
+        "pkb": "",
         "smiles": "CC[C@H]1C=C(C(=O)N[C@@]2(C(=O)[O-])C[C@@H]2CC)[C@H]2CCC(=O)[C@H]2C1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16922,8 +16922,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:9:13.14;1:19:13.81;1:20:15.18",
-        "pkb": "1:9:-3.55;1:19:-3.31;1:20:-3.16",
+        "pka": "1:9:12.01;1:19:13.17;1:20:13.29",
+        "pkb": "",
         "smiles": "C=C[C@@H](O)C#CC#CC[C@@H](O)[C@H](O)CCCCCCC",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16954,8 +16954,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:12:5.80",
-        "pkb": "1:11:-7.13;1:12:-6.83",
+        "pka": "1:12:4.49",
+        "pkb": "",
         "smiles": "O=c1oc2ccccc2c([O-])c1C1CC(c2ccc(-c3ccccc3)cc2)Cc2ccccc21",
         "source": "Primary Database",
         "thermodynamics": null
@@ -16987,8 +16987,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:6:12.29;1:13:9.28;1:14:7.75;1:27:14.56;1:33:10.02",
-        "pkb": "1:6:-4.04;1:13:-5.08;1:14:-6.39;1:21:-5.23;1:27:-2.99;1:33:-5.10;1:34:-4.62",
+        "pka": "1:6:7.47;1:13:6.97;1:14:7.38;1:27:9.34;1:33:9.23",
+        "pkb": "",
         "smiles": "COc1cc(C2Oc3ccc([C@H]4Oc5cc(O)cc(O)c5C(=O)[C@@H]4O)cc3OC2CO)ccc1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17151,8 +17151,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:18:19.72",
-        "pkb": "1:18:-0.74",
+        "pka": "1:18:14.00",
+        "pkb": "",
         "smiles": "CC(C)=CCC[C@H](C)[C@H]1CC[C@]2(C)C[C@H]3[C@H](CC[C@@]3(C)O)/C(C)=C\\C[C@@H]12",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17183,8 +17183,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:30:18.30",
-        "pkb": "1:3:-4.92;1:5:-4.05;1:30:-1.36",
+        "pka": "1:30:13.91",
+        "pkb": "",
         "smiles": "C[C@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17214,8 +17214,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:6:12.20;1:9:14.52;1:10:13.15;1:29:13.98;1:40:19.75;1:44:15.94;1:49:15.03",
-        "pkb": "1:6:-3.95;1:9:-3.68;1:10:-3.65;1:29:-3.19;1:38:0.27;1:49:-2.98",
+        "pka": "1:6:12.53;1:9:12.55;1:10:12.25;1:29:13.54;1:49:12.55",
+        "pkb": "",
         "smiles": "CO[C@H]1C[C@H](O[C@H]2CC[C@]3(C=O)[C@H]4CC[C@]5(C)[C@@H](C6=CC(=O)OC6)CC[C@]5(O)[C@@H]4CC[C@]3(O)C2)O[C@H](C)[C@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17279,8 +17279,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:13:16.47;1:25:11.71",
-        "pkb": "1:7:4.52;1:22:-0.65;1:23:-7.52;1:25:-4.24;1:27:0.66",
+        "pka": "1:25:11.32",
+        "pkb": "1:7:5.50;1:27:4.93",
         "smiles": "CC[C@@]1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3c(N)cccc3nc2-1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17407,8 +17407,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:7:9.40;1:20:15.03;1:21:13.19;1:22:14.42;1:23:12.20",
-        "pkb": "1:7:-5.95;1:12:-6.92;1:14:-4.39;1:20:-2.98;1:21:-3.65;1:22:-3.68;1:23:-3.96",
+        "pka": "1:7:9.50;1:20:11.72;1:21:11.82;1:22:11.94;1:23:11.49",
+        "pkb": "",
         "smiles": "O=C(/C=C/c1ccc(O)cc1)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17440,8 +17440,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:12:4.13",
-        "pkb": "1:7:-9.02",
+        "pka": "1:12:4.27",
+        "pkb": "",
         "smiles": "O=C([O-])/C=C/C1=CC(=O)C(=O)C=C1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17506,8 +17506,8 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:4:9.82;1:8:10.45;1:12:14.79",
-        "pkb": "1:11:1.41",
+        "pka": "1:4:10.23;1:8:9.99;1:12:13.58",
+        "pkb": "",
         "smiles": "*NC(=O)CCCCC(S)CCS",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17540,8 +17540,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:32:3.31;1:42:0.81;1:43:5.89;1:57:1.78",
-        "pkb": "1:9:8.68;1:49:-3.03;1:51:2.53",
+        "pka": "1:42:1.79;1:43:1.79",
+        "pkb": "1:9:6.95;1:49:3.67;1:51:4.25;1:53:3.80",
         "smiles": "CC(C)(COP(=O)([O-])OP(=O)([O-])OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)([O-])[O-])[C@@H](O)C(=O)NCCC(=O)NCCSC(=O)C[C@@H]([NH3+])c1ccccc1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17574,8 +17574,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:1:16.84",
-        "pkb": "1:1:-1.99",
+        "pka": "1:1:13.87",
+        "pkb": "",
         "smiles": "CCCCCO",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17642,8 +17642,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:15:4.04",
-        "pkb": "1:4:9.30",
+        "pka": "1:15:5.90",
+        "pkb": "1:4:9.61",
         "smiles": "O=C([O-])N1CCC([NH+]2CCCCC2)CC1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17675,8 +17675,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:10:4.03",
-        "pkb": "1:1:9.98",
+        "pka": "1:10:5.57",
+        "pkb": "1:1:10.71",
         "smiles": "[NH3+]C1CCN(C(=O)[O-])CC1",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17707,8 +17707,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:16:7.63;1:18:10.26;1:19:8.51",
-        "pkb": "1:16:-7.23;1:17:-7.14;1:18:-4.03;1:19:-5.79",
+        "pka": "1:16:7.58;1:18:6.86;1:19:7.55",
+        "pkb": "",
         "smiles": "Cc1cc(O)cc2oc(=O)c3c(O)cc(O)cc3c12",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17739,8 +17739,8 @@
             "GC",
             "EQ"
         ],
-        "pka": "1:37:-1.26",
-        "pkb": "1:16:10.82;1:18:-0.50;1:22:10.09;1:43:8.57",
+        "pka": "1:37:-3.44",
+        "pkb": "1:16:10.55;1:22:10.27;1:43:10.54",
         "smiles": "CC(C)[C@@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3[C@H](O)C[C@H]4C[C@@H]([NH2+]CCC[NH2+]CCCC[NH3+])CC[C@]4(C)[C@H]3CC[C@]12C)OS(=O)(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -17774,8 +17774,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:8:15.45;1:9:14.04;1:10:12.91;1:11:14.87",
-        "pkb": "1:6:7.26;1:8:-2.78;1:9:-3.47;1:10:-3.34;1:11:-3.61",
+        "pka": "1:8:13.55;1:9:13.66;1:10:13.61;1:11:13.55",
+        "pkb": "1:6:7.59",
         "smiles": "OC[C@H]1[NH2+]C[C@H](O)[C@@H](O)[C@@H]1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -19086,8 +19086,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:52:0.80;1:54:5.90;1:55:2.38;1:57:3.43",
-        "pkb": "1:43:1.74;1:45:-3.03;1:51:2.87",
+        "pka": "1:49:9.65;1:52:1.79;1:54:1.79",
+        "pkb": "1:43:4.19;1:44:3.74;1:45:3.57",
         "smiles": "CCCCCCCC/C=C\\CCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)([O-])[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -19383,7 +19383,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:8:5.01",
+        "pka": "1:8:4.42",
         "pkb": "",
         "smiles": "C/C=C/C=C/C(=O)[O-]",
         "source": "Primary Database",
@@ -19564,7 +19564,7 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:1:5.54;1:7:6.27;1:11:3.62",
+        "pka": "1:1:3.82;1:7:3.82;1:11:3.14",
         "pkb": "",
         "smiles": "O=C([O-])CC(CC(=O)[O-])C(=O)[O-]",
         "source": "Primary Database",
@@ -20767,8 +20767,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:3:3.08;1:5:12.08",
-        "pkb": "1:7:-1.71;1:10:-7.34",
+        "pka": "1:3:2.86;1:5:8.54",
+        "pkb": "",
         "smiles": "O=CNC(=O)/C=C\\C(=O)[O-]",
         "source": "Primary Database",
         "thermodynamics": null
@@ -20801,7 +20801,7 @@
         "notes": [
             "GC"
         ],
-        "pka": "1:8:-0.73",
+        "pka": "1:8:1.77",
         "pkb": "",
         "smiles": "CCCCCS(=O)(=O)[O-]",
         "source": "Primary Database",
@@ -21467,8 +21467,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:52:12.66;1:53:9.21",
-        "pkb": "1:52:-6.30;1:53:-6.34",
+        "pka": "1:52:9.69;1:53:10.00",
+        "pkb": "",
         "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/Cc1cccc(O)c1O",
         "source": "Primary Database",
         "thermodynamics": null
@@ -21565,8 +21565,8 @@
             "EQ",
             "EQU"
         ],
-        "pka": "1:52:9.33",
-        "pkb": "1:52:-6.01",
+        "pka": "1:52:10.29",
+        "pkb": "",
         "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/Cc1ccccc1O",
         "source": "Primary Database",
         "thermodynamics": null
