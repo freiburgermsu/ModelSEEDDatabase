@@ -1,0 +1,134 @@
+================================================================================
+ OPAM2 / MolGpKa — BASE (pKb) CAPTURE ASSESSMENT
+ What basic ionization sites the OPAM2 pipeline captures vs misses, why, and
+ the consequence for the OPAM2 pKa integration.
+ Generated 2026-05-28.
+ Data: OPAM2/MolGpKa/benchmarks/results/{modelseed_comparison.csv,
+       modelseed_per_compound.csv, modelseed_summary.json}
+ Figure: Figures/opam2_base_capture.png
+================================================================================
+
+0. HEADLINE — RECONCILING THE NUMBERS
+-------------------------------------
+"40% / 60%" depends on whether you count COMPOUNDS or ATOMS. Three distinct,
+all-correct figures describe base coverage:
+
+  * ATOM level (the real capture rate): MolGpKa matches only 13,530 of Marvin's
+    83,667 base atoms = 16.2% CAPTURED, 83.8% MISSED.
+  * COMPOUND level (retains any pKb): of 22,418 compounds with a Marvin base,
+    7,827 keep at least one base pKb under OPAM2 = 34.9% retained, 65.1% lose
+    all bases.
+  * SERVED-COLUMN level (what the integration changed): the database pkb column
+    drops from 33,964 to 20,505 non-empty compounds — a ~40% reduction. (This
+    is the "40%" figure; it counts all DB compounds, including those OPAM2 never
+    covered, which keep their Marvin pkb.)
+
+So the honest summary is: OPAM2 captures ~1 in 6 base ATOMS, ~1 in 3 base-bearing
+COMPOUNDS, and the served pkb column shrinks ~40%.
+
+1. HOW "CAPTURE" IS DEFINED (the matching rule)
+-----------------------------------------------
+The benchmark (run_modelseed_comparison.py) is INDEX-BASED and TYPE-AWARE:
+  - Marvin's pkb column is parsed to {heavy_atom_index -> pKb} (the basic sites).
+  - MolGpKa runs its base SMARTS detector (get_ionization_aid, base) to find
+    candidate basic atoms, then its base model predicts a pKa for each.
+  - A Marvin base atom is CAPTURED only if MolGpKa independently flags the SAME
+    heavy atom as a basic site. No nearby-atom or fuzzy matching.
+Therefore a base is "missed" whenever MolGpKa does not nominate that exact atom
+as a basic ionization site — regardless of how good its pKa model is.
+
+2. ATOM-LEVEL ACCOUNTING
+------------------------
+  Marvin base sites total     : 83,667   (3.51 basic sites / compound)
+  MolGpKa base sites total     : 22,798   (0.96 basic sites / compound)
+  matched (captured) bases     : 13,530   (16.2% of Marvin bases)
+  missed Marvin bases          : 70,137   (83.8%)
+
+  For contrast, ACIDS fare far better: 68,641 of 80,679 Marvin acid atoms
+  matched = 85.1% captured. The base problem is specific to bases.
+
+3. WHY 84% OF BASES ARE MISSED — DECOMPOSITION OF THE 70,137
+------------------------------------------------------------
+  (a) Base-site UNDER-DETECTION (the dominant cause): 60,869 misses = 86.8%.
+      MolGpKa nominates only 22,798 basic atoms across the whole set, but Marvin
+      flags 83,667. Even if every MolGpKa base matched a Marvin base, 83,667 -
+      22,798 = 60,869 Marvin bases could NEVER be matched — there simply are not
+      enough MolGpKa base predictions to cover them. MolGpKa's base SMARTS /
+      model treats 3.7x fewer atoms as protonatable bases than Marvin does.
+  (b) SITE DISAGREEMENT: 9,268 misses = 13.2%.
+      MolGpKa did spend a base prediction, but on an atom Marvin did not classify
+      as a base (so it neither matches nor rescues a Marvin base). Equivalently,
+      9,268 of MolGpKa's 22,798 base predictions (41%) land on non-Marvin-base
+      atoms.
+
+4. WHAT IS CAPTURED (the 13,530), BY FUNCTIONAL GROUP
+-----------------------------------------------------
+  functional_group        captured   median|Δ|   mean|Δ|   median Marvin pKb
+  tertiary_amine             6,477       0.79       1.48          8.52
+  aromatic_n                 5,771       4.19       4.54         -0.97
+  guanidine_or_amidine       1,177       9.53       7.31         -3.14
+  amide_nh                      80       5.72       5.54         -1.13
+  alcohol_or_phenol             25       7.22       7.90         -4.98
+
+  Reading: the only base class MolGpKa both captures in volume AND predicts
+  accurately is the TERTIARY AMINE (median error 0.8 pKa units). The two other
+  high-volume basic classes in metabolites — aromatic nitrogens and
+  guanidine/amidine groups — are captured but with median errors of 4–10 pKa
+  units, i.e. effectively unusable. So "captured" does not imply "trustworthy".
+
+5. CAPTURED-BASE VALUE DISTRIBUTION (Marvin pkb of the matched atoms)
+---------------------------------------------------------------------
+  range            count    share
+  < 0              4,341    32.1%   (very weak / non-physiological bases)
+  0 – 4            1,756    13.0%
+  4 – 8            3,031    22.4%
+  8 – 14           4,400    32.5%
+  > 14                 2     0.0%
+  min / median / max: -9.98 / 4.89 / 15.67
+  Roughly a third of captured bases have pKb < 0 — sites that are barely basic
+  and do not protonate at biological pH. Marvin enumerates many such micro-basic
+  heteroatoms; this inflates Marvin's base count and is part of why MolGpKa's
+  narrower detector "misses" so many: a large share of the missed bases are
+  weak/secondary sites of little physiological consequence. But MolGpKa also
+  misses plenty of genuine bases (only 16% atom capture), so under-detection is
+  not merely a weak-site filtering effect.
+
+6. COMPOUND-LEVEL IMPACT
+------------------------
+  Of 22,418 compounds with >=1 Marvin base:
+    lost ALL bases (0 captured)  : 14,591   (65.1%)  -> pkb becomes empty
+    partially captured           :  6,279   (28.0%)
+    fully captured               :  1,548   (6.9%)
+  The 7,827 partial+full compounds are exactly the pKb rows written to
+  Biochemistry/Structures/ModelSEED/pkas/opam2_molgpka.tsv. Because the
+  integration replaces Marvin with OPAM2 for covered compounds, the 14,591
+  "lost all" compounds have their base pKb dropped — the mechanism behind the
+  served pkb column falling 33,964 -> 20,505.
+
+7. ACCURACY EVEN WHERE CAPTURED (benchmark by type)
+---------------------------------------------------
+  type A (acids):  n=68,641   r2=0.69   rmse=2.64   mae=1.94
+  type B (bases):  n=13,530   r2=0.24   rmse=5.18   mae=3.33
+  MolGpKa's base model is weak in aggregate (r2=0.24). Tertiary amines are the
+  exception that carries the usable signal; outside them the captured base pKb
+  values are not reliable.
+
+8. BOTTOM LINE & RECOMMENDATIONS
+--------------------------------
+  * OPAM2 captures bases poorly: 16% of base atoms, 35% of base-bearing
+    compounds, with trustworthy values essentially limited to tertiary amines.
+  * The dominant failure is structural UNDER-DETECTION of basic sites by
+    MolGpKa (87% of misses), not pKa-value error — though value error is also
+    large for the aromatic-N and guanidine bases it does capture.
+  * For the integration, this argues for one of:
+      (a) keep Marvin pKb and let OPAM2 replace only pKa (acids), where MolGpKa
+          is strong (85% capture, r2=0.69); or
+      (b) accept OPAM2 bases only for tertiary_amine sites and fall back to
+          Marvin elsewhere; or
+      (c) a full MolGpKa re-run is unlikely to help much here — the limit is the
+          base ionization-site detector, not the matched-subset export.
+  * What CANNOT be characterized from available data: the functional-group
+    breakdown of the 70,137 MISSED bases. The benchmark only records matched
+    atoms; classifying the unmatched Marvin bases would require re-running the
+    pipeline's categorize_atom() on the original .mol indexing.
+================================================================================
