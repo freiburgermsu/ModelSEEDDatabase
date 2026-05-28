@@ -1,0 +1,41 @@
+========================================================================
+REACTION ΔG — dGPredictor predictions vs ModelSEED database
+branch:   dGPred_rxn_thermo @ f95b72a
+predictions: Biochemistry/Thermodynamics/dGPredictor/json_files/*_dG.json
+             (raw, NOT integrated into the reaction-TSV deltag column)
+database ΔG: reaction_NN.tsv 'deltag' column (kcal/mol)
+========================================================================
+reactions with a dGPredictor estimate :   27715
+reactions flagged 'no dG' by dGPredictor:   28294
+reactions with a database ΔG          :   24910
+  overlap (both)                      :   18978
+  dGPredictor-only (NEW coverage)     :    8737
+  database-only (dGPredictor missing) :    5932
+
+Units / agreement (|ΔΔG|≤50 subset, n=15973):
+  Pearson r              = 0.895   (strong rank/direction agreement)
+  OLS slope dGP vs DB    = 0.869   (<1 => dGPredictor compresses large |ΔG|)
+  median ΔΔG ≈ 0 confirms the kJ->kcal (/4.184) conversion is correct.
+
+ΔΔG = dGPredictor − database  [kcal/mol], over 18978 overlapping reactions:
+  mean         = -7.268
+  median       = +0.091
+  std          = 143.795
+  min / max    = -15909.42 / +4312.64
+  IQR 25/75    = -7.481 / +6.727
+  5th / 95th   = -89.30 / +50.76
+  mean |ΔΔG|   = 28.071
+  median |ΔΔG| = 7.031
+  |ΔΔG| > 1     =   15905  (83.8%)
+  |ΔΔG| > 2     =   14495  (76.4%)
+  |ΔΔG| > 5     =   10913  (57.5%)
+  |ΔΔG| > 10    =    7997  (42.1%)
+  |ΔΔG| > 25    =    4526  (23.8%)
+  |ΔΔG| > 50    =    3005  (15.8%)
+
+Agreement: 4483 reactions (23.6%) agree within ±2 kcal/mol.
+Extreme outliers |ΔΔG|>500 kcal/mol: 64 (polymer / pathological reactions dominate mean & std).
+
+ΔΔG broken down by the method currently backing the database value:
+  eQuilibrator (EQU)               n= 13488  median=+0.39  med|ΔΔG|=4.72  within±2=29%
+  GroupContribution (GCC, no EQ)   n=  5490  median=-3.69  med|ΔΔG|=14.93  within±2=10%

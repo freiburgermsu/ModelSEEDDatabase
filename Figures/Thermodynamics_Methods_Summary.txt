@@ -1,0 +1,269 @@
+================================================================================
+ ModelSEED Database — Thermodynamics & pKa Methods Summary
+ How dGPredictor, eQuilibrator, Group Contribution, and OPAM2/Marvin pKas
+ are used to populate reaction/compound free energies and pKas.
+ Generated 2026-05-28. Updated 2026-05-28 for the OPAM2 + dGPredictor
+ integration branch (see Section 5).
+================================================================================
+
+SCOPE
+-----
+This document explains every method that produces a thermodynamic or pKa value
+in the database, the order in which they are applied, and which one actually
+ends up in the served columns.
+
+IMPORTANT — state depends on the branch:
+  * clauded / PR #261 (baseline):   Marvin pKas + GC/eQ ΔG are served;
+                                    OPAM2 and dGPredictor are STAGED only.
+  * opam2-dgpredictor-integration-2026-05 (this branch):
+                                    OPAM2 pKas and dGPredictor ΔG are
+                                    ACTIVATED into the served columns
+                                    (Section 5 documents exactly what changed).
+
+Sections 1–4 describe the methods and the baseline (clauded) state; Section 5
+describes the integration branch and the pKa/ΔG changes it makes.
+
+UNITS CONVENTION
+----------------
+  * The database `deltag` / `deltagerr` columns are in kcal/mol.
+  * Group Contribution energies (MolAnalysis) are native kcal/mol.
+  * eQuilibrator returns kJ/mol; the retrieval script explicitly converts with
+    `result.value.to('kilocal / mole')` (Retrieve_eQuilibrator_Reactions_
+    Energies.py:169) before storing — so the eQ table is already kcal/mol.
+  * dGPredictor outputs kJ/mol; to compare with the DB divide by 4.184.
+    (Verified empirically: rxn00001 dGPredictor -15.98 kJ/mol = -3.82 kcal/mol
+     vs DB -3.46 kcal/mol; median ΔΔG over 19k reactions ≈ 0.)
+
+================================================================================
+ 1. WHAT IS LIVE TODAY (the deltag column)
+================================================================================
+
+The served reaction ΔG is produced by a two-stage cascade, run via
+Scripts/Thermodynamics/Rerun_Thermodynamics.sh in this exact order:
+
+  1. Update_Compound_GroupContribution_Energies.py   (compound ΔGf°, GC)
+  2. Update_Reaction_GroupContribution_Energies.py   (reaction ΔG = Σ coeff·ΔGf°)
+  3. Estimate_Reaction_Reversibility.py GC
+  4. Update_Compound_eQuilibrator_Energies.py        (compound ΔGf°, eQ)
+  5. Update_Reaction_eQuilibrator_Energies.py        (OVERWRITES GC where eQ exists)
+  6. Estimate_Reaction_Reversibility.py EQ
+
+eQuilibrator takes precedence over Group Contribution wherever it is available.
+
+--- 1a. Group Contribution (GC) -------------------------------------------------
+  Method : Jankowski et al. 2008 (Biophys J, doi:10.1529/biophysj.107.124784).
+           Each compound structure is decomposed into substructure groups; the
+           summed group energies give the compound formation energy ΔGf°
+           (kcal/mol), stored in compound thermodynamics['Group contribution'].
+  Reaction ΔG : Σ (coefficient · ΔGf°) over all reactants; the per-reactant
+           errors are propagated in quadrature (sqrt of Σ (coeff·err)²).
+           Code: Update_Reaction_GroupContribution_Energies.py.
+  A reaction gets a GC value only if EVERY reactant has a GC compound energy
+  ("complete"); partially-covered reactions are flagged but not summed.
+
+--- 1b. eQuilibrator (EQ) -------------------------------------------------------
+  Method : Noor et al. 2013 (PLoS Comput Biol, doi:10.1371/journal.pcbi.1003098),
+           component-contribution. ModelSEED compounds are mapped to
+           MetaNetX / eQuilibrator entries by InChIKey
+           (Find_eQuilibrator_Structures_in_ModelSEED.py ->
+            Biochemistry/Structures/MetaNetX/Structures_in_ModelSEED_and_eQuilibrator.txt).
+  Retrieval : Retrieve_eQuilibrator_{Compound,Reactions}_Energies.py call
+           eQuilibrator's standard_dg_prime(), convert to kcal/mol, and write
+           Biochemistry/Thermodynamics/eQuilibrator/MetaNetX_{Compound,Reaction}_Energies.tbl.
+  Integration : Update_Reaction_eQuilibrator_Energies.py overwrites the GC
+           deltag with the eQ value wherever an eQ reaction energy exists.
+           This is the value served for ~13.5k reactions today.
+
+--- 1c. notes / method-provenance tags ------------------------------------------
+  The reaction `notes` column records which method backs the value:
+     GCC  Group-Contribution Complete  (all reactants have GC energy)
+     GCP  Group-Contribution Partial   (only some reactants covered)
+     EQC  eQuilibrator Complete        (all reactants mapped to eQ)
+     EQP  eQuilibrator Partial
+     EQU  eQuilibrator Used            (the eQ value is the one in deltag)
+     HB   protons adjusted to balance  (Adjust_Reaction_Protons.py)
+     WB   water adjusted to balance    (Adjust_Reaction_Water.py)
+  Frequencies among ~56k reactions: GCC 24.4k, EQC 22.6k, EQP 21.2k,
+  GCP 19.4k, EQU 17.1k, HB 11.2k, WB 0.3k.
+
+--- 1d. reversibility -----------------------------------------------------------
+  Estimate_Reaction_Reversibility.py turns the stored ΔG ± error into a
+  reversibility call (>, <, =, ?) using intracellular concentration ranges
+  (the "Mdeltag" window) plus heuristics for ATP synthase, ABC transporters,
+  and known low-energy compounds. Changing ΔG values changes reversibility,
+  which is the downstream property that actually affects model behavior.
+
+================================================================================
+ 2. THE pKa / PROTONATION LAYER (upstream of thermodynamics)
+================================================================================
+
+Free energies are defined for a specific protonation microspecies. pKa
+determines the dominant microspecies at pH 7, which fixes the compound's
+charge and formula, and therefore which microspecies' ΔGf° is the reference.
+eQuilibrator additionally uses pKa internally (reverse Legendre transform) to
+report the transformed ΔG'° at a given pH. So the pKa SOURCE is an upstream
+input to every ΔG number.
+
+--- 2a. Marvin (ChemAxon) ------------------------------------------------------
+  Marvin 23.4 supplies BOTH the pKa values and the pH-7 protonation microspecies
+  (the latter fixes formula/charge):
+     Biochemistry/Structures/<DB>/pkas/marvin_23.4.tsv
+     Biochemistry/Structures/<DB>/protonations/marvin_23.4_ph7.tsv
+  for DB in {KEGG, MetaCyc, ChEBI, Rhea}. The A1 reorg + ChEBI/Rhea id-format
+  fix raised pKa coverage to ~35.6k compounds (see clauded branch / PR #261).
+  On the integration branch Marvin pKa VALUES are overridden by OPAM2 where
+  available, but Marvin still provides the protonation states (so formula and
+  charge remain Marvin-derived even there — see Section 5).
+
+--- 2b. OPAM2 / MolGpKa --------------------------------------------------------
+  Method : MolGpKa (graph-convolutional neural network) predicts a micro-pKa
+           for each ionizable atom; OPAM2 is the sibling repo that wraps it.
+           Predicts pKa VALUES only — it does not generate protonation
+           microspecies or structures.
+  Status : STAGED on clauded; ACTIVATED on the integration branch (Section 5).
+  Benchmark vs Marvin (Figures/pka_marvin_vs_opam2_distribution.png and
+  OPAM2/.../modelseed_summary.json): 82,171 Marvin-matched atom pairs across
+  22,399 compounds; acids shift by a mean of -1.69 pKa units, bases by +2.70
+  (bimodal). MolGpKa acids are far more reliable than bases (benchmark r2 0.69
+  for type A vs 0.24 for type B). Only the Marvin-matched subset (82,171 of
+  MolGpKa's 117,172 predicted atoms) is available as concrete values, so the
+  integration covers that subset; a full MolGpKa re-run would extend coverage.
+
+================================================================================
+ 3. dGPredictor — reaction-ΔG predictor
+================================================================================
+
+  Method : dGPredictor (Wang et al. 2021, Metabolic Engineering). A
+           group-decomposition + machine-learning model that predicts the
+           reaction ΔG directly (dG_mean) with an uncertainty (dG_uncer),
+           output in kJ/mol.
+  Data   : raw JSON, one shard per reaction file (already tracked on clauded):
+             Biochemistry/Thermodynamics/dGPredictor/json_files/reaction_NN_dG.json
+             Biochemistry/Thermodynamics/dGPredictor/pickle_files/reaction_NN_dG.pickle
+           Keyed ModelSEED rxn -> KEGG R-id -> {dG_mean, dG_uncer} (or "no dG").
+  Status : On clauded the dGPredictor data is present but NOT wired into the
+           deltag column. On the integration branch it GAP-FILLS deltag for
+           reactions that lacked a GC/eQ estimate (Section 5).
+           (Note: the older `dGPred_rxn_thermo` branch re-serialised the
+           reaction files but left deltag byte-identical — it never integrated
+           the predictions either.)
+
+  HOW dGPredictor COMPARES TO THE LIVE DATABASE ΔG
+  (full numbers in Figures/reaction_dGPredictor_vs_database_stats.txt;
+   histograms in Figures/reaction_dGPredictor_vs_database_distribution*.png):
+     * 27,715 reactions get a dGPredictor estimate; 28,294 are "no dG".
+     * vs the DB: 18,978 overlap, +8,737 reactions of NEW coverage
+       (DB had no value), 5,932 DB reactions dGPredictor cannot estimate.
+     * Central agreement is strong: median ΔΔG = +0.09 kcal/mol,
+       Pearson r = 0.895, OLS slope 0.87 (dGPredictor slightly compresses
+       large-|ΔG| reactions).
+     * But the spread is large: 76% of overlapping reactions differ by
+       >2 kcal/mol, 42% by >10; mean/std are dominated by ~64 pathological
+       (polymer) reactions with |ΔΔG|>500.
+     * Split by the method currently backing the DB value:
+         - eQuilibrator-backed (EQU): median |ΔΔG| 4.7, 29% within ±2
+         - GC-only (GCC, no EQ):      median |ΔΔG| 14.9, 10% within ±2
+       => dGPredictor agrees noticeably better with eQuilibrator than with the
+          pure Group-Contribution sums. This is WHY the integration gap-fills
+          (only fills missing values) rather than overwriting GC/eQ.
+
+================================================================================
+ 4. INTEGRATION STATUS (per branch)
+================================================================================
+  Method              | Granularity | Units    | clauded / PR#261 | integration branch
+  --------------------|-------------|----------|------------------|-------------------
+  Group Contribution  | reaction    | kcal/mol | served (fallback)| served (fallback)
+  eQuilibrator        | reaction    | kcal/mol | served (primary) | served (primary)
+  Marvin 23.4 pKa     | compound    | pKa      | served           | protonation only;
+                      |             |          |                  | pKa overridden by OPAM2
+  dGPredictor         | reaction    | kJ/mol   | staged (raw JSON)| GAP-FILLS empty deltag
+  OPAM2 / MolGpKa pKa | compound    | pKa      | staged (sibling) | PRIMARY pKa (overrides
+                      |             |          |                  | Marvin where present)
+  -----------------------------------------------------------------------------------
+  On clauded, neither dGPredictor nor OPAM2 touches a served value. On the
+  integration branch both are activated, with the precedence rules in Section 5.
+
+================================================================================
+ 5. INTEGRATION BRANCH: opam2-dgpredictor-integration-2026-05 (commit c1c94bd)
+================================================================================
+This branch ACTIVATES OPAM2 pKas and dGPredictor ΔG as served values, following
+the clauded per-source + provenance conventions. Two methods, two precedence
+rules:
+  * OPAM2 pKa  -> REPLACE Marvin where OPAM2 has a prediction (Marvin kept else)
+  * dGPredictor ΔG -> GAP-FILL only (fill reactions with no GC/eQ value)
+
+--- 5a. New / changed files ----------------------------------------------------
+  NEW  Biochemistry/Structures/ModelSEED/pkas/opam2_molgpka.tsv
+         ModelSEED-cpd-keyed pKa source (22,399 compounds; 21,991 pKa rows,
+         7,827 pKb rows) in the Marvin '<microstate>:<atom>:<value>' format.
+  NEW  Scripts/Thermodynamics/Update_Reaction_dGPredictor_Energies.py
+         Reads dGPredictor json_files, converts kJ->kcal (/4.184), gap-fills
+         deltag/deltagerr, tags 'DGP' in notes, records thermodynamics.dGPredictor.
+  EDIT Scripts/Structures/Update_Compound_pKas.py
+         Applies the OPAM2 override after the Marvin per-source cascade.
+  EDIT Scripts/Provenance/Build_Compound_Field_Provenance.py
+         pka_src/pkb_src now report 'OPAM2:MolGpKa' for overridden compounds.
+  EDIT Scripts/Thermodynamics/Rerun_Thermodynamics.sh
+         Adds the dGPredictor gap-fill as a 7th step after the eQ stage.
+  EDIT Biochemistry/Structures/sources.yaml
+         Documents the ModelSEED OPAM2 source + the dGPredictor cross-reference.
+  REGEN compound_NN.{tsv,json} (pka/pkb only), compound_NN.provenance.tsv
+        (pka_src/pkb_src only), reaction_NN.{tsv,json} (deltag/deltagerr/notes,
+        gap-filled rows only). Diffs verified column-scoped — formula, charge,
+        structure, InChIKey, SMILES, and all GC/eQ ΔG values are untouched.
+
+--- 5b. Method detail ----------------------------------------------------------
+  OPAM2 pKa override: OPAM2 predicts pKa VALUES only, not protonation
+  microspecies. So the override rewrites only the compound pka/pkb columns;
+  the pH-7 protonation (and therefore formula and charge) stays Marvin-derived.
+  22,395 compounds with an accepted structure received OPAM2 values.
+
+  dGPredictor gap-fill: for the 8,737 reactions whose deltag was the 'unknown'
+  sentinel (10000000) and which have a dGPredictor estimate, deltag/deltagerr
+  are set from the kJ->kcal-converted prediction (mean over the reaction's KEGG
+  ids) and the reaction is tagged 'DGP'. Reactions already carrying a GC/eQ
+  value are left untouched, so no validated energy is overwritten. Reversibility
+  is NOT recomputed for gap-filled reactions in this branch.
+
+--- 5c. pKa coverage change (compounds with a non-empty value) -----------------
+                         clauded (Marvin)   integration (OPAM2 primary)
+    pka value                 32,223               31,815   (-408)
+    pkb value                 33,964               20,505   (-13,459)
+    any pKa (pka OR pkb)      35,632               35,632   (unchanged)
+  CAVEAT: 'any pKa' coverage is preserved, but pKb (base) coverage drops ~40%.
+  Cause: OPAM2's available output is the Marvin-matched atom subset, in which
+  MolGpKa predicted far fewer basic atoms than Marvin (and its base predictions
+  are its least reliable: benchmark r2 0.24). If preserving Marvin bases matters,
+  alternatives are (a) replace only pKa and keep Marvin pkb, or (b) a full
+  MolGpKa re-run covering the unmatched atoms.
+
+--- 5d. reaction ΔG coverage change --------------------------------------------
+    reactions with a numeric deltag:  24,910 (clauded)  ->  33,647 (integration)
+    of which dGPredictor-filled (DGP tag):                      8,737
+  The 8,737 filled reactions previously had only partial GC/eQ coverage (e.g.
+  notes GCP|EQP). Spot-check: rxn00019 -36.09 kJ/mol -> -8.63 kcal/mol deltag.
+
+================================================================================
+ 6. REPRODUCING THESE ANALYSES
+================================================================================
+  Reaction ΔG (dGPredictor vs DB) + histograms:
+      python3 /tmp/analyze_rxn_thermo.py
+      -> Figures/reaction_dGPredictor_vs_database_distribution.png
+      -> Figures/reaction_dGPredictor_vs_database_distribution_zoom.png
+      -> Figures/reaction_dGPredictor_vs_database_stats.txt
+  pKa (Marvin vs OPAM2) histogram:
+      -> Figures/pka_marvin_vs_opam2_distribution.png
+         (source: OPAM2/MolGpKa/benchmarks/results/modelseed_comparison.csv)
+  Re-run the LIVE thermodynamics pipeline (now incl. dGPredictor gap-fill):
+      cd Scripts/Thermodynamics && ./Rerun_Thermodynamics.sh
+
+  Regenerate the integration-branch served values:
+      # 1. OPAM2 pKa source (from the OPAM2 benchmark CSV)
+      #    -> Biochemistry/Structures/ModelSEED/pkas/opam2_molgpka.tsv
+      # 2. apply OPAM2 override + recompute compound pka/pkb
+      cd Scripts/Structures      && python3 Update_Compound_pKas.py
+      # 3. dGPredictor reaction gap-fill
+      cd Scripts/Thermodynamics  && python3 Update_Reaction_dGPredictor_Energies.py
+      # 4. rebuild per-field provenance sidecars
+      python3 Scripts/Provenance/Build_Compound_Field_Provenance.py
+================================================================================
