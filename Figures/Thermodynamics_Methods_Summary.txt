@@ -231,11 +231,15 @@ rules:
     pkb value                 33,964               20,505   (-13,459)
     any pKa (pka OR pkb)      35,632               35,632   (unchanged)
   CAVEAT: 'any pKa' coverage is preserved, but pKb (base) coverage drops ~40%.
-  Cause: OPAM2's available output is the Marvin-matched atom subset, in which
-  MolGpKa predicted far fewer basic atoms than Marvin (and its base predictions
-  are its least reliable: benchmark r2 0.24). If preserving Marvin bases matters,
-  alternatives are (a) replace only pKa and keep Marvin pkb, or (b) a full
-  MolGpKa re-run covering the unmatched atoms.
+  Cause: MolGpKa flags far fewer basic atoms than Marvin. But per the base-capture
+  assessment (Figures/opam2_base_capture_assessment.txt +
+  opam2_missed_bases_by_group.png), 95% of the dropped base atoms are
+  non-physiological alcohol/phenol O-protonation sites that Marvin over-enumerates
+  — so most of the drop is cleanup, not a true loss. MolGpKa captures 86.5% of the
+  chemically real NITROGEN base atoms; the real concern is value ACCURACY for
+  aromatic-N/guanidine (base r2 0.24), not coverage. Options if that matters:
+  (a) keep Marvin pkb for aromatic-N/guanidine, accept OPAM2 for tertiary amines;
+  (b) keep Marvin for all bases and let OPAM2 replace only the (strong) acids.
 
 --- 5d. reaction ΔG coverage change --------------------------------------------
     reactions with a numeric deltag:  24,910 (clauded)  ->  33,647 (integration)

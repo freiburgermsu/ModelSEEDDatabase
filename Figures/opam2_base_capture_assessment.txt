@@ -4,8 +4,10 @@
  the consequence for the OPAM2 pKa integration.
  Generated 2026-05-28.
  Data: OPAM2/MolGpKa/benchmarks/results/{modelseed_comparison.csv,
-       modelseed_per_compound.csv, modelseed_summary.json}
- Figure: Figures/opam2_base_capture.png
+       modelseed_per_compound.csv, modelseed_summary.json}; per-atom functional
+       groups reproduced from src/datasets/Unique_MS_Structures/*.mol.
+ Figures: Figures/opam2_base_capture.png
+          Figures/opam2_missed_bases_by_group.png
 ================================================================================
 
 0. HEADLINE — RECONCILING THE NUMBERS
@@ -25,6 +27,14 @@ all-correct figures describe base coverage:
 
 So the honest summary is: OPAM2 captures ~1 in 6 base ATOMS, ~1 in 3 base-bearing
 COMPOUNDS, and the served pkb column shrinks ~40%.
+
+CRITICAL REFRAME (see Section 4 + opam2_missed_bases_by_group.png): the atom-level
+16% is misleading on its own. 95.4% of the MISSED base atoms are alcohol/phenol
+OXYGENS that Marvin labels as "bases" but which sit at strongly negative pKaH
+(protonated-O sites, not basic at physiological pH). MolGpKa simply does not treat
+these as ionizable. For the chemically meaningful NITROGEN bases, MolGpKa captures
+86.5% of atoms. So the real story is not "MolGpKa misses most bases" — it keeps the
+relevant N-base sites and drops Marvin's non-physiological O-protonation enumeration.
 
 1. HOW "CAPTURE" IS DEFINED (the matching rule)
 -----------------------------------------------
@@ -61,20 +71,38 @@ as a basic ionization site — regardless of how good its pKa model is.
       9,268 of MolGpKa's 22,798 base predictions (41%) land on non-Marvin-base
       atoms.
 
-4. WHAT IS CAPTURED (the 13,530), BY FUNCTIONAL GROUP
------------------------------------------------------
-  functional_group        captured   median|Δ|   mean|Δ|   median Marvin pKb
-  tertiary_amine             6,477       0.79       1.48          8.52
-  aromatic_n                 5,771       4.19       4.54         -0.97
-  guanidine_or_amidine       1,177       9.53       7.31         -3.14
-  amide_nh                      80       5.72       5.54         -1.13
-  alcohol_or_phenol             25       7.22       7.90         -4.98
+4. CAPTURED vs MISSED BY FUNCTIONAL GROUP (validated reproduction)
+-----------------------------------------------------------------
+Reproduced the benchmark's categorize_atom() on ALL 83,667 Marvin base atoms
+(Uncharge+AddHs mol from the per-compound .mol files). VALIDATION: re-classifying
+the 13,530 matched atoms reproduced the benchmark's recorded functional_group with
+100.0% agreement, so the missed-atom classification below is trustworthy.
 
-  Reading: the only base class MolGpKa both captures in volume AND predicts
-  accurately is the TERTIARY AMINE (median error 0.8 pKa units). The two other
-  high-volume basic classes in metabolites — aromatic nitrogens and
-  guanidine/amidine groups — are captured but with median errors of 4–10 pKa
-  units, i.e. effectively unusable. So "captured" does not imply "trustworthy".
+  functional_group          total  captured  missed  miss%   capt.median|Δ|
+  alcohol_or_phenol        66,964        25  66,939   100%       7.22
+  tertiary_amine            7,566     6,477   1,089    14%       0.79
+  aromatic_n                6,207     5,771     436     7%       4.19
+  guanidine_or_amidine      1,699     1,177     522    31%       9.53
+  other                       845         0     845   100%        -
+  amide_nh                    136        80      56    41%       5.72
+  phosphate                   131         0     131   100%        -
+  sulfonate_or_sulfate         86         0      86   100%        -
+  thiol_or_thioether           17         0      17   100%        -
+  carboxylic_acid_or_ester     16         0      16   100%        -
+
+  Two findings dominate:
+  (1) The 70,137 missed bases are 95.4% alcohol_or_phenol oxygens (66,939).
+      Marvin enumerates protonation of hydroxyl/phenol O (oxocarbenium-type,
+      Marvin pKaH ~ -3 to -5); MolGpKa's base SMARTS does not treat these as
+      ionizable. They are non-physiological at biological pH — dropping them is
+      arguably a CLEANUP, not a true coverage loss.
+  (2) For NITROGEN bases — the chemically real ones — MolGpKa CAPTURES well at the
+      atom level: tertiary amine 86%, aromatic N 93%, guanidine/amidine 69%,
+      amide 59%. Counting only N-bases: 13,505/15,608 atoms = 86.5% captured.
+  Caveat (capture != accuracy): only TERTIARY AMINES are captured accurately
+  (median |Δ| 0.79). Aromatic-N and guanidine sites are captured but their
+  predicted pKa values are off by a median of 4–10 units (see Sections 5 & 7),
+  i.e. effectively unusable despite being "captured".
 
 5. CAPTURED-BASE VALUE DISTRIBUTION (Marvin pkb of the matched atoms)
 ---------------------------------------------------------------------
@@ -115,20 +143,24 @@ as a basic ionization site — regardless of how good its pKa model is.
 
 8. BOTTOM LINE & RECOMMENDATIONS
 --------------------------------
-  * OPAM2 captures bases poorly: 16% of base atoms, 35% of base-bearing
-    compounds, with trustworthy values essentially limited to tertiary amines.
-  * The dominant failure is structural UNDER-DETECTION of basic sites by
-    MolGpKa (87% of misses), not pKa-value error — though value error is also
-    large for the aromatic-N and guanidine bases it does capture.
+  * The headline "84% of bases missed" is real but mostly benign: 95% of the
+    missed atoms are non-physiological alcohol/phenol O-protonation sites that
+    Marvin over-enumerates and MolGpKa correctly omits. Dropping them is cleanup.
+  * For the chemically meaningful NITROGEN bases, MolGpKa captures 86.5% of atoms.
+    The genuine problem is ACCURACY, not coverage: only tertiary amines have
+    usable values (median |Δ| 0.79); aromatic-N and guanidine pKa values are off
+    by 4–10 units (overall base r2=0.24).
   * For the integration, this argues for one of:
-      (a) keep Marvin pKb and let OPAM2 replace only pKa (acids), where MolGpKa
-          is strong (85% capture, r2=0.69); or
-      (b) accept OPAM2 bases only for tertiary_amine sites and fall back to
-          Marvin elsewhere; or
-      (c) a full MolGpKa re-run is unlikely to help much here — the limit is the
-          base ionization-site detector, not the matched-subset export.
-  * What CANNOT be characterized from available data: the functional-group
-    breakdown of the 70,137 MISSED bases. The benchmark only records matched
-    atoms; classifying the unmatched Marvin bases would require re-running the
-    pipeline's categorize_atom() on the original .mol indexing.
+      (a) accept OPAM2 bases for tertiary_amine sites (accurate) and fall back to
+          Marvin for aromatic-N / guanidine, where MolGpKa values are unreliable; or
+      (b) keep OPAM2 acids (strong: 85% capture, r2=0.69) and keep Marvin for ALL
+          bases until MolGpKa's base model improves; or
+      (c) accept the current branch as-is, noting the served pkb column is now
+          biased toward accurate tertiary-amine sites and shed of Marvin's
+          non-physiological O-protonation "bases".
+  * A full MolGpKa re-run would not fix the value accuracy on aromatic-N/guanidine
+    bases — that is a model limitation, not an export/coverage limitation.
+  * Missed bases ARE fully characterized here (Section 4 + figure
+    opam2_missed_bases_by_group.png), validated by 100% reproduction of the
+    benchmark's matched-atom functional-group labels.
 ================================================================================
