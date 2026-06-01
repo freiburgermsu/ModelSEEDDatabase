@@ -2,6 +2,7 @@
 import os,sys,json,glob
 sys.path.append('../../Libs/Python/')
 from BiochemPy import Reactions
+from Estimate_Reaction_Reversibility import reversibility_from_energy
 
 # dGPredictor (Wang et al. 2021, Metab Eng) predicts reaction dG directly from a
 # group decomposition + ML model, output in kJ/mol. Predictions are staged as
@@ -12,8 +13,10 @@ from BiochemPy import Reactions
 # deltagerr columns for reactions that currently have NO Group-Contribution /
 # eQuilibrator estimate (deltag == sentinel 10000000), leaving the
 # well-validated GC/eQ values untouched. Filled reactions are tagged 'DGP' in
-# notes (the reaction-level provenance mechanism) and recorded in the JSON
-# thermodynamics dict under 'dGPredictor'.
+# notes (the reaction-level provenance mechanism) and recorded ADDITIVELY in
+# the JSON thermodynamics dict under 'dGPredictor' as
+# [energy, error, operator], where the operator is this estimate's own
+# thermodynamic direction.
 
 KJ_PER_KCAL = 4.184
 SENTINEL = 10000000
@@ -71,9 +74,10 @@ for rxn in sorted(reactions_dict.keys()):
         notes.append('DGP')
     robj['notes'] = notes
 
+    operator = reversibility_from_energy(robj, dg_kcal, err_kcal)
     if(not isinstance(robj.get('thermodynamics'), dict)):
         robj['thermodynamics'] = dict()
-    robj['thermodynamics'][label] = [dg_kcal, err_kcal]
+    robj['thermodynamics'][label] = [dg_kcal, err_kcal, operator]
 
     filled+=1
 

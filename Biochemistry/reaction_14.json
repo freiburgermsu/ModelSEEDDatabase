@@ -93,11 +93,13 @@
         "thermodynamics": {
             "Group contribution": [
                 7.69,
-                6.18
+                6.18,
+                "="
             ],
             "dGPredictor": [
                 10.97,
-                0.03
+                0.03,
+                "="
             ]
         }
     },
@@ -167,11 +169,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.28,
-                3.9
+                3.9,
+                "="
             ],
             "eQuilibrator": [
                 -81.17,
-                14323.5
+                14323.5,
+                "="
             ]
         }
     },
@@ -279,11 +283,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -189.98,
-                12.91
+                12.91,
+                ">"
             ],
             "eQuilibrator": [
                 -239.68,
-                27863.96
+                27863.96,
+                ">"
             ]
         }
     },
@@ -411,11 +417,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -8.92,
-                5.1
+                5.1,
+                ">"
             ],
             "eQuilibrator": [
                 -5.96,
-                0.32
+                0.32,
+                ">"
             ]
         }
     },
@@ -510,11 +518,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -133.77,
-                0.54
+                0.54,
+                ">"
             ]
         }
     },
@@ -609,7 +619,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -692,11 +703,13 @@
         "thermodynamics": {
             "Group contribution": [
                 2.3,
-                11.41
+                11.41,
+                "="
             ],
             "eQuilibrator": [
                 -0.28,
-                0.37
+                0.37,
+                "="
             ]
         }
     },
@@ -766,11 +779,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -4.75,
-                1.92
+                1.92,
+                ">"
             ],
             "eQuilibrator": [
                 -32.46,
-                1.65
+                1.65,
+                ">"
             ]
         }
     },
@@ -857,11 +872,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -13.27,
-                2.96
+                2.96,
+                ">"
             ],
             "eQuilibrator": [
                 -6.24,
-                0.59
+                0.59,
+                ">"
             ]
         }
     },
@@ -959,7 +976,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -1044,11 +1062,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -22.53,
-                6.15
+                6.15,
+                ">"
             ],
             "eQuilibrator": [
                 -18.13,
-                0.71
+                0.71,
+                ">"
             ]
         }
     },
@@ -1129,11 +1149,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -22.53,
-                6.85
+                6.85,
+                ">"
             ],
             "eQuilibrator": [
                 -18.13,
-                0.71
+                0.71,
+                ">"
             ]
         }
     },
@@ -1232,7 +1254,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -1306,7 +1329,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -1379,7 +1403,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -1458,11 +1483,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -0.16,
-                0.56
+                0.56,
+                "="
             ]
         }
     },
@@ -1534,7 +1561,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -1615,7 +1643,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -1701,11 +1730,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.3,
-                11.47
+                11.47,
+                "="
             ],
             "eQuilibrator": [
                 0.28,
-                0.38
+                0.38,
+                "="
             ]
         }
     },
@@ -1805,11 +1836,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -95.83,
-                8.05
+                8.05,
+                ">"
             ],
             "eQuilibrator": [
                 -106.02,
-                0.91
+                0.91,
+                ">"
             ]
         }
     },
@@ -1912,7 +1945,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -1991,11 +2025,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 75.25,
-                0.71
+                0.71,
+                "<"
             ]
         }
     },
@@ -2084,11 +2120,13 @@
         "thermodynamics": {
             "Group contribution": [
                 28.5,
-                13.97
+                13.97,
+                "="
             ],
             "eQuilibrator": [
                 -133.52,
-                37308.02
+                37308.02,
+                "="
             ]
         }
     },
@@ -2186,7 +2224,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -2268,11 +2307,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -14.03,
-                6.87
+                6.87,
+                ">"
             ],
             "eQuilibrator": [
                 -95.47,
-                29272.1
+                29272.1,
+                "="
             ]
         }
     },
@@ -2357,11 +2398,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -14.03,
-                10.71
+                10.71,
+                "="
             ],
             "eQuilibrator": [
                 -58.09,
-                16900.26
+                16900.26,
+                "="
             ]
         }
     },
@@ -2441,7 +2484,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -2534,7 +2578,8 @@
         "thermodynamics": {
             "Group contribution": [
                 82.17,
-                18.33
+                18.33,
+                "<"
             ]
         }
     },
@@ -2618,7 +2663,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -2693,11 +2739,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -1.7,
-                8.24
+                8.24,
+                "="
             ],
             "eQuilibrator": [
                 -3.91,
-                0.53
+                0.53,
+                "="
             ]
         }
     },
@@ -2780,11 +2828,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 4.76,
-                0.44
+                0.44,
+                "="
             ]
         }
     },
@@ -2864,7 +2914,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -2956,7 +3007,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -3026,7 +3078,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -3084,11 +3137,13 @@
         "thermodynamics": {
             "Group contribution": [
                 14.45,
-                4.15
+                4.15,
+                "<"
             ],
             "eQuilibrator": [
                 48.82,
-                23900.57
+                23900.57,
+                "="
             ]
         }
     },
@@ -3177,7 +3232,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -3248,7 +3304,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -3337,11 +3394,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -28.37,
-                5.06
+                5.06,
+                ">"
             ],
             "eQuilibrator": [
                 -5.49,
-                0.8
+                0.8,
+                ">"
             ]
         }
     },
@@ -3427,11 +3486,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -14.03,
-                4.89
+                4.89,
+                ">"
             ],
             "eQuilibrator": [
                 -1.84,
-                0.85
+                0.85,
+                "="
             ]
         }
     },
@@ -3516,11 +3577,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -22.53,
-                5.44
+                5.44,
+                ">"
             ],
             "eQuilibrator": [
                 -18.13,
-                0.71
+                0.71,
+                ">"
             ]
         }
     },
@@ -3602,11 +3665,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.3,
-                11.85
+                11.85,
+                "="
             ],
             "eQuilibrator": [
                 0.28,
-                0.38
+                0.38,
+                "="
             ]
         }
     },
@@ -3689,7 +3754,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -3775,11 +3841,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -4.28,
-                0.21
+                0.21,
+                ">"
             ]
         }
     },
@@ -3861,11 +3929,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.0,
-                6.4
+                6.4,
+                "="
             ],
             "eQuilibrator": [
                 -3.22,
-                0.58
+                0.58,
+                "="
             ]
         }
     },
@@ -3963,7 +4033,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -4100,7 +4171,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -4198,7 +4270,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -4280,11 +4353,13 @@
         "thermodynamics": {
             "Group contribution": [
                 0.75,
-                11.44
+                11.44,
+                "="
             ],
             "eQuilibrator": [
                 -0.28,
-                0.37
+                0.37,
+                "="
             ]
         }
     },
@@ -4377,11 +4452,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "eQuilibrator": [
                 -90.66,
-                1.46
+                1.46,
+                ">"
             ]
         }
     },
@@ -4475,7 +4552,8 @@
         "thermodynamics": {
             "Group contribution": [
                 5.37,
-                9.07
+                9.07,
+                "="
             ]
         }
     },
@@ -4564,7 +4642,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -4666,11 +4745,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -95.83,
-                10.63
+                10.63,
+                ">"
             ],
             "eQuilibrator": [
                 -105.84,
-                0.91
+                0.91,
+                ">"
             ]
         }
     },
@@ -4752,11 +4833,13 @@
         "thermodynamics": {
             "Group contribution": [
                 3.67,
-                6.21
+                6.21,
+                "="
             ],
             "eQuilibrator": [
                 4.89,
-                0.24
+                0.24,
+                "="
             ]
         }
     },
@@ -4830,7 +4913,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -4913,11 +4997,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -0.44,
-                0.1
+                0.1,
+                "="
             ]
         }
     },
@@ -5008,7 +5094,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -5118,11 +5205,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "eQuilibrator": [
                 -300.12,
-                3.68
+                3.68,
+                ">"
             ]
         }
     },
@@ -5183,11 +5272,13 @@
         "thermodynamics": {
             "Group contribution": [
                 1.42,
-                1.32
+                1.32,
+                "="
             ],
             "eQuilibrator": [
                 1.56,
-                0.16
+                0.16,
+                "="
             ]
         }
     },
@@ -5250,11 +5341,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 7.49,
-                0.64
+                0.64,
+                "<"
             ]
         }
     },
@@ -5339,11 +5432,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -22.53,
-                3.34
+                3.34,
+                ">"
             ],
             "eQuilibrator": [
                 -18.13,
-                0.71
+                0.71,
+                ">"
             ]
         }
     },
@@ -5395,11 +5490,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -412.77,
-                2.67
+                2.67,
+                ">"
             ],
             "eQuilibrator": [
                 -282.1,
-                0.94
+                0.94,
+                ">"
             ]
         }
     },
@@ -5481,11 +5578,13 @@
         "thermodynamics": {
             "Group contribution": [
                 3.76,
-                6.17
+                6.17,
+                "="
             ],
             "eQuilibrator": [
                 7.22,
-                0.5
+                0.5,
+                "="
             ]
         }
     },
@@ -5588,7 +5687,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -5682,7 +5782,8 @@
         "thermodynamics": {
             "Group contribution": [
                 5.37,
-                9.25
+                9.25,
+                "="
             ]
         }
     },
@@ -5730,7 +5831,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -5795,7 +5897,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -5889,11 +5992,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "eQuilibrator": [
                 -15.36,
-                23900.57
+                23900.57,
+                ">"
             ]
         }
     },
@@ -5985,11 +6090,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -11.92,
-                6.31
+                6.31,
+                ">"
             ],
             "eQuilibrator": [
                 -12.04,
-                0.43
+                0.43,
+                ">"
             ]
         }
     },
@@ -6080,7 +6187,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -6170,7 +6278,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -6269,11 +6378,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -92.58,
-                11.52
+                11.52,
+                ">"
             ],
             "eQuilibrator": [
                 -94.13,
-                0.75
+                0.75,
+                ">"
             ]
         }
     },
@@ -6346,7 +6457,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -6432,11 +6544,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -14.4,
-                6.86
+                6.86,
+                "="
             ],
             "eQuilibrator": [
                 3.99,
-                23900.57
+                23900.57,
+                "="
             ]
         }
     },
@@ -6514,7 +6628,8 @@
         "thermodynamics": {
             "Group contribution": [
                 -1.7,
-                5.9
+                5.9,
+                "="
             ]
         }
     },
@@ -6580,7 +6695,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -6660,11 +6776,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -1.0,
-                0.77
+                0.77,
+                "="
             ],
             "eQuilibrator": [
                 0.75,
-                0.49
+                0.49,
+                "="
             ]
         }
     },
@@ -6738,11 +6856,13 @@
         "thermodynamics": {
             "Group contribution": [
                 6.73,
-                5.88
+                5.88,
+                "="
             ],
             "eQuilibrator": [
                 -3.17,
-                1.18
+                1.18,
+                "="
             ]
         }
     },
@@ -6826,11 +6946,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.67,
-                4.4
+                4.4,
+                "="
             ],
             "eQuilibrator": [
                 -0.78,
-                0.68
+                0.68,
+                "="
             ]
         }
     },
@@ -6917,11 +7039,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -13.27,
-                2.27
+                2.27,
+                ">"
             ],
             "eQuilibrator": [
                 -6.24,
-                0.59
+                0.59,
+                ">"
             ]
         }
     },
@@ -7012,11 +7136,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -109.72,
-                4.08
+                4.08,
+                ">"
             ],
             "eQuilibrator": [
                 -118.59,
-                1.24
+                1.24,
+                ">"
             ]
         }
     },
@@ -7109,11 +7235,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -90.63,
-                6.54
+                6.54,
+                ">"
             ],
             "eQuilibrator": [
                 -55.43,
-                23900.57
+                23900.57,
+                "="
             ]
         }
     },
@@ -7213,11 +7341,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -112.6,
-                8.63
+                8.63,
+                ">"
             ],
             "eQuilibrator": [
                 -106.12,
-                1.04
+                1.04,
+                ">"
             ]
         }
     },
@@ -7289,11 +7419,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -106.7,
-                6.51
+                6.51,
+                ">"
             ],
             "eQuilibrator": [
                 -107.34,
-                23043.64
+                23043.64,
+                "="
             ]
         }
     },
@@ -7380,11 +7512,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -31.34,
-                6.72
+                6.72,
+                ">"
             ],
             "eQuilibrator": [
                 -22.91,
-                1.01
+                1.01,
+                ">"
             ]
         }
     },
@@ -7473,7 +7607,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -7554,7 +7689,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -7626,7 +7762,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -7708,11 +7845,13 @@
         "thermodynamics": {
             "Group contribution": [
                 3.67,
-                6.21
+                6.21,
+                "="
             ],
             "eQuilibrator": [
                 4.89,
-                0.24
+                0.24,
+                "="
             ]
         }
     },
@@ -7797,7 +7936,8 @@
         "thermodynamics": {
             "Group contribution": [
                 -25.66,
-                3.88
+                3.88,
+                ">"
             ]
         }
     },
@@ -7906,11 +8046,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -163.83,
-                1.23
+                1.23,
+                ">"
             ]
         }
     },
@@ -7983,7 +8125,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -8065,11 +8208,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -14.03,
-                4.87
+                4.87,
+                ">"
             ],
             "eQuilibrator": [
                 -0.64,
-                0.33
+                0.33,
+                "="
             ]
         }
     },
@@ -8154,11 +8299,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -17.54,
-                6.46
+                6.46,
+                "="
             ],
             "eQuilibrator": [
                 -13.27,
-                0.43
+                0.43,
+                "="
             ]
         }
     },
@@ -8231,7 +8378,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -8312,11 +8460,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -59.6,
-                4.25
+                4.25,
+                ">"
             ],
             "eQuilibrator": [
                 -82.34,
-                25051.08
+                25051.08,
+                ">"
             ]
         }
     },
@@ -8401,11 +8551,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -0.33,
-                14.73
+                14.73,
+                "="
             ],
             "eQuilibrator": [
                 -5.1,
-                75580.25
+                75580.25,
+                "="
             ]
         }
     },
@@ -8485,7 +8637,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -8569,11 +8722,13 @@
         "thermodynamics": {
             "Group contribution": [
                 13.57,
-                11.67
+                11.67,
+                "="
             ],
             "eQuilibrator": [
                 4.92,
-                1.91
+                1.91,
+                "="
             ]
         }
     },
@@ -8651,11 +8806,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -2.07,
-                0.26
+                0.26,
+                ">"
             ]
         }
     },
@@ -8734,11 +8891,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 2.37,
-                0.53
+                0.53,
+                "="
             ]
         }
     },
@@ -8833,11 +8992,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -8.92,
-                5.18
+                5.18,
+                ">"
             ],
             "eQuilibrator": [
                 -5.96,
-                0.32
+                0.32,
+                ">"
             ]
         }
     },
@@ -8916,11 +9077,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -1.7,
-                6.69
+                6.69,
+                "="
             ],
             "eQuilibrator": [
                 -13.21,
-                1.07
+                1.07,
+                ">"
             ]
         }
     },
@@ -8994,11 +9157,13 @@
         "thermodynamics": {
             "Group contribution": [
                 1.7,
-                5.84
+                5.84,
+                "="
             ],
             "eQuilibrator": [
                 -0.94,
-                0.5
+                0.5,
+                "="
             ]
         }
     },
@@ -9062,11 +9227,13 @@
         "thermodynamics": {
             "Group contribution": [
                 3.13,
-                6.84
+                6.84,
+                "="
             ],
             "eQuilibrator": [
                 28.41,
-                33200.1
+                33200.1,
+                "="
             ]
         }
     },
@@ -9135,7 +9302,8 @@
         "thermodynamics": {
             "Group contribution": [
                 -1.81,
-                5.06
+                5.06,
+                "="
             ]
         }
     },
@@ -9232,11 +9400,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -57.42,
-                0.75
+                0.75,
+                ">"
             ]
         }
     },
@@ -9326,7 +9496,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -9423,7 +9594,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -9512,7 +9684,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -9601,11 +9774,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -0.86,
-                0.24
+                0.24,
+                "="
             ]
         }
     },
@@ -9658,7 +9833,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -9734,7 +9910,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -9809,11 +9986,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -1.7,
-                9.27
+                9.27,
+                "="
             ],
             "eQuilibrator": [
                 -3.91,
-                0.53
+                0.53,
+                "="
             ]
         }
     },
@@ -9878,7 +10057,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -9944,7 +10124,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -10018,7 +10199,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -10098,7 +10280,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -10182,11 +10365,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.35,
-                12.96
+                12.96,
+                "="
             ],
             "eQuilibrator": [
                 9.5,
-                0.94
+                0.94,
+                "="
             ]
         }
     },
@@ -10254,11 +10439,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -0.46,
-                7.31
+                7.31,
+                "="
             ],
             "eQuilibrator": [
                 0.35,
-                0.61
+                0.61,
+                "="
             ]
         }
     },
@@ -10336,11 +10523,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -11.67,
-                1.44
+                1.44,
+                ">"
             ],
             "eQuilibrator": [
                 -15.12,
-                0.75
+                0.75,
+                ">"
             ]
         }
     },
@@ -10413,7 +10602,8 @@
         "thermodynamics": {
             "Group contribution": [
                 0.46,
-                7.04
+                7.04,
+                "="
             ]
         }
     },
@@ -10495,11 +10685,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.3,
-                11.85
+                11.85,
+                "="
             ],
             "eQuilibrator": [
                 0.28,
-                0.38
+                0.38,
+                "="
             ]
         }
     },
@@ -10573,7 +10765,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -10659,11 +10852,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -22.53,
-                2.0
+                2.0,
+                ">"
             ],
             "eQuilibrator": [
                 -18.13,
-                0.71
+                0.71,
+                ">"
             ]
         }
     },
@@ -10768,11 +10963,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -189.98,
-                12.77
+                12.77,
+                ">"
             ],
             "eQuilibrator": [
                 -235.94,
-                27863.96
+                27863.96,
+                ">"
             ]
         }
     },
@@ -10843,7 +11040,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -10944,11 +11142,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -110.53,
-                6.99
+                6.99,
+                ">"
             ],
             "eQuilibrator": [
                 -74.33,
-                23900.57
+                23900.57,
+                "="
             ]
         }
     },
@@ -11039,11 +11239,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "eQuilibrator": [
                 -15.35,
-                23900.57
+                23900.57,
+                ">"
             ]
         }
     },
@@ -11108,7 +11310,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -11212,7 +11415,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -11298,7 +11502,8 @@
         "thermodynamics": {
             "Group contribution": [
                 -14.03,
-                7.0
+                7.0,
+                ">"
             ]
         }
     },
@@ -11400,11 +11605,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -95.83,
-                6.25
+                6.25,
+                ">"
             ],
             "eQuilibrator": [
                 -105.96,
-                0.91
+                0.91,
+                ">"
             ]
         }
     },
@@ -11477,11 +11684,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 1.58,
-                0.31
+                0.31,
+                "="
             ]
         }
     },
@@ -11555,11 +11764,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -10.64,
-                1.55
+                1.55,
+                ">"
             ],
             "eQuilibrator": [
                 -10.55,
-                1.0
+                1.0,
+                ">"
             ]
         }
     },
@@ -11614,7 +11825,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -11689,11 +11901,13 @@
         "thermodynamics": {
             "Group contribution": [
                 5.25,
-                12.45
+                12.45,
+                "="
             ],
             "eQuilibrator": [
                 5.66,
-                0.74
+                0.74,
+                "="
             ]
         }
     },
@@ -11768,11 +11982,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -79.86,
-                5.96
+                5.96,
+                ">"
             ],
             "eQuilibrator": [
                 -87.15,
-                0.87
+                0.87,
+                ">"
             ]
         }
     },
@@ -11845,11 +12061,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -6.82,
-                0.6
+                0.6,
+                "="
             ]
         }
     },
@@ -11931,7 +12149,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -12016,11 +12235,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -17.54,
-                6.63
+                6.63,
+                "="
             ],
             "eQuilibrator": [
                 -13.27,
-                0.43
+                0.43,
+                "="
             ]
         }
     },
@@ -12095,7 +12316,8 @@
         "thermodynamics": {
             "Group contribution": [
                 -62.32,
-                5.99
+                5.99,
+                ">"
             ]
         }
     },
@@ -12175,11 +12397,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -4.81,
-                3.95
+                3.95,
+                "="
             ],
             "eQuilibrator": [
                 -6.19,
-                0.6
+                0.6,
+                "="
             ]
         }
     },
@@ -12236,7 +12460,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -12312,15 +12537,18 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -10.26,
-                0.03
+                0.03,
+                ">"
             ],
             "eQuilibrator": [
                 29.42,
-                16900.26
+                16900.26,
+                "="
             ]
         }
     },
@@ -12403,7 +12631,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -12483,11 +12712,13 @@
         "thermodynamics": {
             "Group contribution": [
                 6.22,
-                6.2
+                6.2,
+                "="
             ],
             "eQuilibrator": [
                 3.05,
-                0.44
+                0.44,
+                "="
             ]
         }
     },
@@ -12578,11 +12809,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -118.58,
-                11.79
+                11.79,
+                ">"
             ],
             "eQuilibrator": [
                 -118.19,
-                0.76
+                0.76,
+                ">"
             ]
         }
     },
@@ -12666,11 +12899,13 @@
         "thermodynamics": {
             "Group contribution": [
                 3.76,
-                6.14
+                6.14,
+                "="
             ],
             "eQuilibrator": [
                 4.34,
-                0.33
+                0.33,
+                "="
             ]
         }
     },
@@ -12743,7 +12978,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -12840,7 +13076,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -12926,11 +13163,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 4.97,
-                0.19
+                0.19,
+                "="
             ]
         }
     },
@@ -13067,7 +13306,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -13128,11 +13368,13 @@
         "thermodynamics": {
             "Group contribution": [
                 1.42,
-                1.52
+                1.52,
+                "="
             ],
             "eQuilibrator": [
                 1.56,
-                0.16
+                0.16,
+                "="
             ]
         }
     },
@@ -13230,11 +13472,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.88,
-                6.66
+                6.66,
+                "="
             ],
             "eQuilibrator": [
                 -1.75,
-                0.35
+                0.35,
+                "="
             ]
         }
     },
@@ -13299,7 +13543,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -13378,7 +13623,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -13451,7 +13697,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -13560,11 +13807,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -189.98,
-                12.81
+                12.81,
+                ">"
             ],
             "eQuilibrator": [
                 -235.94,
-                27863.96
+                27863.96,
+                ">"
             ]
         }
     },
@@ -13644,7 +13893,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -13722,11 +13972,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -45.31,
-                3.93
+                3.93,
+                ">"
             ],
             "eQuilibrator": [
                 -89.93,
-                25051.08
+                25051.08,
+                ">"
             ]
         }
     },
@@ -13824,11 +14076,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -96.19,
-                11.47
+                11.47,
+                ">"
             ],
             "eQuilibrator": [
                 -97.2,
-                0.8
+                0.8,
+                ">"
             ]
         }
     },
@@ -13934,11 +14188,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -189.98,
-                12.73
+                12.73,
+                ">"
             ],
             "eQuilibrator": [
                 -233.56,
-                27863.96
+                27863.96,
+                ">"
             ]
         }
     },
@@ -14027,7 +14283,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -14102,11 +14359,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -7.3,
-                0.97
+                0.97,
+                ">"
             ],
             "eQuilibrator": [
                 -7.32,
-                1.0
+                1.0,
+                ">"
             ]
         }
     },
@@ -14171,7 +14430,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -14237,11 +14497,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -3.68,
-                1.78
+                1.78,
+                "="
             ],
             "eQuilibrator": [
                 -3.19,
-                0.58
+                0.58,
+                ">"
             ]
         }
     },
@@ -14335,11 +14597,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -81.97,
-                1.84
+                1.84,
+                ">"
             ]
         }
     },
@@ -14410,7 +14674,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -14489,11 +14754,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -11.67,
-                1.31
+                1.31,
+                ">"
             ],
             "eQuilibrator": [
                 -15.12,
-                0.75
+                0.75,
+                ">"
             ]
         }
     },
@@ -14581,7 +14848,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -14663,11 +14931,13 @@
         "thermodynamics": {
             "Group contribution": [
                 0.75,
-                11.46
+                11.46,
+                "="
             ],
             "eQuilibrator": [
                 -0.28,
-                0.37
+                0.37,
+                "="
             ]
         }
     },
@@ -14741,7 +15011,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -14823,11 +15094,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.3,
-                11.85
+                11.85,
+                "="
             ],
             "eQuilibrator": [
                 0.28,
-                0.38
+                0.38,
+                "="
             ]
         }
     },
@@ -14909,11 +15182,13 @@
         "thermodynamics": {
             "Group contribution": [
                 3.76,
-                11.85
+                11.85,
+                "="
             ],
             "eQuilibrator": [
                 4.44,
-                0.24
+                0.24,
+                "="
             ]
         }
     },
@@ -15012,7 +15287,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -15094,11 +15370,13 @@
         "thermodynamics": {
             "Group contribution": [
                 3.76,
-                11.85
+                11.85,
+                "="
             ],
             "eQuilibrator": [
                 4.44,
-                0.24
+                0.24,
+                "="
             ]
         }
     },
@@ -15180,11 +15458,13 @@
         "thermodynamics": {
             "Group contribution": [
                 16.31,
-                9.81
+                9.81,
+                "="
             ],
             "eQuilibrator": [
                 -38.12,
-                16900.26
+                16900.26,
+                "="
             ]
         }
     },
@@ -15257,11 +15537,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -0.87,
-                0.29
+                0.29,
+                "="
             ]
         }
     },
@@ -15339,11 +15621,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -11.67,
-                1.34
+                1.34,
+                ">"
             ],
             "eQuilibrator": [
                 -15.12,
-                0.75
+                0.75,
+                ">"
             ]
         }
     },
@@ -15439,11 +15723,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -8.92,
-                5.11
+                5.11,
+                ">"
             ],
             "eQuilibrator": [
                 -5.96,
-                0.32
+                0.32,
+                ">"
             ]
         }
     },
@@ -15514,11 +15800,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -58.4,
-                1.5
+                1.5,
+                ">"
             ],
             "eQuilibrator": [
                 -40.49,
-                2.14
+                2.14,
+                ">"
             ]
         }
     },
@@ -15590,11 +15878,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -2.28,
-                0.37
+                0.37,
+                "="
             ]
         }
     },
@@ -15694,11 +15984,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -95.83,
-                7.1
+                7.1,
+                ">"
             ],
             "eQuilibrator": [
                 -105.97,
-                0.91
+                0.91,
+                ">"
             ]
         }
     },
@@ -15788,7 +16080,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -15844,11 +16137,13 @@
         "thermodynamics": {
             "Group contribution": [
                 1.62,
-                1.18
+                1.18,
+                "="
             ],
             "eQuilibrator": [
                 19.52,
-                0.97
+                0.97,
+                "<"
             ]
         }
     },
@@ -15925,11 +16220,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -3.13,
-                0.16
+                0.16,
+                "="
             ]
         }
     },
@@ -15993,11 +16290,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -16.56,
-                2.13
+                2.13,
+                ">"
             ],
             "eQuilibrator": [
                 -15.34,
-                1.27
+                1.27,
+                ">"
             ]
         }
     },
@@ -16071,7 +16370,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -16157,11 +16457,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -4.36,
-                5.72
+                5.72,
+                "="
             ],
             "eQuilibrator": [
                 -1.83,
-                23900.57
+                23900.57,
+                "="
             ]
         }
     },
@@ -16246,11 +16548,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -7.19,
-                0.29
+                0.29,
+                ">"
             ]
         }
     },
@@ -16335,11 +16639,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "eQuilibrator": [
                 3.95,
-                23900.57
+                23900.57,
+                "="
             ]
         }
     },
@@ -16412,7 +16718,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -16529,11 +16836,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "eQuilibrator": [
                 -46.0,
-                7.5
+                7.5,
+                ">"
             ]
         }
     },
@@ -16622,7 +16931,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -16705,7 +17015,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -16790,11 +17101,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -4.36,
-                5.18
+                5.18,
+                "="
             ],
             "eQuilibrator": [
                 -1.84,
-                23900.57
+                23900.57,
+                "="
             ]
         }
     },
@@ -16874,11 +17187,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 2.42,
-                1.0
+                1.0,
+                "="
             ]
         }
     },
@@ -16952,7 +17267,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -17032,7 +17348,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -17094,7 +17411,8 @@
         "thermodynamics": {
             "Group contribution": [
                 0.0,
-                4.06
+                4.06,
+                "="
             ]
         }
     },
@@ -17159,7 +17477,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -17254,11 +17573,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -8.92,
-                5.14
+                5.14,
+                ">"
             ],
             "eQuilibrator": [
                 -5.96,
-                0.32
+                0.32,
+                ">"
             ]
         }
     },
@@ -17336,11 +17657,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -1.7,
-                5.58
+                5.58,
+                "="
             ],
             "eQuilibrator": [
                 -3.77,
-                0.51
+                0.51,
+                "="
             ]
         }
     },
@@ -17421,7 +17744,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -17522,7 +17846,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -17625,11 +17950,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -189.98,
-                12.77
+                12.77,
+                ">"
             ],
             "eQuilibrator": [
                 -237.58,
-                27863.96
+                27863.96,
+                ">"
             ]
         }
     },
@@ -17684,7 +18011,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -17758,11 +18086,13 @@
         "thermodynamics": {
             "Group contribution": [
                 0.0,
-                6.01
+                6.01,
+                "="
             ],
             "eQuilibrator": [
                 -2.55,
-                0.35
+                0.35,
+                "="
             ]
         }
     },
@@ -17864,11 +18194,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -21.55,
-                12.13
+                12.13,
+                "="
             ],
             "eQuilibrator": [
                 -2.62,
-                0.35
+                0.35,
+                "="
             ]
         }
     },
@@ -17947,11 +18279,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 2.38,
-                0.53
+                0.53,
+                "="
             ]
         }
     },
@@ -18036,11 +18370,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -14.03,
-                10.68
+                10.68,
+                "="
             ],
             "eQuilibrator": [
                 -58.09,
-                16900.26
+                16900.26,
+                "="
             ]
         }
     },
@@ -18119,11 +18455,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -13.83,
-                2.46
+                2.46,
+                ">"
             ],
             "eQuilibrator": [
                 -6.17,
-                0.87
+                0.87,
+                ">"
             ]
         }
     },
@@ -18203,7 +18541,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -18285,11 +18624,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -4.36,
-                6.31
+                6.31,
+                "="
             ],
             "eQuilibrator": [
                 -1.83,
-                23900.57
+                23900.57,
+                "="
             ]
         }
     },
@@ -18363,7 +18704,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -18445,7 +18787,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -18519,7 +18862,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -18574,7 +18918,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -18658,11 +19003,13 @@
         "thermodynamics": {
             "Group contribution": [
                 7.34,
-                12.27
+                12.27,
+                "="
             ],
             "eQuilibrator": [
                 9.78,
-                0.5
+                0.5,
+                "="
             ]
         }
     },
@@ -18741,11 +19088,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -79.74,
-                12.18
+                12.18,
+                ">"
             ],
             "eQuilibrator": [
                 -82.35,
-                3.41
+                3.41,
+                ">"
             ]
         }
     },
@@ -18828,11 +19177,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 4.17,
-                0.44
+                0.44,
+                "="
             ]
         }
     },
@@ -18916,11 +19267,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -4.36,
-                6.01
+                6.01,
+                "="
             ],
             "eQuilibrator": [
                 -1.8,
-                23900.57
+                23900.57,
+                "="
             ]
         }
     },
@@ -18993,7 +19346,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -19083,7 +19437,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -19169,11 +19524,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -5.29,
-                11.38
+                11.38,
+                ">"
             ],
             "eQuilibrator": [
                 -6.64,
-                0.45
+                0.45,
+                ">"
             ]
         }
     },
@@ -19246,7 +19603,8 @@
         "thermodynamics": {
             "Group contribution": [
                 -8.8,
-                1.91
+                1.91,
+                "="
             ]
         }
     },
@@ -19311,7 +19669,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -19375,7 +19734,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -19465,7 +19825,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -19552,11 +19913,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -33.47,
-                2.05
+                2.05,
+                ">"
             ],
             "eQuilibrator": [
                 -37.17,
-                1.61
+                1.61,
+                ">"
             ]
         }
     },
@@ -19621,7 +19984,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -19678,7 +20042,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -19777,11 +20142,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -222.14,
-                15.66
+                15.66,
+                ">"
             ],
             "eQuilibrator": [
                 -222.82,
-                1.53
+                1.53,
+                ">"
             ]
         }
     },
@@ -19890,11 +20257,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -189.98,
-                12.8
+                12.8,
+                ">"
             ],
             "eQuilibrator": [
                 -235.94,
-                27863.96
+                27863.96,
+                ">"
             ]
         }
     },
@@ -19976,11 +20345,13 @@
         "thermodynamics": {
             "Group contribution": [
                 16.31,
-                9.78
+                9.78,
+                "="
             ],
             "eQuilibrator": [
                 -38.12,
-                16900.26
+                16900.26,
+                "="
             ]
         }
     },
@@ -20066,11 +20437,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 4.39,
-                0.19
+                0.19,
+                "="
             ]
         }
     },
@@ -20135,7 +20508,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -20206,7 +20580,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -20279,11 +20654,13 @@
         "thermodynamics": {
             "Group contribution": [
                 7.06,
-                4.96
+                4.96,
+                "="
             ],
             "eQuilibrator": [
                 7.76,
-                0.89
+                0.89,
+                "="
             ]
         }
     },
@@ -20378,11 +20755,13 @@
         "thermodynamics": {
             "Group contribution": [
                 2.16,
-                7.24
+                7.24,
+                "="
             ],
             "eQuilibrator": [
                 3.17,
-                0.82
+                0.82,
+                "="
             ]
         }
     },
@@ -20460,11 +20839,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -11.67,
-                1.51
+                1.51,
+                ">"
             ],
             "eQuilibrator": [
                 -15.12,
-                0.75
+                0.75,
+                ">"
             ]
         }
     },
@@ -20541,11 +20922,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -6.64,
-                0.97
+                0.97,
+                ">"
             ],
             "eQuilibrator": [
                 -5.49,
-                0.44
+                0.44,
+                ">"
             ]
         }
     },
@@ -20620,11 +21003,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -0.47,
-                1.04
+                1.04,
+                "="
             ],
             "eQuilibrator": [
                 6.18,
-                1.16
+                1.16,
+                "="
             ]
         }
     },
@@ -20711,7 +21096,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -20772,11 +21158,13 @@
         "thermodynamics": {
             "Group contribution": [
                 1.42,
-                1.27
+                1.27,
+                "="
             ],
             "eQuilibrator": [
                 1.56,
-                0.16
+                0.16,
+                "="
             ]
         }
     },
@@ -20855,11 +21243,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -1.7,
-                4.59
+                4.59,
+                "="
             ],
             "eQuilibrator": [
                 -13.2,
-                1.07
+                1.07,
+                ">"
             ]
         }
     },
@@ -20959,11 +21349,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -101.43,
-                0.47
+                0.47,
+                ">"
             ]
         }
     },
@@ -21020,7 +21412,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -21085,7 +21478,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -21160,11 +21554,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -1.7,
-                12.03
+                12.03,
+                "="
             ],
             "eQuilibrator": [
                 -3.91,
-                0.53
+                0.53,
+                "="
             ]
         }
     },
@@ -21254,7 +21650,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -21341,11 +21738,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -62.08,
-                6.61
+                6.61,
+                ">"
             ],
             "eQuilibrator": [
                 -44.86,
-                23900.57
+                23900.57,
+                ">"
             ]
         }
     },
@@ -21416,7 +21815,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -21497,11 +21897,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -16.31,
-                1.05
+                1.05,
+                ">"
             ],
             "eQuilibrator": [
                 39.44,
-                16900.26
+                16900.26,
+                "="
             ]
         }
     },
@@ -21588,11 +21990,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -4.36,
-                6.01
+                6.01,
+                "="
             ],
             "eQuilibrator": [
                 -1.8,
-                23900.57
+                23900.57,
+                "="
             ]
         }
     },
@@ -21698,11 +22102,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -91.1,
-                7.81
+                7.81,
+                ">"
             ],
             "eQuilibrator": [
                 -104.63,
-                1.45
+                1.45,
+                ">"
             ]
         }
     },
@@ -21777,11 +22183,13 @@
         "thermodynamics": {
             "Group contribution": [
                 7.22,
-                0.92
+                0.92,
+                "="
             ],
             "eQuilibrator": [
                 -4.59,
-                0.57
+                0.57,
+                ">"
             ]
         }
     },
@@ -21866,11 +22274,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -17.54,
-                6.36
+                6.36,
+                "="
             ],
             "eQuilibrator": [
                 -13.27,
-                0.43
+                0.43,
+                "="
             ]
         }
     },
@@ -21954,11 +22364,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.3,
-                7.37
+                7.37,
+                "="
             ],
             "eQuilibrator": [
                 0.28,
-                0.37
+                0.37,
+                "="
             ]
         }
     },
@@ -22036,11 +22448,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -0.73,
-                4.25
+                4.25,
+                "="
             ],
             "eQuilibrator": [
                 -3.7,
-                0.77
+                0.77,
+                "="
             ]
         }
     },
@@ -22126,11 +22540,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -26.44,
-                3.38
+                3.38,
+                ">"
             ],
             "eQuilibrator": [
                 -18.52,
-                0.78
+                0.78,
+                ">"
             ]
         }
     },
@@ -22198,7 +22614,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -22312,11 +22729,13 @@
         "thermodynamics": {
             "Group contribution": [
                 2.3,
-                6.3
+                6.3,
+                "="
             ],
             "eQuilibrator": [
                 -0.28,
-                0.37
+                0.37,
+                "="
             ]
         }
     },
@@ -22388,7 +22807,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -22497,15 +22917,18 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -112.7,
-                0.7
+                0.7,
+                ">"
             ],
             "eQuilibrator": [
                 -98.69,
-                23900.57
+                23900.57,
+                "="
             ]
         }
     },
@@ -22590,11 +23013,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -1.74,
-                0.84
+                0.84,
+                "="
             ]
         }
     },
@@ -22680,11 +23105,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -6.33,
-                6.26
+                6.26,
+                "="
             ],
             "eQuilibrator": [
                 10.79,
-                1.4
+                1.4,
+                "<"
             ]
         }
     },
@@ -22757,7 +23184,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -22864,11 +23292,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -91.1,
-                7.88
+                7.88,
+                ">"
             ],
             "eQuilibrator": [
                 -104.62,
-                1.45
+                1.45,
+                ">"
             ]
         }
     },
@@ -22927,7 +23357,8 @@
         "thermodynamics": {
             "Group contribution": [
                 0.0,
-                11.44
+                11.44,
+                "="
             ]
         }
     },
@@ -23007,11 +23438,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -2.67,
-                0.23
+                0.23,
+                "="
             ]
         }
     },
@@ -23094,11 +23527,13 @@
         "thermodynamics": {
             "Group contribution": [
                 2.3,
-                11.41
+                11.41,
+                "="
             ],
             "eQuilibrator": [
                 -0.28,
-                0.38
+                0.38,
+                "="
             ]
         }
     },
@@ -23175,7 +23610,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -23236,11 +23672,13 @@
         "thermodynamics": {
             "Group contribution": [
                 1.42,
-                1.38
+                1.38,
+                "="
             ],
             "eQuilibrator": [
                 1.56,
-                0.16
+                0.16,
+                "="
             ]
         }
     },
@@ -23321,11 +23759,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -6.97,
-                0.35
+                0.35,
+                ">"
             ]
         }
     },
@@ -23398,7 +23838,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -23479,7 +23920,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -23553,11 +23995,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -91.4,
-                3.31
+                3.31,
+                ">"
             ],
             "eQuilibrator": [
                 -95.84,
-                1.17
+                1.17,
+                ">"
             ]
         }
     },
@@ -23623,7 +24067,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -23717,7 +24162,8 @@
         "thermodynamics": {
             "Group contribution": [
                 5.37,
-                9.14
+                9.14,
+                "="
             ]
         }
     },
@@ -23826,11 +24272,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -189.98,
-                12.78
+                12.78,
+                ">"
             ],
             "eQuilibrator": [
                 -235.94,
-                27863.96
+                27863.96,
+                ">"
             ]
         }
     },
@@ -23908,11 +24356,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -27.33,
-                2.18
+                2.18,
+                ">"
             ],
             "eQuilibrator": [
                 -35.79,
-                1.96
+                1.96,
+                ">"
             ]
         }
     },
@@ -23988,11 +24438,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "eQuilibrator": [
                 1.24,
-                0.54
+                0.54,
+                "="
             ]
         }
     },
@@ -24075,11 +24527,13 @@
         "thermodynamics": {
             "Group contribution": [
                 12.54,
-                2.75
+                2.75,
+                "<"
             ],
             "eQuilibrator": [
                 2.61,
-                1.48
+                1.48,
+                "<"
             ]
         }
     },
@@ -24168,7 +24622,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -24242,7 +24697,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -24325,11 +24781,13 @@
         "thermodynamics": {
             "Group contribution": [
                 13.57,
-                11.65
+                11.65,
+                "="
             ],
             "eQuilibrator": [
                 4.12,
-                1.92
+                1.92,
+                "="
             ]
         }
     },
@@ -24423,11 +24881,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -69.88,
-                9.77
+                9.77,
+                ">"
             ],
             "eQuilibrator": [
                 -94.26,
-                25051.08
+                25051.08,
+                "="
             ]
         }
     },
@@ -24492,7 +24952,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -24571,11 +25032,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -13.17,
-                2.49
+                2.49,
+                ">"
             ],
             "eQuilibrator": [
                 -6.77,
-                0.68
+                0.68,
+                ">"
             ]
         }
     },
@@ -24633,11 +25096,13 @@
         "thermodynamics": {
             "Group contribution": [
                 0.0,
-                3.92
+                3.92,
+                "="
             ],
             "eQuilibrator": [
                 -0.0,
-                0.0
+                0.0,
+                "="
             ]
         }
     },
@@ -24738,11 +25203,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -21.55,
-                12.11
+                12.11,
+                "="
             ],
             "eQuilibrator": [
                 -2.62,
-                0.35
+                0.35,
+                "="
             ]
         }
     },
@@ -24825,7 +25292,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -24898,7 +25366,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -24973,7 +25442,8 @@
         "thermodynamics": {
             "Group contribution": [
                 -7.78,
-                2.81
+                2.81,
+                "="
             ]
         }
     },
@@ -25045,7 +25515,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -25119,11 +25590,13 @@
         "thermodynamics": {
             "Group contribution": [
                 0.0,
-                2.49
+                2.49,
+                "="
             ],
             "eQuilibrator": [
                 8.39,
-                1.92
+                1.92,
+                "="
             ]
         }
     },
@@ -25203,11 +25676,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -6.22,
-                6.2
+                6.2,
+                "="
             ],
             "eQuilibrator": [
                 -4.44,
-                0.24
+                0.24,
+                "="
             ]
         }
     },
@@ -25305,11 +25780,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -96.19,
-                11.49
+                11.49,
+                ">"
             ],
             "eQuilibrator": [
                 -97.2,
-                0.8
+                0.8,
+                ">"
             ]
         }
     },
@@ -25386,11 +25863,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -93.85,
-                0.32
+                0.32,
+                ">"
             ]
         }
     },
@@ -25499,11 +25978,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -189.98,
-                12.79
+                12.79,
+                ">"
             ],
             "eQuilibrator": [
                 -235.94,
-                27863.96
+                27863.96,
+                ">"
             ]
         }
     },
@@ -25571,7 +26052,8 @@
         "thermodynamics": {
             "Group contribution": [
                 -28.51,
-                2.28
+                2.28,
+                ">"
             ]
         }
     },
@@ -25658,11 +26140,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -3.67,
-                6.0
+                6.0,
+                "="
             ],
             "eQuilibrator": [
                 -8.85,
-                0.79
+                0.79,
+                ">"
             ]
         }
     },
@@ -25757,11 +26241,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -8.92,
-                5.13
+                5.13,
+                ">"
             ],
             "eQuilibrator": [
                 -5.96,
-                0.32
+                0.32,
+                ">"
             ]
         }
     },
@@ -25850,7 +26336,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -25923,11 +26410,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -0.28,
-                0.35
+                0.35,
+                "="
             ]
         }
     },
@@ -25988,11 +26477,13 @@
         "thermodynamics": {
             "Group contribution": [
                 0.0,
-                11.43
+                11.43,
+                "="
             ],
             "eQuilibrator": [
                 0.0,
-                0.0
+                0.0,
+                "="
             ]
         }
     },
@@ -26099,7 +26590,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -26150,7 +26642,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -26205,7 +26698,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -26293,11 +26787,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -109.26,
-                1.52
+                1.52,
+                ">"
             ],
             "eQuilibrator": [
                 -112.92,
-                1.45
+                1.45,
+                ">"
             ]
         }
     },
@@ -26386,7 +26882,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -26476,11 +26973,13 @@
         "thermodynamics": {
             "Group contribution": [
                 9.8,
-                7.9
+                7.9,
+                "="
             ],
             "eQuilibrator": [
                 10.17,
-                0.27
+                0.27,
+                "="
             ]
         }
     },
@@ -26562,11 +27061,13 @@
         "thermodynamics": {
             "Group contribution": [
                 0.75,
-                11.46
+                11.46,
+                "="
             ],
             "eQuilibrator": [
                 -0.28,
-                0.37
+                0.37,
+                "="
             ]
         }
     },
@@ -26647,7 +27148,8 @@
         "thermodynamics": {
             "Group contribution": [
                 -3.68,
-                2.32
+                2.32,
+                "="
             ]
         }
     },
@@ -26728,11 +27230,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -3.67,
-                7.22
+                7.22,
+                "="
             ],
             "eQuilibrator": [
                 -4.89,
-                0.25
+                0.25,
+                "="
             ]
         }
     },
@@ -26814,11 +27318,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -13.57,
-                11.65
+                11.65,
+                "="
             ],
             "eQuilibrator": [
                 -4.52,
-                1.9
+                1.9,
+                "="
             ]
         }
     },
@@ -26924,11 +27430,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -128.53,
-                2.38
+                2.38,
+                ">"
             ],
             "eQuilibrator": [
                 -117.23,
-                1.16
+                1.16,
+                ">"
             ]
         }
     },
@@ -27004,11 +27512,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "eQuilibrator": [
                 -3.92,
-                0.53
+                0.53,
+                "="
             ]
         }
     },
@@ -27144,11 +27654,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -3.35,
-                0.32
+                0.32,
+                "="
             ]
         }
     },
@@ -27246,11 +27758,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -96.19,
-                11.45
+                11.45,
+                ">"
             ],
             "eQuilibrator": [
                 -97.2,
-                0.8
+                0.8,
+                ">"
             ]
         }
     },
@@ -27324,7 +27838,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -27390,11 +27905,13 @@
         "thermodynamics": {
             "Group contribution": [
                 215.17,
-                3.43
+                3.43,
+                "<"
             ],
             "eQuilibrator": [
                 100.09,
-                0.25
+                0.25,
+                "<"
             ]
         }
     },
@@ -27469,11 +27986,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -81.31,
-                6.08
+                6.08,
+                ">"
             ],
             "eQuilibrator": [
                 -92.42,
-                1.81
+                1.81,
+                ">"
             ]
         }
     },
@@ -27578,11 +28097,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -91.1,
-                7.82
+                7.82,
+                ">"
             ],
             "eQuilibrator": [
                 -104.63,
-                1.45
+                1.45,
+                ">"
             ]
         }
     },
@@ -27658,11 +28179,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "eQuilibrator": [
                 1.24,
-                0.54
+                0.54,
+                "="
             ]
         }
     },
@@ -27747,11 +28270,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -22.53,
-                4.03
+                4.03,
+                ">"
             ],
             "eQuilibrator": [
                 -18.13,
-                0.71
+                0.71,
+                ">"
             ]
         }
     },
@@ -27836,11 +28361,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -22.53,
-                4.74
+                4.74,
+                ">"
             ],
             "eQuilibrator": [
                 -18.13,
-                0.71
+                0.71,
+                ">"
             ]
         }
     },
@@ -27916,11 +28443,13 @@
         "thermodynamics": {
             "Group contribution": [
                 0.0,
-                7.22
+                7.22,
+                "="
             ],
             "eQuilibrator": [
                 -0.41,
-                0.31
+                0.31,
+                "="
             ]
         }
     },
@@ -27999,11 +28528,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 1.01,
-                0.57
+                0.57,
+                "="
             ]
         }
     },
@@ -28079,15 +28610,18 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -22.57,
-                0.91
+                0.91,
+                ">"
             ],
             "eQuilibrator": [
                 -140.8,
-                28222.58
+                28222.58,
+                ">"
             ]
         }
     },
@@ -28167,7 +28701,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -28257,11 +28792,13 @@
         "thermodynamics": {
             "Group contribution": [
                 2.08,
-                5.66
+                5.66,
+                ">"
             ],
             "eQuilibrator": [
                 -15.39,
-                23900.57
+                23900.57,
+                ">"
             ]
         }
     },
@@ -28338,11 +28875,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 -109.01,
-                0.03
+                0.03,
+                ">"
             ]
         }
     },
@@ -28424,7 +28963,8 @@
         "thermodynamics": {
             "Group contribution": [
                 14.48,
-                4.36
+                4.36,
+                "<"
             ]
         }
     },
@@ -28485,11 +29025,13 @@
         "thermodynamics": {
             "Group contribution": [
                 0.0,
-                4.54
+                4.54,
+                "="
             ],
             "eQuilibrator": [
                 0.0,
-                0.0
+                0.0,
+                "="
             ]
         }
     },
@@ -28570,7 +29112,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -28655,11 +29198,13 @@
         "thermodynamics": {
             "Group contribution": [
                 5.75,
-                11.32
+                11.32,
+                "<"
             ],
             "eQuilibrator": [
                 5.81,
-                0.35
+                0.35,
+                "<"
             ]
         }
     },
@@ -28738,11 +29283,13 @@
         "thermodynamics": {
             "Group contribution": [
                 1.07,
-                6.57
+                6.57,
+                "="
             ],
             "eQuilibrator": [
                 -1.51,
-                0.4
+                0.4,
+                "="
             ]
         }
     },
@@ -28810,11 +29357,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -0.46,
-                2.71
+                2.71,
+                "="
             ],
             "eQuilibrator": [
                 0.36,
-                0.56
+                0.56,
+                "="
             ]
         }
     },
@@ -28909,11 +29458,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -8.92,
-                5.16
+                5.16,
+                ">"
             ],
             "eQuilibrator": [
                 -5.96,
-                0.32
+                0.32,
+                ">"
             ]
         }
     },
@@ -28994,7 +29545,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -29051,7 +29603,8 @@
         "thermodynamics": {
             "Group contribution": [
                 -699.08,
-                3.57
+                3.57,
+                ">"
             ]
         }
     },
@@ -29167,11 +29720,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "eQuilibrator": [
                 -33.6,
-                8.12
+                8.12,
+                ">"
             ]
         }
     },
@@ -29259,7 +29814,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -29363,7 +29919,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -29436,7 +29993,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -29541,11 +30099,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -91.1,
-                8.03
+                8.03,
+                ">"
             ],
             "eQuilibrator": [
                 -104.62,
-                1.45
+                1.45,
+                ">"
             ]
         }
     },
@@ -29618,7 +30178,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -29689,7 +30250,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -29762,11 +30324,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -1.7,
-                5.51
+                5.51,
+                "="
             ],
             "eQuilibrator": [
                 1.2,
-                1.06
+                1.06,
+                "="
             ]
         }
     },
@@ -29847,7 +30411,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -29914,11 +30479,13 @@
         "thermodynamics": {
             "Group contribution": [
                 5.47,
-                1.2
+                1.2,
+                "="
             ],
             "eQuilibrator": [
                 5.09,
-                0.69
+                0.69,
+                "="
             ]
         }
     },
@@ -29993,11 +30560,13 @@
         "thermodynamics": {
             "Group contribution": [
                 12.03,
-                5.07
+                5.07,
+                "="
             ],
             "eQuilibrator": [
                 -0.25,
-                0.79
+                0.79,
+                "="
             ]
         }
     },
@@ -30069,7 +30638,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -30155,11 +30725,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -14.03,
-                7.01
+                7.01,
+                ">"
             ],
             "eQuilibrator": [
                 -95.48,
-                29272.1
+                29272.1,
+                "="
             ]
         }
     },
@@ -30240,11 +30812,13 @@
         "thermodynamics": {
             "Group contribution": [
                 2.3,
-                6.3
+                6.3,
+                "="
             ],
             "eQuilibrator": [
                 -0.28,
-                0.37
+                0.37,
+                "="
             ]
         }
     },
@@ -30348,7 +30922,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -30429,7 +31004,8 @@
         "thermodynamics": {
             "Group contribution": [
                 -3.68,
-                2.32
+                2.32,
+                "="
             ]
         }
     },
@@ -30487,11 +31063,13 @@
         "thermodynamics": {
             "Group contribution": [
                 28.69,
-                3.95
+                3.95,
+                "<"
             ],
             "eQuilibrator": [
                 70.98,
-                0.52
+                0.52,
+                "<"
             ]
         }
     },
@@ -30564,7 +31142,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -30678,11 +31257,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -6.81,
-                12.46
+                12.46,
+                ">"
             ],
             "eQuilibrator": [
                 -5.36,
-                0.58
+                0.58,
+                ">"
             ]
         }
     },
@@ -30747,7 +31328,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -30811,11 +31393,13 @@
         "thermodynamics": {
             "Group contribution": [
                 0.0,
-                4.26
+                4.26,
+                "="
             ],
             "eQuilibrator": [
                 0.0,
-                0.0
+                0.0,
+                "="
             ]
         }
     },
@@ -30914,11 +31498,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -222.14,
-                15.7
+                15.7,
+                ">"
             ],
             "eQuilibrator": [
                 -222.82,
-                1.53
+                1.53,
+                ">"
             ]
         }
     },
@@ -31003,11 +31589,13 @@
         "thermodynamics": {
             "Group contribution": [
                 0.55,
-                1.98
+                1.98,
+                ">"
             ],
             "eQuilibrator": [
                 -0.91,
-                1.08
+                1.08,
+                ">"
             ]
         }
     },
@@ -31072,7 +31660,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -31151,7 +31740,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -31233,11 +31823,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.3,
-                11.85
+                11.85,
+                "="
             ],
             "eQuilibrator": [
                 0.28,
-                0.38
+                0.38,
+                "="
             ]
         }
     },
@@ -31342,11 +31934,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -189.98,
-                12.73
+                12.73,
+                ">"
             ],
             "eQuilibrator": [
                 -234.26,
-                27863.96
+                27863.96,
+                ">"
             ]
         }
     },
@@ -31444,11 +32038,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -6.35,
-                6.81
+                6.81,
+                ">"
             ],
             "eQuilibrator": [
                 -4.87,
-                0.57
+                0.57,
+                ">"
             ]
         }
     },
@@ -31532,11 +32128,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.3,
-                7.36
+                7.36,
+                "="
             ],
             "eQuilibrator": [
                 0.28,
-                0.38
+                0.38,
+                "="
             ]
         }
     },
@@ -31618,11 +32216,13 @@
         "thermodynamics": {
             "Group contribution": [
                 13.57,
-                11.59
+                11.59,
+                "="
             ],
             "eQuilibrator": [
                 4.52,
-                1.9
+                1.9,
+                "="
             ]
         }
     },
@@ -31694,7 +32294,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -31768,7 +32369,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -31846,7 +32448,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -31919,7 +32522,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -31993,7 +32597,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -32090,7 +32695,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -32163,7 +32769,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -32245,11 +32852,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -4.36,
-                5.33
+                5.33,
+                "="
             ],
             "eQuilibrator": [
                 -1.83,
-                23900.57
+                23900.57,
+                "="
             ]
         }
     },
@@ -32322,7 +32931,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -32401,11 +33011,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -2.3,
-                7.21
+                7.21,
+                "="
             ],
             "eQuilibrator": [
                 0.28,
-                0.38
+                0.38,
+                "="
             ]
         }
     },
@@ -32494,7 +33106,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -32571,7 +33184,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -32642,7 +33256,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -32762,7 +33377,8 @@
         "thermodynamics": {
             "Group contribution": [
                 44.43,
-                1.91
+                1.91,
+                "<"
             ]
         }
     },
@@ -32852,7 +33468,8 @@
         "thermodynamics": {
             "Group contribution": [
                 82.17,
-                18.29
+                18.29,
+                "<"
             ]
         }
     },
@@ -32934,7 +33551,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -33008,11 +33626,13 @@
         "thermodynamics": {
             "Group contribution": [
                 -10.64,
-                1.47
+                1.47,
+                ">"
             ],
             "eQuilibrator": [
                 -10.55,
-                1.0
+                1.0,
+                ">"
             ]
         }
     },
@@ -33091,11 +33711,13 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ],
             "dGPredictor": [
                 1.0,
-                0.45
+                0.45,
+                "="
             ]
         }
     },
@@ -33167,7 +33789,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -33260,7 +33883,8 @@
         "thermodynamics": {
             "Group contribution": [
                 5.37,
-                9.14
+                9.14,
+                "="
             ]
         }
     },
@@ -33331,7 +33955,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -33402,7 +34027,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -33478,7 +34104,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -33554,7 +34181,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -33638,7 +34266,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -33720,7 +34349,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -33797,7 +34427,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -33882,7 +34513,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -33959,7 +34591,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -34036,7 +34669,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -34121,7 +34755,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -34198,7 +34833,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -34283,7 +34919,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -34360,7 +34997,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -34445,7 +35083,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -34530,7 +35169,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -34615,7 +35255,8 @@
         "thermodynamics": {
             "Group contribution": [
                 10000000.0,
-                10000000.0
+                10000000.0,
+                "?"
             ]
         }
     },
@@ -34682,11 +35323,13 @@
         "thermodynamics": {
             "Group contribution": [
                 14.8,
-                6.1
+                6.1,
+                "<"
             ],
             "eQuilibrator": [
                 15.26,
-                0.13
+                0.13,
+                "<"
             ]
         }
     },
@@ -34749,11 +35392,13 @@
         "thermodynamics": {
             "Group contribution": [
                 14.8,
-                6.09
+                6.09,
+                "<"
             ],
             "eQuilibrator": [
                 15.26,
-                0.14
+                0.14,
+                "<"
             ]
         }
     }

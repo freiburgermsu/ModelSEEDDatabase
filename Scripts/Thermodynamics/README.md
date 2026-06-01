@@ -13,7 +13,32 @@ href="https://www.biorxiv.org/content/10.1101/2020.03.31.018663v2">paper</a>.
 
 The general order is that the energies from the application of the Group Contribution (GC) approach
 are stored in the database first, and then the energies from eQuilibrator (EQ), which, in most
-cases, take precedence, are used to overwrite the energies in the database
+cases, take precedence.
+
+### Additive per-method thermodynamics
+
+Each reaction now keeps every method's estimate **additively** in its
+`thermodynamics` dict rather than collapsing them into a single overwritten
+value. Each method holds an `[energy, error, operator]` triple, where the
+operator (`>`, `<`, `=`, or `?`) is that estimate's own thermodynamic direction
+— computed with the same heuristic as the canonical reversibility, but applied
+to that method's own dG:
+
+```json
+"thermodynamics": {
+    "Group contribution": [4.15, 1.22, "="],
+    "eQuilibrator":       [-3.46, 0.05, ">"],
+    "dGPredictor":        [-1.20, 0.30, ">"]
+}
+```
+
+These per-method records sit **next to**, and never replace, the canonical
+top-level `deltag` / `deltagerr` / `reversibility` fields. The shared heuristic
+lives in `Estimate_Reaction_Reversibility.py` (`reversibility_from_energy`); the
+`Update_Reaction_*_Energies.py` scripts attach the operator when they write each
+method, and `Add_Reaction_Thermodynamics_Operators.py` can (re)generate the
+operators for all stored energies at any time without needing the upstream
+GC / eQuilibrator / dGPredictor inputs.
 
 The underlying thermodynamics data is kept in
 `../../Biochemistry/Thermodynamics`. The decomposition of molecular
@@ -39,6 +64,10 @@ then running these six commands should not cause any changes to appear in the da
 ./Update_Compound_eQuilibrator_Energies.py
 ./Update_Reaction_eQuilibrator_Energies.py
 ./Estimate_Reaction_Reversibility.py EQ
+# Gap-fill reactions with no GC/eQ estimate using staged dGPredictor predictions
+./Update_Reaction_dGPredictor_Energies.py
+# Backfill/refresh the per-method [energy, error, operator] triples
+./Add_Reaction_Thermodynamics_Operators.py
 ```
 
 These easily run together by running:

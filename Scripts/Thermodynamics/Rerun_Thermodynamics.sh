@@ -7,3 +7,5 @@
 ./Estimate_Reaction_Reversibility.py EQ
 # Gap-fill reactions with no GC/eQ estimate using staged dGPredictor predictions
 ./Update_Reaction_dGPredictor_Energies.py
+# Backfill/refresh the per-method [energy, error, operator] thermodynamics triples
+./Add_Reaction_Thermodynamics_Operators.py

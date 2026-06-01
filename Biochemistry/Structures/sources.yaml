@@ -156,3 +156,17 @@ sources:
 #     Scripts/Thermodynamics/Update_Reaction_dGPredictor_Energies.py, which
 #     GAP-FILLS deltag (kJ->kcal /4.184) only for reactions lacking a
 #     Group-Contribution / eQuilibrator estimate, tagging them 'DGP' in notes.
+#
+# Per-method reaction thermodynamics are recorded ADDITIVELY (next to, never in
+# place of, the canonical top-level deltag/deltagerr/reversibility) under each
+# reaction's `thermodynamics` dict. Every method keeps its own
+# [energy, error, operator] triple, where the operator ('>', '<', '=' or '?')
+# is that estimate's own thermodynamic direction, computed with the same
+# heuristic as the canonical reversibility applied to that method's dG, e.g.:
+#   "thermodynamics": {
+#       "Group contribution": [4.15, 1.22, "="],
+#       "eQuilibrator":       [-3.46, 0.05, ">"],
+#       "dGPredictor":        [-1.20, 0.30, ">"]
+#   }
+# The operators are (re)generated from the stored energies by
+# Scripts/Thermodynamics/Add_Reaction_Thermodynamics_Operators.py.
