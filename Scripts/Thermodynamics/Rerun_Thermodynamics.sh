@@ -5,7 +5,8 @@
 ./Update_Compound_eQuilibrator_Energies.py
 ./Update_Reaction_eQuilibrator_Energies.py
 ./Estimate_Reaction_Reversibility.py EQ
-# Gap-fill reactions with no GC/eQ estimate using staged dGPredictor predictions
+# Record dGPredictor additively for every predicted reaction; gap-fill canonical
+# deltag only where no GC/eQ estimate exists
 ./Update_Reaction_dGPredictor_Energies.py
 # Backfill/refresh the per-method [energy, error, operator] thermodynamics triples
 ./Add_Reaction_Thermodynamics_Operators.py

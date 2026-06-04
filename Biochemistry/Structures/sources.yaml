@@ -154,8 +154,10 @@ sources:
 #   dGPredictor/json_files/reaction_NN_dG.json  (Wang et al. 2021; kJ/mol)
 #     Reaction-level dG predictions. Consumed by
 #     Scripts/Thermodynamics/Update_Reaction_dGPredictor_Energies.py, which
-#     GAP-FILLS deltag (kJ->kcal /4.184) only for reactions lacking a
-#     Group-Contribution / eQuilibrator estimate, tagging them 'DGP' in notes.
+#     (kJ->kcal /4.184) stores a dGPredictor record ADDITIVELY for every
+#     reaction it predicts, and additionally GAP-FILLS the canonical top-level
+#     deltag only for reactions lacking a Group-Contribution / eQuilibrator
+#     estimate, tagging those 'DGP' in notes.
 #
 # Per-method reaction thermodynamics are recorded ADDITIVELY (next to, never in
 # place of, the canonical top-level deltag/deltagerr/reversibility) under each
@@ -166,7 +168,25 @@ sources:
 #   "thermodynamics": {
 #       "Group contribution": [4.15, 1.22, "="],
 #       "eQuilibrator":       [-3.46, 0.05, ">"],
-#       "dGPredictor":        [-1.20, 0.30, ">"]
+#       "dGPredictor":        [-3.82, 0.02, ">"]
 #   }
-# The operators are (re)generated from the stored energies by
+# All three methods are recorded wherever each has a value; dGPredictor is no
+# longer restricted to gap-fill reactions. The operators are (re)generated from
+# the stored energies by
 # Scripts/Thermodynamics/Add_Reaction_Thermodynamics_Operators.py.
+#
+# Per-tool compound pKas are likewise recorded ADDITIVELY under each compound's
+# `pkas` dict, next to (never in place of) the served pka/pkb fields. Each tool
+# keeps its own pKa/pKb in the same <microstate>:<atom>:<value> encoding, keyed
+# by the predicting tool -- Marvin (the cascade-winning per-database Marvin
+# value) and MolGpKa (the OPAM2/MolGpKa prediction; this is the tool whose
+# file is ModelSEED/pkas/opam2_molgpka.tsv), e.g.:
+#   "pkas": {
+#       "Marvin":  {"pKa": "1:14:12.60;1:22:3.33;...",
+#                   "pKb": "1:9:-3.03;1:14:-3.85;..."},
+#       "MolGpKa": {"pKa": "1:14:10.12;1:29:0.98;...",
+#                   "pKb": "1:6:3.66;1:9:3.42;..."}
+#   }
+# The served pka/pkb remain the picked value (MolGpKa overriding Marvin where
+# present). The dict is (re)built by
+# Scripts/Structures/Add_Compound_pKa_Sources.py (cascade stage AddPkaSources).

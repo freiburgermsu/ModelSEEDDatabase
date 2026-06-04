@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+#
+# Picks the single served pka/pkb per compound (MolGpKa overriding Marvin where
+# present). The companion script Add_Compound_pKa_Sources.py then records each
+# tool's pKa/pKb ADDITIVELY in a per-compound `pkas` dict, next to these served
+# values; the cascade runs it as the AddPkaSources stage right after this one.
 import os,sys
 sys.path.append('../../Libs/Python')
 from BiochemPy import Compounds

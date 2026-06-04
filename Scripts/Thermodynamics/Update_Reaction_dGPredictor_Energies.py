@@ -9,14 +9,21 @@ from Estimate_Reaction_Reversibility import reversibility_from_energy
 # raw JSON in Biochemistry/Thermodynamics/dGPredictor/json_files/, keyed
 # ModelSEED-rxn -> KEGG-R-id -> {dG_mean, dG_uncer}.
 #
-# This script GAP-FILLS only: it writes a dGPredictor energy into the deltag /
-# deltagerr columns for reactions that currently have NO Group-Contribution /
-# eQuilibrator estimate (deltag == sentinel 10000000), leaving the
-# well-validated GC/eQ values untouched. Filled reactions are tagged 'DGP' in
-# notes (the reaction-level provenance mechanism) and recorded ADDITIVELY in
-# the JSON thermodynamics dict under 'dGPredictor' as
-# [energy, error, operator], where the operator is this estimate's own
-# thermodynamic direction.
+# This script does two independent things:
+#
+#  1. ADDITIVE record (every predicted reaction): it stores the dGPredictor
+#     estimate in the JSON thermodynamics dict under 'dGPredictor' as
+#     [energy, error, operator] for EVERY reaction dGPredictor predicts,
+#     sitting next to the Group-Contribution / eQuilibrator records rather than
+#     replacing them. The operator is this estimate's own thermodynamic
+#     direction.
+#
+#  2. CANONICAL gap-fill (only where needed): it additionally writes the
+#     dGPredictor energy into the top-level deltag / deltagerr columns ONLY for
+#     reactions that currently have NO Group-Contribution / eQuilibrator
+#     estimate (deltag == sentinel 10000000), leaving the well-validated GC/eQ
+#     canonical values untouched. Gap-filled reactions are tagged 'DGP' in notes
+#     (the reaction-level provenance mechanism).
 
 KJ_PER_KCAL = 4.184
 SENTINEL = 10000000
@@ -47,6 +54,7 @@ for path in sorted(glob.glob(thermo_root+"reaction_*_dG.json")):
 reactions_helper = Reactions()
 reactions_dict = reactions_helper.loadReactions()
 
+stored=0
 filled=0
 for rxn in sorted(reactions_dict.keys()):
     robj = reactions_dict[rxn]
@@ -54,16 +62,27 @@ for rxn in sorted(reactions_dict.keys()):
     if(robj.get('status') == 'EMPTY'):
         continue
 
-    # gap-fill only: skip reactions that already carry a GC/eQ estimate
+    if(rxn not in dgp):
+        continue
+
+    (dg_kcal, err_kcal) = dgp[rxn]
+
+    # 1. ADDITIVE: record the dGPredictor estimate alongside any GC/eQ records,
+    #    as [energy, error, operator]. Done for every predicted reaction.
+    operator = reversibility_from_energy(robj, dg_kcal, err_kcal)
+    if(not isinstance(robj.get('thermodynamics'), dict)):
+        robj['thermodynamics'] = dict()
+    robj['thermodynamics'][label] = [dg_kcal, err_kcal, operator]
+    stored+=1
+
+    # 2. CANONICAL gap-fill: only set the top-level deltag/deltagerr (and tag
+    #    'DGP') when the reaction has NO GC/eQ estimate. GC/eQ canonical values
+    #    are left untouched.
     dg = robj.get('deltag')
     has_value = isinstance(dg,(int,float)) and abs(dg) < SENTINEL
     if(has_value):
         continue
 
-    if(rxn not in dgp):
-        continue
-
-    (dg_kcal, err_kcal) = dgp[rxn]
     robj['deltag'] = dg_kcal
     robj['deltagerr'] = err_kcal
 
@@ -74,14 +93,10 @@ for rxn in sorted(reactions_dict.keys()):
         notes.append('DGP')
     robj['notes'] = notes
 
-    operator = reversibility_from_energy(robj, dg_kcal, err_kcal)
-    if(not isinstance(robj.get('thermodynamics'), dict)):
-        robj['thermodynamics'] = dict()
-    robj['thermodynamics'][label] = [dg_kcal, err_kcal, operator]
-
     filled+=1
 
 print("dGPredictor reactions available: "+str(len(dgp)))
+print("dGPredictor records stored additively: "+str(stored))
 print("Gap-filled reactions (no prior GC/eQ deltag): "+str(filled))
 print("Saving reactions")
 reactions_helper.saveReactions(reactions_dict)

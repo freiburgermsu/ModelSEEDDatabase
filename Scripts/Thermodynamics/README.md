@@ -40,6 +40,12 @@ method, and `Add_Reaction_Thermodynamics_Operators.py` can (re)generate the
 operators for all stored energies at any time without needing the upstream
 GC / eQuilibrator / dGPredictor inputs.
 
+`dGPredictor` is recorded for **every** reaction it predicts, alongside any
+Group-Contribution / eQuilibrator records — it is no longer limited to
+gap-fill reactions. It still only gap-fills the *canonical* top-level `deltag`
+when no GC/eQ estimate exists (those reactions are tagged `DGP` in notes), so
+the well-validated GC/eQ canonical values are never overwritten.
+
 The underlying thermodynamics data is kept in
 `../../Biochemistry/Thermodynamics`. The decomposition of molecular
 structures and their resulting energies for both the older group
@@ -64,7 +70,8 @@ then running these six commands should not cause any changes to appear in the da
 ./Update_Compound_eQuilibrator_Energies.py
 ./Update_Reaction_eQuilibrator_Energies.py
 ./Estimate_Reaction_Reversibility.py EQ
-# Gap-fill reactions with no GC/eQ estimate using staged dGPredictor predictions
+# Record dGPredictor additively for every predicted reaction; gap-fill canonical
+# deltag only where no GC/eQ estimate exists
 ./Update_Reaction_dGPredictor_Energies.py
 # Backfill/refresh the per-method [energy, error, operator] triples
 ./Add_Reaction_Thermodynamics_Operators.py
