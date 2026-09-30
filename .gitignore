@@ -21,3 +21,7 @@ Biochemistry/Structures/ModelSEED/pkas/iupac_*.tsv
 # ..._open.tsv is committed. Regenerate both with
 # Scripts/Thermodynamics/ProtonationEvidence/build_ladder_table.py.
 Biochemistry/Thermodynamics/ProtonationEvidence/literature_ladders.tsv
+
+# macOS resource-fork and Finder files; swept in twice by directory-level git add
+._*
+.DS_Store
