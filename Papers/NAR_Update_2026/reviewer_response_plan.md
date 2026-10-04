@@ -49,14 +49,29 @@ The compound figure is the first row and is correct. The 55% is the third row:
 2026's totals set against a 2020 baseline with its 7,577 obsolete rows removed.
 It is not reproducible on any single consistent basis.
 
-**Fix: quote 28%.** That keeps the whole paper on one population — the
-abstract's "~56,000 reactions", Figure 2A's 56,002, M12's 25,855 and
-Supplementary Table S1 are all all-records figures, and Figure 1's source
-counts (which apply no obsolete filter — verified in `_reaction_sources()`)
-become consistent rather than wrong. The live-only basis is equally defensible
-but would require converting every other number in the paper, including the
-abstract's headline. Recommend 28%; this is the corresponding author's call and
-is raised as such in the PR.
+**Fix, decided by the corresponding author: the live-only basis, 34% / 34%.**
+The whole paper is converted to it rather than the reporting basis being
+matched to the draft's existing numbers. That moves the abstract's headline
+from "~56,000 reactions" to "~48,000", and every count in M09, M11, M12, M13
+and Supplementary Table S1 with it. `analysis/population_basis_table.py` prints
+every quantity on both populations so the conversion can be audited rather than
+trusted, and `figure_common.LIVE_ONLY` puts all three figures on the same
+footing — none of them filtered obsolete records before.
+
+Two things the conversion exposed, both now disclosed in the text rather than
+absorbed silently:
+
+- **The anchor set is duplicated.** 806 records carry a stereo-exact
+  measurement, but 441 are obsolete duplicates that each link to a live entry,
+  so the number of *distinct* anchored reactions is 365. The calibration was
+  fitted over all 806 and has **not** been refit — refitting changes the
+  published grades and needs its own PR — so S03 and M12 now state that the
+  effective sample size is smaller than the count implies.
+- **M13's atom-mapping numbers were stale**, independently of any population
+  question: the draft said 32,877 / 25,058 / 7,819 against a shipped 32,378 /
+  25,058 / 7,320, the difference being the 2026-09-14 chain-salvage withdrawal
+  recorded in `Biochemistry/Structures/AtomMappings/README.md`. On the live
+  basis they are 26,256 / 19,810 / 6,446.
 
 ## R1 #1 — pathway/subsystem distribution of the new biochemistry
 
@@ -69,55 +84,57 @@ database") and `M09_results_growth.tex`, which reports growth only by source
 database and by structural completeness — never by biology.
 
 **This is a fair and answerable request, and the answer is a good one for us.**
-It is also currently blocked by a data gap that we should fix rather than
-explain away.
+The released alias files cannot supply it for the new reactions, for a
+reason explained next.
 
-### The blocker
+### Why the panel joins the source table
 
-Of the 12,261 reactions added since 2020 (`rxn48576`–`rxn60859`), **not one
-carries a pathway or an EC annotation** — neither in the per-reaction record
-nor in the released alias files:
+Of the 12,261 reactions added since 2020 (`rxn48576`–`rxn60859`), none carries
+a pathway or an EC annotation — neither in the per-reaction record nor in the
+released alias files:
 
-| | pre-2020 reactions (43,751) | new since 2020 (12,261) |
+| | pre-2020 reactions (36,142, live) | new since 2020 (12,261) |
 |---|---:|---:|
-| `pathways` populated | 16,938 (38.7%) | **0 (0.0%)** |
-| `ec_numbers` populated | 20,019 (45.8%) | **0 (0.0%)** |
+| `pathways` populated | 16,938 (46.9%) | **0 (0.0%)** |
+| `ec_numbers` populated | 20,019 (55.4%) | **0 (0.0%)** |
 
 `Unique_ModelSEED_Reaction_Pathways.txt` stops at `rxn48568` and
 `Unique_ModelSEED_Reaction_ECs.txt` at `rxn48573`, both immediately below the
 2020 boundary at `rxn48575`. `Unique_ModelSEED_Reaction_Aliases.txt` and
-`..._Names.txt` do run to `rxn60859`, so this is the pathway/EC annotation step
-never having been re-run over the MetaCyc and Rhea intake — not a source-data
-problem. A user asking "what pathway is this new reaction in?" gets nothing
-today, which is worth fixing on its own merits.
+`..._Names.txt` do run to `rxn60859`. This is not a defect to repair: pathway
+membership is not a database attribute — `Biochemistry/REACTIONS.md` documents
+`pathways` as null, and the maintainers have said pathways are not being
+included in the database — so the pre-2020 values are a legacy of the 2020
+provenance compile, and the panel does not read them. EC numbers are a separate
+matter, not addressed here.
 
 ### It is reconstructable, and the answer is clear
 
 Joining ModelSEED → MetaCyc alias → `Scripts/Provenance/MetaCyc/MetaCyc_pathways.tsv`
 reaches 2,282 of the 4,206 new MetaCyc-sourced reactions without any new
-downloads, and 16,499 of the carried-over reactions through the same join, so
+downloads, and 12,518 of the carried-over reactions through the same join, so
 the two columns are comparable. Distinct reactions, not reaction–pathway pairs,
-all records:
+live basis:
 
 | MetaCyc class | new | % of new | carried over | % of old | enrichment |
 |---|---:|---:|---:|---:|---:|
-| Antibiotic-Biosynthesis | 265 | 11.6% | 824 | 5.0% | 2.3× |
-| O-Antigen-Biosynthesis | 218 | 9.6% | 29 | 0.2% | **54×** |
-| POLYKETIDE-SYN | 169 | 7.4% | 224 | 1.4% | 5.5× |
-| Toxin-Biosynthesis | 142 | 6.2% | 223 | 1.4% | 4.6× |
-| Lipid-Biosynthesis | 140 | 6.1% | 438 | 2.7% | 2.3× |
-| Branched-Fatty-Acids-Biosynthesis | 98 | 4.3% | 22 | 0.1% | **32×** |
-| Fatty-acid-biosynthesis | 77 | 3.4% | 637 | 3.9% | 0.9× |
-| ALKALOIDS-SYN | 53 | 2.3% | 223 | 1.4% | 1.7× |
-| Sterol-Biosynthesis | 50 | 2.2% | 249 | 1.5% | 1.5× |
-| Lipid-IV-A-Biosynthesis | 37 | 1.6% | 9 | 0.1% | **30×** |
-| *Super-Pathways* | *299* | *13.1%* | *5,706* | *34.6%* | *0.38×* |
+| Antibiotic-Biosynthesis | 265 | 11.6% | 740 | 5.9% | 2.0× |
+| O-Antigen-Biosynthesis | 218 | 9.6% | 29 | 0.2% | **41×** |
+| POLYKETIDE-SYN | 169 | 7.4% | 214 | 1.7% | 4.3× |
+| Toxin-Biosynthesis | 142 | 6.2% | 192 | 1.5% | 4.1× |
+| Lipid-Biosynthesis | 140 | 6.1% | 281 | 2.2% | 2.7× |
+| Branched-Fatty-Acids-Biosynthesis | 98 | 4.3% | 8 | 0.1% | **67×** |
+| Fatty-acid-biosynthesis | 77 | 3.4% | 358 | 2.9% | 1.2× |
+| ALKALOIDS-SYN | 53 | 2.3% | 196 | 1.6% | 1.5× |
+| Sterol-Biosynthesis | 50 | 2.2% | 168 | 1.3% | 1.6× |
+| Lipid-IV-A-Biosynthesis | 37 | 1.6% | 6 | 0.0% | **34×** |
+| *Super-Pathways* | *299* | *13.1%* | *3,650* | *29.2%* | *0.45×* |
 
 **The reviewer's hypothesis is right, and we can quantify it.** Only **41 of
 the 12,261 new reactions (0.3%)** fall in a central-carbon or energy-metabolism
 class (Energy-Metabolism, Electron-Transfer, Fermentation, TCA-VARIANTS,
 Glycolysis, Pentose-Phosphate-Cycle, Photosynthesis, Respiration,
-Methanogenesis), against 770 of 43,751 (1.8%) among the reactions already
+Methanogenesis), against 328 of 36,142 (0.9%) among the reactions already
 there. The gain is in specialised metabolism — antibiotics, polyketides,
 toxins, alkaloids — and in cell-envelope and lipid biosynthesis, where
 O-antigen, lipid IV-A and branched fatty acids are enriched by one to two
@@ -150,15 +167,18 @@ analysis first:
 
 ### Proposed change
 
-1. **Re-run the pathway and EC annotation over the post-2020 intake** and ship
-   it. This is the substantive fix; the figure is a by-product. For the 8,409
-   Rhea-sourced reactions, Rhea carries EC cross-references directly and ChEBI
-   carries no pathway concept, so expect EC coverage to be good and MetaCyc-class
-   coverage to stay poor there — report that gap rather than hiding it.
+1. **Build the panel from the MetaCyc source table**, not from the alias file,
+   for both eras. For the 8,409 Rhea-sourced reactions ChEBI carries no pathway
+   concept, so they cannot be placed; the caption says so rather than counting
+   them as unannotated.
 2. **Add one panel** showing new-vs-carried-over reaction counts per MetaCyc
    class, sorted by the new count. Cheapest home is Figure 1 (see comment 4 —
    this replaces a bar panel rather than adding a fourth figure, which also
    answers the "barplot abuse" complaint).
+   *2026-10-02: at the corresponding author's request the panel is
+   Supplementary Figure S1, with its own section S5, rather than Figure 1D;
+   Figure 1 is three panels at full text width with larger type, and the
+   "from other sources" note is dropped from the Euler diagram.*
 3. **Two or three sentences in `M09`** after the completeness sentence. Draft:
 
    > The new biochemistry is not distributed like the old. Mapping reactions
@@ -169,20 +189,13 @@ analysis first:
    > the 12,261 reactions added. Central metabolism was already saturated in
    > 2020; what a 2026 reconstruction gains is the periphery.
 
-**What to run.** `grep -rl` finds the pathway and EC alias files written by
-`Scripts/Biochemistry/Reset_Biochemistry_in_Git.sh` and, historically, by
-`Scripts/Archived_Perl_Scripts/Compile_External_Pathways.pl` and
-`Find_Unique_ModelSEED_Reaction_ECs.pl` — both archived Perl, which is
-consistent with the annotation step having been dropped when the pipeline moved
-to Python. There is no live Python equivalent, so this is a small port, not a
-re-run. `Scripts/Provenance/{MetaCyc,KEGG}/Refactor_*_Pathway_Table.py` are the
-modern parsers for the source tables and are the natural place to hang it.
+**What to run.** `analysis/pathway_distribution_of_growth.py`; it reads only
+`Biochemistry/` and the committed provenance tables.
 
-**Author decision.** Whether to hold the revision for the annotation rebuild,
-or submit the figure built from the MetaCyc join alone (2,282 reactions) and
-state the coverage limit. Recommend the rebuild — the gap is a real defect a
-later user would hit, and it is a port of two archived scripts rather than new
-work.
+**Decision.** The figure is built from the MetaCyc join alone (2,282 of the
+new reactions) and the caption states the coverage limit. An annotation
+rebuild was proposed separately as #300 and withdrawn: pathways are not a
+database attribute.
 
 **Budget.** +1 panel, +3 sentences. Offset: `M09`'s per-source reaction
 sentence is long and partly duplicates Figure 1B; it can lose a clause.
